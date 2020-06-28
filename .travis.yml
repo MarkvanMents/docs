@@ -15,8 +15,7 @@ env:
     - CF_SPACE=docs
     - CF_CLI_VERSION=6.22.2
     - HUGO_VERSION=0.31.1
-    - secure: "biykGM6RknKxsoudBeDVTK2IM/IYR3RT1fFg1tPdOfET1NarHzUI37MObokIKz5jqvQ64O4M7+yfc6ONcD5SVvcdomWFrAiSSuy8zavXwYfX9poQ+Sf8mBihYUJ+Y78jjc0cKXRsF/mbktl0hx1YFMAotuVucQbNh3bXPPWgeSonMxdoSFg/mAAqx1tXmmLzXw4GFygE5veawNdXwEyz+9aoGuj9ByNAXZbAOOQHMDnBtyBp7s/gor58ojDPqo/isMuUDp7q5UKH6giYaJZ4Fe5hXx5WqEH/CMwp1mQRwHL9AJkFAoyUEL169X2hNlhJUpePjTkDIGauHeThF2YpZ/ciGw2+i+C16WgxU32SLjd1WptQ9sM+P3GH+p/msufBVfsy6VieV1/li7mPFtbb57ykywzLWnuGXSw5IT3CMWmSb5Oa/5DmieZr+SGhZwM4sf744fwxZ7ZEHZoPNGZ42BkwkuNWZel7+N/uyfHmF+ReZhJ2v7iMLoVyPDpaghwywUDjcwjiy251KvHxuWH3h2WcGLWpP5mxwRqae6cWDppV7yIZ3FUZeL0YzFaiuYCgpdIofuk4G+lwK2ZjWkuP8mAMkO1YZsNXSKh3wTwq/ydaGM+5+8xHHSBq66acKfQYAZcRoc4kv6o9LgYGNZayz1eEOGPuWWGf6KaqD3baCig=" 
-before_install:
+  before_install:
   - export PATH=$HOME:$PATH
   - export HUGO_PACKAGE=hugo_${HUGO_VERSION}_Linux-64bit
   - travis_retry curl -L https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/$HUGO_PACKAGE.tar.gz | tar xz
