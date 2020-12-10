@@ -52,7 +52,7 @@ The autocomplete property specifies if a text box should have autocomplete enabl
 
 ### 2.2 Common Section{#common}
 
-{{% snippet file="refguide/common-section-link.md" %}}
+{% snippet file="refguide/common-section-link.md" %}
 
 ### 2.3 Data Source Section{#data-source}
 
@@ -72,7 +72,7 @@ The autocomplete property specifies if a text box should have autocomplete enabl
 
 The on change event property specifies an action that will be executed when the value has been changed and gets submitted. A value will be submitted when pressing the <kbd>Enter</kbd> key or leaving the widget, either by using the <kbd>Tab</kbd> key or by clicking another widget.
 
-{{% snippet file="refguide/events-section-link.md" %}}
+{% snippet file="refguide/events-section-link.md" %}
 
 #### 2.6.2 On Change Behaviour
 
