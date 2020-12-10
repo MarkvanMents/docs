@@ -141,10 +141,10 @@ Attributes of the data type `String` or `Hashed string` can have their value hid
 
 #### 2.8.2 Input Mask
 
-{{% alert type="info" %}}Input masks are not supported on native mobile pages.
+{% hint style="info" %}Input masks are not supported on native mobile pages.
 
 Input masks are designed for string data types. Be cautious when using them with numeric or hashed string data types.
-{{% /alert %}}
+{% endhint %}
 
 The input mask limits what the end-user can enter in the text box, following the rules below:
 
