@@ -1,4 +1,4 @@
-root: ./content/releasenotes
+root: ./content/
 
 ​structure:  
     readme: index.md  
