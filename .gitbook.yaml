@@ -1,6 +1,4 @@
 root: ./content/
 
 ​structure:  
-    readme: index.md  
-
-    
+    readme: ./index.md
