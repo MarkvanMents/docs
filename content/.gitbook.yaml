@@ -1,0 +1,8 @@
+root: ./content/releasenotes
+
+​structure:  
+    readme: index.md  
+
+    
+redirects:  
+    previous/page: new-folder/page.md
