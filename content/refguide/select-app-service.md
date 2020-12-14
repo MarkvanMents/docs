@@ -4,9 +4,9 @@ parent: "consumed-app-services"
 tags: ["studio pro"]
 ---
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 App services are deprecated and marked for removal. Use a [consumed web service](consumed-web-services) to consume existing app services.
-{{% /alert %}}
+{% endhint %}
 
 ## Source
 

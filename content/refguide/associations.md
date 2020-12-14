@@ -24,9 +24,9 @@ In the example below, the arrow indicates that **Order** is the owner of the ass
 
 ![](attachments/associations/association-order-customer.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 An association between a persistable entity and a non-persistable entity must start in the non-persistable entity and have the owner **Default**. For more information on persistable and non-persistable entities, see [Persistability](persistability).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Creating Associations
 

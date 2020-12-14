@@ -36,11 +36,11 @@ For more information about development lines, see [Version Control](version-cont
 
 ### 2.2 Private Server {#private-server}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The **Private server** option is only available when support for other SVN servers is enabled: **Edit** >**Preferences** > **Advanced** > **Enable private version control**. 
 
-{{% /alert %}}
+{% endhint %}
 
 In the **App repository address** field, enter the address of the app you want to open and press the **Connect** button to load development lines from the repository. Then choose the development line in which you want to start developing.
 

@@ -8,9 +8,9 @@ tags: ["Company","Admin","Developer Portal"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You must be a Company Admin to access this page and these settings.
-{{% /alert %}}
+{% endhint %}
 
 There are two tabs on the **Apps** page with settings to manage:
 

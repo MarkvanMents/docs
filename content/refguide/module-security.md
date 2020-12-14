@@ -8,7 +8,7 @@ tags: ["studio pro", "module security", "security", "module"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 For more general information on security, see [Security](security).
 {{% /alert %}}
 
@@ -96,7 +96,7 @@ The **REST Access** tab is visible only when the service has the security set to
 {{% alert type="info" %}}
 The constraints are defined in the parameter definitions of the data set. Whether they apply is defined in the **Data Set Access**.
 The ranges are defined in the parameters of the data set. Whether values in these ranges are allowed is defined in the **Data Set Access**.
-{{% /alert %}}
+{% endhint %}
 
 ## 8 Read More
 

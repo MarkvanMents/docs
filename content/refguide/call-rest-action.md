@@ -6,7 +6,7 @@ menu_order: 10
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -196,7 +196,7 @@ If HTTP response status code is not successful (for example, `[4xx]` or `[5xx]`)
 
 {{% alert type="warning" %}}
 You should always add an error handler for a [call REST service](/refguide/call-rest-action) action.
-{{% /alert %}}
+{% endhint %}
 
 ## 8 Common Section{#common}
 

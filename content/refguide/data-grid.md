@@ -6,7 +6,7 @@ tags: ["studio pro", "data grid", "grid", "data widget"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}The data grid widget is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}}The data grid widget is not supported on native mobile pages.{{% /alert %}
 
 ## 1 Introduction
 
@@ -69,7 +69,7 @@ This property indicates whether the control bar buttons will be visible in the e
 
 Even if the control bar buttons are invisible, there can still be a default button that is triggered by (double) clicking a row. For more information, see the property [Default Button Trigger](#dbt) and [Control Bar](control-bar).
 
-{{% /alert %}}
+{% endhint %}
 
 Default: *True*
 

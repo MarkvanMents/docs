@@ -23,9 +23,9 @@ Click **Upload a file** to upload a new document:
 {{% image_container width="400" %}}![](attachments/upload-file.png)
 {{% /image_container %}}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 All file types are allowed, and they are scanned for viruses by Mendix.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Using Labels
 

@@ -16,7 +16,7 @@ For other cloud environments – for example, [IBM Cloud](/developerportal/deplo
 
 When running the application locally or in a Free App environment, the values defined in Studio Pro are used.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The value for a constant can also be overridden in a [configuration](configuration). This allows you to run locally using different values for one or more constants, without having to change the default value for the constant every time.
 {{% /alert %}}
 
@@ -58,4 +58,4 @@ This property defines whether the constant is accessible from client-side expres
 
 {{% alert type="warning" %}}
 When a constant is exposed to the client, Mendix Runtime sends its value to the client so that in addition to microflow expressions, it will also be accessible from nanoflows and page expressions. This means that you should not use sensitive data or secrets such as passwords when a constant is exposed to the client.
-{{% /alert %}}
+{% endhint %}

@@ -9,7 +9,7 @@ tags: ["Deployment", "Azure", "Microsoft", "Environment"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The Mendix Azure Marketplace solution is based on a standard server-based deployment. The pre-configured virtual server is no longer maintained by Mendix. This means it can be used for a quick setup, but the customer is responsible for applying latest patches. Mendix will treat the use of this image as a standard on-premises deployment, based on a Linux server. 
 
 For production use, a license needs to be applied. For a production deployment, you are advised to select an external, production scaled database. The image comes with an embedded Postgres instance as standard, and this can be used for development purposes.
@@ -253,6 +253,6 @@ The Mendix app on Azure is now fully configured and ready for use. Let's try and
 
 {{% alert type="success" %}}
 Congratulations! You have successfully deployed a Mendix app on Microsoft Azure.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/azure-deploy/19398863.png)

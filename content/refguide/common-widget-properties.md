@@ -24,7 +24,7 @@ The tab index influences the order in which the end-user navigates through the p
 
 Default: *0*
 
-{{% alert type="info" %}}Tab index is not supported on native mobile pages.{{% /alert %}}
+{% hint style="info" %}}Tab index is not supported on native mobile pages.{{% /alert %}
 
 ### 2.3 Class {#class}
 
@@ -324,7 +324,7 @@ By default, whether or not an element is displayed in the browser is determined 
 
 {{% alert type="info" %}}
 You can choose both **Context** conditions and **Module roles** conditions to apply to the widget.
-{{% /alert %}}
+{% endhint %}
 
 Note that with the **Visible** property, you only hide data and do not protect it. You can hide a tab or a table row from an end-user, but if they still have access to the data then they could see it some other way. To restrict access to sensitive data, use a constraint on the domain model, not on individual pages. 
 

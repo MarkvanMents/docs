@@ -12,7 +12,7 @@ The **access rules** of an entity define what a user is allowed to do with objec
 
 Every access rule is applicable to one or more [module roles](module-security#module-role). An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all access rights of those rules are combined for that module role.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Access rules are not inherited from an entity's [generalization](entities#generalization), the security for every entity is specified explicitly. This means that when adding an access rule to an entity, always make sure that all required XPath constraints are applied.
 
 If the entity has a generalization with access rules defining XPath constraints, these will not apply to its specializations and will therefore not limit its visibility.
@@ -114,4 +114,4 @@ Because of this XPath constraint, the access rule only applies to orders for whi
 
 {{% alert type="warning" %}}
 XPath constraints can only be applied to persistable entities as they are applied by the database. Defining XPath constraints for non-persistable entities results in consistency errors.
-{{% /alert %}}
+{% endhint %}

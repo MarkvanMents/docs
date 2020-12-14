@@ -37,9 +37,9 @@ If you edit your app to add new widgets while not in the default language, any n
 
 All untranslated texts will be displayed in the default language when you run the application.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 If there is no text in the default language, the end-user will see `[no translation]`. If you want the text to be blank, set the default language text to be a space rather than empty.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 The Language Menu
 

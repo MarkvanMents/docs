@@ -30,7 +30,7 @@ You can sort the list of associations by any of these properties (ascending or d
 
 The name of the association is used to refer to it. For example, in forms or microflows.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You cannot change this name in the association tab. To change the name, click **Edit** (or double-click the association name) to open the [Association Properties](association-properties).
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ If both ends own the association, you can overcome this limitation. However, thi
 
 {{% alert type="info" %}}
 Recording the association on only one of the entities does not affect your ability to navigate the association from both ends. However, it may be slower to navigate from the non-owning end.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.4 Type & Owner Relationship with Multiplicity & Navigability {#types}
 

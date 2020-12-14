@@ -99,7 +99,7 @@ On this page, you can read the full descriptive text of the question and do the 
 
 If you want to follow the discussion on a question via email notifications, click **Subscribe to Email Notifications** below the question details. Please note that you are automatically subscribed for email notifications on questions that you have asked; if you want to unsubscribe from these notifications, click **Unsubscribe from Email Notifications** on a specific question that you have asked.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The URL for each question is unique.
 {{% /alert %}}
 
@@ -228,7 +228,7 @@ If you want to follow the discussion on an idea via email notifications, click *
 
 {{% alert type="info" %}}
 The URL for each idea is unique.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.3 Submitting an Idea {#SubmittingAnIdea}
 

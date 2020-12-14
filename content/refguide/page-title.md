@@ -12,11 +12,11 @@ This widget displays a page title of the current page that is set in [page prope
 
 ![Page Title Example](attachments/common-widgets/page-title-example.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The page title widget makes it possible to embed the page title in a [layout](layout), as it will show the title of the page that uses the layout.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 

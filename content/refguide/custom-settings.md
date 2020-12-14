@@ -11,7 +11,7 @@ tags: ["Runtime", "Customization", "Settings", "Configuration", "IBM Cloud", "Am
 
 You can use custom server settings to configure Mendix Runtime beyond the standard possibilities offered by Studio Pro.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Only use this functionality if you know exactly what you are doing. Incorrect values can prevent Mendix Runtime from starting.
 {{% /alert %}}
 
@@ -175,7 +175,7 @@ Mendix supports unscoped authentication of OpenStack Identity (Keystone) v3. The
 
 {{% alert type="info" %}}
 Unlike other storage services, IBM Cloud does not provide server-side encryption.
-{{% /alert %}}
+{% endhint %}
 
 | Name | Description | Default Value |
 | --- | --- | --- |

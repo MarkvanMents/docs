@@ -12,7 +12,7 @@ This page describes how to restore a backup to the Mendix Cloud.
 
 The backup can be stored in the cloud, associated with the environment from which it was made. Alternatively, for licensed nodes it can be a backup which has been stored locally, for example by downloading a backup from the Mendix Cloud (see [Download a Backup](download-backup)) for more information.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You can only restore a backup if you have sufficient rights to the target node. See [Node Permissions](/developerportal/deploy/node-permissions) for more information.
 {{% /alert %}}
 
@@ -125,7 +125,7 @@ This contains the *db.backup* file. This is a PostgreSQL dump file created using
 If the dump does not use the *custom format* then the restore will fail.
 
 The dump must be created with pg_dump version 9.6.17 or below. If it is created with a later version, then the restore will fail.
-{{% /alert %}}
+{% endhint %}
 
 ### tree folder
 

@@ -52,7 +52,7 @@ The **Render mode** determines which HTML5 tag will be used to show the containe
 | Hgroup    | `hgroup`    |
 | Address   | `address`   |
 
-{{% alert type="info" %}}Render mode is not supported on native mobile pages.{{% /alert %}}
+{% hint style="info" %}Render mode is not supported on native mobile pages.{% endhint %}
 
 ### 2.3 Visibility Section {#visibility}
 

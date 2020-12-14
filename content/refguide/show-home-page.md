@@ -6,13 +6,13 @@ tags: ["studio pro", "show home page", "home page", "client activities"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can only be used in **Microflows**.
 {{% /alert %}}
 
 {{% alert type="warning" %}}
 This action is ignored and does not work when a microflow is called from an offline, native, or hybrid app. For more information, see the [Microflows](offline-first#microflows) section of the *Offline-First Reference Guide*.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

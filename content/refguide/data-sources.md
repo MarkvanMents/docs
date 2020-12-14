@@ -20,7 +20,7 @@ A data view supports the following data sources:
 *   [Nanoflow](nanoflow-source) – objects retrieved are determined by the result of calling the selected nanoflow. The nanoflow can take objects in the context as a parameter and needs to return a single object. 
 *   [Listen to widget](listen-to-grid-source) – the data view object depends on the selection in a list widget (a data grid, template grid, or list view)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The **Microflow** source is not supported in offline applications because it implies a call to the server.
 
@@ -42,7 +42,7 @@ A data grid, template grid, and list view are list widgets. Also some [pluggable
 
 Database and nanoflow data sources are the only data sources supported offline. If a list widget has a database data source in an offline application, the data will come from the database that is situated on the device. This database can be synced with a [button](button-properties) widget for creating a new object.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Read More
 

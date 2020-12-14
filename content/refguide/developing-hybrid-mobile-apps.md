@@ -20,11 +20,11 @@ However, when you use native widgets on your hybrid pages, some of these widgets
 
 For more information about how to download the Mendix Mobile app, see [Getting the Mendix Mobile App](getting-the-mendix-app).
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 Your mobile device has to be on the same network as your development machine for the Mendix Mobile app to work. If this is the case and the connection still fails, make sure that communication between devices is allowed in the Wi-Fi access point.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Read More
 

@@ -60,7 +60,7 @@ Disallowing concurrent execution of a microflow is useful if a microflow would i
 
 The return type defines what information the microflow returns. The caller of the microflow will get a result of this type. See [Data Types](data-types) for the possible return types.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 To indicate whether or not an object should be committed, you can use Boolean as the return type of the microflow.
 {{% /alert %}}
 
@@ -89,7 +89,7 @@ Microflows that apply entity access have an **Entity Access** tag in the editor.
 
 {{% alert type="warning" %}}
 These roles are only checked when the microflow is executed from the client. A microflow is always allowed to call another microflow, and these roles are not checked then.
-{{% /alert %}}
+{% endhint %}
 
 For more information, see [Module Security](module-security).
 

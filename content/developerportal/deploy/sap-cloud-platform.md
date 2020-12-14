@@ -61,7 +61,7 @@ You may be asked to provide your credentials in one of two ways:
 * You will be taken to the SAP authentication page to enter your credentials – in this case, your SAP user name (email address) must be the same as your Mendix user name
 * The Developer Portal will ask for your credentials, which it will then use to obtain an access token from SAP – the Developer Portal will then use the access token, but it will not store your credentials (please note this method is being deprecated)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 If you have issues using SAP authentication, please refer to the reference [SAP Single Sign On](/partners/sap/sap-single-sign-on).
 {{% /alert %}}
 
@@ -566,7 +566,7 @@ If you are the last member of the app development team, you will be asked if you
 This will not stop the app and delete the deployment of the app in SAP Cloud Platform.
 
 If you want to delete your app and all its resources, delete the environment and resources first before you leave the app via the Mendix Developer Portal.
-{{% /alert %}}
+{% endhint %}
 
 You can still delete the app and its resources from the SAP Cloud Platform cockpit, but you will then have to remove all the resources individually.
 

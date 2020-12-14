@@ -13,9 +13,9 @@ When a data widget with a microflow data source is displayed in the browser or r
 
 A microflow data source ignores all context. It performs the actions described in the microflow, nothing else. For example, nested data widgets with a microflow data source will not automatically create or invoke associations to the encasing data widget.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 When **Microflow** is selected as the data source, this is regarded as "indirect usage." This means that you cannot also select an **Entity (path)** as you can with the **Database**, **XPath**, or **Association** data source types.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Microflow Data Source Example
 

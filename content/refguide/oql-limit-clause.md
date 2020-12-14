@@ -19,7 +19,7 @@ Specifies how many rows must be returned.
 **OFFSET**
 Specifies how many rows must be skipped before returning the result rows.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ```
 SELECT FirstName FROM Sales.Customer
@@ -49,4 +49,4 @@ LIMIT 10 OFFSET 10
 
 This query retrieves the 11the to 20the customer, sorted by their last name.
 
-{{% /alert %}}
+{% endhint %}

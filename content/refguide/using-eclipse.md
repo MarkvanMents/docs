@@ -8,7 +8,7 @@ Using Eclipse to write and debug the Java actions in your Mendix project is real
 
 In Mendix, all text is saved in UTF-8 encoding. First make sure your source code is also saved in UTF-8\. This can be done by going to the window menu and selecting preferences, then selecting UTF-8 as shown in the screenshot below.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/java-programming/918120.png)
 Settings UTF-8 encoding.
@@ -62,4 +62,4 @@ After you have launched the application, you will see the M2EE admin console pop
 ![](attachments/java-programming/917582.png)
 The M2EE admin console.
 
-{{% /alert %}}
+{% endhint %}

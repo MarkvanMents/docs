@@ -16,7 +16,7 @@ Perform the following steps in the **Select schema elements** window:
 2.  If source is XML schema then select the root element of the mapping. This is done by selecting the **Start at** element for the XML schema or the **request part** for the web service operation. **Start at** lists the root elements in an XML schema. You can select one root element to base your mapping on. If source is Web service operation, **Request part** lists the header and body element of the request part of an operation. If an operation has multiple parameters, these are listed in the Request part as well. **Request part** is only applicable to export mappings.
 3.  Finally, select specific elements in the tree explorer below. Typically you do not need to map an entire source, since they can be quite large.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 If the contents of the used schema source change, the mapping document does not match with the schema anymore and a consistency error is shown. This consistency error is easily fixed by right-clicking the consistency error itself and selecting 'Resolve by updating from schema'.
 
@@ -60,4 +60,4 @@ You may encounter element selection checkboxes that are greyed out. If you hover
 | Check all | Checks the box next to every expanded node and visible leaf node. Collapsed nodes and their children are not affected. |
 | Uncheck all | Unchecks the box next to every expanded node and visible leaf node. Collapsed nodes and their children are not affected. |
 
-{{% /alert %}}
+{% endhint %}

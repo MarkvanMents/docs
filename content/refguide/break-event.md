@@ -7,9 +7,9 @@ tags: ["studio pro", "break event", "event", "loop"]
 
 ## 1 Introduction
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Break events can only be used inside [loops](loop).
-{{% /alert %}}
+{% endhint %}
 
 A break event is used to stop iterating over the list of objects and continue with the rest of the flow. Without a break event, the loop will continue with the iteration of the next object.
 

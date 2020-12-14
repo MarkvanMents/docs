@@ -20,7 +20,7 @@ For example, for entity 'Customer' the name and credit need to be filled in at a
 
 ![](attachments/domain-model/customer-validation-rules.png)
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 You can only define validation rules for persistable entities as they are designed to ensure database integrity. Therefore, validation rules are disabled for non-persistable entities.
 {{% /alert %}}
 
@@ -64,7 +64,7 @@ The rule defines which condition an attribute should satisfy.
 
 {{% alert type="info" %}}
 Date values should be entered in [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format, for example 2015-07-26.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.2.2 Rule Order
 

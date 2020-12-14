@@ -21,11 +21,11 @@ A branch line allows independent development from other development lines. There
 
 Use this setting to select the location where your app is stored. This can be either the [Team Server](#team-server-app) or [another SVN server](#other-svn-server-app).
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 This option is only available when support for other SVN servers is enabled in the Preferences dialog.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.1 Team Server App {#team-server-app}
 

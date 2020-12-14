@@ -12,9 +12,9 @@ Access to operations information is divided into four pages:
 
 ![](attachments/operate.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Metrics, alerts, and logs are not available for Free Apps running in the Mendix Cloud, and you cannot make manual backups of Free Apps.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Operations Pages
 

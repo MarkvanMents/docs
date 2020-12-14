@@ -5,7 +5,7 @@ menu_order: 70
 tags: ["studio pro"]
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
 {{% /alert %}}
 
@@ -56,7 +56,7 @@ If set to *Yes*, the object is refreshed across the client, which includes reloa
 
 {{% alert type="info" %}}
 Rolled back attribute values are always reflected in client. This includes updating their visibility and editability [properties](common-widget-properties). [Data sources](data-sources) are only reloaded if **Refresh in client** is set to *Yes*.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.2.2 Microflow Is Called in an Offline, Native, or Hybrid App
 

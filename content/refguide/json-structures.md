@@ -15,7 +15,7 @@ A JSON structure document stores a JSON snippet, and converts it into a schema s
 
 Contains text of the JSON snippet. Usually it is pasted from API documentation, or you can enter it manually for simple JSON.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 When you paste or modify the JSON snippet, it is automatically checked for validity. If the snippet is not valid, an exclamation mark appears above the snippet:
 
@@ -89,4 +89,4 @@ A JSON array is contained in square brackets (between `[` and `]`). It contains 
 
 The first item of the array will be used to determine the type of the items in the array. Mixed arrays are unsupported. A mixed array is an array with entries of different data types (e.g. string and integer). In the tree structure, a error will appear that you cannot use mixed arrays in your mappings.
 
-{{% /alert %}}
+{% endhint %}

@@ -10,7 +10,7 @@ tags: ["runtime", "json", "studio pro", "on-premises", "local"]
 
 For on-premises and local deployments of Mendix, the Mendix Runtime monitoring actions can be called by sending a JSON request to the admin handler. This is accomplished by sending a request to the admin port which is specified in the application configuration (the default port is 8090).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This is only available for local and on-premises deployments of your app.
 
 For deployments to the Mendix Cloud, you will not have access to the m2ee admin handler. However, you can get the same information from the **Operate** section of the Developer Portal. For more information see:
@@ -503,7 +503,7 @@ The health check microflow gets invoked multiple times per minute. Therefore, it
 
 This request can only be executed when the Mendix Runtime status is "running" (see [Runtime Status](#runtime-status) above).
 
-{{% /alert %}}
+{% endhint %}
 
 ## 10 About Runtime
 

@@ -14,9 +14,9 @@ There are two parameters that specify which proxy server to use when making REST
 
 You can either specify these as custom settings or as JVM parameters, which are described in the sections below.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 If you specify a setting both as a custom setting and as a JVM parameter, the custom setting will be used.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.1 Custom Settings
 

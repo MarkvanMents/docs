@@ -22,7 +22,7 @@ Widgets/Components for which the font tab page is visible:
 *   Static label
 *   Table
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/core/2018-03-01_14-27-27.png)
 
@@ -60,7 +60,7 @@ The custom styles tab page is always visible for widgets/components that allow s
 
 The custom styles tab page in the style editor.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Custom Fonts for PDF Documents {#custom-fonts}
 

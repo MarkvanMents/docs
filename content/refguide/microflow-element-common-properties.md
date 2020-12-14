@@ -9,9 +9,9 @@ tags: ["studio pro", "common properties", "microflow", "nanoflow"]
 
 This document describes common properties that are shared by many elements in the microflow editor.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Not every element in a microflow or a nanoflow has all of these properties.
-{{% /alert %}}
+{% endhint %}
 
 These are the common properties for microflows and nanoflows:
 

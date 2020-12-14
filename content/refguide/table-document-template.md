@@ -10,7 +10,7 @@ Tables can be used to change the layout of the form. They contain a number of ro
 
 Tables can be used both inside and outside the data view or templategrid widgets.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918134.png)
 
@@ -38,7 +38,7 @@ The column weights are percentages separated by semi-colons that determine the w
 
 In the screenshot above, the column weights of the enclosing table are `25;25;50`.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Cell Spacing
 

@@ -52,9 +52,9 @@ As a regular user, you cannot join an App Team by yourself. If you want to join 
 
 ![](attachments/company-app.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 It is thus important that the App Contact has the correct permissions to manage the app (for example, the Scrum Master role).
-{{% /alert %}}
+{% endhint %}
 
 For more information on roles and permissions, see [App Team Roles](#app-team-roles) below. 
 

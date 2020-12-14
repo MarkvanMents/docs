@@ -73,6 +73,6 @@ Provide a **Description** of the parameter. You can use [GitHub-flavored Markdow
 
 This is used in the service's [OpenAPI (Swagger) documentation page](published-rest-services#interactive-documentation).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The public documentation feature was introduced in version 8.3.0.
-{{% /alert %}}
+{% endhint %}

@@ -14,7 +14,7 @@ Mendix Studio Pro is a tool for creating, viewing, and editing your Mendix appli
 
 One Studio Pro instance can have only one project open at a time, but you can open two Studio Pro instances when necessary.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 When Studio Pro is open, press <kbd>F1</kbd> to quickly jump to documentation.
 {{% /alert %}}
 
@@ -66,7 +66,7 @@ The documents you view and edit are shown in tabs.
 
 This section describes documents in the working area, not panes that you can open and position around the working area. For more information on behavior of panes, see the [Layout of Panes](view-menu#layout-of-panes) section in *View Menu*.
 
-{{% /alert %}}
+{% endhint %}
 
 You can have a number of tabs open, just like in a modern web browser. They can be closed, reordered, and shown side by side. The video below shows examples of how to interact with a tab:
 

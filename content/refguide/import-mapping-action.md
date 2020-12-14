@@ -6,7 +6,7 @@ menu_order: 30
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -88,7 +88,7 @@ Indicates whether the resulting objects should be committed to the database, and
 
 Validation properties are only applicable if an import mapping is selected that maps from XML based on an [XML schema](xml-schemas) or a [consumed web service](consumed-web-service).
 
-{{% /alert %}}
+{% endhint %}
 
 Determines whether the import action should validate the incoming XML against the [XML schema](xml-schemas).
 

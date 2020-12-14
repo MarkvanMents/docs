@@ -113,9 +113,9 @@ If the sign-in page is set to none, a built-in pop-up window will appear instead
 
 Each device type contains a default menu. You can use these menus in [menu widgets](menu-widgets). Defining the menu for a device type works the same as when editing a menu document. For more details, see [Menu](menu).
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 If [security](project-security) is enabled, the menu will only show the items to which the user has access.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.3 Profile Buttons
 

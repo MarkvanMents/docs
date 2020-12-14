@@ -22,7 +22,7 @@ For example, the following reference allows the end-user to see, and set, the as
 
 ![](attachments/reference-selector/reference-selector.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 If you only want to _display_ information, you can also use a [text box](text-box). This has the added advantage that you can choose an attribute from an object which is linked via several association steps.
 {{% /alert %}}
 
@@ -248,7 +248,7 @@ The sort order specifies the order in which the items in the reference selector 
 
 {{% alert type="warning" %}}
 A microflow can only be used if the selection is made using a drop-down.
-{{% /alert %}}
+{% endhint %}
 
 If the source microflow is selected, a microflow is called, and returns the list of objects that the reference selector will show.
 

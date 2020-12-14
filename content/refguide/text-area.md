@@ -77,7 +77,7 @@ This differs from the [On change](#on-change) property in that the event will al
 
 #### 2.6.1 Grow Automatically
 
-{{% alert type="info" %}}The grow automatically property does not impact the behavior of native mobile pages. On iOS, the text area will always grow automatically
+{% hint style="info" %}The grow automatically property does not impact the behavior of native mobile pages. On iOS, the text area will always grow automatically
 {{% /alert %}}
 
 This property defines whether the text area grows automatically depending on the amount of text in it.
@@ -102,7 +102,7 @@ For example, if you use the counter message `You've used {1} characters of the {
 
 #### 2.6.4 Text Too Long Message
 
-{{% alert type="info" %}}Text too long message is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}Text too long message is not supported on native mobile pages.{% endhint %}
 
 This is the text displayed when the number of typed characters is higher than the maximum allowed number of characters.
 

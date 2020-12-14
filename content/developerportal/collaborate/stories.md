@@ -12,7 +12,7 @@ In **Stories**, you are able to manage Sprints, stories, and labels for your app
 
 By adding your Sprints to Mendix, you will have a clear overview of your tasks and can easily view the status of the development of your app project. You can create, refine, and prioritize user stories collaboratively using the stories' conversation threads. User stories can be estimated and organized into Sprints which can be monitored using Scrum boards and burndown charts.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You can also manage the progress of tasks and Sprints from within Mendix Studio Pro via the [Stories pane](/refguide/stories-pane).
 {{% /alert %}}
 
@@ -351,7 +351,7 @@ If you need to reorder stories or move a story to a different Sprint, there are 
 
 {{% alert type="info" %}}
 Moving a story will move the tasks as well.
-{{% /alert %}}
+{% endhint %}
 
 ## 7 Read More
 

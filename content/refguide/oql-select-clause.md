@@ -24,7 +24,7 @@ SELECT [ DISTINCT ]
 
 `entity_name.*`, `from_alias.*` – specifies that all attributes of the specified entity or expression of the FROM clause should be returned. `entity_name` can be optionally put in double quotes. If the entity name is a reserved OQL word (like `Order` or `Group`), double quotes are mandatory.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ```
 SELECT Sales.Customer.* FROM Sales.Customer
@@ -66,4 +66,4 @@ SELECT Sales.Customer.Name AS CustomerName FROM Sales.Customer
 SELECT Sales.Customer.Name AS 'Customer Name' FROM Sales.Customer
 ```
 
-{{% /alert %}}
+{% endhint %}

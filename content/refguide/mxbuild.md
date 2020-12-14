@@ -12,7 +12,7 @@ MxBuild is a Windows and Linux command-line tool that can be used to build a Men
 
 The version of MxBuild which you need is dependent on the version of the Mendix model you want to build. You can find the correct MxBuild download at a link with the format `https://cdn.mendix.com/runtime/mxbuild-{mxversion}.tar.gz`.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 A build number is included in the version, and this has to be included in the link path. For example:
 
@@ -59,7 +59,7 @@ After creating the deployment package, the MxBuild process quits.
 
 {{% alert type="info" %}}
 The following options are only applicable with the `--target=package` option:
-{{% /alert %}}
+{% endhint %}
 
 | Option&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | --- | --- |

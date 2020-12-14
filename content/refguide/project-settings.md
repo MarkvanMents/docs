@@ -41,7 +41,7 @@ If you experience an issue while running your app in which objects seem to be lo
 
 Here you can select a microflow that is automatically executed immediately after the application has been started up.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 There is a timeout of *11 minutes* on the after startup microflow. If your after startup microflow takes longer than 11 minutes your whole app will fail to start.
 
 After startup is designed to initialize the app and therefore runs *before* the app is able to respond to incoming service requests (for example, published REST services).
@@ -269,7 +269,7 @@ The look and feel of a Mendix application is governed by the [UI resources packa
 
 [Deprecated] The use of a ZIP file to configure a project's theme is deprecated. A [UI resources package](ui-resources-package) is the preferred method of sharing themes.
 
-{{% /alert %}}
+{% endhint %}
 
 Older projects may still use a theme ZIP file as the basis for their theme. In this situation, the **Theme ZIP file** setting can be used to switch between any ZIP files found in the **theme** folder. Note that this practice is deprecated and will be removed in a future version.
 

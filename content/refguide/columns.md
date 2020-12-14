@@ -93,7 +93,7 @@ The values in a column can be aggregated in several ways. The aggregate function
 | Sum | Show the sum of the values. |
 | Count | Show the count of the values. |
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 Note that all objects will be taken into account, and not just the ones on the current page.
 
@@ -107,7 +107,7 @@ The aggregate caption is the text that appears in front of the computed value. T
 
 'Total' could be an aggregate caption for a column that shows the sum of the values.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 2.4.5 Show Tooltip
 

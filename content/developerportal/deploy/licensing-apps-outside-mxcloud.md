@@ -15,9 +15,9 @@ However, Free Apps are restricted in how long they run; they will stop running a
 
 To use your app in a production environment, you need to license it. The method for doing this differs depending on the environment to which you are deploying your app.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The app will check for a license each time it is started.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Obtaining a Mendix License
 

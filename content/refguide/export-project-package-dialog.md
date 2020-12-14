@@ -29,13 +29,13 @@ Mendix project packages can be exported to a Mendix package file (*.mpk*).  You 
 
 * **Existing snapshot** – this option will include the existing database snapshot in the export project package
   
-	{{% alert type="info" %}}This option is only available when a snapshot is already created. Snapshots can be created via **Version Control** > **Add Snapshot of Data**.
+	{% hint style="info" %}This option is only available when a snapshot is already created. Snapshots can be created via **Version Control** > **Add Snapshot of Data**.
 	{{% /alert %}}
   
 * **New snapshot from current database** – will create a new snapshot from the database and include it in the export
 
 	{{% alert type="info" %}}This option is available after you run the app locally at least once, because a local database will be created when running the app for the first time.
-	{{% /alert %}}
+	{% endhint %}
 
 ## 4 Read More
 

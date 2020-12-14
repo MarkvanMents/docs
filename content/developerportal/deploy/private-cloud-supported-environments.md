@@ -42,7 +42,7 @@ It is not possible to use Mendix for Private Cloud in [OpenShift Online](https:/
 
 ## 3 Container Registries
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The cluster should be configured to be able to pull images from the registry.
 
 If the registry requires authentication, this can be done by creating a `docker-registry` type secret and attaching it to the `default` ServiceAccount, or configuring cluster-wide registry authentication.
@@ -264,7 +264,7 @@ When TLS is turned on, `Edge` termination will be used, with automatic redirecti
 
 {{% alert type="info" %}}
 Custom TLS certificates are not supported - the default router certificate will be used.
-{{% /alert %}}
+{% endhint %}
 
 ### 6.2 Ingress
 

@@ -28,7 +28,7 @@ Before you can manage your IBM Cloud environment using the Developer Portal, you
 
 In this scenario, you have an existing app which is running in another environment: for instance, on the Mendix Cloud. To change this, go to the Cloud Settings tab of the General Settings in the Development Portal.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 If you have an app running on SAP Cloud Platform, deploying it to IBM Cloud will not be successful because of the customization done within SAP Mendix apps.
 {{% /alert %}}
 
@@ -454,7 +454,7 @@ If you are the last member of the app development team, you will be asked if you
 This will not stop the app and delete the deployment of the app in IBM Cloud.
 
 If you want to delete your app and all its resources, delete the environment and resources first before you leave the app via the Mendix Developer Portal.
-{{% /alert %}}
+{% endhint %}
 
 You can still delete the app and its resources from IBM Cloud Portal, but you will then have to remove all the resources individually.
 

@@ -41,7 +41,7 @@ Attribute properties consist of the following sections:
 
 The **name** property specifies the name of the attribute. This name is used to refer to the attribute in forms, microflows, queries, constraints, and so forth.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 If you delete an attribute in your entity and then create a new attribute with the same name, Mendix will consider it a new and different attribute. This means that upon deployment the old column will be dropped, including its data. Then a new, empty, column with the same name will be created.
 {{% /alert %}}
 
@@ -165,7 +165,7 @@ For example, in a web shop, you want to show the total expenses for each custome
 
 {{% alert type="info" %}}
 This property is shown if **Value** is set to **Stored**.
-{{% /alert %}}
+{% endhint %}
 
 The **Default value** property defines the value of this attribute when an object is created. The default value should be compatible with the type of the attribute.
 

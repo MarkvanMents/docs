@@ -55,7 +55,7 @@ Defines the name of the parameter in the webservice call. This is initially copi
 
 Is available when the parameter is a list, and can be used to name the object in the list.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The CountCarsAndHp operation. It takes a non-optional list of Vehicle as a parameter which is called VehicleList and consists of objects called Vehicle. This information is based on the microflow and entity model but can be modified.
 
@@ -126,4 +126,4 @@ Optional and Nillable cannot be checked both.
 
 Here, you can see an optional Order entity set as the return type of the operation ReturnsOrder.
 
-{{% /alert %}}
+{% endhint %}

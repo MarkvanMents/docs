@@ -12,7 +12,7 @@ tags: ["Trends","v4","Mendix Cloud","Developer Portal"]
 
 To track the usage growth of your app, and to debug performance problems, the Mendix Cloud includes detailed graphs of both your app and its environment. These graphs show performance trends of your apps in the paid editions of the Mendix Cloud. If you experience issues with your app, always check the **Alerts** and **Trends** in the **Developer Portal** under **Operate**.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This document describes the trends graphs available in Mendix Cloud v4. If your app is deployed to Mendix Cloud v3, please refer to [Trends in Mendix Cloud v3](trends).
 
 If you don't know which Mendix Cloud version you are using, you can find out by following the instructions in [Cloud Version and Region in the Mendix Cloud](/developerportal/deploy/cloud-version-region).
@@ -215,7 +215,7 @@ The **Application node CPU usage** graph shows the CPU utilization in percentage
 
 {{% alert type="info" %}}
 CPU usage of the database is shown in [Database Node CPU Usage](#Trends-dbcpu), below.
-{{% /alert %}}
+{% endhint %}
 
 ### <a name="Trends-appdf"></a>4.10 Application Node Disk Usage in Percentage (%)
 

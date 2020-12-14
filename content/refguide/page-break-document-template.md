@@ -9,13 +9,13 @@ tags: ["studio pro"]
 
 When inserting a page break, the current page will be cut off after the break and widgets below the break will be inserted in a new page.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918135.png)
 
 A page break.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Common Properties
 

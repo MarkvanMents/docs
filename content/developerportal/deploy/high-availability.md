@@ -8,11 +8,11 @@ tags: ["high-availability", "on-premises", "clustering", "runtime"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This page is only applicable for apps created in Mendix version 6.
 
 For creating high availability apps in Mendix version 7 and above, please refer to [Clustered Mendix Runtime](/refguide/clustered-mendix-runtime).
-{{% /alert %}}
+{% endhint %}
 
 This how-to describes the requirements and limitations of using a Mendix app in a high-availability architecture.
 

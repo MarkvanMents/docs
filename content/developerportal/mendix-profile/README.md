@@ -34,7 +34,7 @@ To see all of your badges as well as the badges you can work towards, click **Vi
 ![](attachments/badges.png)
 {{% /image_container %}}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The **Badges in progress** section of the **Badges** tab only displays the current level in progress of a multi-level badge. Furthermore, multi-level badges that you have already earned are not shown in the **Earned badges** section when there is a higher level badge available.
 {{% /alert %}}
 
@@ -336,7 +336,7 @@ The Mendix Platform stores certain personal information about you. To view this 
 
 {{% alert type="info" %}}
 Mendix has been tracking these data changes since November, 2018.
-{{% /alert %}}
+{% endhint %}
 
 ## 11 Point Penalties
 

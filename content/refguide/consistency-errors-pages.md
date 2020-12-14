@@ -9,7 +9,7 @@ tags: ["Studio Pro", "consistency errors", "checks", "errors", "pages"]
 
 In this document, we explain how to solve the most common or complicated consistency errors that can occur when configuring pages in Studio Pro. An example of a consistency error on a page is when you do not specify the entity property of a data view on a page. 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 This document does not describe *all* the errors, as there are a lot of errors that can occur, some of which are simple and do not need extra explanation, others are rare and/or heavily dependent on a use-case. 
 
@@ -267,7 +267,7 @@ You have changed the association multiplicity and fixed the error.
 
 Сhanging the domain model can result in other errors. To avoid changing the domain model, you might want to use another widget instead of the reference set selector or input reference set selector, for example, a reference selector. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 7 File Widget Consistency Errors
 

@@ -12,7 +12,7 @@ tags: ["support", "incident", "standard change", "URL", "change URL", "license",
 
 In order for Mendix Support to pick up and process your support request, it is important to provide the right information. This will speed up the processing of your request and minimize back-and-forth communication between you and Mendix Support. The details below are what Mendix Support needs and uses to process an incident ticket.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 For critical production incidents, please contact Mendix Support by [phone](https://support.mendix.com).
 {{% /alert %}}
 
@@ -138,7 +138,7 @@ Not all App Store content is compatible with every version of Studio Pro, and no
 
 {{% alert type="info" %}}
 For Windows Phone, please contact Mendix Support for the current support conditions.
-{{% /alert %}}
+{% endhint %}
 
 ### 5.7 Browser Problems
 

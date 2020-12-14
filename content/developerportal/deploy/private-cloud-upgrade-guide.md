@@ -36,7 +36,7 @@ kubectl -n $OPERATOR_NAMESPACE get deployment mendix-operator -o=jsonpath='{.spe
 
 ### 2.2 Upgrading from Mendix Operator v1.0.*{#from-operator-1.0.x}
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 This procedure is only required when upgrading from Mendix Operator v1.0.* to the latest version.
 
@@ -184,7 +184,7 @@ If the cluster was installed in **Standalone** mode, the Mendix Gateway Agent is
 
 Upgrading the Mendix Gateway Agent is only possible if the cluster was originally installed in **Connected** mode.
 
-{{% /alert %}}
+{% endhint %}
 
 Before upgrading to the Mendix Gateway Agent v1.1.1, first [upgrade](#operator-latest) the Mendix Operator to the latest version
 and set the `OPERATOR_NAMESPACE` variable in your Bash terminal as described above.

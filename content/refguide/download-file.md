@@ -6,7 +6,7 @@ tags: ["studio pro", "download file", "client activities"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -58,7 +58,7 @@ File document specifies the file to be downloaded. The file data is stored in an
 
 On mobile devices files are always shown in a browser window.
 
-{{% /alert %}}
+{% endhint %}
 
 Many browsers implement pop-up window blockers preventing them from being opened non-interactively, such as through a microflow. For mobile devices, this means that triggering downloads from a microflow is only possible after disabling the pop-up window blocker. You could consider using a **File Manager** widget to let the user initiate the download manually.
 

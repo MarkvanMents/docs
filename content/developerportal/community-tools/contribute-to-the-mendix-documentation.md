@@ -15,7 +15,7 @@ All the Mendix documentation is stored in a [GitHub repository](https://github.c
 
 To work on the documentation in GitHub, use Markdown. For details on this easy-to-use syntax, see the [GitHub Guide to Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 All documentation contributions may be edited to conform to our internal style guide.
 {{% /alert %}}
 
@@ -93,7 +93,7 @@ Finally, create a pull request that specifies the Mendix **development** branch 
 
 {{% alert type="info" %}}
 You may receive a response to your pull request asking for verification of specific issues. Do not panic! We just want to make sure your documentation submission fits well with what we have.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Signing the Contributor License Agreement
 

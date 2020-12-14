@@ -140,7 +140,7 @@ Default: *true*
 
 ### 2.5 Items Section {#items}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The **Items** section is only shown for drop-down buttons. 
 
@@ -155,7 +155,7 @@ When an end-user clicks a drop-down button, a pop-up window with a list of items
 * Items with the **Sign out** event are not shown for anonymous users. For more information on different security levels and anonymous users, see [Project Security](project-security) and [Anonymous Users](anonymous-users). 
 
 
-{{% /alert %}}
+{% endhint %}
 
 Each item has the following properties:
 

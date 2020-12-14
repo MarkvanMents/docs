@@ -65,7 +65,7 @@ The project explorer shows an icon in front of items (documents, folders, and mo
 | ![](attachments/using-version-control-in-studio-pro/688164.png) | You deleted this item. |
 | ![](attachments/using-version-control-in-studio-pro/688165.png) | You and somebody else made conflicting changes to this item. For more information, see the [Dealing With Conflicts](#conflicts) section below. |
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 There is only room for one icon and if a document is both modified and moved it is shown as modified.
 {{% /alert %}}
 
@@ -348,7 +348,7 @@ If you are doing more advanced changes to files, like adding Java actions or res
 Mendix Studio Pro uses the Subversion 1.9 working copy. Previous versions of the Mendix Desktop Modeler used a Subversion 1.7 working copy. These working copy versions **are not compatible**.
 
 Always use the version of TortoiseSVN which matches your app model. If you open a local model from Mendix version 7.x or 6.x with the latest version of TortoiseSVN **you will no longer be able to open it in Mendix**.
-{{% /alert %}}
+{% endhint %}
 
 Also, if you are developing Java actions using Eclipse, we advise you to install Subclipse to help you with version control of Java files. You can download Subclipse from the Eclipse Marketplace inside Eclipse or from [http://subclipse.tigris.org/](http://subclipse.tigris.org/).
 

@@ -79,9 +79,9 @@ Sometimes the computer running Studio Pro cannot access the internet directly, b
 
 The **New features** tab allows you to turn new features on and off. These are features which are being worked on but are either not yet developed sufficiently to remove the previous version, or which are currently optional.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You need to restart Studio Pro for changes to these settings to take effect.
-{{% /alert %}}
+{% endhint %}
 
 ### 5.1 New Version of the Changes Pane {#new-changes}
 

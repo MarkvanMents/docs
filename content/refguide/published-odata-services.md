@@ -43,7 +43,7 @@ You can configure security for the OData service when [Project Security](project
 
 #### 3.2.1 Requires Authentication {#authentication}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The **No Authentication** feature was introduced in version 8.0.0. In earlier versions, it was always **Username and password**.
 
@@ -118,7 +118,7 @@ Once your OData-enabled app is running, an overview of exposed OData resources i
 
 {{% alert type="warning" %}}
 While the API documentation for OData resources is enabled by default, access to it may be restricted by the administrator for apps running in production.
-{{% /alert %}}
+{% endhint %}
 
 For details on how to filter the OData response, refer to [OData Query Options](odata-query-options).
 

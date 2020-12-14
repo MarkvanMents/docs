@@ -24,7 +24,7 @@ Sections below describe the purpose of each control bar button and their specifi
 
 The **Search bar toggle** button (with default caption **Search**) opens or hides the [search bar](search-bar). It is only present if the **Show search bar** property of the grid is set to either *With button (initially open)* or *With button (initially closed)*.  
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 In a [reference set selector](reference-set-selector) there will be no search fields set by default. See [Search Bar](search-bar) to learn more about search fields. 
 {{% /alert %}}
 
@@ -131,7 +131,7 @@ The export to CSV function is only available in list widgets that have the [XPat
 
 Constraints you are using for search fields and sorting will also be exported.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 2.10.1 Decimal Separator
 

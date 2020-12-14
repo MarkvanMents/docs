@@ -11,13 +11,13 @@ When enabled, the footer will be inserted at the bottom of every page. Other wid
 
 For inserting page numbers, see [Static Label](static-label-document-template).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918235.png)
 
 A footer.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Appearance
 

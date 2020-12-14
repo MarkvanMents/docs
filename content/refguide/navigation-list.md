@@ -6,7 +6,7 @@ tags: ["studio pro", "navigation list", "container widget", "widget"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 The navigation list widget is not supported on native mobile pages.
 {{% /alert %}}
 
@@ -57,7 +57,7 @@ In the **General** section, you can set a specific on click event for each navig
 
 Microflows set as an on click event for a navigation list item have no **Execution**, **Confirmation**, or **Advanced** microflow settings. For more information on calling a microflow, see [On Click Event & Events Section](on-click-event#call-microflow). 
 
-{{% /alert %}}
+{% endhint %}
 
 #### 3.1.3 Visibility Section
 

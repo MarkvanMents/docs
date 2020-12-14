@@ -85,7 +85,7 @@ To deploy a Mendix app to Cloud Foundry, you have to configure the settings in S
 
 	![](attachments/cloud-foundry-deploy/edit-cf-configure-app.png)
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Your Cloud Foundry environment needs to be configured with the resources needed by the Mendix app. You cannot run your app until it has the resources it needs. 
 {{% /alert %}}
 
@@ -150,7 +150,7 @@ This is a service which you need to attach to your application in the same way a
 Some trial accounts may not include object storage. 
 
 You may need to configure your file store by using environment variables. See the [Mendix BuildPack Documentation](https://github.com/mendix/cf-mendix-buildpack) for more information.
-{{% /alert %}}
+{% endhint %}
 
 ## 6 Deploy Your App to Cloud Foundry
 

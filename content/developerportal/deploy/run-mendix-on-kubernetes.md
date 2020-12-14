@@ -68,11 +68,11 @@ To access your Mendix applications inside a pod from outside of the Kubernetes, 
 
 The first step is deploying our database. For Minikube, an external folder to persist the data outside of the database pod is used.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 For simplicity and compatibility with ```minikube```, we mount a folder from the ```minikube node```. This approach is not recommended for production.
 
-{{% /alert %}}
+{% endhint %}
 
 Here is the definition of the `postgres-deployment.yaml` database component:
 

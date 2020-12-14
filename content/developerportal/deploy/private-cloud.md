@@ -22,9 +22,9 @@ The following platforms are officially supported by Mendix for Private Cloud:
 
 There are two steps required to achieve this, listed below.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Mendix for Private Cloud is a premium offering from Mendix, and there are additional licensing and cost implications if you want to use it for applications in production. See [Licensing Mendix for Private Cloud](#licensing), below, for more information.
-{{% /alert %}}
+{% endhint %}
 
 ### 1.1 Registering Your Cluster
 

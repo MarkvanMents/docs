@@ -8,7 +8,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-{{% alert type="warning" %}}The radio buttons widget is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}The radio buttons widget is not supported on native mobile pages.{% endhint %}
 
 **Radio Buttons** are used to display and, optionally, allow the end-user to edit the value of an attribute of [data type](data-types) *Boolean* or *Enumeration*.
 

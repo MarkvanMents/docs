@@ -28,11 +28,11 @@ Need an extra hand with spelling and grammar? Load your article into [Hemmingway
 
 ## 3 Guidelines for the Mendix Studio Pro How-to's
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 This section presents detailed guidelines for writing a how-to. Read this section while referencing the [How-to Template](https://raw.githubusercontent.com/mendix/docs/development/templates/the-how-to-template.md).
 
-{{% /alert %}}
+{% endhint %}
 
 The [Studio Pro How-to's](/howto/index) are contextual and version-specific guides on Mendix topics that take you through the necessary steps to achieve a goal, whether it is adding a widget to your app's UI, importing Excel files, or consuming a web service. The *Studio Pro How-to's* use relevant information on Mendix components to create realistic scenarios with specific contexts and they should deliver functionality.
 

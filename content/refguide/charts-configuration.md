@@ -47,7 +47,7 @@ Add series and configure their properties, each series represents a dataset. For
 
   In this case, new series can be added by clicking the **Series > New** button in the **Chart properties** tab.
 
-  {{% alert type="info" %}}From version 1.4 of charts you can create charts with a variable number of data series. For instructions on how to do this, see [How to Create a Dynamic Series Chart](/howto/front-end/charts-dynamic-series).{{% /alert %}}
+  {% hint style="info" %}}From version 1.4 of charts you can create charts with a variable number of data series. For instructions on how to do this, see [How to Create a Dynamic Series Chart](/howto/front-end/charts-dynamic-series).{{% /alert %}
 
 1. Data source<a name="data-source"></a>
 
@@ -379,4 +379,4 @@ To the theme folder, add a *.json* file named *com.mendix.charts*. The JSON shou
 Please use with caution, as the configuration set up here shall be applied to every instance of the charts in your application.  
 Only the advanced configurations set up in the widget itself have a higher precedence.
 
-{{% /alert %}}
+{% endhint %}

@@ -86,9 +86,9 @@ You need a license to run an application in production mode. Without a license, 
 
 You can extend the functionality of the Runtime Server by writing Java actions. For more information,  see the [Runtime API](/apidocs-mxsdk/apidocs/index#runtime) section of *API Documentation*.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Links to available API documentation such as WSDLs for published web services are available on the URL path `/api-doc` (for example: `http://localhost:8080/api-doc/`).
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Main Documents in This Category
 

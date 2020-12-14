@@ -8,9 +8,9 @@ tags: ["company","admin", "Company Admin", "Developer Portal", "cloud", "node"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You must be a Company Admin to access this page and these settings.
-{{% /alert %}}
+{% endhint %}
 
 On the **Nodes** page, you can manage the cloud nodes for your company. Select the cloud node you want to manage by clicking **Details**:
 

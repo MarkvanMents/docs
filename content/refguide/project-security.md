@@ -15,7 +15,7 @@ To configure the project security, open **Project Explorer** > **Project** > **S
 
 ![](attachments/project-security/project-security-dialog.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 For more general information on security, see [Security](security).
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ The security level defines if security is switched off or on for the project and
 
 {{% alert type="warning" %}}
 For all licensed Mendix Cloud nodes, you need to use the **Production** security level and configure all security settings accordingly. Security levels **Off** and **Prototype/demo** are only allowed when testing locally, when deploying a Free App, and in cloud environments outside the Mendix Cloud which are specifically set up with **Development mode**. 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.1 Settings Availability for Different Security Levels
 

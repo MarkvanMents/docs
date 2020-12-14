@@ -3,11 +3,11 @@ title: "Studio 8 How-to's"
 tags: ["studio", "how to"]
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 The **Studio 8 How-to's** space describes Mendix Studio functionality that corresponds to Mendix 8 version. It describes the latest Studio functionality and features.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction 
 

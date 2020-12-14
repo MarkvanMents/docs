@@ -105,7 +105,7 @@ To add the product to your domain model, follow the steps below:
 		{{% image_container width="300" %}}![Image Entity](attachments/domain-model-how-to-configure/adding-image-entity.png){{% /image_container %}}
 
 	2. In the **Create New Image Attribute** dialog box, set the name to *Product_Image* and click **Create**.
-		{{% alert type="info" %}} *Name* and *Size* attributes are created automatically and are read-only.
+		{% hint style="info" %} *Name* and *Size* attributes are created automatically and are read-only.
 		{{% /alert %}}
 
 Good job! You created the **Product** entity, its attributes, and the **Product_Image** image entity:
@@ -253,7 +253,7 @@ All associations are created.
 
 Alternatively, you can create an image or file entity clicking **New attribute** > **Add file or image**, in this case an association is created by default. For more information, see the [Adding New Image or File Entities](/studio/domain-models#adding-image-or-file-entities) section in *Domain Model*.
 
-{{% /alert %}}
+{% endhint %}
 
 Congratulations! You have now configured the domain model for the online shopping app! 
 

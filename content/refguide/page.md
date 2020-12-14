@@ -8,7 +8,7 @@ tags: ["studio pro", "page", "properties"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 This document describes basic functions you can perform in the page editor and its modes. For details on what pages are for and what kind of widgets can be placed on them, see [Pages](pages).
 
@@ -130,7 +130,7 @@ You can cut/copy/paste elements on a page to different apps in Studio Pro if the
 
 You cannot cut/copy/paste from Studio Pro to Studio.
 
-{{% /alert %}}
+{% endhint %}
 
 To delete an element from a page, select this element and press <kbd>Delete</kbd> or right-click an element and select **Delete** in a drop-down menu. 
 

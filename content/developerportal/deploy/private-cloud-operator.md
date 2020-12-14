@@ -109,7 +109,7 @@ You need to make the following changes:
     * `"License.LicenseServerURL":<https://subscription-api.test.mendix.com/activate>`
     * `"License.EnvironmentName":"{environment name}"`
 
-    {{% alert type="warning" %}}Your app can only be deployed to a production environment if [security in the app is set on](/refguide/project-security). {{% /alert %}}
+    {% hint style="warning" %}Your app can only be deployed to a production environment if [security in the app is set on](/refguide/project-security). {% endhint %}
 
     If you have an offline license, you cannot provide it through **customConfiguration**. You will need to configure it by adding a **runtimeLicense** section within the **runtime** section and setting **LicenseId** and **LicenseKey** to the values received from Mendix Support:
 

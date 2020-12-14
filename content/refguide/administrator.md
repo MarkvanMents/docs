@@ -25,7 +25,7 @@ The user name is used to sign into the application as the Administrator.
 
 Default: *MxAdmin* 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Since this is general knowledge, it is safer to change this to a custom user name.
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ The administrator is always created and has the System.Administrator role by def
 For Free Apps, the user that created the application automatically has this role by default as well so you can use it to manage your users in that environment.
 This role may be helpful in case you have exceeded your user license restriction in which case you can use any user that has this System.Administrator role to sign in to manage your users.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Read More
 

@@ -27,9 +27,9 @@ You can create a new app on [Mendix Team Server](/developerportal/develop/team-s
 
 ### 2.2 Existing Mendix Team Server
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 You can only upload to an existing repository if the repository is currently empty
-{{% /alert %}}
+{% endhint %}
 
 * Select **Existing Mendix Team Server**
 * Select the **Team Server App** from the list

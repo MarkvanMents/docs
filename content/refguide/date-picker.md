@@ -94,7 +94,7 @@ If you choose **Custom** as the date format (see above), this property determine
 
 {{% snippet file="refguide/custom-date-format-tokens.md" %}}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Even though a date picker with a custom date format is editable, the calendar drop-down button will only be shown if the custom format represents a full date (that is, the year [`y`-`yyyy`], month [`M`-`MMMM`], and day of month [`d`-`dd`] tokens are all present in the custom format).
 {{% /alert %}}
 
@@ -104,7 +104,7 @@ The placeholder text is shown if the date attribute is empty. It can be used to 
 
 {{% alert type="warning" %}}
 Placeholder text will not be displayed if a native date picker is available (that is, for iOS and Android versions 4.0 and above).
-{{% /alert %}}
+{% endhint %}
 
 ### 2.7 Label Section{#label}
 

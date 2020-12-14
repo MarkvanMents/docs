@@ -8,9 +8,9 @@ tags: ["OData", "filter", "count", "sort", "select", "page", "studio pro"]
 
 This is a list of query options for OData.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 We currently only support the options described here.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Retrieving Objects
 

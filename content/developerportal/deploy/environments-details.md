@@ -78,7 +78,7 @@ If you are the [Technical Contact](/developerportal/company-app-roles/technical-
 
 Click the **Change** button next to the name of the environment.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The name must be at least two characters and consist of alphanumeric characters and hyphens (`a-z`, `A-Z`, `0-9`, and `-`) but cannot begin or end with a hyphen.
 
 If you rename an environment, it may take up to 15 minutes before you can access an app via its URL. This is because the URL includes the name of the environment and the old value needs to be removed from the DNS cache. It may take considerably longer for the change to be visible worldwide.
@@ -226,7 +226,7 @@ For Mendix Cloud v3, only *X-Frame-Options* is supported. For Mendix Cloud v4 th
 
 {{% alert type="warning" %}}
 <sup><small>[1]</small></sup>Modern browsers are introducing additional security to ensure that iframes are only allowed when they are from the same domain as the main page. To avoid this issue when you are using custom domain names and want to embed the app in an iframe, ensure that the app you want to embed is part of the same domain. For example, if your page is mainpage.domain.name, then the app embedded in the iframe should be appname.domain.name.
-{{% /alert %}}
+{% endhint %}
 
 
 There are three types of value for these headers:

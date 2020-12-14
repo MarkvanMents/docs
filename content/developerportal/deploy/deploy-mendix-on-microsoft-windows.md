@@ -190,9 +190,9 @@ To configure the MIME types, follow these steps:
 
 ### 5.4 Configuring the URL Rewrite
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 These instructions use port 8080, which is the default port. Please use the port your Mendix App is configured for.
-{{% /alert %}}
+{% endhint %}
 
 #### 5.4.1 Reverse Proxy Inbound Rules
 

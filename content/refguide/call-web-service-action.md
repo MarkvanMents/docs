@@ -6,7 +6,7 @@ menu_order: 20
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
  This activity can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ If a primitive request parameter is both optional and nillable, you need to sele
 
 *Default value*: do not send the empty values.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 7.4 Custom Request Template
 

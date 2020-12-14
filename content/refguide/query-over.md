@@ -17,7 +17,7 @@ This example is for an implementation of folders on a computer, where one folder
 
 To implement this, a self-reference to **Folder** is used. The self-reference is an association called **Folder_SubFolder**. This allows you to build a folder structure with unlimited numbers and levels of folders.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The association in this case is a one-to-many association, but the same techniques apply to many-to-many or one-to-one associations.
 {{% /alert %}}
 
@@ -65,7 +65,7 @@ Use the expression `[reversed ()]` to instruct Mendix to read the constraint in 
 `[reversed()]` only applies to one association. If you have multiple associations they will continue to be interpreted the normal way. See [Creating More Complex Queries](#more-complex), below.
 
 The `[reversed()]` expression can only be applied on self-references. When an association is between two different object types, the platform will be able to determine the direction of the join automatically.
-{{% /alert %}}
+{% endhint %}
 
  In our example, we want to find the folder which is the parent of $ChosenFolder. Now, the query becomes `[QueryOver.Folder_SubFolder [reversed ()]=$ChosenFolder]`. Instead of reading the association from right to left (Parent to Child), the association is read from left to right.
 

@@ -31,7 +31,7 @@ You can also enable Studio if it has not been enabled yet by clicking **Enable M
 
 ![](attachments/not-enabled.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Only Scrum Masters or custom App Team roles with the **App Settings** permission are allowed to enable Studio.
 {{% /alert %}}    
 
@@ -158,7 +158,7 @@ To delete an existing webhook, click **Delete**.
 
 {{% alert type="info" %}}
 For details on the technical configuration of webhooks, see [Webhooks](/apidocs-mxsdk/apidocs/webhooks-sprints) in the *API Documentation*.
-{{% /alert %}}
+{% endhint %}
 
 ## 7 Leaving the App
 

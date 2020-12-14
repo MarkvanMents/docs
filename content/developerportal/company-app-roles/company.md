@@ -7,9 +7,9 @@ tags: ["company","admin","Developer Portal", "Company Admin", "expiration settin
 ---
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You must be a Company Admin to access this page and these settings.
-{{% /alert %}}
+{% endhint %}
 
 There are three tabs on the **Company** page with settings to manage:
 

@@ -34,9 +34,9 @@ The margins specify the distance between the border of the paper and the content
 
 Indicates whether the header and/or footer are also shown on the first page.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 You must use a page break widget to indicate you're no longer on the first page. This cannot be calculated while generating content.
-{{% /alert %}}
+{% endhint %}
 
 Default: *True.*
 

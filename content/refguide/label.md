@@ -8,7 +8,7 @@ tags: ["studio pro", "label", "common widgets"]
 
 ## 1 Introduction
 
-{{% alert type="warning" %}}The label widget is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}}The label widget is not supported on native mobile pages.{{% /alert %}
 
 {{% alert type="warning" %}}
 
@@ -16,7 +16,7 @@ For input widgets, it is recommended to use the [label property](text-box) to de
 
 You can also use the [text widget](text) as it provides more features, e.g. you can add parameters, and it generates semantically correct HTML.
 
-{{% /alert %}}
+{% endhint %}
 
 A label shows static text, which describes the purpose of a specific widget to a user.
 

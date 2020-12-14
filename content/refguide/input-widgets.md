@@ -54,11 +54,11 @@ There are several different input widgets, these are used for different [data ty
 
     ![Input reference set selector showing the name attribute of associated products](attachments/input-widgets/input-reference-set-selector.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 For more information on data types, see [Data Types](data-types).
 
 For more information on associations and their properties, see [Associations](associations).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Performing Basic Functions
 

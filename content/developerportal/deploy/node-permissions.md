@@ -28,7 +28,7 @@ The permissions are set independently for each environment. You can choose the e
 
 Only App Team members who have permission to *Deploy, Publish, and Monitor* can view the node permissions.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 Note that only app team members with a *user role* which includes permission to *Deploy, Publish, and Monitor* the app will be listed in the Node Permissions tab.
 
@@ -91,7 +91,7 @@ As the API does not require two-factor authentication, it is disabled for the pr
 Other permissions are needed in addition to *API Rights*.
 
 For example, to access backups via the API you need *Access to Backups* in addition to *API Rights*.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.3.5 Access to Monitoring
 

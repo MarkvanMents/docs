@@ -10,7 +10,7 @@ tags: ["studio pro", "document template"]
 
 Document Templates are used to model a template required as input for a document export action which can generate all kinds of documents based on application data. They are composed much in the same way as [Pages](pages).
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This page describes what document templates are for and what kind of widgets can be placed on them. If you want to see the properties of the document template you can check the documentation for a [document template](document-template) itself.
 {{% /alert %}}
 
@@ -178,5 +178,5 @@ For more information, see [Static Image (Document Template)](static-image-docume
 
 A static image inside a table cell.
 
-{{% /alert %}}
+{% endhint %}
 

@@ -26,7 +26,7 @@ The Mendix Cloud automatically monitors the health and status of apps that are d
 
 	![](attachments/18580000.png)
 
-	{{% alert type="warning" %}}The drop-down at the top lets you switch between viewing the status for your node environments. Note that accessing production information may require additional authentication and is subject to your project's security settings.{{% /alert %}}
+	{% hint style="warning" %}The drop-down at the top lets you switch between viewing the status for your node environments. Note that accessing production information may require additional authentication and is subject to your project's security settings.{% endhint %}
 
 4.  If one of the status items is not listed as **OK**, click the line to show an additional information box with details about the error.
 

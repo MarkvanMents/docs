@@ -7,9 +7,9 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 App services are deprecated and marked for removal. Use a [published web service](published-web-services) or a [published REST service](published-rest-services) instead.
-{{% /alert %}}
+{% endhint %}
 
 An app service can be created via **File** > **New Document**.
 

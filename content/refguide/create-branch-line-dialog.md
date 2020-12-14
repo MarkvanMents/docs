@@ -50,9 +50,9 @@ Select from which tagged version you want to create a branch line. Every time yo
 
 Enter a name of the new branch line.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Branch names cannot include special characters (for example, `@`, `$`, `#`). 
-{{% /alert %}}
+{% endhint %}
 
 ## 7 Existing Branch Lines
 

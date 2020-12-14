@@ -13,7 +13,7 @@ A menu document defines a navigation menu that can be used by a [menu widget](me
 
 A menu consists of a list of menu items, which optionally contain sub-items. Depending on the widget a number of levels are allowed.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 If [security](project-security) is enabled, the menu will only show items that the user has access to.
 
@@ -35,7 +35,7 @@ A menu item or a sub-item has the following general properties:
 
   {{% alert type="info" %}}To open a page with a data view on it from a menu item, set a microflow that first retrieves an object for the data view and then opens the page as a target.
 
-  {{% /alert %}}
+  {% endhint %}
 
 ## 3 Read More
 

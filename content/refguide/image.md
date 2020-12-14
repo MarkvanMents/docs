@@ -14,7 +14,7 @@ For example, you can configure an image clicking which a page with customer deta
 
 ![Image Example](attachments/common-widgets/image-example.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 If you want to dynamically show different images based on data, you need to add [image viewer](image-viewer) on your page.
 
@@ -91,7 +91,7 @@ This property influences how the image scales. If the value is 'Yes', the image 
 
 Default: *Yes*
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}This property is not supported on native mobile pages.{% endhint %}
 
 ### 2.4 Visibility Section {#visibility}
 

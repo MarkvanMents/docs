@@ -26,7 +26,7 @@ Specifies that the results must be ordered ascending, from the lowest to the hig
 **DESC**
 Specifies that the results must be ordered descending, from the highest to the lowest value.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ```
 SELECT FirstName FROM Sales.Customer
@@ -44,6 +44,6 @@ ORDER BY LastName DESC
 
 This query retrieves all customers and returns the first and last name sorted on the last name, descending.
 
-{{% /alert %}}
+{% endhint %}
 
 **Note:** For default ordering behavior of NULL values refer to [this documentation](null-ordering-behavior).

@@ -9,13 +9,13 @@ tags: ["studio pro"]
 
 The data view is used for showing the contents of exactly one object. If, for example, you want to show details of a single orderline this is most easily achieved with a data view. The data view typically contains a table with static labels and dynamic data widgets like a dynamic label. In more complex templates, a data view can contain data grids and other data views for related objects.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918139.png)
 
 A data view showing orderline information.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Common Properties
 

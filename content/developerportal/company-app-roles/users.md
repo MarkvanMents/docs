@@ -9,7 +9,7 @@ tags: ["company","admin", "Company Admin", Developer Portal", "activate", "deact
 
 ## 1 Introduction
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You must be a Company Admin to access this page and these settings.
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ The deactivated user will become inactive and will immediately disappear from th
 
 You can only deactivate a user. It is not possible to delete a user completely.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Activating Users {#activating}
 

@@ -5,7 +5,7 @@ tags: ["studio pro", "microflow call", "call microflow", "action call activities
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
 {{% /alert %}}
 
@@ -63,7 +63,7 @@ The **Edit parameter value** button allows you to edit the argument value. For e
 
 {{% alert type="warning" %}}
 When used inside a nanoflow in an offline profile, only primitives and non-persistable entities that have no associations with persistable entities are allowed as arguments for the call. For more information, see the [Microflows](offline-first#microflows) section of the *Offline-First Reference Guide*.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.3 Return Type
 

@@ -12,7 +12,7 @@ When you upgrade to Mendix 8, your widgets' DOM structure will be changed. This 
 
 Each section in this document could apply to your app project, but some sections may *not* apply. If a section does not apply to your case, you may skip it.
 
-{{% alert type="warning" %}}If you have added any content in the **Atlas_UI_Resource module**, you have to move that content out of the module. If you do not, it will be overwritten.{{% /alert %}}
+{% hint style="warning" %}}If you have added any content in the **Atlas_UI_Resource module**, you have to move that content out of the module. If you do not, it will be overwritten.{{% /alert %}
 
 When your app project is using unmodified Atlas UI resources, upgrading your app project to Mendix 8 will automatically update your Atlas UI resources to version 2.1. If you did not make any changes in the custom folder, you are good to go and you can skip the rest of this guide. 
 
@@ -69,7 +69,7 @@ Please move your custom design properties to the *settings.json* file of the new
 
 {{% alert type="warning" %}}
 Changing `cssFiles` is not recommended. Please consider moving custom CSS files to your *theme/styles/web/sass/app/_custom.scss* file.
-{{% /alert %}}
+{% endhint %}
 
 If you changed `cssFiles` in *settings.json*, you must integrate your changes to the new *settings.json* file.
 

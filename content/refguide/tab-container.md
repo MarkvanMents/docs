@@ -53,7 +53,7 @@ Default: *False*
 
 Default: *True*
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{% hint style="info" %}This property is not supported on native mobile pages.{% endhint %}
 
 ## 4 Read More
 

@@ -10,9 +10,9 @@ tags: ["Mendix Cloud", "cloud", "v3", "Disk Space"]
 
 In this how-to you will learn how-to calculate the total amount of disk space in gigabytes (GB) on a Mendix Cloud version 3 environment for both app-node and db-node.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This how-to is meant for apps running on Mendix Cloud version **3** only.
-{{% /alert %}}
+{% endhint %}
 
 Each Mendix environment consists of an application server (app-node) and a database server (db-node). Every server is equipped with memory (RAM) and disk space (File/DB storage).
 

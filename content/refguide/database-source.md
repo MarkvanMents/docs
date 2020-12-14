@@ -20,7 +20,7 @@ The **Entity (path)** property specifies the target of the database query. If yo
 {{% image_container width="400" %}}![Data Source Example](attachments/data-widgets/data-source-example.png)
 {{% /image_container %}}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 This differs from the [association data source](association-source) when objects are retrieved from the memory, not database.
 
@@ -59,7 +59,7 @@ Multiple constraints will limit the data even more (the logical operator **AND**
 
 Constraints are applied equally to all users and only apply to the data displayed in a single data widget. If the goal is to restrict access to a particular subset of the data for users then [access rules](access-rules) for entities should be used as they can be applied to an individual user role and they apply system-wide.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Read More
 

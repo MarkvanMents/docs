@@ -7,9 +7,9 @@ tags: ["developer portal", "buzz", "mendix profile"]
 
 These release notes cover changes to the app project management functionality and other features of the [Mendix Developer Portal](/developerportal/index).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 For release notes on Mendix Cloud and deployment options, see [Deployment](deployment).
-{{% /alert %}}
+{% endhint %}
 
 ## 2020
 

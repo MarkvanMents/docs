@@ -11,9 +11,9 @@ The **Edit Cloud Foundry Settings** menu option allows you to specify the inform
 
 ![Edit Cloud Foundry Settings menu item](attachments/run-menu/edit-cf-settings.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 More information on deploying to Cloud Foundry can be found in [Cloud Foundry: Deploy](/developerportal/deploy/cloud-foundry-deploy).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Entering Credentials
 

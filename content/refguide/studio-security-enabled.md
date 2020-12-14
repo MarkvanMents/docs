@@ -22,7 +22,7 @@ When security is enabled, a number of checks and changes are done at several lev
 5. Studio checks if the *login.html* file exists, backs it up, and replaces it with a new version. Also, Studio checks if *index.html* exists, it searches for `document.cookie = "originURI=/login.html";` and replaces it with `document.cookie = "originURI=/openid/login";` (for more information on this process, see the [Files Set Up](#files-set-up) section).
 6. Studio does checks and changes (if necessary) at the [Project Security](project-security) level (for more information on this process, see the [Project Security Level Set Up](#project-security-level) section).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 If security has already been set to **Prototype/demo** or **Production** in Studio Pro, these settings may be incompatible (too advanced) with Studio roles and permissions settings. In this case, you will not be able to edit roles and permissions in Studio. For more information on security settings in Studio, see [Security, Roles & Permissions](/studio/settings-security) in the *Studio Guide*. 
 
@@ -106,7 +106,7 @@ The rules described above are created if you create an entity in Studio.
 
 If you copy-paste an entity, the access rules of the original entity are copied as much as possible. However, if you have a generalization on an entity and you copy it to another project, the generalization is removed.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 6 Files Set Up {#files-set-up}
 

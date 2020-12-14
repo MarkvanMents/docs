@@ -11,9 +11,9 @@ Activities define the actions that are executed in a microflow or a nanoflow.
 
 There are different types of activity, and these are grouped together in the Studio Pro toolbox. All the activities are listed below, follow the links for more information.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Most activities can be used in both microflows and nanoflows. However, some can only be used in one of these types of flow, or the behavior may differ between microflows and nanoflows. Follow the links for more information.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Object Activities
 

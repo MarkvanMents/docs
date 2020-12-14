@@ -5,7 +5,7 @@ menu_order: 3
 tags: ["studio pro", "error event", "event"]
 ---
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This event can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -84,7 +84,7 @@ Click [here](http://www.w3.org/TR/soap12-part1/#soapfault) for more information 
 
 {{% alert type="warning" %}}
 In microflows that apply entity access, it is not possible to inspect the attributes of error objects for security reasons. You can pass the error object to a sub-microflow that does not apply entity access and inspect the attributes there.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Handling Errors in Nanoflows{#errors-in-nanoflows}
 

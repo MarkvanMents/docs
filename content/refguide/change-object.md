@@ -5,7 +5,7 @@ menu_order: 20
 tags: ["studio pro"]
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
 {{% /alert %}}
 
@@ -72,7 +72,7 @@ If set to *Yes*, the object is refreshed across the client, which includes reloa
 
 {{% alert type="info" %}}
 Changed attribute values are *always* reflected in the client. If the object is committed, the object is refreshed from the Mendix Runtime, which includes updating virtual attributes. [Data sources](data-sources) are only reloaded if **Refresh in client** is set to *Yes*.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.3.2 Microflow is Called in an Offline, Native, or Hybrid App
 

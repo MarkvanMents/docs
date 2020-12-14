@@ -6,7 +6,7 @@ tags: ["studio pro", "grid", "template grid", "data widgets"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}The template grid widget is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}}The template grid widget is not supported on native mobile pages.{{% /alert %}
 
 ## 1 Introduction
 
@@ -74,7 +74,7 @@ This property indicates whether the control bar will be visible in the end-user 
 
 Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking a row. See the property 'Default button trigger' and [grid buttons](control-bar) for more information.
 
-{{% /alert %}}
+{% endhint %}
 
 Default: *True*
 

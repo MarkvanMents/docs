@@ -12,7 +12,7 @@ A **Report date parameter** allows the end-user to specify a Date and time param
 
 For example, a report may show order data for a customer over a selected period, and the report date parameter can be used to specify which period should be selected.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You can add more fields to a report date parameter widget to make it easier for an end-user to select a date range. See [Additional Report Date Parameter Fields](#additional-fields), below, for more information.
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ The value in **Min. year** will not prevent an end-user from choosing an earlier
 
 {{% alert type="warning" %}}
 The value in **Max. year** will not prevent an end-user from choosing a later date in the **From** or **To** fields of the report date parameter widget. It only applies to the *year* date range field.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Additional Report Date Parameter Fields{#additional-fields}
 

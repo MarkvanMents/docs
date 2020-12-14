@@ -21,9 +21,9 @@ Only non-persistable objects, new objects, and changed objects are tracked. This
 
 Unchanged existing objects are not tracked in a request scope. They will get tracked only if they get changed!
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 The Mendix Runtime cannot return the object state to the client when the client does not have sufficient permissions to access that state. This means that if you trigger a microflow that changes but does not commit an object to which you have no read access, the change will be discarded at the end of the request.
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Scope of Tracking
 

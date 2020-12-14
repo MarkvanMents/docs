@@ -13,7 +13,7 @@ You can define any number of configurations. The active configuration, as in, th
 
 You can use configurations to have different database settings for different people working on your project. Maybe one person has SQL Server on their computer and the other has PostgreSQL. You can also have a shared configuration for connecting to a database server that you both have access to.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 When you are deploying your application to a server or the Mendix cloud you will have to configure settings  there. For more information, see [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy).
 
@@ -67,7 +67,7 @@ You can use custom server settings to configure the Runtime beyond the standard 
 
 Only use this functionality if you know exactly what you are doing. Wrong values can prevent the Runtime from starting.
 
-{{% /alert %}}
+{% endhint %}
 
 Each custom setting consists of a name and a value. For example, to enable persistent sessions you add a custom setting with name `PersistentSessions` and value `true`.
 

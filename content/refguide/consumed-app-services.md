@@ -5,9 +5,9 @@ tags: ["studio pro"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 App services are deprecated and marked for removal. Use a [consumed web service](consumed-web-services) to consume existing app services.
-{{% /alert %}}
+{% endhint %}
 
 App services are a way of connecting Mendix applications to each other. An app service can be imported and its content can be used. As for now, app services provide the following content:
 

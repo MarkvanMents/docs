@@ -8,7 +8,7 @@ tags: ["studio pro", "security"]
 
 Security in Mendix has two sides: you want different people to see different parts of your application and you want to prevent unauthorized access. Both of these can be managed from Studio Pro. Access to forms, data and microflows can be limited to authorized users.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Security in Mendix does not include scanning files that end-users upload or download from your application for viruses and malware. For more information, see the [Scanning Uploaded Files for Malicious Content](/howto/security/best-practices-security#scanning-for-malicious-content) section in *How to Implement Best Practices for App Security*. 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ Let us say you have a project with two modules: System and ProjectManagement (PM
 | ProjectManagement.TeamMember | ProjectManagement.TeamLeader |
 |   | ProjectManagement.Administrator |
 
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Entity Access vs. Page Access
 

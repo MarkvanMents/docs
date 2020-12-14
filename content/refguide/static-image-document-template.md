@@ -9,13 +9,13 @@ tags: ["studio pro"]
 
 A static image shows a predefined image. It can be put either inside or outside a data view or template grid.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918133.png)
 
 A static image inside a table cell.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Appearance Properties
 

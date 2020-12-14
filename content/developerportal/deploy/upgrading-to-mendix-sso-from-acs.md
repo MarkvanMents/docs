@@ -46,7 +46,7 @@ Perform the following steps to replace AppCloudServices with Mendix SSO:
 
 6. Deploy your app to the Mendix Cloud.
 
-{{% alert type="success" %}}
+{% hint style="success" %}
 You have now upgraded your app to use the Mendix SSO module. Because all the end-user information and credentials are held in their Mendix account, the end-users are already known to the app and can continue to use the app as before.
 {{% /alert %}}
 
@@ -142,4 +142,4 @@ You will need to perform the following steps:
 
 {{% alert type="success" %}}
 Mendix SSO will now use your new entity to administer the end-users, and your custom Mendix SSO users now have the same values as the old customized ACS users.
-{{% /alert %}}
+{% endhint %}

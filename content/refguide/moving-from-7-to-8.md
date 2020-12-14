@@ -14,7 +14,7 @@ For information about new features in Mendix 8, see [Studio Pro 8 release notes]
 
 ## 2 Upgrading From Mendix 7 to 8 for Studio
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Due to breaking changes in Mendix version 8, apps in Studio cannot be upgraded automatically using the regular Studio upgrade mechanism.
 {{% /alert %}}
 
@@ -158,7 +158,7 @@ It is possible to fix most of the deprecation errors in one single action. To ac
 If any attributes have been converted during this process, the next time your app is run locally or deployed the database will be converted to support the new attribute types.
 
 **This database conversion could take a long time!** We suggest that you first test the data conversion on a representative dataset, so that you can estimate how long it will take to convert your production database.
-{{% /alert %}}
+{% endhint %}
 
 ## 6 64-Bit Studio Pro
 

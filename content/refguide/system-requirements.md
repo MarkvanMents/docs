@@ -22,7 +22,7 @@ The following frameworks are automatically installed (if necessary):
 * Microsoft Visual C++ 2015 Redistributable Package
 * AdoptOpenJDK 11 or Oracle JDK 11 (the former is installed automatically as of [Mendix 8.0.0](/releasenotes/studio-pro/8.0#800) if you do not have any JDK 11 installed) 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You can choose which JDK is used for building and running locally via the **Edit** > **Preferences** menu item in Studio Pro.
 {{% /alert %}}
 
@@ -112,7 +112,7 @@ Current support:
 
 {{% alert type="warning" %}}
 Each app should have its own database. Mendix apps cannot share data by sharing the same database. 
-{{% /alert %}}
+{% endhint %}
 
 ## 9 File Storage
 

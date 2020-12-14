@@ -6,7 +6,7 @@ tags: ["studio pro"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}The **input reference set selector** widget is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}}The **input reference set selector** widget is not supported on native mobile pages.{{% /alert %}
 
 ## 1 Introduction
 
@@ -101,7 +101,7 @@ For more information, see the [XPath](reference-selector#xpath-constraints) sect
 
 {{% alert type="info" %}}
 You cannot use a microflow to define selectable objects in an input reference set selector.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.9 Visibility Section {#visibility}
 

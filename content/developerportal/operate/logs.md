@@ -16,7 +16,7 @@ The page is accessed through the **Logs** menu item under the **Operate** catego
 
 ## 2 Apps Deployed to Mendix Cloud Version 4
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This is the default Mendix deployment for a licensed app.
 {{% /alert %}}
 
@@ -81,7 +81,7 @@ The Kibana user guide is available here: [Kibana User Guide](https://www.elastic
     * Going to *Instances*
     * Creating a *New Instance* and following the instructions, ensuring that you bind it to your app
     * Stopping and starting the app
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Free App
 

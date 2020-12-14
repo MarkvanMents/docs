@@ -50,7 +50,7 @@ The list view supports the following types of data sources:
 
 The database and XPath sources retrieve objects from the database and supports searching and sorting. 
 
-{{% alert type="warning" %}}Searching is not supported on native mobile pages.{{% /alert %}}
+{% hint style="warning" %}}Searching is not supported on native mobile pages.{{% /alert %}
 
 ### 2.3 Design Properties Section{#design-properties}
 
@@ -104,7 +104,7 @@ Let us say you have an entity Vehicle and two specializations thereof: Bicycle a
 
 Now if there is a row of type Bicycle the template specific for bicycles will be shown. A row of type Car will be shown in the template for Car. A row of type SportsCar is shown in the template for Car. There is no template specific for sports cars (in this example) and Car is the 'closest' generalization for which there is a template.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.6 Visibility Section {#visibility}
 

@@ -9,13 +9,13 @@ tags: ["studio pro"]
 
 A dynamic label is used for the same kind of attributes as a text box from the page editor. It can be used to display a text value.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918131.png)
 
 A dynamic label linking to a customer name.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Appearance Properties
 

@@ -7,7 +7,7 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This document describes the properties of an imported web service. If you want a general overview of imported web services, you can check the [Consumed Web Services](consumed-web-services) overview documentation.
 {{% /alert %}}
 
@@ -27,7 +27,7 @@ A dialog will ask for a username and password if you try to load a WSDL file fro
 
 A WSDL file can contain multiple services. A service can contain multiple ports. Upon loading a WSDL, a dialog will ask you to select a port for each service if a service contains multiple ports.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Services
 

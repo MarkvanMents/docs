@@ -181,7 +181,7 @@ When you reconfigure your namespace with databases or storage, you will add new 
 
 You can return to this initial question from any of the other questions by choosing the option **Go back to the start** where it is available.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The configuration script does not currently validate input values. Configuration can be verified by deploying a sample app.
 {{% /alert %}}
 
@@ -461,7 +461,7 @@ In addition, only the person who created the cluster can do the following:
 * add, activate, or deactivate plans
 * invite and manage users
 * and set up operating URLs for the namespace
-{{% /alert %}}
+{% endhint %}
 
 The **Members** tab allows you to manage the list of members of the namespace and control what rights they have.
 

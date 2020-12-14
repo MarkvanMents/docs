@@ -26,7 +26,7 @@ You can click **Mark current sprint as completed** only when all stories have th
 
 When you click **Details** for a story, you will be taken to the [Story Details](../collaborate/stories#story-details) page.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 All the changes made on this page are directly passed on to the **Stories** page and vice versa.
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Click **Plan Something** to plan a **Sprint**, **Release**, or **Other**.
 
 All the changes made on this page are directly passed on to the **Stories** page and vice versa.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Read More
 

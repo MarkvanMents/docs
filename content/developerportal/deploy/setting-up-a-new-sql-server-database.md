@@ -8,7 +8,7 @@ menu_order: 10
 
 This how-to will teach you how to manually set up a new SQL Server database.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You only need to follow these steps if the database user used by Mendix does not have enough permission to create the database for you.
 
 Some of these steps are only required for specific versions of SQL Server or Mendix.
@@ -87,7 +87,7 @@ CREATE FUNCTION [dbo].[mx_toLocalDateTime] (@utcDateTime datetime, @dstTimeZone 
 
 {{% alert type="info" %}}
 This is normally executed automatically by the Mendix Runtime so long as the database user used by Mendix has permission to create procedures.
-{{% /alert %}}
+{% endhint %}
 
 ```
 CREATE PROCEDURE [dbo].[usp_nextsequencevalue]

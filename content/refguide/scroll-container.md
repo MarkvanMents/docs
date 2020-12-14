@@ -47,7 +47,7 @@ This property determines in which mode the scroll container operates.
 | Headline  *(default)* | The top and bottom regions extend the entire width of the container and the remaining regions are placed in the middle. |
 | Sidebar | The side panels extend the full height of the container. |
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{% hint style="info" %}}This property is not supported on native mobile pages.{{% /alert %}
 
 #### 2.2.2 Scroll Behavior
 
@@ -86,7 +86,7 @@ Regions define the content area of a scroll container. For more information see 
 
 {{% alert type="info" %}}
 If you add regions in a [layout](layout), they will automatically be filled with [placeholders](placeholder).
-{{% /alert %}}
+{% endhint %}
 
 #### 2.3.1 Enable Top
 

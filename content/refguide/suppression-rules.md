@@ -74,9 +74,9 @@ For more information on how to edit or delete a suppression rule, see the [Manag
 
 You can add, edit, delete, export, or import suppression rules. You can also suppress warnings from the App Store. 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 After modifying suppression rules, click **OK** to close the **Manage Suppression Rules** dialog box and apply changes. 
-{{% /alert %}}
+{% endhint %}
 
 ### 4.1 Suppressing App Store Warnings {#suppress-appstore-warnings}
 

@@ -10,7 +10,7 @@ tags: ["node","developer portal","deploy", "Studio", "settings"]
 
 If you have a licensed app, you need to select an environment for Mendix Studio separately. For more information on licensed apps and environments, see [Mendix Cloud](mendix-cloud-deploy) and [Environments](environments). 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 By default the environment is not selected for Studio. Thus, when you try to publish, you will get a warning message. For more information, see [Previewing & Publishing Your App](/studio/publishing-app) in the *Studio Guide*.
 
@@ -34,7 +34,7 @@ To select the environment for Studio, do the following:
 
     {{% alert type="info" %}} Only [Technical Contact](/developerportal/company-app-roles/technical-contact) can see the **Change** button and click it. 
 
-    {{% /alert %}}
+    {% endhint %}
 
 4. In the **Select Studio Target** dialog box, click the drop-down menu and select the environment. 
 

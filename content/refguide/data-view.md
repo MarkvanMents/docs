@@ -74,7 +74,7 @@ This property determines how input widgets are rendered if they are read-only.
 | Control *(default)*  | The widget is displayed but disabled, so the value cannot be modified. |
 | Text    | The widget is replaced by a textual representation of the value. |
 
-{{% alert type="info" %}}Read-only style is not supported on native mobile pages.{{% /alert %}}
+{% hint style="info" %}Read-only style is not supported on native mobile pages.{% endhint %}
 
 ### 3.5 General Section {#general}
 

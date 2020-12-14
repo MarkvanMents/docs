@@ -4,7 +4,7 @@ parent: "published-odata-services"
 tags: ["studio pro"]
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 This document describes the properties of a published OData resource. For an overview of OData services, see [Published OData Services](published-odata-services).
 
@@ -80,7 +80,7 @@ For associations, the exposed name is the name given to the navigation property 
 
 When names have been customized in this way, the name of the entity, attribute, or association as defined in the domain model will not be exposed to the outside world. For all OData communication, the exposed name is used.
 
-{{% /alert %}}
+{% endhint %}
 
 These features make it easier to refactor the domain model without affecting external APIs.
 

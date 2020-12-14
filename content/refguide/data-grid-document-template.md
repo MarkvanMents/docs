@@ -9,7 +9,7 @@ tags: ["studio pro"]
 
 The data grid shows a list of objects in a grid. For example, a data grid can show all the orders a customer has placed.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ![](attachments/document-templates/918138.png)
 
@@ -35,7 +35,7 @@ The column weights are percentages separated by semi-colons that determine the w
 
 {{% alert type="info" %}}
 In the screenshot above the column weights are 50;25;25.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Cell Spacing
 

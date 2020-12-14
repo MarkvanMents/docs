@@ -8,13 +8,13 @@ tags: ["studio pro"]
 
 ## 1 Introduction
 
-{{% alert type="info" %}}Sidebar toggles are not supported on native mobile pages, as scroll container regions are not supported.{{% /alert %}}
+{% hint style="info" %}}Sidebar toggles are not supported on native mobile pages, as scroll container regions are not supported.{{% /alert %}
 
 A **sidebar toggle** is a button that when pressed will make either a left or a right region of a [scroll container](scroll-container) appear or disappear. This makes it possible to create a sidebar that is hidden by default and can be shown by clicking the button.
 
 {{% alert type="info" %}}
 You can only have one sidebar toggle in a scroll container, and the behavior of the sidebar toggle is configured in the [scroll container region](scroll-container#region) properties.
-{{% /alert %}}
+{% endhint %}
 
 For example, the image below shows for an example layout that uses the sidebar toggle to hide and make visible the **Left** region of the **Scroll Container**. 
 

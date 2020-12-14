@@ -5,7 +5,7 @@ menu_order: 50
 tags: ["studio pro"]
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can only be used in **Microflows**.
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ If set to *Yes*, the deletion is reflected across the client, which includes rel
 
 {{% alert type="info" %}}
 Deletions are always reflected in the client. [Data sources](data-sources) are only reloaded if **Refresh in client** is set to *Yes*.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.2.2 Microflow is Called in an Offline, Native, or Hybrid App
 

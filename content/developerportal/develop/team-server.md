@@ -22,11 +22,11 @@ On the **Team Server** page of the Developer Portal, an overview is presented of
 
 The **Team Server URL** has the following form: `https://teamserver.sprintr.com/<your AppID>/` and takes you to the team server for your app. Here you can see all the files and branches of your app.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 You may have to add the final slash manually to follow the link.
 
 You may be asked to re-enter your Mendix credentials. Single Sign-On (SSO) is not yet implemented for the Team Server.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Revision History
 

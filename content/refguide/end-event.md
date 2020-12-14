@@ -36,11 +36,11 @@ You can choose to return nothing, or to return, for example, a list, enumeration
 
 The return value can be entered as an [expression](expressions).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 If you are calling a microflow from another microflow, note that a *calling* microflow cannot control what is returned. It is controlled by the *called* microflow. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Read More
 

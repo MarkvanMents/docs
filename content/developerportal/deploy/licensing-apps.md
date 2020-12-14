@@ -18,7 +18,7 @@ This page explains how you can link your app to a licensed node. It covers the f
 * [Unlinking a Free App](#unlink-free) from its environment
 * [Exchanging Linked Apps Between Nodes](#exchange-apps)
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 These instructions will not move databases, file storage, or any other environment configurations to another node. Only the deployment package of a Mendix model – the app as built in Mendix Studio Pro – is moved.
 {{% /alert %}}
 
@@ -169,7 +169,7 @@ Your app is now connected to this node.
 
 {{% alert type="info" %}}
 The method described below will only work if there is currently no app linked to the node.
-{{% /alert %}}
+{% endhint %}
 
 To connect your app to a licensed node, do the following: 
 

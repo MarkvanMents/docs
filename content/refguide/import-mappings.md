@@ -51,11 +51,11 @@ If this is the top level of the mapping, you can check **Decide this at the plac
 
 Optionally, you may set an association to the parent object. If set to Yes, a list of allowed associations is shown. If an association is selected, it is drawn in the mapping document.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 Be aware that lists are not stored ordered in the Mendix database. XML Schema can prescribe that a grouping of objects is a sequence, but the order of Mendix objects in the database may differ from the order of incoming XML elements.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Mapping Attributes in Import Mappings
 

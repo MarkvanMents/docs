@@ -38,7 +38,7 @@ The domain model for this application looks like this:
 
 The **Customer** holds the address information and the preferred communication language. The **Order** owns the date and sum of all the order lines. The **OrderLine** entity has the customer-specific price for a **Product**. Because you want to generate a document, the **OrderDocument** entity has been added. This entity inherits from the **System.FileDocument** entity.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Do not use the **System.FileDocument** entity directly, because you have no control over the security of that part from the **System** module.
 {{% /alert %}}
 
@@ -101,7 +101,7 @@ Make sure to set the correct entity access for entities and their attributes use
 
 ![](attachments/core/2018-03-01_13-12-28.png)
 
-{{% /alert %}}
+{% endhint %}
 
 ### 4.3 Document Template
 

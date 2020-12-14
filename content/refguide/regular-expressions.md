@@ -26,7 +26,7 @@ This is for documentation purpose only; it is not visible in the end-user applic
 
 The expression defines the criteria that a string should be checked against in a [formal, internationally standardized regular expression language](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 For example, an expression for checking the Dutch post code could be: `[1-9][0-9][0-9][0-9] ?[A-Za-z][A-Za-z]`.
 
@@ -72,7 +72,7 @@ A regular expression can contain the following types of subexpressions:
 	* The *`space`* in the Dutch post code example is a literal character that just matches itself
 
 	{{% alert type="info" %}}If you need to match one of the characters which is not a literal, prefix it with a backslash (`\`).
-	{{% /alert %}}
+	{% endhint %}
 
 * `\w` – a word: a letter, digit, or underscore; `\w` is an abbreviation for `[A-Za-z0-9_]`
 * `\d` – a digit" an abbreviation for `[0-9]`

@@ -28,7 +28,7 @@ Restoring a backup locally can be useful if you want to test your cloud environm
 
     ![](attachments/restore-backup-locally/postgres-password.png)
 
-    {{% alert type="info" %}}You will need this password later to allow your Mendix app to access the restored data. 
+    {% hint style="info" %}You will need this password later to allow your Mendix app to access the restored data. 
     {{% /alert %}}
 
 * When restoring a database hosted in Mendix Cloud v4, or downloading a full backup, you will need a utility such as [7zip](http://www.7-zip.org/) on your local machine which can extract files from *.gz* and *.tar* archives.
@@ -96,7 +96,7 @@ The steps above restore the database, but do not restore any **FileDocuments** (
 
 {{% alert type="warning" %}}
 You are restoring the FileDocuments to the same directory as your original local test files. Please remember to backup the files directory before adding your restored FileDocuments.
-{{% /alert %}}
+{% endhint %}
 
 If you also want to restore the **FileDocuments**, you need to follow the following steps:
 

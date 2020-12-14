@@ -26,7 +26,7 @@ On the **Team** page, you will see an overview with the following information ab
 
 When you click **Manage Team** in the top-right corner of the screen, you will be forwarded to the **Settings** > **Security** page. 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 Only the following roles can see the **Manage Team** button:
 
@@ -34,7 +34,7 @@ Only the following roles can see the **Manage Team** button:
 * [Company Admin](/developerportal/company-app-roles/#company-admin)
 * A [custom role](/developerportal/company-app-roles/manage-roles#edit-app-team-roles) with **App Settings** permission
 
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/team-security.png)
 

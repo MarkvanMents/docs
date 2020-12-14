@@ -47,7 +47,7 @@ Anything you can download you can also upload again, which means you can upload 
 * **Database Only**
 * **Files Only**
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Uploading a **Files Only** archive will result in a backup item with an exclamation mark and a warning message. Since the archive does not contain a database, it is not possible to restore it.
 {{% /alert %}}
 
@@ -88,7 +88,7 @@ If you restore a backup that was originally deployed with an older Mendix versio
 
 {{% alert type="info" %}}
 In Mendix Cloud v4, if the restore takes too long, the system will show a timeout message. The restore will continue behind the scenes, and you can track the progress of the restore by inspecting your database free disk space graphs. While the database free disk space keeps decreasing, the restore is still in progress. If the database free disk space is constant, the restore has stopped and you can try to start your application. If this happens regularly, consider upgrading to a database plan with more CPU cores, so that the restore can be executed faster.
-{{% /alert %}}
+{% endhint %}
 
 See [Restore a Backup](restore-backup) for more information.
 

@@ -22,7 +22,7 @@ There are three different types of search fields that can be used for different 
 * **Drop-down** – will apply a filter based on whether the search term falls between the values of two selected attributes. Possible attribute types: AutoNumber, Date and Time, Integer, Long, Decimal 
 * **Range** –  search results are filtered by comparing them to the given search term. If the search value matches the attribute value, this object will be a part of the search result. Possible attribute types: Boolean, Enumerations, Associations 
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 You cannot change the type of a search field, you will need to delete it and then add a new one of a different type.
 
@@ -205,7 +205,7 @@ This attribute (path) determines the upper bound of the range.
 
 This property is available for **Range** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 The upper bound operator determines whether the comparison with the upper bound is inclusive (<=) or not (<). It can be either 'Smaller' or 'Smaller or equal'.
 

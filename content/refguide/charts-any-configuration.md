@@ -88,7 +88,7 @@ The width of the chart in pixels or as a percentage, based on the **Width unit**
 
 **Percentage of width** allows you to change the aspect ratio, **Pixels** is an absolute measure, and **Percentage of parent** allows you to set the height in relation to the parent container.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Warning: When using **Percentage of parent** the parent container must have an absolute height, else nothing is displayed.
 {{% /alert %}}
 
@@ -200,4 +200,4 @@ For guidance on how to set up chart theming see: [How to Use the Charts Theme](/
 
 Please use with caution, as the configuration set up here will be applied to every chart in your application. Only the advanced configurations set up in the widget itself have a higher precedence.
 
-{{% /alert %}}
+{% endhint %}

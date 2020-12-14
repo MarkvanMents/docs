@@ -13,7 +13,7 @@ tags: ["SSO", "Single Sign-on", "Mendix credentials", "Mendix SSO"]
 
 The [Mendix SSO module](/appstore/modules/mendix-sso) enables your app end-users to sign in with their Mendix account when your app is deployed to the Mendix Cloud.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Mendix Single Sign-On is only activated when your app is deployed to the Mendix Cloud. When you run your app locally, or on another cloud, you will need to use local credentials.
 {{% /alert %}}
 
@@ -273,7 +273,7 @@ The default Mendix SSO administration module has a number of pages set up to ena
 
 {{% alert type="info" %}}
 Tokens contain personal information, as well as authentication information. They should not be exposed routinely, and should only be shared on a need-to-know basis (for example, if you need help resolving an issue with SSO).
-{{% /alert %}}
+{% endhint %}
 
 ### 6.1 Displaying Tokens on Pages
 

@@ -13,9 +13,9 @@ To access the **Merge** dialog, open [Version Control menu](version-control-menu
 
 ![Merge Dialog](attachments/merge-dialog/merge-dialog.png)
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Before continuing with the merge action, please make sure that you are currently working in the development line that you want to merge to.
-{{% /alert %}}
+{% endhint %}
 
 The following merge scenarios are supported:
 

@@ -6,7 +6,7 @@ tags: ["studio pro"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
 {{% /alert %}}
 
@@ -72,7 +72,7 @@ The [XPath](xpath) constraint defines the condition the objects need to fulfill 
 
 {{% alert type="info" %}}
 Date functions, user-role tokens, computations based on tokens, and following associations are not supported in XPath constraints when the retrieve activity is in a nanoflow.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.3.4 Sorting
 

@@ -142,7 +142,7 @@ To enable more control over the target architecture, use the following variants:
 
 **Release date: January 6th, 2019**
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 As of April 11th, 2019, Google will drop support for sending push notifications through their Google Cloud Messaging (GCM) service. By that time, all clients will need to have migrated to the new Firebase Cloud Messaging (FCM) service. The move from GCM to FCM impacts Mendix apps that employ push notifications through the Mendix [Push Notifications Connector](/appstore/modules/push-notifications) module. Please read the notes below for upgrade instructions
 {{% /alert %}}
 
@@ -366,7 +366,7 @@ This is a major release, because it is not fully compatible with older versions 
 
 For this update, we recommend that you download a fresh hybrid app package from the Mendix Developer Portal ([Developer Portal](https://sprintr.home.mendix.com/index.html) > **DEPLOY** > **Mobile App**).
 
-{{% /alert %}}
+{% endhint %}
 
 * We fixed an issue where NPM updates failed consistently. This issue was related to the recently added local PhoneGap dependency. This local dependency is now removed. PhoneGap should be installed globally, and it should match the CLI version configured in the *config.xml* (for example, `npm install -g phonegap@7.1.0`). During NPM install/update, there will be feedback in the console regarding the current and required versions.
 * We removed the *package-lock.json* files from both `mendix-hybrid-app-base` as well as `mendix-hybrid-app-template`. This makes it easier to stay up to date with the latest `mendix-hybrid-app-base` package.

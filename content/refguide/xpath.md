@@ -21,11 +21,11 @@ Examples of XPath queries are:
 *   `avg(//Sales.Order[IsPaid = true()]/TotalPrice)`
     Retrieve the average of the total prices of all paid orders.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 
 In Studio Pro you do not write complete queries but only the constraints. The entity is implicitly determined by the context. So, instead of `//Sales.Customer[Name='Jansen']` you only write `[Name='Jansen']` in the context of a customer. In Java you do write whole queries including the double slashes and the entity name.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 XPath Elements
 

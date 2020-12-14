@@ -40,9 +40,9 @@ Add `-javaagent:/PATH/TO/NEWRELIC.JAR` to your Java arguments in the Windows Ser
 
 ![](attachments/setting-up-monitoring-with-new-relic/18580677.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 After you restart the application, your data should show up in New Relic. This requires the application to send data to New Relic servers, so your firewalls should be configured to allow for this traffic.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Read More
 

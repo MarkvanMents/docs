@@ -92,7 +92,7 @@ There are three types of environment statuses:
 *   Orange – there is at least one warning alert, but no critical alerts
 *   Red – there is at least one critical alert
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 The environment status is cached; there can be a delay of up to five minutes before the status icon displays a change of status.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ There is no concept of staging, and you need to deploy your app directly to the 
 Operations carried out by the Mendix Operations Desk are not currently logged on the activity log.
 
 These are activities which are performed on a customer's behalf only with written approval through a support ticket. 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Custom Domain
 

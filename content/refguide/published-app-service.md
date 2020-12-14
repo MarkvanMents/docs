@@ -4,7 +4,7 @@ parent: "published-app-services"
 tags: ["studio pro"]
 ---
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 App services are deprecated and marked for removal. Use a [published web service](published-web-services) or a [published REST service](published-rest-services) instead.
 {{% /alert %}}
 
@@ -69,7 +69,7 @@ The button 'Export Mendix Service Definition' creates an MSD-file with the defin
 
 This MSD file contains a default location: the Application Root URL of the default configuration in the project settings. For example: [http://localhost:8080/](http://localhost:8080/). This endpoint address is overwritten if you deploy your app in the cloud, and will be set to the cloud location where your app is running.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Documentation
 

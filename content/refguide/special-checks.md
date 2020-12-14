@@ -72,9 +72,9 @@ isNew($object1)
 
 ## Checking Whether an Object Is Synced<a name="synced"></a>
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 This function is available only in expressions for [conditional visibility or editability](common-widget-properties), as only they are evaluated client-side.
-{{% /alert %}}
+{% endhint %}
 
 ### Input
 

@@ -28,7 +28,7 @@ You may need to use certificates to set up connections from your Mendix Cloud ap
 
 Certificates for *.mendixcloud.com* and *.mxapps.io* are managed by Mendix and can be updated without notice.
 
-{{% alert type="warning" %}}
+{% hint style="warning" %}
 Do not pin these certificates in your solutions.
 {{% /alert %}}
 
@@ -63,7 +63,7 @@ You can upload a PKCS12 file by following these steps:
 
 {{% alert type="info" %}}
 Certificates require an app restart before they become active.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/certificates/certificate-details.png)
 

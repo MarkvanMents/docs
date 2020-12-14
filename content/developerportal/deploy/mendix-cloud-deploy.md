@@ -38,13 +38,13 @@ A Free App has a number of limitations compared to a licensed app. The main limi
 
 <small>More information on the capabilities of different license options is available on [Mendix Platform Pricing](http://www.mendix.com/pricing)</small>
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Free Apps are part of our Free Edition.
 
 If you are not currently a customer but would prefer to use a licensed cloud node you can find more information on our pricing page: [Mendix Platform Pricing](http://www.mendix.com/pricing).
 
 If you are an existing customer, you should deploy into your licensed cloud node.
-{{% /alert %}}
+{% endhint %}
 
 As noted in the table above, a Free App will go to sleep after an hour or so of inactivity. If you access it while it is inactive, you will see the image below. If, after a couple of minutes, your app does not wake up, please contact our support team at [support.mendix.com](http://support.mendix.com).
 

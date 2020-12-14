@@ -50,7 +50,7 @@ To change the name of a certificate profile, click the **Edit** icon next to the
 
 Upload your CA from a file in *.pem* format by clicking the **Upload Certificate Authority** button. Alternatively, click **Enter Manually** to open an editor where you can paste your CA.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 Your CA must contain a single root certificate and can have multiple intermediate certificates.
 {{% /alert %}}
 
@@ -212,7 +212,7 @@ To add this additional access restriction profile, follow these steps:
 
 If the `/ws/` path should still be reachable from the office location *without* using a client certificate, then add the IP ranges of the office location to the profile used for `/ws/`.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Read More
 

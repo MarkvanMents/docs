@@ -41,11 +41,11 @@ For more information about the Mendix Team Server, see [Team Server Overview](/d
 
 ### 2.2 Private Server {#private-server}
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 The **Private server** option is only available when support for other SVN servers is enabled: **Edit** >**Preferences** > **Advanced** > **Enable private version control**. 
 
-{{% /alert %}}
+{% endhint %}
 
 In the **App repository address** field, enter the address of the repository you want to upload your app to.
 

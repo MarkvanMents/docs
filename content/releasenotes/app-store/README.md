@@ -85,7 +85,7 @@ We now display the UUID of an App Store component in the [Additional Info](/apps
 
 We added the flexibility to label your App Store content with a [custom version number](/appstore/general/share-app-store-content#updating).
 
-{{% alert type="info" %}}This is based on an [upvoted idea from Andreas Blaesius](https://forum.mendixcloud.com/link/ideas/1324) submitted to the [Mendix Idea Forum](https://forum.mendixcloud.com/index4.html). Thanks, Andreas!{{% /alert %}}
+{% hint style="info" %}This is based on an [upvoted idea from Andreas Blaesius](https://forum.mendixcloud.com/link/ideas/1324) submitted to the [Mendix Idea Forum](https://forum.mendixcloud.com/index4.html). Thanks, Andreas!{% endhint %}
 
 ### August 30th, 2019
 

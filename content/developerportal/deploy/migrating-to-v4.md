@@ -39,7 +39,7 @@ To make the most of the features of Mendix Cloud v4, we recommend that your apps
 There are a few other differences between the way you develop and deploy apps in Mendix Cloud v4 and Mendix Cloud v3:
 
 * In Mendix Cloud v4, the debugger is always active, and does not have to be activated – the **Show Debugger Information** button shows the credentials to connect Mendix Studio Pro to the debugger
-    {{% alert type="info" %}}You can only use the debugger if your app is scaled to a single instance.{{% /alert %}}
+    {% hint style="info" %}}You can only use the debugger if your app is scaled to a single instance.{{% /alert %}
 * In Mendix Cloud v4, the number of permitted database connections is tied to the RAM of the database environment, rather than being static.
     * The limit is roughly 100 connections per GB of database RAM – the defaults are perfectly fine for most situations, but you can use the Mendix Runtime settings **ConnectionPoolingMaxActive** and **ConnectionPoolingMaxIdle** to tweak the number of database connections that the Mendix Runtime will set up for each runtime instance.
 * In Mendix Cloud v4, there are some circumstances in which your app can run out of file connections
@@ -179,7 +179,7 @@ Your app is now running in Mendix Cloud v4. If everything works correctly, submi
 
 {{% alert type="warning" %}}
 After your node is offboarded, it will no longer be accessible. Ensure that you have downloaded any backups or other information that you need from the node before asking for it to be offboarded.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Read More
 

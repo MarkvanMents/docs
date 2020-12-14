@@ -22,7 +22,7 @@ Specifies the expressions by which values of the rows are grouped.
 `HAVING <constraint>`
 Specifies a constraint. When a GROUP BY expression is used, constraints must be defined in a HAVING clause.
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 
 ```
 SELECT COUNT(Sales.Customer/*)
@@ -56,4 +56,4 @@ HAVING SUM(Sales.Order/TotalPrice) > 1000.0 OR Sales.Address/City = 'Losdun'
 
 This query returns the sum of the total prices of all orders per city for which the sum is greater than 1000.00 or the City is Losdun.
 
-{{% /alert %}}
+{% endhint %}

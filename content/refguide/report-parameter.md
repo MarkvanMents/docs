@@ -16,11 +16,11 @@ The report parameter is displayed in structure mode with the data set parameter 
 
 ![Report parameter in structure mode](attachments/report-widgets/report-parameter.png)
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 A **Report parameter** cannot be used for data set parameters of type **Date and time**. Date and time parameters must be filtered by a [Report Date Parameter](report-date-parameter) widget.
 
 If you add a report parameter widget on the page, you must also add a [Report Button](report-button) widget. This allows the end-user to regenerate the report after specifying the parameter.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Report Parameter Properties
 

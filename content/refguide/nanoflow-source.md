@@ -36,8 +36,8 @@ This nanoflow does the following:
 
 3. The nanoflow returns a list of products and each end event is configured to return a list. 
 
-    {{% alert type="info" %}}The *empty* path also requires a value, where `empty` is also a value.
-    {{% /alert %}}
+    {% hint style="info" %}The *empty* path also requires a value, where `empty` is also a value.
+    {% endhint %}
 
 ## 3 Properties
 

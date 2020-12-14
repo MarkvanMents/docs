@@ -78,7 +78,7 @@ While running a multi-node cluster, you cannot predict the node on which a micro
 
 Some apps require a guaranteed single execution of a certain activity at a given point in time. In a single node Mendix Runtime, this could be guaranteed by using JVM locks. However, in a distributed scenario, those JVMs run on different machines, so there is no locking system available. Mendix does not support cluster-wide locking, either. If this cannot be circumvented, you might need to resort to an external distributed lock manager. However, keep in mind that locking in a distributed system is complex and prone to failure (for example, via lock starvation or lock expiration.).
 
-{{% alert type="info" %}}
+{% hint style="info" %}
 For the reason described above, the **Disallow concurrent execution** property of a microflow only applies to a single node.
 {{% /alert %}}
 
@@ -146,5 +146,5 @@ Persistent sessions also store a last-active date upon each request. To improve 
 
 {{% alert type="warning" %}}
 Overriding the default values for the `SessionTimeout` and `ClusterManagerActionInterval` custom settings can impact the behavior of "keep alive" and results in an unexpected session logout. The best practice is to set the `ClusterManagerActionInterval` to half of the `SessionTimeout` so that each node gets the chance to run the clean-up action at least once during the session time out interval.
-{{% /alert %}}
+{% endhint %}
 
