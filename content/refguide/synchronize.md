@@ -14,11 +14,11 @@ This activity can only be used in **Nanoflows**.
 
 The **Synchronize** activity can be used to synchronize your data between your device and the server.
 
-{{% image_container width="200" %}}
+
 
 ![Synchronize](attachments/client-activities/synchronize.png)
 
-{{% /image_container %}}
+
 
 Its behavior can however be configured through the [**Synchronization configuration**](offline-first#customizable-synchronization).
 
@@ -30,7 +30,7 @@ The **Synchronize** activity properties consists of the following sections:
 
 * [Common](#common)  
 
-	{{% image_container width="300" %}}![Synchronize Action Properties](attachments/client-activities/synchronize-properties.png){{% /image_container %}}
+	
 
 ## 3 Action Section {#action}
 

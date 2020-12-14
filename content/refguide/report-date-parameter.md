@@ -28,8 +28,8 @@ If you have a report date parameter widget on the page, you must also add a [Rep
 
 An example of report date parameter properties is represented in the image below:
 
-{{% image_container width="300" %}}![Report date parameter in structure mode](attachments/report-widgets/report-date-parameter-properties.png)
-{{% /image_container %}}
+![Report date parameter in structure mode](attachments/report-widgets/report-date-parameter-properties.png)
+
 
 Report date parameter properties consist of the following sections:
 

@@ -26,8 +26,8 @@ Mendix will intelligently detect if pages share a layout, so no user input is re
 
 An example of layout properties is represented in the image below:
 
-{{% image_container width="250" %}}![Example of the layout properties pane](attachments/layout/layout-properties.png)
-{{% /image_container %}}
+![Example of the layout properties pane](attachments/layout/layout-properties.png)
+
 
 Layout properties consist of the following sections:
 

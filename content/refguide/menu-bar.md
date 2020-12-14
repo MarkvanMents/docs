@@ -20,8 +20,8 @@ Menu bars can go two levels deep, that means menu items can have sub-items. For 
 
 An example of menu bar properties is represented in the image below:
 
-{{% image_container width="300" %}}![](attachments/menu-widgets/menu-bar-properties.png)
-{{% /image_container %}}
+![](attachments/menu-widgets/menu-bar-properties.png)
+
 
 Menu bar properties consist of the following sections:
 

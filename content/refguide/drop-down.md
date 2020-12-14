@@ -24,8 +24,8 @@ For example, the following drop-down allows the end-user to see, and set, the **
 
 An example of drop-down properties is represented in the image below:
 
-{{% image_container width="300" %}}![](attachments/drop-down/drop-down-properties.png)
-{{% /image_container %}}
+![](attachments/drop-down/drop-down-properties.png)
+
 
 Drop-down properties consist of the following sections:
 

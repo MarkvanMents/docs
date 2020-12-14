@@ -13,9 +13,9 @@ Additional activities which work on lists, [commit object(s)](committing-objects
 
 The activities described in this document are in the **List Activities** section of the **Toolbox**:
 
-{{% image_container width="40%" %}}
+
 ![list activities toolbox](attachments/list-activities/list-activities-toolbox.png)
-{{% /image_container %}}
+
 
 The following are the list activities you can use in your microflow or nanoflow:
 

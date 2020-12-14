@@ -47,9 +47,9 @@ If you have the $ChosenFolder object available in your microflow you can easily 
 
 This is implemented using the following XPath constraint: `[QueryOver.Folder_SubFolder=$ChosenFolder]`. The XPath constraint is read from right to left, with the resulting Folder(s) being the result. This is key to how you should interpret which direction you are following the association.  
 
-{{% image_container width="400" %}}
+
 ![](attachments/associations/query-over-retrieve-normal.png)
-{{% /image_container %}}
+
 
 If the $ChosenFolder object has **Code** `202002141322015` and **Name** `SubFolder2` we have chosen the folder with **ID** `3`. The two folders in the left-hand table, highlighted in orange, will be returned. The platform applies the constraint by default on the right/parent side of the association and returns the relevant ChildFolder(s).
 
@@ -69,9 +69,9 @@ The `[reversed()]` expression can only be applied on self-references. When an as
 
  In our example, we want to find the folder which is the parent of $ChosenFolder. Now, the query becomes `[QueryOver.Folder_SubFolder [reversed ()]=$ChosenFolder]`. Instead of reading the association from right to left (Parent to Child), the association is read from left to right.
 
-{{% image_container width="400" %}}
+
 ![](attachments/associations/query-over-retrieve-reversed.png)
-{{% /image_container %}}
+
 
 If the $ChosenFolder object has **Code** `202002141322015` and **Name** `SubFolder2` we have chosen the folder with **ID** `3`. The folder in the right-hand table, highlighted in orange, will be returned. The platform applies the constraint in reverse, on the left/child side of the association and returns the relevant ParentFolder.
 

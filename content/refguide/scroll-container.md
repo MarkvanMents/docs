@@ -23,8 +23,8 @@ A scroll container can consist of several scroll container regions. For more inf
 
 An example of scroll container properties is represented in the image below:
 
-{{% image_container width="300" %}}![Scroll Container Properties](attachments/container-widgets/scroll-container-properties.png)
-{{% /image_container %}}
+![Scroll Container Properties](attachments/container-widgets/scroll-container-properties.png)
+
 
 Scroll container properties consist of the following sections:
 

@@ -24,8 +24,8 @@ For example, the image below shows for an example layout that uses the sidebar t
 
 An example of sidebar toggle properties is represented in the image below:
 
-{{% image_container width="250" %}}![](attachments/layout/sidebar-toggle-properties.png)
-{{% /image_container %}}
+![](attachments/layout/sidebar-toggle-properties.png)
+
 
 Sidebar toggle properties consist of the following sections:
 

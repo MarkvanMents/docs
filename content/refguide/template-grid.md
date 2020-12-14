@@ -34,8 +34,8 @@ For more information, see [Control Bar](control-bar).
 
 An example of template grid properties is represented in the image below:
 
-{{% image_container width="250" %}}![](attachments/data-widgets/template-grid-properties.png)
-{{% /image_container %}}
+![](attachments/data-widgets/template-grid-properties.png)
+
 
 Template grid properties consist of the following sections:
 

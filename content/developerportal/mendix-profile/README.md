@@ -20,9 +20,9 @@ On the profile header, you can see your location, number of [connections](#conne
 
 Your profile will open to the **Overview** tab. The first profile card below the header presents your **Stats**. The chart and its legend display your points divided between various Mendix products and activities. When analyzing your points, be sure to also check out the [Leaderboard](#leaderboard) card on this tab to see the top Mendix community contributors!
 
-{{% image_container width="350" %}}
+
 ![](attachments/stats.png)
-{{% /image_container %}}
+
 
 ## 4 Badges {#badges}
 
@@ -30,9 +30,9 @@ In addition to the **Stats** chart, on the **Overview** tab you gain an overview
 
 To see all of your badges as well as the badges you can work towards, click **View all** to go to the **Badges** tab of your profile.
 
-{{% image_container width="350" %}}
+
 ![](attachments/badges.png)
-{{% /image_container %}}
+
 
 {% hint style="info" %}
 The **Badges in progress** section of the **Badges** tab only displays the current level in progress of a multi-level badge. Furthermore, multi-level badges that you have already earned are not shown in the **Earned badges** section when there is a higher level badge available.
@@ -42,17 +42,17 @@ The **Badges in progress** section of the **Badges** tab only displays the curre
 
 The **Challenge** card presents a featured challenge you can complete on the Mendix Platform to gain credits. Once you complete a challenge, you can claim the credits and use them in the Mendix Shop. Challenges are not only about keeping engaged with the platform and exploring new challenges, but picking up some swag in the process!
 
-{{% image_container width="350" %}}
+
 ![](attachments/challenges.png)
-{{% /image_container %}}
+
 
 <a name="credits"></a>Clicking **View all** will bring you to the **Challenges** tab of your profile, which gives you more details on your challenges. You can complete these activities in any order you like.
 
 When you complete a challenge, click **Claim Credits** to claim the Mendix credits which you will be able to spend in the Mendix Shop.
 
-{{% image_container width="350" %}}
+
 ![](attachments/credits.png)
-{{% /image_container %}}
+
 
 Completing your challenges and gaining credits is a great way to stay engaged with the Mendix community. And the Mendix Shop will always have cool items for you to spend credits on!
 
@@ -62,18 +62,18 @@ One of the greatest strengths of Mendix is our awesome developers community, and
 
 You can also see a list of people you may know so that you can add further connections to your profile. To connect with someone, click the plus icon, and an invitation will be sent.
 
-{{% image_container width="350" %}}
+
 ![](attachments/connections.png)
-{{% /image_container %}}
+
 
 Clicking **View All** on the card will bring you to the **Connections** tab of your profile. On this tab, you can invite friends and colleagues to Mendix in two ways:
 
 * **Share URL** – copy the personalized invite link and share it on your personal website, blog, and social media channels, or share it directly via specific social media
 * **Send invite** – send someone a Mendix invite by entering their email address and clicking **Send invite**
 
-{{% image_container width="500" %}}
+
 ![](attachments/referral.png)
-{{% /image_container %}}
+
 
 ## 7 Leaderboard {#leaderboard}
 
@@ -215,8 +215,8 @@ This section presents all of the documents  you have shared within different app
 
 ### 9.3 Feedback {#feedback}
 
-{{% image_container width="500" %}}![](attachments/feedback.png)
-{{% /image_container %}}
+![](attachments/feedback.png)
+
 
 In this section, you can view feedback submitted on the following:
 
@@ -229,8 +229,8 @@ When you click **Details** for feedback on an app of which you are an App Team m
 
 Changes made through Studio Pro are stored in the Mendix Team Server. This section provides an overview of the revisions you have committed.
 
-{{% image_container width="500" %}}![](attachments/team-server.png)
-{{% /image_container %}}
+![](attachments/team-server.png)
+
 
 ### 9.5 Pending Invites
 
@@ -258,8 +258,8 @@ There is also a link to [Mendix Support](https://support.mendix.com/hc/en-us) if
 
 In this section, you can tell the Mendix community about yourself and your work experience by stating if you are **Looking for** a job or a project and by selecting your areas of **Industry Experience** and **Skills**.
 
-{{% image_container width="500" %}}![](attachments/work-experience.png)
-{{% /image_container %}}
+![](attachments/work-experience.png)
+
 
 ### 10.3 Social {#social}
 

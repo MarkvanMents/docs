@@ -57,7 +57,7 @@ Depending on your app type and version, you might need to enable security first.
 
 2. In the **Roles and Permissions** screen, click **Enable Security**:
 
-	{{% image_container width="550" %}}![Enable Security](attachments/security-how-to-configure-roles/enable-security.png){{% /image_container %}}
+	
 	
 3. After security is enabled, you can see a table with three tabs: **Roles,** **Pages**, **Microflows**. Two roles are created by default: **Administrator** and **User**. The **Administrator** role is read-only, meaning you cannot delete or rename it. As it is already configured and has access to all functionality, you can use this role for your app administrators in the future. 
 
@@ -71,7 +71,7 @@ Depending on your app type and version, you might need to enable security first.
 
 6. In the **Create Role** dialog box, fill in the role name as **Front_Desk** and click **Save**:
 
-    {{% image_container width="450" %}}![Create Role](attachments/security-how-to-configure-roles/create-role.png){{% /image_container %}}
+    
 
 You now have three user roles: Administrator, Customer, and Front_Desk.
 
@@ -107,7 +107,7 @@ You can test the roles that you set with [demo users](/studio/settings-security#
 
 4. In the displayed menu bar, select a demo user and the app will be viewed from the perspective of the corresponding role. Click the **demo_customer** to test which functionality can the **Customer** role view and access.
 
-    {{% image_container width="350" %}}![Select Demo User](attachments/security-how-to-configure-roles/select-user.png){{% /image_container %}}
+    
 
 5. Repeat steps 3-4 to test the **Front_Desk** role:
 

@@ -40,9 +40,9 @@ Each question specifies the following elements:
 
 Hovering over the developer name brings up the profile card:
 
-{{% image_container width="200" %}}
+
 ![](attachments/mendix-forum/questions_profile_card.png)
-{{% /image_container %}}
+
 
 The profile card presents the Mendix points for the developer. Clicking the developer name on the card will bring you to their Mendix Profile.
 
@@ -72,9 +72,9 @@ To filter the questions that appear on the overview page, select from the follow
 * **Categories** – the category set when the question was asked (for more information, see the [Asking Your Question](#AskingYourQuestion) section)
 * **Tags** – the tags set when the question was asked (for more information, see the [Asking Your Question](#AskingYourQuestion) section)
 
-{{% image_container width="200" %}}
+
 ![](attachments/mendix-forum/questions_filters.png)
-{{% /image_container %}}
+
 
 ### 2.2 Question Details & Answers Page {#QuestionDescriptionPage}
 
@@ -137,8 +137,8 @@ To ask your own question on the Mendix Forum, follow these steps:
 
 2.  On the **Ask your question** page, fill in the following details in the editor:
 
-	{{% image_container width="500" %}}![](attachments/mendix-forum/questions_ask_screen.png)
-	{{% /image_container %}}
+	![](attachments/mendix-forum/questions_ask_screen.png)
+	
 
 	* The **Title** of your question (which is how Mendix Forum users will first see your question, so make the title descriptive and interesting)
 	* The text of your question (add all the details about your question to make it searchable and so other users can answer it; consider including steps to reproduce the issue)
@@ -242,8 +242,8 @@ To submit your own idea to the idea forum, follow these steps:
 
 2.  On the **Submit your idea** page, fill in the following details in the editor:
 
-	{{% image_container width="500" %}}![](attachments/mendix-forum/ideas_submit_screen.png)
-	{{% /image_container %}}
+	![](attachments/mendix-forum/ideas_submit_screen.png)
+	
 
 	* The **Title** of your idea (which is how Mendix Forum users will first see your idea, so make the title descriptive and interesting)
 	* The text of your idea (add all the details about your idea to make it searchable and so other users can vote and comment on it)

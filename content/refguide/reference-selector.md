@@ -30,8 +30,8 @@ If you only want to _display_ information, you can also use a [text box](text-bo
 
 An example of reference selector properties is represented in the image below:
 
-{{% image_container width="400" %}}![](attachments/reference-selector/reference-selector-properties.png)
-{{% /image_container %}}
+![](attachments/reference-selector/reference-selector-properties.png)
+
 
 Reference selector properties consist of the following sections:
 

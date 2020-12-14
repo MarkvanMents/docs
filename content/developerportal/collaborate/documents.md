@@ -20,8 +20,8 @@ You can perform the actions described below via the buttons on your app project'
 
 Click **Upload a file** to upload a new document:
 
-{{% image_container width="400" %}}![](attachments/upload-file.png)
-{{% /image_container %}}
+![](attachments/upload-file.png)
+
 
 {% hint style="info" %}
 All file types are allowed, and they are scanned for viruses by Mendix.

@@ -26,9 +26,9 @@ The sections below describe the main actions to be performed on the **Stories** 
 
 Click **New Sprint** to open the **Edit Sprint** dialog box:
 
-{{% image_container width="400" %}}
+
 ![](attachments/stories/new-sprint.jpg)
-{{% /image_container %}}
+
 
 Fill in the following details:
 
@@ -43,9 +43,9 @@ For more information on Sprints, see the [Sprint Actions](#sprint-actions) secti
 
 Each Sprint contains a number of stories that describe the specific functionality to be implemented, built, or fixed. Click **New Story** to open the **New Story** dialog box:
 
-{{% image_container width="400" %}}
+
 ![](attachments/stories/new-story.jpg)
-{{% /image_container %}}
+
 
 Fill in the following details:
 
@@ -58,9 +58,9 @@ Fill in the following details:
 
 You can also create a story via the [New Story](#new-story) button for Sprint or from within a new Sprint by clicking **Add a new story**:
 
-{{% image_container width="550" %}}
+
 ![](attachments/stories/new-story-from-sprint.jpg)
-{{% /image_container %}}
+
 
 For more information on stories, see the [Story Actions](#story-actions) section below.
 
@@ -77,9 +77,9 @@ Click **More** to access the following options::
 
 After you click **Import / Export**, you will be asked what you want to do:
 
-{{% image_container width="350" %}}
+
 ![](attachments/stories/import-export.png)
-{{% /image_container %}}
+
 
 In Mendix, you can export stories from your app project at any time. If you select **Export a single sprint to Excel**, you can select just the stories in one Sprint and export these to Excel to work on.
 
@@ -97,9 +97,9 @@ When editing stories in Excel, follow these guidelines:
 
 The **Manage labels** page is where you can add or remove your labels:
 
-{{% image_container width="550" %}}
+
 ![](attachments/stories/labels.png)
-{{% /image_container %}}
+
 
 The following buttons are available:
 
@@ -112,9 +112,9 @@ The following buttons are available:
 
 The **Completed Sprints** page presents an overview of Sprints that have been completed and archived:
 
-{{% image_container width="550" %}}
+
 ![](attachments/stories/completed-sprints.jpg)
-{{% /image_container %}}
+
 
 The following buttons are available:
 
@@ -128,9 +128,9 @@ The following buttons are available:
 
 The **Project History** page presents the collaboration actions for the app project. On this page, you can see what change was made, who performed it, and when it occurred:
 
-{{% image_container width="550" %}}
+
 ![](attachments/stories/history.jpg)
-{{% /image_container %}}
+
 
 When you select a history item and click **Show item**, the details of the story, Sprint, or [feedback item](feedback) will be presented.
 
@@ -138,9 +138,9 @@ When you select a history item and click **Show item**, the details of the story
 
 For each Sprint, the following options are provided via the menu button on the right:
 
-{{% image_container width="350" %}}
+
 ![](attachments/stories/sprint-options.jpg)
-{{% /image_container %}}
+
 
 * **Complete Sprint** (only available for the Sprint identified as a **Active Sprint**) – enables completing the Sprint, which will move it to the [Completed Sprints](#completed-sprints) page
 * **New Story** – enables [creating a new story](#new-story) 
@@ -166,9 +166,9 @@ These actions support multi-selection of stories, except for the **Clone** actio
 
 When you click a story title, the **Story Details** page opens:
 
-{{% image_container width="500" %}}
+
 ![](attachments/stories/story-details.png)
-{{% /image_container %}}
+
 
 On this page, you can perform a number of actions:
 
@@ -192,8 +192,8 @@ If you need to reorder stories or move a story to a different Sprint, there are 
 
 * Select the story and use the **Move** button to select the new Sprint from the **Move Stories** dialog box
 
-	{{% image_container width="500" %}}![](attachments/stories/move-story-move-button.jpg)
-	{{% /image_container %}}
+	![](attachments/stories/move-story-move-button.jpg)
+	
 
 * Select the story and drag it to the desired Sprint location:
 
@@ -212,9 +212,9 @@ Moving a story will move the tasks as well.
 
 To add a task to a story, access the [story details](#story-details) page and on the **Tasks** tab, click **Add**. This will open the **Edit Task** dialog box:
 
-{{% image_container width="400" %}}
+
 ![](attachments/stories/edit-task.jpg)
-{{% /image_container %}}
+
 
 Fill in the following details:
 
@@ -223,9 +223,9 @@ Fill in the following details:
 
 Once saved, the number of tasks appears under the story on the main **Stories** page:
 
-{{% image_container width="550" %}}
+
 ![](attachments/stories/story-task.jpg)
-{{% /image_container %}}
+
 
 Clicking the number will bring you back to the **Tasks** tab of the story details.
 
@@ -237,8 +237,8 @@ To manage stories in Studio Pro, follow these steps:
 
 1. Open your app project in Studio Pro by clicking **Edit App** > **Edit in Mendix Studio Pro**:
 
-	{{% image_container width="300" %}}![](attachments/edit-app.png)
-	{{% /image_container %}}
+	![](attachments/edit-app.png)
+	
 
 2. Open the **Stories** pane:
 

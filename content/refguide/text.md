@@ -18,8 +18,8 @@ If you start typing in any empty container, Studio Pro will automatically genera
 
 An example of text properties is represented in the image below:
 
-{{% image_container width="300" %}}![Text Properties](attachments/common-widgets/text-properties.png)
-{{% /image_container %}}
+![Text Properties](attachments/common-widgets/text-properties.png)
+
 
 Text properties consist of the following sections:
 

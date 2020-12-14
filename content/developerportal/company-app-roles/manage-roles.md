@@ -77,8 +77,8 @@ You can change the App Contact by following these steps:
 2. Click **General** under the **Settings** category.
 3. Click **Edit App Info** in the top-right corner.
 
-    {{% image_container width="500" %}}![](attachments/change-appcontact.png)
-    {{% /image_container %}}
+    ![](attachments/change-appcontact.png)
+    
 
 4. Below **App Contact**, select a new App Contact from the drop-down menu.
 5. Click **Save**.    

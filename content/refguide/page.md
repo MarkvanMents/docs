@@ -47,8 +47,8 @@ To create a new page, do the following:
 
 1.  In the [Project Explorer](project-explorer), right-click the module or a folder you want to create a page in and select **Add page**:
 
-    {{% image_container width="350" %}}![](attachments/page/add-page.png)
-    {{% /image_container %}}
+    ![](attachments/page/add-page.png)
+    
 
 2.  In the **Create Page** dialog box, fill in the **Page name** and select a **Navigation layout**.
 
@@ -99,8 +99,8 @@ In **Structure mode**, there are several ways to add an element on a page:
 
     b. Select between adding a widget or a building block.<br/>
 
-    {{% image_container width="400" %}}![](attachments/page/adding-widget-in-drop-zone.png)
-    {{% /image_container %}}<br/>
+    ![](attachments/page/adding-widget-in-drop-zone.png)
+    <br/>
 
     c. Select an element you would like to add and confirm your choice by clicking **Select**.
 

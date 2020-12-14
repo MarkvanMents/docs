@@ -16,8 +16,8 @@ The **Snippet call** widget allows you to use a [snippet](snippet) on a [page](p
 
 An example of snippet call properties is represented in the image below:
 
-{{% image_container width="300" %}}![Snippet Call Properties](attachments/common-widgets/snippet-call-properties.png)
-{{% /image_container %}}
+![Snippet Call Properties](attachments/common-widgets/snippet-call-properties.png)
+
 
 Snippet call properties consist of the following sections:
 

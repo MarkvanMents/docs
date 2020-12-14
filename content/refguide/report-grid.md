@@ -22,8 +22,8 @@ The report grid is displayed in structure mode with the data set source shown be
 
 An example of report grid properties is represented in the image below:
 
-{{% image_container width="300" %}}![Report grid in structure mode](attachments/report-widgets/report-grid-properties.png)
-{{% /image_container %}}
+![Report grid in structure mode](attachments/report-widgets/report-grid-properties.png)
+
 
 Report grid properties consist of the following sections:
 
@@ -98,8 +98,8 @@ If **Generate on page load** is set to **No**, the report grid will not show any
 
 An example of report grid properties is represented in the image below:
 
-{{% image_container width="250" %}}![Report grid column properties](attachments/report-widgets/report-grid-column-properties.png)
-{{% /image_container %}}
+![Report grid column properties](attachments/report-widgets/report-grid-column-properties.png)
+
 
 Report grid properties consist of a single section, [General](#column-general).
 

@@ -13,8 +13,8 @@ This document describes page properties. For details on what pages are for and w
 
 An example of page properties is represented in the image below:
 
-{{% image_container width="250" %}}![Page Properties](attachments/page/page-properties.png)
-{{% /image_container %}}
+![Page Properties](attachments/page/page-properties.png)
+
 
 Page properties consist of the following sections:
 

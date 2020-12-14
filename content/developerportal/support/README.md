@@ -250,36 +250,36 @@ The full stack is depicted in the table below. This indicates which components a
 
 In the diagrams below, the following colors are used:
 
-{{% image_container width="50%" %}}
+
 ![](attachments/index-mendix-support/legend.png)
-{{% /image_container %}}
+
 
 ### 9.1 Mendix Public and Dedicated Cloud
 
 The Mendix Public and Dedicated Clouds are an integrated part of the Mendix Platform and are therefore fully supported as described in the SLA.
 Mendix Support has access to app health, logs, graphs and monitoring.
 
-{{% image_container width="75%" %}}
+
 ![](attachments/index-mendix-support/mendix-cloud.png)
-{{% /image_container %}}
+
 
 ### 9.2 Mendix for Private Cloud
 
 Mendix for Private Cloud is based on the Kubernetes-Native Operator Framework. You can check the supported Kubernetes platforms in our [Private Cloud](/developerportal/deploy/private-cloud) documentation. Check our [System Requirements](/refguide/system-requirements) for other supported components like database and storage. The Mendix Gateway Agent and Mendix Operator are supported by Mendix.
 Mendix Support does not have access to app health, logs, graphs and monitoring. If you run into issues or want to ask a question on these supported components, please always provide relevant logs, data, and your own analysis that explains why you suspect the issue is caused by one of our supported components.
 
-{{% image_container width="75%" %}}
+
 ![](attachments/index-mendix-support/private-cloud.png)
-{{% /image_container %}}
+
 
 ### 9.3 SAP Cloud Platform
 
 Mendix provides an integration with the SAP Cloud Foundry environment of SAP Cloud Platform. Mendix applications are built to run on SAP Cloud Platform using the Mendix Cloud Foundry buildpack. Please check out the supported components in [SAP Cloud Platform](/developerportal/deploy/sap-cloud-platform).
 Mendix Support does not have access to app health, logs, graphs and monitoring. If you run into issues or want to ask a question on these supported components, please always provide relevant logs, data, and your own analysis that explains why you suspect the issue is caused by one of our supported components
 
-{{% image_container width="40%" %}}
+
 ![](attachments/index-mendix-support/sap-cloud-platform.png)
-{{% /image_container %}}
+
 
 ### 9.4 Cloud Foundry / Docker & Kubernetes / traditional architectures
 
@@ -289,9 +289,9 @@ Check our [System Requirements](/refguide/system-requirements) for the supported
 
 Mendix Support does not have access to app health, logs, graphs and monitoring. If you run into issues or want to ask a question on these supported components, please always provide relevant logs, data and your own analysis that explains why you suspect the issue is caused by one of our supported components.
 
-{{% image_container width="75%" %}}
+
 ![](attachments/index-mendix-support/on-premises.png)
-{{% /image_container %}}
+
 
 ## 10 Components of the Mendix Stack{#components}
 

@@ -74,9 +74,9 @@ To see all your favorite apps, click the star toggle to the right of the [view d
 
 On the **My Company's Apps** page, you will see all the apps created by people in your [company](/developerportal/company-app-roles/index):
 
-{{% image_container width="400" %}}
+
 ![Apps for my company](attachments/company-apps-list.png)
-{{% /image_container %}}
+
 
 You cannot change the sort order of your apps.
 
@@ -84,9 +84,9 @@ If you click an app for which you are a team member, you will be taken to the ap
 
 If you click an app for which you are not an App Team member, you will see the app details:
 
-{{% image_container width="400" %}}
+
 ![Example of app details](attachments/app-details.png)
-{{% /image_container %}}
+
 
 
 ## 4 Nodes {#nodes}

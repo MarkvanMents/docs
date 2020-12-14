@@ -29,8 +29,8 @@ The rows in the table are CDs. The type of the two rows is *CD* and this is the 
 
 An example of the entity properties is represented in the image below:
 
-{{% image_container width="300" %}}![](attachments/domain-model/entity-properties.png)
-{{% /image_container %}}
+![](attachments/domain-model/entity-properties.png)
+
 
 Entity properties consist of the following sections:
 

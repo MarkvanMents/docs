@@ -15,9 +15,9 @@ Not every element in a microflow or a nanoflow has all of these properties.
 
 These are the common properties for microflows and nanoflows:
 
-{{% image_container width="30%" %}}
+
 ![Common properties in properties pane](attachments/microflows-and-nanoflows/microflow-element-common-properties.png)
-{{% /image_container %}}
+
 
 
 * [Caption](#caption)

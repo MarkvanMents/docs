@@ -17,8 +17,8 @@ To add a date range field, right-click the widget and choose **Add field** from 
 
 An example of date range field properties is represented in the image below:
 
-{{% image_container width="300" %}}![Date range field in structure mode](attachments/report-widgets/date-range-field-properties.png)
-{{% /image_container %}}
+![Date range field in structure mode](attachments/report-widgets/date-range-field-properties.png)
+
 
 Date range field properties have only a [General](#general) section.
 

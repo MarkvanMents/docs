@@ -224,8 +224,8 @@ For release notes on Mendix Cloud and deployment options, see [Deployment](deplo
 
 * The [Mendix Shop](https://mendixshop.mendixcloud.com) is open for business! This is a web shop where you can spend the credits you have gained by completing various [challenges](/developerportal/mendix-profile/#challenges). The shop has cool products like Mendix t-shirts, socks, and sweatbands, so be sure to check it out.
 
-	{{% image_container width="300" %}}![](attachments/shop.png)
-	{{% /image_container %}}
+	![](attachments/shop.png)
+	
 
 ### November 1st, 2018
 

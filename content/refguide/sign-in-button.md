@@ -21,8 +21,8 @@ The **Sign-in button** should be placed on a page together with a [Login ID text
 
 An example of sign-in button properties is represented in the image below:
 
-{{% image_container width="250" %}}![Sign-In Button Properties](attachments/authentication-widgets/sign-in-button-properties.png)
-{{% /image_container %}}
+![Sign-In Button Properties](attachments/authentication-widgets/sign-in-button-properties.png)
+
 
 Sign-in button properties consist of the following sections:
 

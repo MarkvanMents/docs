@@ -132,8 +132,8 @@ To fix this error you can do one of the following:
 
 * Place the **Details** button in a data container that will pass the correct type of data to the page:
 
-	{{% image_container width="350" %}}![](attachments/consistency-errors-pages/details-button.png)
-	{{% /image_container %}}
+	![](attachments/consistency-errors-pages/details-button.png)
+	
 
 * Select another page for the button that will not expect any object to be passed to it, or will expect the object of type *Engineer*
 

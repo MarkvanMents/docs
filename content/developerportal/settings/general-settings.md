@@ -18,8 +18,8 @@ The **General** settings page presents an overview of your app project with the 
 
 * The **App ID**
 
-{{% image_container width="550" %}}![](attachments/general-settings.png)
-{{% /image_container %}}
+![](attachments/general-settings.png)
+
 
 The sections below describe the actions you can perform on this page.
 
@@ -96,8 +96,8 @@ To invite new App Users to your app, click **Invite Users** on the **App User Ma
 
 2.  Click **Include your app team** to include invitations to all the members of your [App Team](../collaborate/team). This may be useful, because people invited to join your App Team are not added as App Users automatically.
 
-	{{% image_container width="450" %}}![](attachments/invite-app-user.png)
-	{{% /image_container %}}
+	![](attachments/invite-app-user.png)
+	
 	
 3. Click **Add to invitee list**.
 
@@ -109,8 +109,8 @@ To invite new App Users to your app, click **Invite Users** on the **App User Ma
 
 The invitee will receive an email asking them to authorize access to their Mendix account on this screen:
 
-{{% image_container width="350" %}}![](attachments/authorize.png)
-{{% /image_container %}}
+![](attachments/authorize.png)
+
 
 After they provide authorization, they will be brought to your deployed app.
 
@@ -126,8 +126,8 @@ Click **Edit App Info** to edit the following details:
 * The **Description** of the app
 * The **App Contact**
 
-{{% image_container width="450" %}}![](attachments/edit.png)
-{{% /image_container %}}
+![](attachments/edit.png)
+
 
 ## 6 Managing Webhooks {#webhooks}
 
@@ -139,8 +139,8 @@ Only [Company Admins](../company-app-roles/companyadmin-settings) or users with 
 
 On the **Webhooks settings** page, you can add a new webhook and edit or delete existing webhooks:
 
-{{% image_container width="550" %}}![](attachments/webhooks-list.png)
-{{% /image_container %}}
+![](attachments/webhooks-list.png)
+
 
 After clicking **New** to create a new webhook, fill in the following details:
 

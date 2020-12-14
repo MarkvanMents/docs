@@ -26,9 +26,9 @@ The number of end events depends on the number of possible outcomes of the micro
 
 The return value is the value that is returned to the flow that called the current flow. If you have several end events and they have a return value, they all need to return a value of the same type. For example, if one of the end events returns an object of type *Entity*, the others need to return the same type: 
 
-{{% image_container width="300" %}}
+
 ![](attachments/events/return-value.png)
-{{% /image_container %}}
+
 
 You can choose to return nothing, or to return, for example, a list, enumeration, or Boolean value:
 

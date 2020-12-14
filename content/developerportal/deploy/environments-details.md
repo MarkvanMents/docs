@@ -172,9 +172,9 @@ Here you can type a **New value**.
 
 You can also set **Mask** to **Yes**. This replaces the **Current value** and the **New value** with asterisks on all screens in the Developer Portal. You will also get asterisks if you export the constants to Excel. This means that you can keep your constants secret from users who do not have edit rights.
 
-{{% image_container width="50%" %}}
+
 ![Edit Constants Pop-up window](attachments/environments-details/edit-constant.png)
-{{% /image_container %}}
+
 
 {{% alert type="info" %}}
 You have to restart your application before the changes will be made.
@@ -184,9 +184,9 @@ For more information, see [Constants](/refguide/constants).
 
 ## 4 Network Tab
 
-{{% image_container width="50%" %}}
+
 ![](attachments/environments-details/network1.png)
-{{% /image_container %}}
+
 
 On this tab, you can manage the elements described below.
 

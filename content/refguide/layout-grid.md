@@ -26,8 +26,8 @@ For more information on row and column properties, see the [Rows and Their Prope
 
 An example of layout grid properties is represented in the image below:
 
-{{% image_container width="250" %}}![Layout Grid Properties](attachments/container-widgets/layout-grid-properties.png)
-{{% /image_container %}}
+![Layout Grid Properties](attachments/container-widgets/layout-grid-properties.png)
+
 
 Layout grid properties consist of the following sections:
 
@@ -71,8 +71,8 @@ A layout grid can contain one or more rows. Each row contains [columns](#columns
 
 An example of layout grid row properties is represented in the image below:
 
-{{% image_container width="300" %}}![Row Properties](attachments/container-widgets/row-properties.png)
-{{% /image_container %}}
+![Row Properties](attachments/container-widgets/row-properties.png)
+
 
 Row properties consist of the following sections:
 
@@ -115,9 +115,9 @@ Columns form a row of a layout grid.
 
  An example of layout grid column properties is represented in the image below:
 
-{{% image_container width="300" %}}
+
 ![Column Properties](attachments/container-widgets/column-properties.png)
-{{% /image_container %}}
+
 
 Layout grid column properties consist of the following sections:
 
@@ -154,9 +154,9 @@ For the *desktop* and *tablet*, you might want to set the first column with a pi
 
 For *phone*, it can be a good idea to place two columns one under another, setting them to **Manual** width of *12* (for more information on the column size property, see the [Size](#column-size) section). In this case, the second column will be automatically wrapped to another line:
 
- {{% image_container width="300" %}}
+ 
 ![Layout Example, Phone](attachments/container-widgets/layout-example-phone.png)
-{{% /image_container %}}
+
 
 On the picture below you can see the settings for two column described above:
 

@@ -15,9 +15,9 @@ On the [Mendix Forum](https://forum.mendixcloud.com), you can ask questions and 
 
 The **Forum** section at the top of the Mendix Community site presents the latest questions being asked on the Mendix Forum along with the author of the question and how long ago it was asked:
 
-{{% image_container width="550" %}}
+
 ![](attachments/the-community-site/Forum.png)
-{{% /image_container %}}
+
 
 Click any question to go to that specific question page in the Mendix Forum. Click **Ask a question** to submit your own question to the Mendix Forum.
 
@@ -29,9 +29,9 @@ There are many interactive and free webinars that Mendix produces available for 
 
 The **Monthly Webinar** section of the Mendix Community site presents a link to the upcoming webinar:
 
-{{% image_container width="350" %}}
+
 ![](attachments/the-community-site/Latest_Webinar.png)
-{{% /image_container %}}
+
 
 Don't worry if you can't make it for the next webinar. You can easily watch all past webinars on our [Webinars](https://gettingstarted.mendixcloud.com/link/webinar) page!
 
@@ -41,9 +41,9 @@ Mendix regularly organizes and hosts knowledge [meetups](https://www.meetup.com/
 
 The **Meetups** section of the Mendix community site presents the upcoming scheduled meetups:
 
-{{% image_container width="550" %}}
+
 ![](attachments/the-community-site/Meetups.png)
-{{% /image_container %}}
+
 
 Click a meetup of your interest to find out details about the location and agenda.
 
@@ -53,15 +53,15 @@ The Mendix Academy offers both self-paced online training and classroom instruct
 
 In the **Academy** section of the Mendix Community site, you can see links to our beginner, intermediate, and advanced learning paths in the [Mendix Academy](https://gettingstarted.mendixcloud.com/link/home):
 
-{{% image_container width="550" %}}
+
 ![](attachments/the-community-site/academy1.png)
-{{% /image_container %}}
+
 
 Below that, you can see sign-up links for upcoming [classroom courses](https://gettingstarted.mendixcloud.com/link/classroom):
 
-{{% image_container width="550" %}}
+
 ![](attachments/the-community-site/academy2.png)
-{{% /image_container %}}
+
 
 To figure out what you will learn next, check out the wealth of resources the Mendix Academy offers.
 
@@ -71,9 +71,9 @@ The [Mendix App Store](https://appstore.home.mendix.com/index3.html) is where yo
 
 The **App Store** section of the Mendix community site presents the latest updates to App Store content (for example, an update of the Bootstrap Tooltip widget):
 
-{{% image_container width="550" %}}
+
 ![](attachments/the-community-site/App_Store.png)
-{{% /image_container %}}
+
 
 Click the item name to go to its page in the App Store, where you can read a detailed description of the content and check out some user reviews. Click **View all Apps** to go to the main Mendix App Store page, where you can see featured and new content, recent updates, reviews, and the top contributors to the Mendix App Store.
 
@@ -85,9 +85,9 @@ The [Mendix Documentation](https://docs.mendix.com/) covers all aspects of the M
 
 The **Documentation** section of the Developers site presents the latest updates on the documentation site:
 
-{{% image_container width="250" %}}
+
 ![](attachments/the-community-site/Documentation.png)
-{{% /image_container %}}
+
 
 Click a document title to go to that specific page in the documentation. Click **Documentation** to go to the main [Mendix Documentation page](https://docs.mendix.com/), where you can browse release notes, reference guides, how-to's, APIs and SDKs, add-on documentation, and much more.
 
@@ -95,9 +95,9 @@ Click a document title to go to that specific page in the documentation. Click *
 
 The **Developer Spotlight** section highlights [Mendix Developer Blog](https://www.mendix.com/tag/developers/) posts from Mendix insiders on various topics that are of interest to the community. This includes topics that are more technical in nature (for example, "Advanced Branching and Merging Strategies") as well as ones that deal with Community tools (for example, "the New Mendix Forum").
 
-{{% image_container width="350" %}}
+
 ![](attachments/the-community-site/Developer_Blog.png)
-{{% /image_container %}}
+
 
 Click any blog post title to go to the full text of that post. There is a lot of great content on what Mendix developers are doing located here!
 

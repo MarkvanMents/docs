@@ -189,7 +189,7 @@ To create a Mendix deployment package from your app, do the following:
 1.  Open your app in Studio Pro.
 2.  Select **Project** > **Create Deployment Package...**.
 
-    {{% image_container width="355" %}}![](attachments/deploying-to-mindsphere/image13.png){{% /image_container %}}
+    
 
 3.  Select the correct **Development line** and **Revision**.
 4.  Set the **New version** number and add a **Description** if required.
@@ -390,7 +390,7 @@ Once you have created the scopes for your app, you will need to assign them to t
 
 1.  Go to **Settings > Roles** from the MindSphere launchpad.
 
-    {{% image_container width="50%" %}}![](attachments/deploying-to-mindsphere/image16.png){{% /image_container %}}
+    
 
 2.  Choose the app role (scope) you want to assign from the list of **Roles**.
 3.  Click **Edit user assignment**.

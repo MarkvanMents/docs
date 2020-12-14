@@ -34,7 +34,7 @@ If any of the above requirements are not met, during the next inspection the ins
 
 Your app already contains a list of all inspection reports:
 
-{{% image_container width="600" %}}![](attachments/pages-how-to-configure-form/inspection-report-list.png){{% /image_container %}}
+
 
 You would like the **Details** button in this list to open a page showing the details of the selected report and a table with checklist questions related to this report. You also would like to be able to add new checklists to the table or edit existing ones. 
 
@@ -48,15 +48,15 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Make sure your domain model is configured the following way:
 
-    {{% image_container width="200" %}}![Domain Model](attachments/pages-how-to-configure-form/domain-model.png){{% /image_container %}}
+    
 
     * Make sure you have configured the **Question** attribute as the following enumeration:
 
-		{{% image_container width="550" %}}![](attachments/pages-how-to-configure-form/enumeration.png){{% /image_container %}}
+		
 
 * Make sure your app contains a page with inspection reports list and the **Details** button:
 
-    {{% image_container width="600" %}}![](attachments/pages-how-to-configure-form/inspection-report-list.png){{% /image_container %}}
+    
 
 ## 3 Adding a Page with a Form
 
@@ -66,7 +66,7 @@ The **Details** button in the inspection report list should open a page with the
 
 2. Set **Page** as an on-click action and click the **Page** property.
 
-	{{% image_container width="250" %}}![Button Properties](attachments/pages-how-to-configure-form/button-properties.png){{% /image_container %}}
+	
 
 3.  In the **Select Page** dialog box, click **New Page**.
 
@@ -74,7 +74,7 @@ The **Details** button in the inspection report list should open a page with the
 
 2.  The **Pre-fill page contents based on the InspectionReport entity** option is on, so the page template (Forms) is selected automatically for you. Choose **Forms Vertical**:
 
-	{{% image_container width="550" %}}![Create New Page](attachments/pages-how-to-configure-form/create-new-page.png){{% /image_container %}}
+	
 
 3. Click **Create**.
 	
@@ -84,20 +84,20 @@ The **Details** button in the inspection report list should open a page with the
 
 2. Click the **Entity** property and set the **InspectionReport** entity for it:
 
-      {{% image_container width="250" %}}![](attachments/pages-how-to-configure-form/data-view-source.png){{% /image_container %}} 
+       
 
 The form on the page is configured: 
-{{% image_container width="600" %}}![](attachments/pages-how-to-configure-form/data-view-configured.png){{% /image_container %}}
+
 
 ## 4 Showing Checklist Questions
 
 An inspector has a list of *questions* and indicates with **Yes** or **No** whether the company meets the requirements: whether the company has posters with emergency contacts, whether it conducts safety trainings regularly, etc. You would like to show a table with the checklist questions and their results below the inspection report: 
 
-{{% image_container width="550" %}}
+
 
 ![](attachments/pages-how-to-configure-form/inspection-report-example.png)
 
-{{% /image_container %}}
+
 
 To display checklist details in a table, you can add a data grid. It is important that you place it *inside* the data view: this way the data grid will access and display only checklist items associated with the current report rather than display all checklist items ever added to all reports. This means your data grid will get data over an association, in this case called *Checklist_InspectionReport*.
 
@@ -107,13 +107,13 @@ Follow the steps below:
 
 2. Drag and drop **Data Grid** *inside* the data view:
 
-    {{% image_container width="550" %}}![](attachments/pages-how-to-configure-form/data-grid-inside-data-view.png){{% /image_container %}}
+    
 
 3. Go to the data grid properties and click **Entity**.  
 
 4. To show only checklist items associated with the current inspection report, choose the **Checklist** entity over association (*Checklist_InspectionReport/Checklist*) in the **Select Entity** dialog box and click **Select**:
 
-    {{% image_container width="450" %}}![](attachments/pages-how-to-configure-form/data-grid-over-association.png){{% /image_container %}}
+    
 
 5. As the main purpose of the page is to display information, you do not need the **Search** section in the data grid. Open data grid properties > **Search** section and disable the **Enable Search** toggle:
 
@@ -125,7 +125,7 @@ Follow the steps below:
 
 8. Enable **Create Object** property. The **Entity** property is automatically set to **Checklist**:
 
-    {{% image_container width="250" %}}![](attachments/pages-how-to-configure-form/new-button-properties.png){{% /image_container %}}
+    
 
 9. Click the **Page** property.
 
@@ -135,7 +135,7 @@ Follow the steps below:
 
 12. The **Pre-fill page contents based on the Checklist entity** option is on, so the page template (*Forms*) is selected automatically for you. Choose **Forms Vertical**: 
 	
-	{{% image_container width="550" %}}![](attachments/pages-how-to-configure-form/manage-checklist.png){{% /image_container %}}
+	
 
 13. Click **Create**.
 
@@ -145,23 +145,23 @@ Follow the steps below:
 
 16. Set the **Page** property to **Manage_Checklist**.
 
-      {{% image_container width="250" %}}![](attachments/pages-how-to-configure-form/edit-button-properties.png){{% /image_container %}}
+      
 
 Now checklist items are displayed in the table. You can add new checklist by clicking the **New** button in the table, and edit the selected checklist by clicking the **Edit** button.
 
-{{% image_container width="80%" %}}
+
 
 ![](attachments/pages-how-to-configure-form/data-grid-configured.png)
 
-{{% /image_container %}}
+
 
 Congratulations! You have the page that displays details of the selected report and checklist items of this report:
 
-{{% image_container width="80%" %}}
+
 
 ![Configured Page](attachments/pages-how-to-configure-form/configured-page.png)
 
-{{% /image_container %}}
+
 
 You can now preview your app and test your page. For more information on how to preview your page, see [Previewing & Publishing Your App](/studio/publishing-app).
 

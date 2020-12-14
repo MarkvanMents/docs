@@ -24,19 +24,19 @@ You have a web shop and you would like to show a field with a billing address on
 
 You also have a page called **Product Overview** which lists products and you would like to make the **Edit** button in the list visible to Administrators and Sales managers only:
 
-{{% image_container width="450" %}}
+
 
 ![List of Products](attachments/pages-how-to-set-visibility/list-of-products.png)
 
-{{% /image_container %}}
+
 
 The domain model looks the following way:
 
-{{% image_container width="550" %}}
+
 
 ![Domain Model](attachments/pages-how-to-set-visibility/domain-model.png)
 
-{{% /image_container %}}
+
 
 You have the following user roles:
 
@@ -75,13 +75,13 @@ To set conditional visibility for the **Billing Address** field, do the followin
 
 3. In **Conditional Visibility** section, click the **Attribute-Based** property:
 
-    {{% image_container width="250" %}}![Conditional Visibility Section](attachments/pages-how-to-set-visibility/conditional-visibility-section.png){{% /image_container %}}
+    
 
 4. In the **Select Attribute** dialog box, choose the **BillingAddressSame** attribute and click **Select**.
 
 5. The **Attribute Values** property is now displayed in properties. Untick the *True* value as it does not meet the conditions you would like to set, and leave the **False** value selected:
 
-    {{% image_container width="250" %}}![Attribute-Based Visibility](attachments/pages-how-to-set-visibility/attribute-based-visibility-set.png){{% /image_container %}}
+    
 
 Good job! If you [preview your app](/studio/publishing-app), you will see that the billing address is only shown when you untick the  **Billing address is the same as delivery address** option.
 
@@ -93,15 +93,15 @@ To show an element only to a certain user role, do the following:
 
 1. Open the **Product Overview** page with the list of products and select the **Edit** button:
 
-    {{% image_container width="450" %}}![List of Products](attachments/pages-how-to-set-visibility/list-of-products.png){{% /image_container %}}
+    
 
 2. Open its properties and in **Conditional Visibility** section toggle the **Role-Based** property:
 
-    {{% image_container width="250" %}}![Role-Based Property](attachments/pages-how-to-set-visibility/role-based-property.png){{% /image_container %}}
+    
 
 3. A list of roles available in your app is displayed in the **Roles** property. Untick the **Customer** role:
 
-    {{% image_container width="250" %}}![Unselected Roles](attachments/pages-how-to-set-visibility/unselected-roles.png){{% /image_container %}}
+    
 
 Well done! Now the **Edit** button will only be shown to **Administrator** and **Sales_Manager** user roles only.
 
@@ -113,7 +113,7 @@ To easily find which elements on your page have conditional visibility, you can 
 
 2. Click the eye icon in the top-left corner of the page:
 
-    {{% image_container width="250" %}}![Eye Icon](attachments/pages-how-to-set-visibility/eye-icon.png){{% /image_container %}}
+    
 
 Widgets with conditional visibility are highlighted:
 
