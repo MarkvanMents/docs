@@ -96,7 +96,7 @@ If you choose **Custom** as the date format (see above), this property determine
 
 {% hint style="info" %}
 Even though a date picker with a custom date format is editable, the calendar drop-down button will only be shown if the custom format represents a full date (that is, the year [`y`-`yyyy`], month [`M`-`MMMM`], and day of month [`d`-`dd`] tokens are all present in the custom format).
-{{% /alert %}}
+{% endhint %}
 
 #### 2.6.3 Placeholder Text
 

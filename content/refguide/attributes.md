@@ -43,7 +43,7 @@ The **name** property specifies the name of the attribute. This name is used to 
 
 {% hint style="warning" %}
 If you delete an attribute in your entity and then create a new attribute with the same name, Mendix will consider it a new and different attribute. This means that upon deployment the old column will be dropped, including its data. Then a new, empty, column with the same name will be created.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.1.2 Documentation
 
@@ -57,7 +57,7 @@ The type property defines the type of data that can be stored in the attribute. 
 
 {{% alert type="warning" %}}
 Mendix allows you to change attribute and association types on existing domain models. While some attributes can easily be converted, there are limitations and consequences of converting between some types. For more information, see [Attributes Type Migration](attributes-type-migration).
-{{% /alert %}}
+{% endhint %}
 
 An attribute has one of the following types:
 
@@ -100,7 +100,7 @@ A customer can be active or inactive, which is stored in an attribute named **Ac
 
 {{% alert type="info" %}}
 This property is shown if **Type** is set to **Date and time**.
-{{% /alert %}}
+{% endhint %}
 
 This property indicates whether the date and time should be localized. By default localization is enabled. If you are _not_ interested in the time component of a date (e.g. a birthday), you should set this property to 'No'. Otherwise, the date can change because of time zone differences: a date and time early in the morning on April 2nd in Europe will be on April 1st in the U.S.A.
 
@@ -112,7 +112,7 @@ Default: *Yes*
 
 {{% alert type="info" %}}
 This property is shown if **Type** is set to **Enumeration**.
-{{% /alert %}}
+{% endhint %}
 
 The enumeration property indicates which enumeration defines the possible values for this attribute.
 
@@ -120,7 +120,7 @@ The enumeration property indicates which enumeration defines the possible values
 
 {{% alert type="info" %}}
 This property is shown if **Type** is set to **String**.
-{{% /alert %}}
+{% endhint %}
 
 This property specifies whether the length of a String is limited or unlimited. In the case of a limited length, the 'Max length' property specifies the maximum (see below).
 
@@ -130,7 +130,7 @@ Default: *Limited*
 
 {{% alert type="info" %}}
 This property is shown if **Type** is set to **String**.
-{{% /alert %}}
+{% endhint %}
 
 The 'Max length' property specifies the number of characters that can be stored in the attribute.
 
@@ -153,7 +153,7 @@ Take note of the following things when using **Calculated** attributes:
 
 {{% alert type="info" %}}
 This property is shown if **Value** is set to **Calculated**.
-{{% /alert %}}
+{% endhint %}
 
 If the value is a computation, the **Microflow** property defines which microflow defines this computation to calculate the value of the attribute when the object is retrieved. The microflow should have a parameter of the type of the entity of the attribute and it should return a value with the same type as the attribute.
 

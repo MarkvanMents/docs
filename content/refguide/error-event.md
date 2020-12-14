@@ -7,7 +7,7 @@ tags: ["studio pro", "error event", "event"]
 
 {% hint style="info" %}
 This event can only be used in **Microflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 
@@ -19,7 +19,7 @@ Link an error event and an activity which has an error handlers set on it with a
 
 {{% alert type="warning" %}}
 You can only use an error event if an error is in scope: Studio Pro does not accept it if you connect the normal execution flow to an error event, because there would not be an error to pass back to the caller.
-{{% /alert %}}
+{% endhint %}
 
 In this example, an error occurs while committing an object to the database. It is caught, and the flow continues to the error event where the error is passed back to the caller of the microflow. So you can implement your error handling on multiple levels.
 
@@ -27,7 +27,7 @@ In this example, an error occurs while committing an object to the database. It 
 
 {{% alert type="info" %}}
 When adding an error event, you need to add an [error handler](#errorhandlers) for an activity before the error event, and select **Set as error handler** for the sequence flow.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Handling Errors in Microflows{#errors-in-microflows}
 
@@ -65,7 +65,7 @@ In a custom error handler that is executed after an error occurs, `$latestError`
 
 {{% alert type="info" %}}
 You can determine whether an error was a SOAP fault by checking `$latestSoapFault` for `empty`.
-{{% /alert %}}
+{% endhint %}
 
 The following table shows the attributes of System.Error and System.SoapFault.
 

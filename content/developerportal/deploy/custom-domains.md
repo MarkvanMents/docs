@@ -16,11 +16,11 @@ The Mendix Cloud supports adding custom domains such as `https://myapp.mycompany
 This option is provided for licensed apps. You cannot add custom domains to Free Apps.
 
 This documentation is describing certificates for *incoming* connections. For information on setting up certificates for *outgoing* connections, see [Certificates](certificates).
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 You may not immediately see changes which affect DNS routing. This is because of DNS caching, where changes are not visible until the cache is updated.
-{{% /alert %}}
+{% endhint %}
 
 **This how-to will teach you how to do the following:**
 
@@ -56,7 +56,7 @@ Create a CNAME (Canonical Name) record and point it to `[YOUR-CUSTOM-DOMAIN].cna
 
 It is not possible to create a CNAME record for an apex/naked domain (meaning, a domain without a subdomain, like `mycompany.com`). If you want to use a custom apex/naked domain you should redirect it to a subdomain (for example, `subdomain.mycompany.com`) and create a CNAME for the subdomain instead.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Managing Custom Domains in the Mendix Cloud
 
@@ -104,7 +104,7 @@ To create a CSR and an RSA (Rivest–Shamir–Adleman) encryption key, follow th
 
     ![](attachments/custom-domains/21168226.png)
 
-    {{% alert type="info" %}}The SSL/TLS private key will be stored in our secure keystore. It will not be available for download in order to keep it secure.{{% /alert %}}
+    {{% alert type="info" %}}The SSL/TLS private key will be stored in our secure keystore. It will not be available for download in order to keep it secure.{% endhint %}
 
 You can now go to your certificate authority to get a signed SSL/TLS certificate.
 
@@ -156,7 +156,7 @@ To upload the custom domain certificate, follow these steps:
 
 7. Click **Save** to save your new custom domain certificate. It will be uploaded to the Mendix Cloud automatically.
 
-    {{% alert type="info" %}}The SSL/TLS private key will be hidden after uploading it. It will be stored in our secure keystore and will not be available for download in order to keep it secure.{{% /alert %}}
+    {{% alert type="info" %}}The SSL/TLS private key will be hidden after uploading it. It will be stored in our secure keystore and will not be available for download in order to keep it secure.{% endhint %}
 
 You can now configure your custom domain. See [Configuring a Custom Domain](#Configuring), below.
 
@@ -190,7 +190,7 @@ You can also edit an existing custom domain certificate.
 
 {{% alert type="warning" %}}
 For this you will need access to the certificate request that you created for the current certificate.
-{{% /alert %}}
+{% endhint %}
 
 ## 7 Configuring a Custom Domain<a name="Configuring"></a>
 

@@ -18,7 +18,7 @@ The page is accessed through the **Logs** menu item under the **Operate** catego
 
 {% hint style="info" %}
 This is the default Mendix deployment for a licensed app.
-{{% /alert %}}
+{% endhint %}
 
 For apps deployed to Mendix Cloud Version 4 (v4), you can select which environment you want logs for. Production logs will require [Two-Factor Authentication](/developerportal/deploy/two-factor-authentication).
 
@@ -26,7 +26,7 @@ You can view the live (current) log, download it, or view and download an archiv
 
 {{% alert type="info" %}}
 The live log is displayed in the local time of the browser. All other logs have timestamps in UTC.
-{{% /alert %}}
+{% endhint %}
  
 Logs on Mendix Cloud v4 are rotated and archived every day. The logs are kept for at least 3 months.
 
@@ -59,7 +59,7 @@ For apps deployed to SAP Cloud Platform you can see the logs using Kibana.
 
 {{% alert type="info" %}}
 To make full use of Kibana and see proper mapping of the log level, multiline log messages, and stack traces, you will need to configure the *SAP Logger Connector* in your app. For more information see [SAP Logger Connector](/partners/sap/sap-logger).
-{{% /alert %}}
+{% endhint %}
 
 The logs page shows all the environments for this app. Click the **Logs** button to open the log in Kibana.
 

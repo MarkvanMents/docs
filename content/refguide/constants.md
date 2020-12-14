@@ -18,7 +18,7 @@ When running the application locally or in a Free App environment, the values de
 
 {% hint style="info" %}
 The value for a constant can also be overridden in a [configuration](configuration). This allows you to run locally using different values for one or more constants, without having to change the default value for the constant every time.
-{{% /alert %}}
+{% endhint %}
 
 Constants can be used in the following:
 

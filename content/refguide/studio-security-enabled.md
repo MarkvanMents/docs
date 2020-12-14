@@ -26,7 +26,7 @@ When security is enabled, a number of checks and changes are done at several lev
 
 If security has already been set to **Prototype/demo** or **Production** in Studio Pro, these settings may be incompatible (too advanced) with Studio roles and permissions settings. In this case, you will not be able to edit roles and permissions in Studio. For more information on security settings in Studio, see [Security, Roles & Permissions](/studio/settings-security) in the *Studio Guide*. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Modules Set Up {#module-set-up}
 
@@ -44,7 +44,7 @@ The Mendix SSO module also adds user management to your app. With user managemen
 * Security should be set to **Production** <br/>
 * The Mendix SSO module should be set up to enable single sign on
 
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Module Roles and Demo Users Set Up {#module-roles-and-demo-users}
 
@@ -65,7 +65,7 @@ After the **After startup** microflow is set up, Studio checks if the *Administr
     d. If the module role exists, its name is identical to the project role, but it is not linked to this project role, Studio creates a new module role, names it *Administrator_1* or *User_1*, and links it to the corresponding project role.<br/>
   
     {{% alert type="info" %}}Studio links the Administrator role from the System module to the Administrator role on the project level. *Every other project role* created from Studio, including the original User project role, will be linked to the User module role for the System module.
-    {{% /alert %}}
+    {% endhint %}
 
 3. Studio links the Administrator role at the project level to MendixSSO.Administrator and Administration.Administrator (if they exist, if not, Studio will not do any linking). The User role at the project level is linked to MendixSSO.User, and Administration.User (if they exist, if not, Studio will not do any linking). All other AppStore modules will remain unchanged. 
 
@@ -81,7 +81,7 @@ All newly created roles get access to all pages, microflows, nanoflows, and enti
 
 Also, all new pages, microflows, and entities (with their attributes and associations) that are created in Studio will be accessible for all existing app roles by default.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Entity Access Set Up {#entity-access}
 
@@ -96,7 +96,7 @@ When you enable security, Studio creates access rules for all entities (and thei
   *  All roles in the current module, except anonymous roles, have *read* and *write* access for attributes
 
      {{% alert type="info" %}}There are cases where entities inherit from System.Image or System.FileDocument. Some of those inherited attributes cannot be set to read/write, so they are set to read-only. 
-     {{% /alert %}}
+     {% endhint %}
   
 * All roles in the current module, except anonymous roles, have *read* and *write* access for associations if the entity is the association owner 
 

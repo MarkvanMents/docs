@@ -144,7 +144,7 @@ To enable more control over the target architecture, use the following variants:
 
 {% hint style="warning" %}
 As of April 11th, 2019, Google will drop support for sending push notifications through their Google Cloud Messaging (GCM) service. By that time, all clients will need to have migrated to the new Firebase Cloud Messaging (FCM) service. The move from GCM to FCM impacts Mendix apps that employ push notifications through the Mendix [Push Notifications Connector](/appstore/modules/push-notifications) module. Please read the notes below for upgrade instructions
-{{% /alert %}}
+{% endhint %}
 
 #### Push Notifications
 
@@ -171,7 +171,7 @@ If your app does not employ push notifications, you can still use the Phonegap B
 
 This is a major version upgrade of the hybrid app project.
 
-{{% /alert %}}
+{% endhint %}
 
 The goal of this release is to upgrade all major dependencies to their latest versions, including the PhoneGap/Cordova framework and all plugins. See below for an overview of all old and new versions.
 
@@ -287,7 +287,7 @@ We have tested extensively against real-life projects and commonly used widgets 
 
 As of August 1st, new apps published to Google's Play Store need to target at least Android SDK 26. As of November 1st, updates to apps also need to target at least SDK 26.
 
-{{% /alert %}}
+{% endhint %}
 
 With this update, Mendix hybrid apps are compatible with the above requirement.
 
@@ -297,7 +297,7 @@ Unfortunately, Crosswalk is not compatible with SDK versions 24 and above. There
 
 For this update, we recommend downloading a fresh hybrid app package from the Mendix Developer Portal via [Developer Portal](https://sprintr.home.mendix.com/index.html) > **DEPLOY** > **Mobile App**.
 
-{{% /alert %}}
+{% endhint %}
 
 ### Hybrid App Base 2.0.7
 
@@ -350,7 +350,7 @@ This patch fixes an issue with an upstream dependency (`com.android.support:supp
 
 This is a major release, because it is not fully compatible with older versions of hybrid-app-template. For this update, we recommend that you download a fresh hybrid app package from the Mendix Developer Portal via [Developer Portal](https://sprintr.home.mendix.com/index.html) > **DEPLOY** > **Mobile App**. We extended the **Mobile Apps** wizard with fields for the theming options described below. In addition, you can configure splash screens/icons by uploading a single base image.
 
-{{% /alert %}}
+{% endhint %}
 
 * We added support for custom theming:
   * You can configure the image on the error screen by adding/replacing *error.png*.

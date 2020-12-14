@@ -40,7 +40,7 @@ The **Customer** holds the address information and the preferred communication l
 
 {% hint style="info" %}
 Do not use the **System.FileDocument** entity directly, because you have no control over the security of that part from the **System** module.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Microflow
 
@@ -62,7 +62,7 @@ After creating the microflow, decide what information you would like to use in t
 
 {{% alert type="info" %}}
 When you create microflows, it is a best practice to limit the number of input parameters to promote reuse.
-{{% /alert %}}
+{% endhint %}
 
 Here is the input parameter:
 
@@ -86,7 +86,7 @@ This is the document template configuration:
 
 {{% alert type="info" %}}
 Based on the changes you make to the selected template, the arguments will change.
-{{% /alert %}}
+{% endhint %}
 
 The **Generate document** activity has been added:
 

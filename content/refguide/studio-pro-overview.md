@@ -16,7 +16,7 @@ One Studio Pro instance can have only one project open at a time, but you can op
 
 {% hint style="info" %}
 When Studio Pro is open, press <kbd>F1</kbd> to quickly jump to documentation.
-{{% /alert %}}
+{% endhint %}
 
 This document describes the user interface of Mendix Studio Pro:
 

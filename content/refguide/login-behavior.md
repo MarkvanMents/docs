@@ -13,7 +13,7 @@ Users are unblocked each time the cluster manager runs, and at that point, the f
 
 {% hint style="warning" %}
 The cluster manager does more than just unblocking users. For example, it also removes expired sessions. So, changing this interval has a broader impact.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If a user is blocked just 1 second before the cluster manager starts to unblock all blocked users, the lock is removed after 1 second.

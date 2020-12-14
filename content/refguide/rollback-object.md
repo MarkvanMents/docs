@@ -7,7 +7,7 @@ tags: ["studio pro"]
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 
@@ -15,7 +15,7 @@ The rollback object action can be used to undo changes (that have not been commi
 
 {{% alert type="info" %}}
 When the rollback object action is performed in a sub-microflow, it rolls back the changes in its parent microflow as well as the sub-microflow.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 

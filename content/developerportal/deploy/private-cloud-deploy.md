@@ -137,7 +137,7 @@ You can also deploy an existing deployment package to an environment without hav
 
 {{% alert type="warning" %}}
 Currently, deployment packages are only valid for two weeks. Older deployment packages will still be visible, but if you try to deploy a package that was created more than two weeks ago, the deployment will fail and return a 403 error. The solution is to [recreate the deployment package](#create-deployment-package).
-{{% /alert %}}
+{% endhint %}
 
 After creating an environment and deployment package (see [Creating an Environment](#create-environment) and [Creating a Deployment Package](#create-deployment-package), above) you will now have a deployment package and an environment. Check that there is a green tick next to the deployment package and the resources of the environment. If any of these have failed, try to create the environment or the deployment package again, and contact your cluster manager. If neither of these solves the problem. contact Mendix support for help.
 
@@ -202,7 +202,7 @@ Sometimes the page will not be automatically refreshed with the latest informati
 
 {{% alert type="info" %}}
 Using the browser refresh button will take you away from this environments page, so use this button instead.
-{{% /alert %}}
+{% endhint %}
 
 #### 4.1.2 Create Package
 
@@ -290,7 +290,7 @@ The word **Licensed** shows that the Operator managing that environment is licen
 The Operator license is independent from a Mendix Runtime license. The Operator license allows you to manage Mendix apps in your cluster, while the Mendix Runtime license (configured through a [Subscription Secret](#change-subscription-secret)) removes trial restrictions from a Mendix App itself.
 
 You can get an Operator license from [Mendix Support](https://support.mendix.com), together with instructions on how to configure it.
-{{% /alert %}}
+{% endhint %}
 
 #### 4.2.2 Add Environment
 

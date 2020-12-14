@@ -8,7 +8,7 @@ tags: ["studio pro", "show page", "client activity"]
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 This action is ignored and does not work when a microflow is called from an offline native or hybrid app. For more information, see the [Microflows](offline-first#microflows) section of the *Offline-First Reference Guide*.

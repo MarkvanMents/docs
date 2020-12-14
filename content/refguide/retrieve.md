@@ -8,7 +8,7 @@ tags: ["studio pro"]
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

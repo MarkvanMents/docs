@@ -24,7 +24,7 @@ For example, the following reference allows the end-user to see, and set, the as
 
 {% hint style="info" %}
 If you only want to _display_ information, you can also use a [text box](text-box). This has the added advantage that you can choose an attribute from an object which is linked via several association steps.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 
@@ -85,7 +85,7 @@ The formatting section applies only to the way that numeric attributes are displ
 
 #### 2.7.1 Select Using{#select-using}
 
-{{% alert type="warning" %}}The **Select using** property is not shown for native mobile pages. Native mobile pages only support the **Drop-down** method of selection{{% /alert %}}
+{{% alert type="warning" %}}The **Select using** property is not shown for native mobile pages. Native mobile pages only support the **Drop-down** method of selection{% endhint %}
 
 The reference selector allows the end-user to select objects by using either a drop-down menu or a pop-up page. If you choose to to use a page, the drop-down functionality will be replaced with a button to the right of the widget that will open a page selection pop-up window.
 
@@ -99,7 +99,7 @@ The reference selector allows the end-user to select objects by using either a d
 
 {{% alert type="warning" %}}
 There is a small difference in functionality between a **Drop-down** reference selector and a **Page** reference selector. When changing a reference selector item that also has a linked list included in a second drop-down menu or page, the **Page** reference selector is NOT cleared as it is with a **Drop-down** reference selector.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.7.1.1 Drop-Down {#drop-down}
 
@@ -115,7 +115,7 @@ Select using a page, links a button to the right of the widget with a pop-up pag
 
 {{% alert type="info" %}}
 This is only displayed if [Select using](#select-using) is set to **Drop-down**.
-{{% /alert %}}
+{% endhint %}
 
 This property specifies the caption for the empty option in the drop-down reference selector shown to the end-user. This is a [translatable text](translatable-texts).
 
@@ -125,7 +125,7 @@ Filling out the caption for an empty option improves the user experience of your
 
 {{% alert type="info" %}}
 This is only displayed if [Select using](#select-using) is set to **Page**. Consequently, select page is not supported on native mobile pages.
-{{% /alert %}}
+{% endhint %}
 
 The select page property determines which page is opened when the select page button is used.
 
@@ -141,7 +141,7 @@ See the [Show a Page](on-click-event#show-page) section of *On Click Event & Eve
 
 {{% alert type="info" %}}
 **Page title** is only available in the **Properties** dialog box, not in the **Properties** pane.
-{{% /alert %}}
+{% endhint %}
 
 You can override the title of the page you open to, for example, indicate where you are opening it from.
 
@@ -149,7 +149,7 @@ This is activated by checking the **Override page title** check box.
 
 #### 2.7.4 Go-To Page
 
-{{% alert type="warning" %}}Go-to page is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="warning" %}}Go-to page is not supported on native mobile pages.{% endhint %}
 
 The go-to page gives end users quick access to a more detailed overview of the currently selected object.
 
@@ -161,7 +161,7 @@ It is recommended that you generate a new go-to page by right-clicking the widge
 
 {{% alert type="info" %}}
 **Page title** is only available in the **Properties** dialog box, not in the **Properties** pane.
-{{% /alert %}}
+{% endhint %}
 
 You can override the title of the page you open to, for example, indicate where you are opening it from.
 
@@ -222,7 +222,7 @@ In the domain model the order line has many-to-one associations to both category
 
 {{% alert type="info" %}}
 Such a triangle-shaped part of the domain model is what makes using **constrained by** possible.
-{{% /alert %}}
+{% endhint %}
 
 On the form, you have two reference selectors: one for **Category** and one for **Product**.
 

@@ -7,7 +7,7 @@ tags: ["studio pro"]
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 
@@ -42,7 +42,7 @@ The object or list of objects that you want to commit.
 
 {{% alert type="info" %}}
 This property is for microflows only.
-{{% /alert %}}
+{% endhint %}
 
 Indicates whether or not to execute the commit event handlers of the objects.
 
@@ -70,11 +70,11 @@ If set to *Yes*, the object is refreshed across the client, which includes reloa
 
 {{% alert type="info" %}}
 Changed attribute values are *always* reflected in the client. The object is refreshed from the Mendix Runtime, which includes updating virtual attributes.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 When committing a large number of objects, we recommend that you do not enable 'Refresh in client' because it can slow things down.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.3.2 Microflow is Called in an Offline, Native, or Hybrid App
 

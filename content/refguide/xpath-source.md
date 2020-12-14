@@ -29,7 +29,7 @@ The **Entity (path)** property specifies the target of the database query. If yo
 
 {% hint style="info" %}
 This differs from the [association data source](association-source) when objects are retrieved from the memory, not database.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Show Search Bar {#show-search-bar}
 

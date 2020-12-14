@@ -14,7 +14,7 @@ The backup can be stored in the cloud, associated with the environment from whic
 
 {% hint style="info" %}
 You can only restore a backup if you have sufficient rights to the target node. See [Node Permissions](/developerportal/deploy/node-permissions) for more information.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Restoring a Backup for the Same Licensed Cloud Node{#restore-cloud-backup}
 
@@ -38,7 +38,7 @@ If you want to restore a backup to a different cloud node, or have your backup s
 
 If the app is still running, you have to stop it by clicking **Stop Application**. Then click **Restore Backup** again.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Restoring a Backup for a Different Licensed Cloud Node{#restore-local-backup}
 

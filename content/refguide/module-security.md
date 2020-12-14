@@ -10,7 +10,7 @@ tags: ["studio pro", "module security", "security", "module"]
 
 {% hint style="info" %}
 For more general information on security, see [Security](security).
-{{% /alert %}}
+{% endhint %}
 
 Within a module you can define module roles and specify security settings for pages, microflows, entities, and datasets.
 
@@ -49,7 +49,7 @@ For each combination you can indicate whether or not the module role has access 
 
 {{% alert type="info" %}}
 Note that these roles are only checked when the microflow is executed from the client. A microflow is always allowed to call another microflow and these roles are not checked then.
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Entity Access {#entity-access}
 

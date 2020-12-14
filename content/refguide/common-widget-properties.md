@@ -87,15 +87,15 @@ In the first two cases we say the widget is connected to an **attribute** and in
 
 {{% alert type="info" %}}
 In Mendix 8.0, an input widget connected to an **attribute path** must be read-only. Studio Pro will check this for you.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 In Mendix 8.1 and above, you can edit attributes presented in input widgets over a path.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 In Mendix 8.8 and above, you can edit attributes of any enclosing data container including grandparent data containers.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.1.2 Association Input Widgets
 
@@ -109,7 +109,7 @@ For these widgets, only an **Attribute path** can be selected. In other words, t
 
 {{% alert type="info" %}}
 For these widgets you are selecting an association to another object. The attribute should therefore indicate uniquely to the end-user which object is being selected.
-{{% /alert %}}
+{% endhint %}
 
 The attribute can be of one of the following [data types](data-types):
 
@@ -153,7 +153,7 @@ The expression provided is evaluated in the browser and, currently, does not sup
 
 {{% alert type="info" %}}
 As the expression is evaluated in the browser, we advise against using "secret" values (like access keys) in it. In particular, we disallow usages of [constants](constants).
-{{% /alert %}}
+{% endhint %}
 
 ### 4.3 Read-Only Style
 
@@ -167,7 +167,7 @@ This property determines how the widget is rendered if it is read-only.
 | Control                     | Widget is displayed but disabled so the value cannot be modified.
 | Text                        | Widget is replaced by a textual representation of the value.
 
-{{% alert type="info" %}}Read-only style is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}Read-only style is not supported on native mobile pages.{% endhint %}
 
 ## 5 Label Section {#label}
 
@@ -177,7 +177,7 @@ A label can be used to described the purpose of the widget to the user. The labe
 
 {{% alert type="info" %}}
 The position of the label in relation to the widget is configured in the **Form orientation** and **Label width (weight)** properties of the data container.
-{{% /alert %}}
+{% endhint %}
 
 ### 5.1 Show Label
 
@@ -217,7 +217,7 @@ There are three options, described below:
 
 {{% alert type="info" %}}
 This mode only applies to attributes of type Decimal.
-{{% /alert %}}
+{% endhint %}
 
 If set to _Fixed_, the decimal part always will be displayed with the number of places specified in the [Decimal precision](#decimal-precision) property. The value will be rounded using the method defined in the [rounding](project-settings#rounding) section of *Project Settings*.
 
@@ -241,7 +241,7 @@ Default: *Fixed*
 
 {{% alert type="info" %}}
 This only applies to attributes of type Decimal and is available only when the [Decimal mode](#decimal-mode) is set to **Fixed**.
-{{% /alert %}}
+{% endhint %}
 
 The precision of a value describes the number of decimal places that are used to express that value. This property indicates the number of decimal places (the number of digits following the point).
 
@@ -302,7 +302,7 @@ There are a number of variables you can use in your expression:
 
 {{% alert type="info" %}}
 In **Mendix 8.1 and above**, the expression can access objects of **all** the data containers enclosing the input widget. The objects are given the name of the widget they originate from (for example, `$dataView1`).
-{{% /alert %}}
+{% endhint %}
 
 When a validation is set and it fails for this widget, the message you specify will be shown before the user can use the value in the app.
 

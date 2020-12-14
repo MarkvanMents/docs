@@ -20,7 +20,7 @@ This page explains how you can link your app to a licensed node. It covers the f
 
 {% hint style="warning" %}
 These instructions will not move databases, file storage, or any other environment configurations to another node. Only the deployment package of a Mendix model – the app as built in Mendix Studio Pro – is moved.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Basic Concepts and Overview
 
@@ -50,7 +50,7 @@ If your contract allows for more licensed nodes, use the [Request New App Node](
 
 {{% alert type="info" %}}
 If your contract does not allow for more licensed nodes, please contact your Customer Success Manager (CSM).
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Authorization
 
@@ -69,7 +69,7 @@ You have deployed an app: either as a Free App, or to a licensed node. You now w
 
 {{% alert type="info" %}}
 For the specific case of swapping two apps between licensed nodes, see the guidance in the [Exchanging Linked Apps Between Nodes](#exchange-apps) section.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.1 Backing Up{#backing-up}
 
@@ -81,7 +81,7 @@ For more information on downloading a backup, see [Download a Backup](/developer
 When you unlink your Free App from its environment, the environment will be permanently deleted. This means that you will not be able to recover any data once the app is unlinked.
 
 If you are unlinking from a licensed node, the node is NOT deleted and data is retained in the node.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Unlinking From Current Environment{#unlink}
 
@@ -109,7 +109,7 @@ To unlink a Free App, do the following:
 
     ![](attachments/licensing-apps/confirm-unlink.png)
 
-    {{% alert type="warning" %}}Your Data will be deleted.{{% /alert %}}
+    {{% alert type="warning" %}}Your Data will be deleted.{% endhint %}
 
 6.  Validate with your [Two-Factor Authentication](two-factor-authentication).
 
@@ -127,7 +127,7 @@ There are two methods to connect your project to a licensed node.
 
 {{% alert type="info" %}}
 If there is already an app linked to the target node, it will be **unlinked automatically**.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 Apart from the app, the rest of the environment(s) in the target node will remain the same. This includes:
@@ -137,7 +137,7 @@ Apart from the app, the rest of the environment(s) in the target node will remai
 * Network
 * Database (both structure and content)
 * File storage service (including all content)
-{{% /alert %}}
+{% endhint %}
 
 #### 4.3.1 Connecting Your App: Method 1
 

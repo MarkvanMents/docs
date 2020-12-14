@@ -39,7 +39,7 @@ These are the criteria:
 * The last two characters are letters, as expressed by the last two subexpression [A-Za-z], which indicate that the last two characters should be in the range A-Z or the range a-z
 * Between the digits and the letters there can be a space, as expressed by the subexpression which consists of a space and a question mark; the question mark indicates that the space is optional
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.1 Subexpressions
 
@@ -52,14 +52,14 @@ A regular expression can contain the following types of subexpressions:
 	* `[a-z]` specifies a range which matches any lowercase letter from "_a_" to "_z_"
 
 	{{% alert type="info" %}}These forms can be mixed: `[abcx-z]` matches "_a_", "_b_", "_c_", "_x_", "_y_", or "_z_", and is equivalent to `[a-cx-z]`. The `-` character is treated as a literal character if it is the last or the first character within the brackets, or if it is escaped with a backslash (`\`).
-	{{% /alert %}}
+	{% endhint %}
 
 * `[^ ]` – matches a single character that is NOT contained within the brackets, for example:
 	* `[^abc]` matches any character other than "a", "b", or "c"
 	* `[^a-z]` matches any single character that is not a lowercase letter from "a" to "z"
 
 	{{% alert type="info" %}}As above, literal characters and ranges can be mixed.
-	{{% /alert %}}
+	{% endhint %}
 
 * `{m,n}` – matches the preceding element at least _m_ and not more than _n_ times, for example:
 	

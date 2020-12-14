@@ -67,7 +67,7 @@ The project explorer shows an icon in front of items (documents, folders, and mo
 
 {% hint style="info" %}
 There is only room for one icon and if a document is both modified and moved it is shown as modified.
-{{% /alert %}}
+{% endhint %}
 
 For example, say that the microflow *ChangePassword* has been modified. Also a new folder called 'Flows' was added and all microflows were moved inside this folder. In the screenshot you can see that the folders and modules containing changes are depicted with a yellow icon, and the microflows which have been moved have a blue icon. This helps you to quickly see where in the project the changes are.
 
@@ -79,7 +79,7 @@ You can see the same information in the **Changes** dock. In this case there is 
 
 {{% alert type="info" %}}
 When you successfully commit your project, this becomes the new original and all the change information is removed from the project explorer and the changes dock.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Committing
 
@@ -195,7 +195,7 @@ The involved document is marked as conflicted and you can see the reason in the 
 
 {{% alert type="info" %}}
 If a whole folder (or module) was *deleted* and another person changes a document inside that folder, the folder/module is restored and also marked as conflicted. This way you know that the intention was to delete that folder but it has been restored to show you the context of the changed document.
-{{% /alert %}}
+{% endhint %}
 
 You can resolve a project conflict by choosing **Tasks > Use mine** or by deleting the involved documents or folders.
 
@@ -226,7 +226,7 @@ If you want to add some functionality to a deployed application or you want to f
 We advise you to merge the fixed maintenance branch into the main line quickly, if required. If the merge is too complicated to be made automatically, because the main line has changed too much, you will know how to apply the fix by hand to the main line as the changes will still be fresh in your mind.
 
 Of course, not all maintenance fixes need to be merged to the main line. Sometimes, it is a fix of something that was completely redesigned or eliminated in the main line. In this case, merging is unnecessary.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.1.2 Developing a New Feature Independently
 
@@ -318,7 +318,7 @@ In this case, Studio Pro will create a fresh checkout of the chosen revision. Th
 
 {{% alert type="warning" %}}
 You can only create a versioned deployment package of changes that have been committed. If you have local changes that you want to deploy in a versioned deployment package, commit them first.
-{{% /alert %}}
+{% endhint %}
 
 When it creates the package, Studio Pro will also create a tag representing this version of your project. If you want to make modifications to this version later, independently of other development which has taken place, you can create a branch based on this tag. The name of the tag is a version number that you choose.
 

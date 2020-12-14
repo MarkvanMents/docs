@@ -8,7 +8,7 @@ menu_order: 10
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 
@@ -70,7 +70,7 @@ Set **Use timeout on request** to **Yes** to be able specify how long the Call R
 
 {{% alert type="warning" %}}
 It is recommended that you keep this set to **Yes**. Most cloud infrastructure services (including those used by the Mendix Cloud) will close HTTP connections automatically if there is no traffic for a few minutes, even if your activity is still waiting for a response. This means that, if your activity calls a web service which takes a long time to respond, the connection may be closed without the activity being aware of this, and your activity will not receive a response. Under these circumstances, if **Use timeout on request** is set to **No**, your activity will get stuck waiting indefinitely for data to arrive.
-{{% /alert %}}
+{% endhint %}
 
 Default value: *Yes* (as of Studio Pro [8.5.0](/releasenotes/studio-pro/8.5#850); in earlier versions, the default value was No)
 
@@ -120,7 +120,7 @@ The sections below describe the options in the drop-down menu for generating the
 
 {{% alert type="info" %}}
 Requests can only be generated for HTTP methods POST, PUT, PATCH, and OPTIONS.
-{{% /alert %}}
+{% endhint %}
 
 ### 6.1 Export Mapping for the Entire Request
 
@@ -144,7 +144,7 @@ If the [export mapping](export-mappings) is based on a message definition, it ca
 
 {{% alert type="info" %}}
 **Content-Type header** is not set by default. To set it, use the **Custom HTTP Headers** tab.
-{{% /alert %}}
+{% endhint %}
 
 ### 6.2 Binary for the Entire Request
 

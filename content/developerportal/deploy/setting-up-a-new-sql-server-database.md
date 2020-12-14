@@ -12,7 +12,7 @@ This how-to will teach you how to manually set up a new SQL Server database.
 You only need to follow these steps if the database user used by Mendix does not have enough permission to create the database for you.
 
 Some of these steps are only required for specific versions of SQL Server or Mendix.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Set Up a New Database
 
@@ -34,7 +34,7 @@ After the database is created, the Mendix Runtime can initiate the initial setup
 
 {{% alert type="info" %}}
 You only need to follow these steps if the database user used by the Mendix Runtime does not have enough permission to issue the `ALTER DATABASE` command (usually the `sysadmin` role).
-{{% /alert %}}
+{% endhint %}
 
 The database schema needs to be configured so that the **Read Committed Snapshot** feature is enabled. This can be achieved by executing the following command on the database:
 
@@ -43,7 +43,7 @@ ALTER DATABASE [MySchema] SET READ_COMMITTED_SNAPSHOT ON;
 ```
 {{% alert type="info" %}}
 You need to replace `MySchema` with the name of your schema.
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Configuring the necessary SQL Server extensions
 
@@ -54,7 +54,7 @@ For Mendix version 7, you only need to perform these steps if the following are 
 
 * your SQL server version is older than SQL Server 2014
 * the database user used by Mendix does not have permission to issue the commands in this section
-{{% /alert %}}
+{% endhint %}
 
 ### 4.1 Installing SQL Server Extensions
 

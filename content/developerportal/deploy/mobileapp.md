@@ -61,7 +61,7 @@ The permissions that can be enabled/disabled:
 
 {% hint style="info" %}
 Some functionality might not be available when you disable these permissions (for example, your app will not be able to use the camera widget when you disable it).
-{{% /alert %}}
+{% endhint %}
 
 ### 2.4 Custom Phonegap/Cordova Configuration
 

@@ -8,7 +8,7 @@ tags: ["studio pro", "navigation list", "container widget", "widget"]
 
 {% hint style="warning" %}
 The navigation list widget is not supported on native mobile pages.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

@@ -15,7 +15,7 @@ A scheduled event is added to your module as a document (right-click your module
 
 {% hint style="warning" %}
 Scheduled events can be tested locally, but they will not be run if your app is deployed as a Free App. See the Free App section of [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy#free-app) for more information on Free App limitations.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Common Properties
 

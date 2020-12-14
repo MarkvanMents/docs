@@ -15,7 +15,7 @@ The data grid shows a list of objects in a grid. For example, a data grid can sh
 
 A data grid showing a list of orders with a description and the referenced customer name.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Components
 

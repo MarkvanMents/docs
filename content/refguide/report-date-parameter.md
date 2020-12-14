@@ -14,7 +14,7 @@ For example, a report may show order data for a customer over a selected period,
 
 {% hint style="info" %}
 You can add more fields to a report date parameter widget to make it easier for an end-user to select a date range. See [Additional Report Date Parameter Fields](#additional-fields), below, for more information.
-{{% /alert %}}
+{% endhint %}
 
 The report date parameter is displayed in structure mode with the data set parameter name shown between square brackets and colored blue. The **From** and **To** dates shown in blue are examples to indicate that these are date fields.
 
@@ -22,7 +22,7 @@ The report date parameter is displayed in structure mode with the data set param
 
 {{% alert type="info" %}}
 If you have a report date parameter widget on the page, you must also add a [Report Button](report-button) widget so that it is possible for the end-user to regenerate the report after specifying the parameter.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Report Date Parameter Properties
 
@@ -75,7 +75,7 @@ Set this to **No** if the **from** and **to** field results should not be shown.
 
 {{% alert type="warning" %}}
 The value in **Min. year** will not prevent an end-user from choosing an earlier date in the **From** or **To** fields of the report date parameter widget. It only applies to the *year* date range field.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.3.7 Max. year
 

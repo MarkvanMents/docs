@@ -19,7 +19,7 @@ To implement this, a self-reference to **Folder** is used. The self-reference is
 
 {% hint style="info" %}
 The association in this case is a one-to-many association, but the same techniques apply to many-to-many or one-to-one associations.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/associations/self-reference-domain-model.png)
 

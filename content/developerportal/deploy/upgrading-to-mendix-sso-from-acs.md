@@ -48,7 +48,7 @@ Perform the following steps to replace AppCloudServices with Mendix SSO:
 
 {% hint style="success" %}
 You have now upgraded your app to use the Mendix SSO module. Because all the end-user information and credentials are held in their Mendix account, the end-users are already known to the app and can continue to use the app as before.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Replacing a Customized Implementation of AppCloudServices with Mendix SSO {#replacing-customized}
 
@@ -74,7 +74,7 @@ The first steps you need to take are the same as for a non-customized implementa
 
 4. Delete the **AppCloudServices** module. You will also need to delete or exclude the **OnFirstLoginAppCloudUser** microflow which will have been added to your app.
 
-    {{% alert type="warning" %}}If you have customized the AppCloudServices module directly, rather than following best practice by applying customizations to your own module, you **must not** delete the AppCloudServices module (or you will lose your data). Instead, use the **Errors** pane and exclude from your module, one at a time, all documents which are causing errors.{{% /alert %}}
+    {{% alert type="warning" %}}If you have customized the AppCloudServices module directly, rather than following best practice by applying customizations to your own module, you **must not** delete the AppCloudServices module (or you will lose your data). Instead, use the **Errors** pane and exclude from your module, one at a time, all documents which are causing errors.{% endhint %}
 
 5. If you have errors from pages which are based on the AppCloudMasterLayout (which you have now deleted from your app), you can change the layout for these pages to an Atlas UI layout, for example **Atlas_Default**.
 
@@ -136,7 +136,7 @@ You will need to perform the following steps:
 
 5. Update the example microflow to suit your own data structures. As each case will be different, this document is not able to cover the changes which you need to make in your specific circumstances.
 
-    {{% alert type="info" %}}The sample microflow is written to work on batches of users, retrieved using a custom range, rather than all users in a single pass. This improves performance. For more information on retrieving using custom ranges, see the [Retrieve from Database Properties](/refguide/retrieve#from-database) section of *Retrieve*.{{% /alert %}}
+    {{% alert type="info" %}}The sample microflow is written to work on batches of users, retrieved using a custom range, rather than all users in a single pass. This improves performance. For more information on retrieving using custom ranges, see the [Retrieve from Database Properties](/refguide/retrieve#from-database) section of *Retrieve*.{% endhint %}
 
 6. Backup your data, test your microflow and then run it.
 

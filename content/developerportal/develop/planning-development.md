@@ -28,7 +28,7 @@ When you click **Details** for a story, you will be taken to the [Story Details]
 
 {% hint style="info" %}
 All the changes made on this page are directly passed on to the **Stories** page and vice versa.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Burndown Chart
 

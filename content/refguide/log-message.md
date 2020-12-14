@@ -8,7 +8,7 @@ tags: ["studio pro", "logging activity", "logging activities", "log message"]
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 
@@ -52,7 +52,7 @@ The log level defines the severity of the log message. In the [Studio Pro Consol
 
 {{% alert type="warning" %}}
 This property is only available in microflows.
-{{% /alert %}}
+{% endhint %}
 
 The log node name is a microflow expression that defines the source of the log message. For example, if you log messages from an email module, the log node name could be *Email module*. Use your own log node names as this avoids confusion with messages from the Mendix runtime which are written to the Mendix log nodes. The Mendix log nodes are listed in the [Default Mendix Log Nodes](logging#mendix-nodes) section of *Logging*.
 
@@ -60,7 +60,7 @@ The log node name is a microflow expression that defines the source of the log m
 It is advised to use a [constant](constants) for the log node name. This prevents errors when entering the node name and makes it easier to change the log node name afterwards.
 
 You can only set custom [log node levels](/developerportal/deploy/environments-details#log-levels) for the environment if your app has posted a message to that log node. It is therefore recommended that you send an initial message to all your custom log nodes in an [after startup microflow](project-settings#after-startup).
-{{% /alert %}}
+{% endhint %}
 
 ### 3.3 Template
 

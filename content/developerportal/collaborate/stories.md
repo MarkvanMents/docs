@@ -14,7 +14,7 @@ By adding your Sprints to Mendix, you will have a clear overview of your tasks a
 
 {% hint style="info" %}
 You can also manage the progress of tasks and Sprints from within Mendix Studio Pro via the [Stories pane](/refguide/stories-pane).
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/stories/stories.jpg)
 
@@ -160,7 +160,7 @@ When you select a story, you can perform the following actions:
 
 {{% alert type="info" %}}
 These actions support multi-selection of stories, except for the **Clone** action.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.1 Accessing Story Details  {#story-details}
 
@@ -206,7 +206,7 @@ If you need to reorder stories or move a story to a different Sprint, there are 
 
 {{% alert type="info" %}}
 Moving a story will move the tasks as well.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.3 Adding a Task to a Story {#adding-task}
 

@@ -49,7 +49,7 @@ The **No Authentication** feature was introduced in version 8.0.0. In earlier ve
 
 The **Active Session** and **Custom** authentications were also introduced in version 8.0.0.
 
-{{% /alert %}}
+{% endhint %}
 
 Select whether clients need to authenticate or not. Choose _No_ to allow access to the resources without restrictions. Choose _Yes_ to be able to select which authentication methods to support.
 
@@ -110,7 +110,7 @@ The allowed roles define which [module role](module-security#module-role) a user
 
 {{% alert type="warning" %}}
 Web service users cannot access OData services.
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Runtime Considerations
 

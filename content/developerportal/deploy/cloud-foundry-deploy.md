@@ -87,7 +87,7 @@ To deploy a Mendix app to Cloud Foundry, you have to configure the settings in S
 
 {% hint style="warning" %}
 Your Cloud Foundry environment needs to be configured with the resources needed by the Mendix app. You cannot run your app until it has the resources it needs. 
-{{% /alert %}}
+{% endhint %}
 
 Apps make use of services (for example, databases, load balancers, and memory tools). A Mendix application requires the following services on the platform:
 
@@ -114,7 +114,7 @@ All these consoles have similar features which allow you to select services, bin
 
 {{% alert type="info" %}}
 The images in this document are mainly taken from the Pivotal console.
-{{% /alert %}}
+{% endhint %}
 
 To add a database service to your app, follow these steps:
 
@@ -136,7 +136,7 @@ To add a database service to your app, follow these steps:
 
 	![](attachments/cloud-foundry-deploy/db-configure.png)
 
-	{{% alert type="info" %}}Different consoles may use slightly different names for these configuration items.{{% /alert %}}
+	{{% alert type="info" %}}Different consoles may use slightly different names for these configuration items.{% endhint %}
 
 Once you have configured the database, you can deploy your app, provided there are no other requirements for the platform you have selected (you may, for example, need to bind a route to your app if it is not created automatically).
 

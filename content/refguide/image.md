@@ -18,7 +18,7 @@ For example, you can configure an image clicking which a page with customer deta
 
 If you want to dynamically show different images based on data, you need to add [image viewer](image-viewer) on your page.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 
@@ -59,7 +59,7 @@ The width of an image. Possible values of this property are described in the tab
 | Pixels     | he width is specified in a number of pixels. If you specify both width and height, the image will be scaled automatically: the proportions will be kept, the picture will not be stretched. |
 | Percentage | The width is specified in a percentage of the original width. It can be larger than its original width in which case the image is stretched |
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}This property is not supported on native mobile pages.{% endhint %}
 
 #### 2.3.3 Width
 
@@ -77,7 +77,7 @@ The height of an image. Possible values of this property are described in the ta
 | Pixels     | The height is specified in a number of pixels. If you specify both width and height, the image will be scaled automatically: the proportions will be kept, the picture will not be stretched. |
 | Percentage | The height is specified in a percentage of the original height. It can be larger than its original height in which case the image is stretched. |
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}This property is not supported on native mobile pages.{% endhint %}
 
 #### 2.3.5 Height
 

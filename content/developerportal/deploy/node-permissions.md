@@ -34,7 +34,7 @@ Note that only app team members with a *user role* which includes permission to 
 
 You can change permissions for team members in the *App Team* tab: see [App Team](/developerportal/collaborate/team).
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Accessing Node Permissions
 

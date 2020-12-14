@@ -14,7 +14,7 @@ If you have a licensed app, you need to select an environment for Mendix Studio 
 
 By default the environment is not selected for Studio. Thus, when you try to publish, you will get a warning message. For more information, see [Previewing & Publishing Your App](/studio/publishing-app) in the *Studio Guide*.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Selecting the Studio Deployment Environment 
 

@@ -17,7 +17,7 @@ To work on the documentation in GitHub, use Markdown. For details on this easy-t
 
 {% hint style="info" %}
 All documentation contributions may be edited to conform to our internal style guide.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 **Quick guide to making a documentation change**
@@ -25,7 +25,7 @@ All documentation contributions may be edited to conform to our internal style g
 1. Fork the **development** branch of the [mendix / docs](https://github.com/mendix/docs) repository.
 2. Make your changes.
 3. Create a pull request with our **development** branch as the base.
-{{% /alert %}}
+{% endhint %}
 
 **This how-to will teach you how to do the following:**
 
@@ -53,7 +53,7 @@ To edit existing documentation, follow these steps:
 
 {{% alert type="warning" %}}
 If you need your pull request to be merged on a specific date (for example, for a specific release), specify that in the title of the pull request or as a comment. Otherwise, all pull requests are reviewed and merged under the assumption that the content can be published immediately. 
-{{% /alert %}}
+{% endhint %}
 
 ## 4 Writing New Documentation {#new-documentation}
 

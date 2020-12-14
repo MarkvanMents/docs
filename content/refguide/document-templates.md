@@ -12,7 +12,7 @@ Document Templates are used to model a template required as input for a document
 
 {% hint style="warning" %}
 This page describes what document templates are for and what kind of widgets can be placed on them. If you want to see the properties of the document template you can check the documentation for a [document template](document-template) itself.
-{{% /alert %}}
+{% endhint %}
 
 The document templates also contain components, also know as _widgets_. Below is a categorized overview of all widgets. The following categories are used:
 
@@ -41,7 +41,7 @@ For more information, see [Data Grid (Document Template)](data-grid-document-tem
 
 A data grid showing a list of orders with a description and the referenced customer name.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Data View
 
@@ -55,7 +55,7 @@ For more information, see [Data View (Document Template)](data-view-document-tem
 
 A data view showing order line information.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Template Grid
 
@@ -69,7 +69,7 @@ For more information, see [Template Grid (Document Template)](template-grid-docu
 
 A template grid showing products with name and description.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Layout Widgets {#layout}
 
@@ -88,7 +88,7 @@ For more information, see [Table (Document Template)](table-document-template).
 
 A table with four rows and three columns. Last row containing a data view with another table.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Page Break
 
@@ -102,7 +102,7 @@ For more information, see [Page Break (Document Template)](page-break-document-t
 
 A page break
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.3 Line Break
 
@@ -126,7 +126,7 @@ For more information, see [Dynamic Label (Document Template)](dynamic-label-docu
 
 A dynamic label linking to a customer name.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Dynamic Image
 
@@ -140,7 +140,7 @@ For more information, see [Dynamic Image (Document Template)](dynamic-image-docu
 
 A dynamic image inside a table cell, showing the preset default image.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Static Data Widgets {#static}
 
@@ -158,7 +158,7 @@ For more information, see [Static Label (Document Template)](static-label-docume
 
 A label with text 'Customer name'.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 5.2 Title
 

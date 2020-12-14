@@ -10,7 +10,7 @@ Security in Mendix has two sides: you want different people to see different par
 
 {% hint style="info" %}
 Security in Mendix does not include scanning files that end-users upload or download from your application for viruses and malware. For more information, see the [Scanning Uploaded Files for Malicious Content](/howto/security/best-practices-security#scanning-for-malicious-content) section in *How to Implement Best Practices for App Security*. 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Security Levels
 

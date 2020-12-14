@@ -106,7 +106,7 @@ To add the product to your domain model, follow the steps below:
 
 	2. In the **Create New Image Attribute** dialog box, set the name to *Product_Image* and click **Create**.
 		{% hint style="info" %} *Name* and *Size* attributes are created automatically and are read-only.
-		{{% /alert %}}
+		{% endhint %}
 
 Good job! You created the **Product** entity, its attributes, and the **Product_Image** image entity:
 
@@ -177,7 +177,7 @@ Do the following:
     2. In the **Create New Attribute** dialog box, set **Name** to *Date_Sent*, set **Type** to *Date and Time*, and click **Create**.
 
 		{{% alert type="info" %}} *Name* and *Size* attributes are created automatically and are read-only.
-		{{% /alert %}}
+		{% endhint %}
 
 You configured three entities that define the order in your online shopping app.
 
@@ -234,7 +234,7 @@ Now that you defined connections between entities, you can start creating these 
     2. Drag the dot to the **Product** entity.
     
     	{{% alert type="info" %}}Another way to create an association between entities is to select an entity and click the arrow icon.
-    	{{% /alert %}}
+    	{% endhint %}
 
     3. Open **Properties** and change the multiplicity (one-to-many is created by default) to one-to-one.
 

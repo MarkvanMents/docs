@@ -28,7 +28,7 @@ Widgets/Components for which the font tab page is visible:
 
 The font tab page in the style editor.
 
-{{% /alert %}}
+{% endhint %}
 
 If you'd like to show text in a language with uncommon characters such as Arabic or Thai, make sure you select a font in the style editor that supports these characters.
 
@@ -48,7 +48,7 @@ Widgets/Components for which the cell styling tab page is visible:
 
 The cell styling tab page in the style editor.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Custom Styles
 

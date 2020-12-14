@@ -94,7 +94,7 @@ There are three types of environment statuses:
 
 {% hint style="info" %}
 The environment status is cached; there can be a delay of up to five minutes before the status icon displays a change of status.
-{{% /alert %}}
+{% endhint %}
 
 To see the details of the alerts, click **Alerts** under the **Operate** category. This is documented here: [Alerts](/developerportal/operate/monitoring-application-health).
 

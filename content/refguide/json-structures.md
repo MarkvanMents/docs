@@ -23,7 +23,7 @@ When you paste or modify the JSON snippet, it is automatically checked for valid
 
 You cannot press "OK" without making the JSON valid.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 1.2 Format
 
@@ -33,7 +33,7 @@ Formattings and whitespacing of JSON snippets that are found in API documentatio
 
 Special unicode characters are encoded according to JSON standards. For example, if the original snippet contained a heart-shaped symbol (❤️), it is replaced by '\u2764'.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 1.3 Structure
 
@@ -53,7 +53,7 @@ When you modify the JSON snippet, you need to refresh the structure by clicking 
 
 You cannot press "OK" without updating the structure.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 1.4 Documentation
 

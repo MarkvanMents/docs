@@ -17,7 +17,7 @@ A menu consists of a list of menu items, which optionally contain sub-items. Dep
 
 If [security](project-security) is enabled, the menu will only show items that the user has access to.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Menu Item {#menu-item}
 

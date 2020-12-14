@@ -36,7 +36,7 @@ To see all of your badges as well as the badges you can work towards, click **Vi
 
 {% hint style="info" %}
 The **Badges in progress** section of the **Badges** tab only displays the current level in progress of a multi-level badge. Furthermore, multi-level badges that you have already earned are not shown in the **Earned badges** section when there is a higher level badge available.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Challenges {#challenges}
 
@@ -148,7 +148,7 @@ These are points you can gain through activity in the [Mendix App Store](https:/
 
 {{% alert type="info" %}}
 In order to receive Mendix points for your contributions to Mendix GitHub repositories (for example, [mendix / docs](https://github.com/mendix/docs)), you are required to authorize the connection to your GitHub profile. For more information, see the [Social](#social) section below.
-{{% /alert %}}
+{% endhint %}
 
 ### 7.5 Learning Points
 
@@ -168,7 +168,7 @@ In order to receive Mendix points for your contributions to Mendix GitHub reposi
 
 {{% alert type="info" %}}
 For details on how to gain Mendix points on documentation work, see [How to Contribute to the Mendix Documentation](../community-tools/contribute-to-the-mendix-documentation).
-{{% /alert %}}
+{% endhint %}
 
 ### 7.6 Point Levels
 
@@ -279,7 +279,7 @@ To obtain a Mendix API key, follow these steps, click **Create new API key** and
 
 {{% alert type="warning" %}}
 Make a note of the API key, as it will only be shown once.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/api-key.png)
 
@@ -306,11 +306,11 @@ We’ll take things from there!
 
 {{% alert type="info" %}}
 Once an old account has been merged to a new account, you will no longer have access to the app projects you were invited to via your old account. With your new account, you will need to be invited to those app projects again in order to gain access. Adding your new account to the relevant app projects prior to the merge is recommended.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 With the merge, the accounts are only combined. The old account is not deactivated. That should be done by the Company Admin.
-{{% /alert %}}
+{% endhint %}
 
 #### 10.6.2 Selecting Your Profile Visibility {#public}
 
@@ -328,7 +328,7 @@ Be sure to do the following in order to make your profile public:
 
 {{% alert type="info" %}}
 To make your public profile private again, click **Make this profile private**.
-{{% /alert %}}
+{% endhint %}
 
 #### 10.6.3 Viewing Your Audit Trail
 

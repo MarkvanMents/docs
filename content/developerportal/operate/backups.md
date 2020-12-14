@@ -49,7 +49,7 @@ Anything you can download you can also upload again, which means you can upload 
 
 {% hint style="info" %}
 Uploading a **Files Only** archive will result in a backup item with an exclamation mark and a warning message. Since the archive does not contain a database, it is not possible to restore it.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.2.2 Uploading Data in Mendix Cloud v3
 
@@ -57,7 +57,7 @@ Uploading a **Files Only** archive will result in a backup item with an exclamat
 In **Mendix Cloud v3**, this will *not* add a backup to the backup list but directly update the application with the newly uploaded data.
 
 Your environment will be cleared completely. The existing deployment package, uploaded files, and database will be removed. If you are uploading data to the production environment, any published app services will be unpublished.
-{{% /alert %}}
+{% endhint %}
 
 You must stop the application before executing this process. This functionality is used to transfer data from your local or on-premises application to the cloud environment.
 
@@ -78,7 +78,7 @@ See [Download a Backup](download-backup) for more information.
 
 {{% alert type="info" %}}
 As the download files are generated "on the fly" (meaning, while in progress), it is not possible to estimate the file size before downloading. Your browser will not show a progress bar.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.4 Restore Backup
 

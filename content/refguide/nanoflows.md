@@ -13,7 +13,7 @@ Nanoflows are similar to [microflows](microflows), in that they allow you to exp
 
 {% hint style="info" %}
 This page is an overview of all the elements that can be used in a nanoflow. For the properties of the nanoflow itself, see [Nanoflow Properties](nanoflow).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 When to Use Nanoflows
 

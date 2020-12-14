@@ -26,7 +26,7 @@ There are three different types of search fields that can be used for different 
 
 You cannot change the type of a search field, you will need to delete it and then add a new one of a different type.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Search Field Properties {#search-field-properties}
 
@@ -56,7 +56,7 @@ However, there are additional properties that are described in the sections belo
 
 Search input formatting must be an exact day. Custom date formatting is not limited.
 
-{{% /alert %}}
+{% endhint %}
 
 {{% snippet file="refguide/custom-date-format-tokens.md" %}}
 
@@ -74,7 +74,7 @@ The placeholder text is shown if the date attribute is empty. It can be used to 
 
 This property is available for **Comparison** and **Drop-down** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 Many input widgets (like text boxes and drop-down widgets) can be connected to the following:
 
@@ -89,7 +89,7 @@ In Mendix 8.0, an input widget connected to an attribute path must be read-only.
 
 In Mendix 8.1 and above, you can edit attributes presented in input widgets over a path.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 3.2.2 Comparison
 
@@ -97,7 +97,7 @@ In Mendix 8.1 and above, you can edit attributes presented in input widgets over
 
 This property is available for **Comparison** and **Drop-down** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 The value entered by the end user (or the default value in the case of hidden and read-only search fields) is compared to the value of the attribute of each of the objects in the grid. If the match succeeds, the object will be part of the search result. There are different ways in which the attribute value and the entered value can be compared. In the third column below you see the type of search field for which the comparison operator is allowed.
 
@@ -116,7 +116,7 @@ The value entered by the end user (or the default value in the case of hidden an
 
 For **Drop-down** search fields:  there is no limit on the number of drop-down selection options, thus a selected attribute can have an unlimited amount of unique values. However, having thousands of options which must be retrieved from the server will slow page loading considerably on older browsers. Initially hiding the search bar which contains the drop-down search field can improve page loading performance on first load. 
 
-{{% /alert %}}
+{% endhint %}
 
 **Date comparisons and the influence of the default value**
 
@@ -134,7 +134,7 @@ It is possible to search on date attributes using equality. What happens with th
 
 This property is available for **Drop-down** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 If this property is set to 'Yes', the resulting drop-down allows you to select multiple values instead of just one. When searching all records match for which the corresponding attribute is equal to one of the selected values. For example, you can search for all orders with status 'Submitted' or 'In progress'.
 
@@ -144,7 +144,7 @@ If this property is set to 'Yes', the resulting drop-down allows you to select m
 
 This property is available for **Drop-down** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 If the 'drop-down' search field is connected to an attribute of an associated entity (as opposed to the grid entity itself) the XPath constraint can be used to limit objects shown in the drop-down.
 
@@ -153,7 +153,7 @@ If the 'drop-down' search field is connected to an attribute of an associated en
 Let us say you have a grid showing bicycles. In the domain model the bicycle has an association to the shops where you can buy those bicycles. You can add a search field to the grid allowing the end-user to select a shop by name. The XPath can then be used to limit the shops to those that are in a given country.
 `[MyWebshop.Bicycle_Shop/MyWebshop.Shop/Country='Netherlands']`
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.5 Sort Order
 
@@ -161,7 +161,7 @@ Let us say you have a grid showing bicycles. In the domain model the bicycle has
 
 This property is available for **Drop-down** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 The sort order specifies the order in which the items in the drop-down search field are shown. You can sort on multiple attributes in both directions (ascending and descending). If no sort order is specified, the drop-down search field sorts on the displayed attribute.
 
@@ -173,7 +173,7 @@ Default: *No sort order*
 
 This property is available for **Range** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 This attribute (path) determines the lower bound of the range.
 
@@ -183,7 +183,7 @@ This attribute (path) determines the lower bound of the range.
 
 This property is available for **Range** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 The lower bound operator determines whether the comparison with the lower bound is inclusive (>=) or not (>). It can be either 'Greater' or 'Greater or equal'.
 
@@ -195,7 +195,7 @@ Default: *Greater*
 
 This property is available for **Range** search fields. 
 
-{{% /alert %}}
+{% endhint %}
 
 This attribute (path) determines the upper bound of the range.
 

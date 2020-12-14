@@ -58,7 +58,7 @@ This property determines what happens when the content of a region does not fit 
 | Per region *(default)*  | Every region will show its own scroll bar in case its content does not fit. |
 | Full widget | The scroll container will grow to fit its contents and will leave scrolling to its parent. |
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}This property is not supported on native mobile pages.{% endhint %}
 
 #### 2.2.3 Width {#width}
 
@@ -66,7 +66,7 @@ By default the scroll container will extend the full width of its parent widget.
 
 Default: *Full width*
 
-{{% alert type="info" %}}This property is not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}This property is not supported on native mobile pages.{% endhint %}
 
 #### 2.2.4 Width Value
 
@@ -80,7 +80,7 @@ Default: *Center*
 
 ### 2.3 Regions Section
 
-{{% alert type="info" %}}Regions are not supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}Regions are not supported on native mobile pages.{% endhint %}
 
 Regions define the content area of a scroll container. For more information see the [Scroll Container Region](#scroll-container-region) section.
 

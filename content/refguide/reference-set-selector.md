@@ -39,7 +39,7 @@ The reference set selector looks a lot like a [data grid](data-grid) and consequ
 
 {{% alert type="info" %}}
 You must explicitly commit the object in the data view containing your reference set selector to save the association changes. This can be done, for example, by having a **Save** button for the object in the data view (as shown for the *Customer* entity in the picture above).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 
@@ -80,7 +80,7 @@ The attribute path specifies which attribute(s) of an associated entity is shown
 
 {{% alert type="warning" %}}
 You cannot currently use non-persistable entities in a reference set selector.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Design Properties Section{#design-properties}
 
@@ -133,7 +133,7 @@ This property indicates whether the control bar will be visible in the end-user 
 
 Even if the control bar is invisible there can still be a default button that is triggered by (double) clicking on a row. See the property 'Default button trigger' and [control bar](control-bar) for more information.
 
-{{% /alert %}}
+{% endhint %}
 
 Default: *True*
 

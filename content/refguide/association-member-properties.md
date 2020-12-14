@@ -32,7 +32,7 @@ The name of the association is used to refer to it. For example, in forms or mic
 
 {% hint style="info" %}
 You cannot change this name in the association tab. To change the name, click **Edit** (or double-click the association name) to open the [Association Properties](association-properties).
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Type {#type}
 
@@ -47,7 +47,7 @@ This property defines whether an association is a reference (single) or a refere
 
 The examples for this property are combined with the example of the owner property below.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Owner {#owner}
 

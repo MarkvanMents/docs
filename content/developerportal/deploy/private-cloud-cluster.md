@@ -183,7 +183,7 @@ You can return to this initial question from any of the other questions by choos
 
 {% hint style="info" %}
 The configuration script does not currently validate input values. Configuration can be verified by deploying a sample app.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.4.2 Pick a database type
 
@@ -193,15 +193,15 @@ The configuration script does not currently validate input values. Configuration
 
 {{% alert type="info" %}}
 If the plan name already exists, you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To connect to an Azure PostgreSQL server, the `Enforce SSL connection` option has to be disabled and the Kubernetes cluster must be added to the list of allowed hosts in the firewall. For the database name, use `postgres`.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To connect to an Amazon RDS database, the VPC and firewall must be configured to allow connections to the database from the Kubernetes cluster.
-{{% /alert %}}
+{% endhint %}
 
 **Ephemeral** will enable you to quickly set up your environment and deploy your app, but any data you store in the database will be lost when you restart your environment.
 
@@ -209,33 +209,33 @@ To connect to an Amazon RDS database, the VPC and firewall must be configured to
 
 {{% alert type="info" %}}
 If the plan name already exists you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To connect to an Azure PostgreSQL server, the Kubernetes cluster must be added to the list of allowed hosts in the firewall.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 For Azure SQL databases, additional parameters are required to specify the database elastic pool name, tier, service objective and maximum size.
-{{% /alert %}}
+{% endhint %}
 
 **Dedicated JDBC** will enable you to enter the [database configuration parameters](/refguide/custom-settings) for an existing database directly, as supported by the Mendix Runtime.
 
 {{% alert type="info" %}}
 A dedicated JDBC database cannot be used by more than one Mendix app.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Configuration parameters will not be validated and will be provided to the Mendix app as-is. If the arguments are not valid or there is an issue with permissions, the Mendix Runtime will fail to start the and deployment will appear to hang with **Replicas running** and **Runtime** showing a spinner.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If the plan name already exists you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To use this plan, [upgrade](/developerportal/deploy/private-cloud-upgrade-guide) the Mendix Operator to version 1.1.0 or later.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.4.3 Pick a storage type
 
@@ -279,7 +279,7 @@ To use this plan, [upgrade](/developerportal/deploy/private-cloud-upgrade-guide)
 
 {{% alert type="info" %}}
 If the plan name already exists you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 **S3 (existing bucket)** will connect to an existing S3 bucket with the provided IAM account access key and secret keys. All apps will use the same S3 bucket and an IAM account. You will need to provide all the information about your Amazon S3 storage such as plan name, endpoint, access key, and secret key. The associated IAM account needs to have the following IAM policy (replace `<bucket_name>` with the your S3 bucket name):
 
@@ -306,7 +306,7 @@ If the plan name already exists you will receive an error that it cannot be crea
 
 {{% alert type="info" %}}
 Configuration parameters will not be validated and will be provided to the Mendix app as-is. If the arguments are not valid or there is an issue with permissions, the Mendix Runtime will fail to start the and deployment will appear to hang with **Replicas running** and **Runtime** showing a spinner.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 
@@ -314,21 +314,21 @@ If you select *Yes* to the *Can this storage be used by multiple environments?* 
 Each app will write into its own directory inside the bucket.
 
 To avoid compromising security, answer *No* to the *Can this storage be used by multiple environments?* question. This way, only one app will be able to use this Storage Plan, and attaching another app to the same storage plan will not be possible.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If the plan name already exists you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To use this plan, [upgrade](/developerportal/deploy/private-cloud-upgrade-guide) the Mendix Operator to version 1.1.0 or later.
-{{% /alert %}}
+{% endhint %}
 
 **Azure Blob storage Container (existing)** will connect to an existing Azure Blob storage Container with the provided storage account name and key. All apps will use the same Container bucket and account credentials. You will need to provide all the information about your Azure Blob storage such as plan name, account name, account key, and container name.
 
 {{% alert type="info" %}}
 Configuration parameters will not be validated and will be provided to the Mendix app as-is. If the arguments are not valid or there's an issue with permissions, the Mendix Runtime will fail to start the and deployment will appear to hang with **Replicas running** and **Runtime** showing a spinner.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 
@@ -337,15 +337,15 @@ All apps using will write into the root directory of same Azure Blob storage Con
 
 To avoid compromising security, answer *No* to the *Can this storage be used by multiple environments?* question. This way, only one app will be able to use this Storage Plan, and attaching another app to the same storage plan will not be possible.
 
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If the plan name already exists you will receive an error that it cannot be created. This is not a problem, you can continue to use the plan, and it will now have the new configuration.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 To use this plan, [upgrade](/developerportal/deploy/private-cloud-upgrade-guide) the Mendix Operator to version 1.1.0 or later.
-{{% /alert %}}
+{% endhint %}
 
 **Ephemeral** will enable you to quickly set up your environment and deploy your app, but any data objects you store will be lost when you restart your environment.
 
@@ -404,7 +404,7 @@ Here you can perform the following actions on the entire cluster:
 
 {{% alert type="info" %}}
 When you delete a cluster, this removes the cluster from the Developer Portal. However, it will not remove the cluster from your platform. You will need to explicitly delete the cluster using the tools provided by your platform.
-{{% /alert %}}
+{% endhint %}
 
 #### 4.1.2 Managing a Namespace
 

@@ -14,7 +14,7 @@ Collaborative development is the process of sharing app model changes when a tea
 
 Collaborative development is enabled by default for new apps created via the Developer Portal. If you are upgrading your project from Mendix 7 to 8, make sure you have followed the steps in [Moving from Desktop Modeler Version 7 to Studio Pro 8](moving-from-7-to-8). 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Collaborative Development Overview
 
@@ -44,7 +44,7 @@ The collaborative development process between Studio Pro and Studio consists of 
 
 When the Studio Pro user wants to deploy the app to the cloud, they click the **Run** button. The commit is done automatically during this process and step five is executed. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Studio Perspective
 
@@ -72,7 +72,7 @@ To commit your latest project changes and make them available to other users, op
 
 We recommend you update your project and commit changes often to avoid multiple conflicts in your project.  
 
-{{% /alert %}}
+{% endhint %}
 
 If your project has conflicts, Studio will be unlocked without receiving your changes. You need to resolve the conflicts in Studio Pro first to be able to complete the merge and commit again. 
 
@@ -125,7 +125,7 @@ If Studio is enabled for a development line, you can disable it.
 
 If you disable Studio for a development line it was enabled for and do not enable it for any other development line, you will not be able to use collaborative development.
 
-{{% /alert %}}
+{% endhint %}
 
 To disable Studio, do the following:
 

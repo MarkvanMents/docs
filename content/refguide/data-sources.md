@@ -24,7 +24,7 @@ A data view supports the following data sources:
 
 The **Microflow** source is not supported in offline applications because it implies a call to the server.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 List Widgets {#list-widgets}
 

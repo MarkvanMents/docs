@@ -10,7 +10,7 @@ tags: ["studio pro", "List"]
 This activity can be used in both **Microflows** and **Nanoflows**.
 
 Note that there are minor differences between the way this function works in microflows, and the way it works in nanoflows.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

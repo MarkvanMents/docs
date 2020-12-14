@@ -101,7 +101,7 @@ If you want to follow the discussion on a question via email notifications, clic
 
 {% hint style="info" %}
 The URL for each question is unique.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.2.2 Answers {#Answers}
 
@@ -121,7 +121,7 @@ You can easily upload your images in the Mendix Forum by dragging them directly 
 
 ![](attachments/mendix-forum/questions_image_button.png)
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Asking a Question
 
@@ -220,7 +220,7 @@ On this page, you can read the full descriptive text of the idea and do the foll
     * By upvoting ideas, you can show the Mendix community and Product Managers what you would like to see added to the Mendix Platform
 
 		{{% alert type="info" %}}The upvotes will be used as input for the Product Managers and Mendix Community MVPs to decide which features will be nominated for implementation. Please note that the level of impact also needs to be considered.
-		{{% /alert %}}
+		{% endhint %}
 * Click the star to favorite the idea (**3**)
 * Submit a comment on the idea (**4**)
 

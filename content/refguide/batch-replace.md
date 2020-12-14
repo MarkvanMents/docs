@@ -46,7 +46,7 @@ If you select a line, you can look in the **Show occurrence** section to see the
 
 {% hint style="success" %}
 Tip: move the dialog box to one side to get a better look at the document.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Replace With
 

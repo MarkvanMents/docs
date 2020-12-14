@@ -62,7 +62,7 @@ The return type defines what information the microflow returns. The caller of th
 
 {% hint style="info" %}
 To indicate whether or not an object should be committed, you can use Boolean as the return type of the microflow.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.4 Security Section {#security}
 
@@ -77,11 +77,11 @@ To indicate whether or not an object should be committed, you can use Boolean as
 
 {{% alert type="info" %}}
 By default entity access is not applied. Set **Apply entity access** to **Yes** if you want to perform some actions that respect the access rights of the current user.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Microflows that apply entity access have an **Entity Access** tag in the editor.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.4.2 Allowed Roles
 

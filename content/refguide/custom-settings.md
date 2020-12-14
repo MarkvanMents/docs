@@ -13,7 +13,7 @@ You can use custom server settings to configure Mendix Runtime beyond the standa
 
 {% hint style="warning" %}
 Only use this functionality if you know exactly what you are doing. Incorrect values can prevent Mendix Runtime from starting.
-{{% /alert %}}
+{% endhint %}
 
 Each custom setting consists of a name and a value. For example, to enable persistent sessions you add a custom setting with name `PersistentSessions` and value `true`. For a more detailed list of settings and example values, consult [full-documented-m2ee.yaml](https://github.com/mendix/m2ee-tools/blob/master/examples/full-documented-m2ee.yaml).
 
@@ -165,7 +165,7 @@ These settings can be used to store files using the Microsoft Azure blob storage
 
 {{% alert type="warning" %}}
 Azure blob storage's default connection protocol is HTTPS in order to encourage secure connections by default. This is a highly recommended best practice (for more information, see [Configure Azure Storage Connection Strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)). This should now be transparent, unless you use custom domain names (for details, see [Require Secure Transfer](https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer)). In that case, you should use the `UseHttps` setting above to revert to the previous default behavior and disable HTTPS.
-{{% /alert %}}
+{% endhint %}
 
 ## 8 IBM Cloud (Bluemix) Object Storage Settings
 

@@ -34,7 +34,7 @@ For more information on native mobile app development, see the [native-template 
 
 {% hint style="info" %}
 Update to 4.1.0 or later if you are using the camera functionality to avoid crashes if Firebase is not enabled for your project.
-{{% /alert %}}
+{% endhint %}
 
 This is the release supporting Studio Pro 8.9 and onwards. This release includes a major upgrade of the included dependencies which renders it incompatible with previous versions of Studio Pro.
 
@@ -44,7 +44,7 @@ This is the release supporting Studio Pro 8.9 and onwards. This release includes
 
 {{% alert type="info" %}}
 This release is compatible with Mendix Studio Pro 8.8 and above.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 This version of the Native Template is required to be able to release your Mendix Native App on iOS after April 1st. 

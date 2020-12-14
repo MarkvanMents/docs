@@ -93,7 +93,7 @@ The following tokens can be used to add or subtract a period of time from a date
 
 {% hint style="info" %}
 These variables must be used as string values and placed between two quotes. Time-related tokens combined with period-related tokens must be placed within one string. See example 3.
-{{% /alert %}}
+{% endhint %}
 
 #### 3.3.1 Examples
 

@@ -114,7 +114,7 @@ Transfer the backup data from the app on Mendix Cloud v3 to the app on Mendix Cl
 
 1. Download a backup from your app hosted in Mendix Cloud v3 (for details, see [How to Download a Backup](/developerportal/operate/download-backup)).
 
-    {{% alert type="info" %}}It is recommended that you download copies of *all* backups you want to keep. Once you have offboarded the old v3 environment, they will no longer be available.{{% /alert %}}
+    {{% alert type="info" %}}It is recommended that you download copies of *all* backups you want to keep. Once you have offboarded the old v3 environment, they will no longer be available.{% endhint %}
 
 2. Upload the downloaded backup to your app hosted in Mendix Cloud v4 (for details, see [How to Restore a Backup](/developerportal/operate/restore-backup)).
 
@@ -148,7 +148,7 @@ Follow these steps to link the app you detached from the v3 node, above, to the 
 
 {{% alert type="warning" %}}
 Make sure you have downloaded the latest backup and deployment package before linking your app to the v4 node.
-{{% /alert %}}
+{% endhint %}
 
 1.  In the [Developer Portal](http://home.mendix.com), go to **Apps** and select the app that has been detached from the v3 node.
 

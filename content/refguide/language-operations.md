@@ -41,7 +41,7 @@ Select the **Source language** and the **Destination language** from the  drop-d
 {% hint style="info" %}
 * Texts that are absent in the source language will be absent in the destination language – any original text will be removed
 * All the texts in the source language will be deleted
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Copy
 

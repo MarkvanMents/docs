@@ -13,7 +13,7 @@ In this document, we explain how to solve the most common or complicated consist
 
 This document does not describe *all* the errors, as there are a lot of errors that can occur, some of which are simple and do not need extra explanation, others are rare and/or heavily dependent on a use-case. 
 
-{{% /alert %}}
+{% endhint %}
 
 Some errors have error codes and if these errors are described in documentation, Studio Pro has a clickable link to the corresponding document. Others do not have an error code, in this case, you can manually search whether a particular error is described in documentation (you can search by a message you see in the **Errors** pane).
 
@@ -236,7 +236,7 @@ You have changed the association multiplicity and fixed the error.
 
 Сhanging the domain model can result in other errors. To avoid changing the domain model, you might want to use another widget instead of the reference selector, for example, a reference set selector or input reference set selector. 
 
-{{% /alert %}}
+{% endhint %}
 
 ### 6.2 Incorrect Multiplicity for a Reference Set Selector and an Input Reference Set Selector {#incorrect-multiplicity-reference-set}
 

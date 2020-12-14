@@ -28,7 +28,7 @@ To view maintenance windows, you need to have monitor or backup access to your M
 
 {% hint style="warning" %}
 Maintenance windows and planned maintenance are defined in UTC time format. When selecting a time period, remember to convert to UTC from your local time.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.1 Configuring the Maintenance Window for Your Application
 
@@ -56,7 +56,7 @@ Follow the instructions below to configure a maintenance window:
 
 {{% alert type="info" %}}
 Changing your preferred maintenance window will not change the time of any planned maintenance which is already scheduled. You will need to reschedule planned maintenance separately.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Rescheduling Planned Maintenance for Your Application
 
@@ -64,7 +64,7 @@ When a maintenance operation is planned, it will show up under **Planned Mainten
 
 {{% alert type="info" %}}
 Planned maintenance windows are displayed in your local timezone, as indicated by the offset (for example `+02:00` in the image above).
-{{% /alert %}}
+{% endhint %}
 
 You can reschedule planned maintenance up  to one hour before the beginning of the planned maintenance window by doing the following:
 

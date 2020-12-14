@@ -29,7 +29,7 @@ LIMIT 10
 
 This query retrieves the first ten customers, sorted by their last name.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT FirstName FROM Sales.Customer
@@ -39,7 +39,7 @@ OFFSET 10
 
 This query retrieves all customers, except the first ten, sorted by their last name.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT FirstName FROM Sales.Customer

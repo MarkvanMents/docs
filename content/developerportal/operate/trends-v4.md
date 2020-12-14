@@ -16,7 +16,7 @@ To track the usage growth of your app, and to debug performance problems, the Me
 This document describes the trends graphs available in Mendix Cloud v4. If your app is deployed to Mendix Cloud v3, please refer to [Trends in Mendix Cloud v3](trends).
 
 If you don't know which Mendix Cloud version you are using, you can find out by following the instructions in [Cloud Version and Region in the Mendix Cloud](/developerportal/deploy/cloud-version-region).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Access to Monitoring Trends
 
@@ -26,7 +26,7 @@ To view the **Trends**, you must have permission to **Access the Monitoring**.
 
 Only the [Technical Contact](../company-app-roles/technical-contact) is allowed to grant node permissions.
 
-{{% /alert %}}
+{% endhint %}
 
 Assign permission by following these steps:
 
@@ -109,7 +109,7 @@ In the **Object cache** graph you can monitor the number of Mendix Objects that 
 
 {{% alert type="info" %}}
 This metric is only available for apps built with Mendix versions 6 and below. Mendix versions 7 and above use a stateless runtime and so have no object cache. See the [Mendix 7.0 Release Notes](/releasenotes/studio-pro/7.0) for more information.
-{{% /alert %}}
+{% endhint %}
 
 Non-persistable entities live in the JVM memory and are garbage-collected regularly. If you have a memory leak, the number of objects in memory will grow over time. This might be a problem.
 

@@ -26,7 +26,7 @@ The **Search bar toggle** button (with default caption **Search**) opens or hide
 
 {% hint style="info" %}
 In a [reference set selector](reference-set-selector) there will be no search fields set by default. See [Search Bar](search-bar) to learn more about search fields. 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Add Button {#add-button}
 
@@ -86,7 +86,7 @@ Due to technical limitations, a button with the **Select all** selection type ca
 
 An **Edit** button always behaves as if the selection type is **Select page**, regardless of the actual settings of the **Select all** button that had been used to select objects.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.8 Deselect All Button {#deselect-all-button}
 
@@ -102,7 +102,7 @@ The Excel export function is only available in list widgets that have the [XPath
 
 Constraints you are using for search fields and sorting will also be exported.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 2.9.1 Maximum Number of Rows
 
@@ -119,7 +119,7 @@ The **Date export format** property defines the format dates will be exported. T
 
 When selecting **Date value**, dates will be shown only in the time zone of your Windows account, because Excel does not support defining specific time zones.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.10 Export to CSV Button {#export-to-csv-button}
 

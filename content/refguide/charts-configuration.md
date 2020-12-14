@@ -122,7 +122,7 @@ Add series and configure their properties, each series represents a dataset. For
     
     ![Edit series Events tab](attachments/charts/series-item-events.png)
 
-    {{% alert type="info" %}}The context of the page, microflow, or nanoflow selected for an event or tooltip will be the plotted object from which the point on the chart is drawn. This means you can display or use the x and y values, _and_ any other values stored in that object.<br /><br />For example you could use the tooltip to display the precise y value of a point, plus information on when the data was collected{{% /alert %}}
+    {{% alert type="info" %}}The context of the page, microflow, or nanoflow selected for an event or tooltip will be the plotted object from which the point on the chart is drawn. This means you can display or use the x and y values, _and_ any other values stored in that object.<br /><br />For example you could use the tooltip to display the precise y value of a point, plus information on when the data was collected{% endhint %}
     
     * **On click**: Select the way a click of a data point should be handled:
       * Do nothing
@@ -164,7 +164,7 @@ The **Appearance** settings are used to set the size of the chart on the page.
   * **Pixels**: is an absolute height
   * **Percentage of parent**: sets the height in relation to a container in which the widget is placed
   
-  {{% alert type="warning" %}}When using **Percentage of parent** the parent container must have an **absolute** height, else nothing is displayed.{{% /alert %}}
+  {{% alert type="warning" %}}When using **Percentage of parent** the parent container must have an **absolute** height, else nothing is displayed.{% endhint %}
 
 * **Height**: The height in pixels or percentage based on the setting of **Height unit**
 

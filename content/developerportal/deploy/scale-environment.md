@@ -37,7 +37,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 You can find the cloud version on which your app is hosted in the environment details: see [Cloud Version and Region in the Mendix Cloud](cloud-version-region).
 
 Details of your plan are also displayed on the environment details page.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Scaling Your Environment
 

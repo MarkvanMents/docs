@@ -17,7 +17,7 @@ You can use configurations to have different database settings for different peo
 
 When you are deploying your application to a server or the Mendix cloud you will have to configure settings  there. For more information, see [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy).
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Configuration Settings 
 

@@ -8,7 +8,7 @@ tags: ["studio pro"]
 
 This document describes the properties of a published OData resource. For an overview of OData services, see [Published OData Services](published-odata-services).
 
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Adding or Editing a Resource
 
@@ -42,7 +42,7 @@ In the **Public documentation** tab, you can provide a summary and a description
 
 [IBM DB2](db2) does not support read-isolated data retrieval operations that are non-blocking in a multi-user environment. Therefore, the data retrieved by OData might not be 100% consistent if the same data rows are modified concurrently by another user. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Selecting Exposed Attributes and Associations {#exatass}
 
@@ -52,7 +52,7 @@ In the **Edit published resource** window, select **Exposed attributes and assoc
 
 The **System.ID** attribute is used as a key in OData services and must always be checked.
 
-{{% /alert %}}
+{% endhint %}
 
 Attributes of published entities are **Nillable** by default. This means that if their value is empty then they will be encoded as explicit nulls in the OData content. If **Nillable** is unchecked for an attribute, the attribute cannot be empty (as this will result in a runtime error).
 
@@ -60,7 +60,7 @@ Attributes of published entities are **Nillable** by default. This means that if
 
 Attributes of the type **Binary** cannot be exported through OData services except for the **Contents** field of the **System.FileDocument** attribute.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Mapping from Internal Names to Exposed Names
 
@@ -70,7 +70,7 @@ Use **Exposed entity name** in the **Edit published resource** window to customi
 
 Location URIs must be unique. Exposing two different resources at the same location will result in a consistency error.
 
-{{% /alert %}}
+{% endhint %}
 
 Attributes and associations can be customized in the same way in the **Exposed attributes and associations** list window under the the **Exposed name** column. 
 

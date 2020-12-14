@@ -11,7 +11,7 @@ tags: ["company","admin", "Company Admin", Developer Portal", "activate", "deact
 
 {% hint style="info" %}
 You must be a Company Admin to access this page and these settings.
-{{% /alert %}}
+{% endhint %}
 
 There are three tabs on the **Users** page with settings to manage:
 
@@ -29,7 +29,7 @@ For security reasons, deactivating the Mendix profile of an employee that is lea
 
 {{% alert type="info" %}}
 If a Mendix user moves to another company or comes from another company that is also using Mendix, the user can merge their old Mendix account(s) into the new Mendix account. This action combines all the hard-earned points, certifications, and achievements in the user's efforts to climb the leaderboards. For more information, see the [Merging Your Accounts](../mendix-profile/index#merging) of *Mendix Profile*.
-{{% /alert %}}
+{% endhint %}
 
 Before deactivating a user, make sure the following points are true for that user:
 

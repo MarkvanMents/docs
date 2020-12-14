@@ -16,7 +16,7 @@ Mendix Support will contact the [Technical Contact](../company-app-roles/technic
 
 {% hint style="info" %}
 If you need a **Subscription Secret** for your app deployed to SAP, please submit a request with [Mendix Support](https://support.mendix.com).
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Apps in the IBM Cloud Portal are licensed in a different way – see [IBM Cloud](/developerportal/deploy/ibm-cloud) for more information.

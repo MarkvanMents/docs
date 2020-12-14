@@ -18,7 +18,7 @@ For deployments to the Mendix Cloud, you will not have access to the m2ee admin 
 * [Metrics](/developerportal/operate/metrics)
 * [Trends in Mendix Cloud v4](/developerportal/operate/trends-v4)
 * [Running Now Metrics](/developerportal/operate/troubleshooting-mxcloud-runningnow)
-{{% /alert %}}
+{% endhint %}
 
 You can change the admin port from Studio Pro by navigating to **Project** > **Settings** > **Configurations** > *your configuration* > **Server** > **Admin port**.
 
@@ -254,7 +254,7 @@ Number of database requests. Distinguishes between "select", "update", "insert",
 
 Memory statistics should only be interpreted by experts, lack of detailed knowledge of the Java memory model can lead to false conclusions.
 
-{{% /alert %}}
+{% endhint %}
 
 Represents the number of bytes allocated to the specified memory sections. For a general explanation, see the [Oracle documentation on tuning garbage collection](http://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/). For the heap and non-heap fields see the [memory usage](https://docs.oracle.com/javase/8/docs/api/java/lang/management/MemoryUsage.html) page.
 
@@ -271,7 +271,7 @@ If you are automatically processing the "memorypools" section to, for example, d
 
 If do want to develop a strategy on interpreting these pools anyway based on Java version: you can get the Java version from the 'about' admin action.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 4 State Statistics {#state}
 

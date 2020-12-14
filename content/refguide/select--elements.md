@@ -22,7 +22,7 @@ If the contents of the used schema source change, the mapping document does not 
 
 Schema contents can change by importing a changed XML schema, WSDL or by changing a JSON structure.
 
-{{% /alert %}}
+{% endhint %}
 
 ## Rules and Restrictions
 
@@ -46,7 +46,7 @@ When working on an import mapping you are allowed to skip elements in the hierar
 
 You may encounter element selection checkboxes that are greyed out. If you hover the mouse over the checkbox, you see which rule or restriction prevents you from changing the checkbox value. For example, you may need to select a parent node first before you can select a child node.
 
-{{% /alert %}}
+{% endhint %}
 
 ## Convenience functions
 

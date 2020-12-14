@@ -25,7 +25,7 @@ WHERE LastName = 'Jansen'
 
 This query retrieves all customers whose name is equal to 'Jansen'.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT FirstName FROM Sales.Customer

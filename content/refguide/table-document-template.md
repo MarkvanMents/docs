@@ -16,7 +16,7 @@ Tables can be used both inside and outside the data view or templategrid widgets
 
 This table has four rows and three columns. The last row contains a data view with another table.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Components
 

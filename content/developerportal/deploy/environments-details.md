@@ -82,7 +82,7 @@ Click the **Change** button next to the name of the environment.
 The name must be at least two characters and consist of alphanumeric characters and hyphens (`a-z`, `A-Z`, `0-9`, and `-`) but cannot begin or end with a hyphen.
 
 If you rename an environment, it may take up to 15 minutes before you can access an app via its URL. This is because the URL includes the name of the environment and the old value needs to be removed from the DNS cache. It may take considerably longer for the change to be visible worldwide.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 Scaling – Mendix Cloud v4{#scaling}
 
@@ -156,7 +156,7 @@ If you select a scheduled event and click **Toggle**, you can switch the schedul
 
 You have to restart your application before the changes will be made.
 
-{{% /alert %}}
+{% endhint %}
 
 With scheduled events, you can let the Runtime execute a microflow at a specific moment in time. The event can also be repeated with a given interval (for example, every day).
 
@@ -178,7 +178,7 @@ You can also set **Mask** to **Yes**. This replaces the **Current value** and th
 
 {{% alert type="info" %}}
 You have to restart your application before the changes will be made.
-{{% /alert %}}
+{% endhint %}
 
 For more information, see [Constants](/refguide/constants).
 
@@ -210,7 +210,7 @@ HTTP Headers allows you to set the values of selected HTTP response headers. The
 
 {{% alert type="info" %}}
 This replaces the option to prevent embedding your app in an IFrame with more flexible options to set HTTP Headers.
-{{% /alert %}}
+{% endhint %}
 
 For Mendix Cloud v3, only *X-Frame-Options* is supported. For Mendix Cloud v4 the HTTP headers which are supported in the Developer Portal are:
 

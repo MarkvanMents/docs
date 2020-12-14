@@ -7,7 +7,7 @@ tags: ["studio pro"]
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

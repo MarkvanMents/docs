@@ -29,7 +29,7 @@ Restoring a backup locally can be useful if you want to test your cloud environm
     ![](attachments/restore-backup-locally/postgres-password.png)
 
     {% hint style="info" %}You will need this password later to allow your Mendix app to access the restored data. 
-    {{% /alert %}}
+    {% endhint %}
 
 * When restoring a database hosted in Mendix Cloud v4, or downloading a full backup, you will need a utility such as [7zip](http://www.7-zip.org/) on your local machine which can extract files from *.gz* and *.tar* archives.
 
@@ -43,7 +43,7 @@ Once PostgreSQL is installed and you have downloaded a backup file, you need to 
 If your backup came from Mendix Cloud v4, it will have been compressed as a *.gz* file. You will first have to extract the file(s) from this archive using a tool such as 7zip.
 
 If you have downloaded a full backup, this will also have been archived as a *.tar* file which you need to extract to get your .backup file containing the database backup. The .backup file is in the **db** folder of the archive.
-{{% /alert %}}
+{% endhint %}
 
 1. Start **pgAdmin 4** from the Windows start menu.
 2. Click the **+** in the Browser pane to open the **Servers > PostgreSQL 9.6** menu.

@@ -16,7 +16,7 @@ Every access rule is applicable to one or more [module roles](module-security#mo
 Access rules are not inherited from an entity's [generalization](entities#generalization), the security for every entity is specified explicitly. This means that when adding an access rule to an entity, always make sure that all required XPath constraints are applied.
 
 If the entity has a generalization with access rules defining XPath constraints, these will not apply to its specializations and will therefore not limit its visibility.
-{{% /alert %}}
+{% endhint %}
 
 
 ## 2 Properties
@@ -29,7 +29,7 @@ Access rules are defined via entity's **Properties** > **Access rules**, or on t
 
 {{% alert type="info" %}}
 The **Access rules** section is visible only if the [Project Security](project-security) is set to **Production**.
-{{% /alert %}}
+{% endhint %}
 
 An example of the access rules properties is represented in the image below:
 
@@ -84,7 +84,7 @@ The set of objects that can be deleted can be limited by using an [XPath constra
 
 {{% alert type="info" %}}
 You cannot set *write* access to attributes which are calculated. This includes attributes of type *Autonumber* and attributes where the attribute value is set to **Calculated**.
-{{% /alert %}}
+{% endhint %}
 
 **Default rights for new members** specifies the rights which are applied to new attributes or associations of this entity.
 

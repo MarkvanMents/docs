@@ -30,7 +30,7 @@ Certificates for *.mendixcloud.com* and *.mxapps.io* are managed by Mendix and c
 
 {% hint style="warning" %}
 Do not pin these certificates in your solutions.
-{{% /alert %}}
+{% endhint %}
 
 For situations where pinning is required, you can set up a custom domain where you are in full control of updating the certificate.
 

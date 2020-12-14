@@ -110,7 +110,7 @@ Follow these steps to edit the most important fields on your Partner Profile:
 
 {% hint style="info" %}
 If you're missing an input option (for example, an industry or skill), click **Feedback** on the right side of the screen and let us know!
-{{% /alert %}}
+{% endhint %}
 
 ## 6 Adding Projects {#projects}
 
@@ -134,7 +134,7 @@ All of the fields in the project editor must be filled out before submitting the
 
 {{% alert type="warning" %}}
 All projects are reviewed by Mendix upon submission. After approval, the project will be shown in the **Published** project section.
-{{% /alert %}}
+{% endhint %}
 
 Published projects are listed in the **Published** projects section, where the following buttons are available for each published project:
 
@@ -182,7 +182,7 @@ To add developers to the Partner Profile, follow these steps:
 
 Make sure you offboard the developers who no longer work at your company through the company administration in the Mendix Platform. These former employees will still be visible in the overview. It is important that you deactivate these developers in the Developers Portal so that they don’t have access to projects.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 8 Editing Testimonials
 

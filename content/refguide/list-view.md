@@ -70,31 +70,31 @@ An on-click event defines what action is performed when a user clicks a list vie
 
 the number of rows displayed on the page; after the indicated limit is reached, the **Load more...** button is displayed on the page.
 
-{{% alert type="info" %}}The **Load more** button is not visible on native mobile pages. The list view will automatically load new items, when the last of the currently loaded items is shown.{{% /alert %}}
+{{% alert type="info" %}}The **Load more** button is not visible on native mobile pages. The list view will automatically load new items, when the last of the currently loaded items is shown.{% endhint %}
 
 #### 2.4.4 Scroll Direction
 
-{{% alert type="info" %}}The scroll direction property is only supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}The scroll direction property is only supported on native mobile pages.{% endhint %}
 
 This property determines whether the list view lays out its items vertically (default) or horizontally.
 
 #### 2.4.5 Number of Columns
 
-{{% alert type="info" %}}The number of columns property is only supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}The number of columns property is only supported on native mobile pages.{% endhint %}
 
 With this property you can change the number of items that will be shown next to each other in one row.
 If you set the scroll direction property to horizontal, this property determines the number of items per column.
 
 #### 2.4.6 Pull Down Action
 
-{{% alert type="info" %}}The number of columns property is only supported on native mobile pages.{{% /alert %}}
+{{% alert type="info" %}}The number of columns property is only supported on native mobile pages.{% endhint %}
 
 The pull down action defines what action is performed when you drag downwards on a list view.
 Its common behavior is to update the contents of the list view by synchronizing data.
 
 ### 2.5 Templates Section {#templates}
 
-{{% alert type="warning" %}}Templates are not supported on native mobile pages.{{% /alert %}}
+{{% alert type="warning" %}}Templates are not supported on native mobile pages.{% endhint %}
 
 If the entity that is connected to the list view has specializations, you can optionally specify templates for each specialization. For each row in the list view the most specific template is shown. The different templates can be selected by clicking the extra header that appears when a specialization template is added.
 

@@ -8,7 +8,7 @@ menu_order: 40
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.
-{{% /alert %}}
+{% endhint %}
 
 
 ## 1 Introduction
@@ -44,7 +44,7 @@ The [Export Mapping](export-mappings) action defines in which way the data in th
 
 Export mappings support flat JSON. You can select a JSON structure document in an export mapping, and you can select JSON elements that are at most one level deep. That means that you can export simple JSON objects like `{"Name":"John", "Age":46}`.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.2 Parameter Type
 

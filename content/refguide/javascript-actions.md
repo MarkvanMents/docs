@@ -9,7 +9,7 @@ tags: ["javascript", "javascript action", "parameter", "studio pro"]
 
 {% hint style="warning" %}
 This activity can only be used in **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

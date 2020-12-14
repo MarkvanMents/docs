@@ -61,7 +61,7 @@ The table below describes possible ways to specify the width of an image:
 
 {% hint style="info" %}
 Not supported on native mobile pages.
-{{% /alert %}}
+{% endhint %}
 
 #### 2.4.3 Width 
 

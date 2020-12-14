@@ -21,7 +21,7 @@ A build number is included in the version, and this has to be included in the li
 
 You can find the build number in path of your Mendix installation (for example `C:\Program Files\Mendix\8.1.2.40272`).
 
-{{% /alert %}}
+{% endhint %}
 
 So, the MxBuild for Mendix version 8.1.2 would be found at [https://cdn.mendix.com/runtime/mxbuild-8.1.2.40272.tar.gz](https://cdn.mendix.com/runtime/mxbuild-8.1.2.40272.tar.gz).
 

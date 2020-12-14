@@ -38,7 +38,7 @@ SELECT Person.* FROM Sales.Customer AS Person
 SELECT "Sales.Order".* FROM "Sales.Order"
 ```
 
-{{% /alert %}}
+{% endhint %}
 
 `expression`
 
@@ -50,7 +50,7 @@ Is either a constant, a function or any combination of attribute names, constant
 SELECT Name AS CustomerName, LastName AS CustomerLastName, Birthday, Category FROM Sales.Customer
 ```
 
-{{% /alert %}}
+{% endhint %}
 
 See [this page](oql-expressions) for more information.
 

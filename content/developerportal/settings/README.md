@@ -25,7 +25,7 @@ In **Security**, there are two tabs with app and node permissions, as described 
 
 {% hint style="info" %}
 To view the App Team, you must have the **App Settings** permission or a default **Scrum Master** role.
-{{% /alert %}}
+{% endhint %}
 
 The **App Team** tab lets you view and delete the team members that are currently working on the app. Each member has a **Role**. You can change the role of each team member to the following:
 

@@ -24,7 +24,7 @@ The following frameworks are automatically installed (if necessary):
 
 {% hint style="info" %}
 You can choose which JDK is used for building and running locally via the **Edit** > **Preferences** menu item in Studio Pro.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.1 Firewall Settings
 
@@ -42,7 +42,7 @@ If you want to use TortoiseSVN in combination with Studio Pro, download the late
 Mendix Studio Pro uses the Subversion 1.9 working copy. Previous versions of the Mendix Desktop Modeler used a Subversion 1.7 working copy. These working copy versions **are not compatible**.
 
 Always use the version of TortoiseSVN which matches your app model. If you open a local model from Mendix version 7.x or 6.x with the latest version of TortoiseSVN **you will no longer be able to open it in Mendix**.
-{{% /alert %}}
+{% endhint %}
 
 ## 3 Team Server {#ts}
 
@@ -58,7 +58,7 @@ The [Team Server](/developerportal/develop/team-server) is implemented using Sub
 
 {{% alert type="info" %}}
 The browser you use needs to have JavaScript turned on.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Cloud Foundry
 The [Mendix Cloud Foundry buildpack](https://github.com/mendix/cf-mendix-buildpack) supports Cloud Foundry versions v9 and above. 
@@ -93,7 +93,7 @@ When running Mendix on a server, you will need Java Runtime Environment (JRE) 11
 
 {{% alert type="info" %}}
 There is an issue since Java 7 that causes timeouts when using web services with a certain amount of data. You can circumvent this issue by adding the VM params `-Djava.net.preferIPv4Stack=true`. Mendix Studio Pro will do this for you, but if you are running Mendix on premises on a Windows server, you will need to do this yourself. For more information about this issue, see [HotSpot (64bit server) hangs on socket read (JVM 1.7 bug?) - updated](http://blog.bielu.com/2011/11/hotspot-64bit-server-hangs-on-socket.html) and [Possible Bug in Java 7](https://forums.oracle.com/forums/thread.jspa?messageID=9985748).
-{{% /alert %}}
+{% endhint %}
 
 ## 8 Databases {#databases}
 

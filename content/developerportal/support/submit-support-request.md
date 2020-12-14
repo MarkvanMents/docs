@@ -14,7 +14,7 @@ In order for Mendix Support to pick up and process your support request, it is i
 
 {% hint style="warning" %}
 For critical production incidents, please contact Mendix Support by [phone](https://support.mendix.com).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Checking Useful Links Before Submitting a Request
 
@@ -130,7 +130,7 @@ You can add large attachments such as project files to the request. Please note 
 
 {{% alert type="info" %}}
 Not all App Store content is compatible with every version of Studio Pro, and not all App Store content is supported by Mendix. For more information, see [App Store Content Support](/appstore/general/app-store-content-support).
-{{% /alert %}}
+{% endhint %}
 
 ### 5.6 Mobile Problems
 

@@ -33,7 +33,7 @@ You can also enable Studio if it has not been enabled yet by clicking **Enable M
 
 {% hint style="info" %}
 Only Scrum Masters or custom App Team roles with the **App Settings** permission are allowed to enable Studio.
-{{% /alert %}}    
+{% endhint %}    
 
 ## 3 Editing Cloud Settings
 
@@ -41,7 +41,7 @@ Click **Cloud Settings** to select the cloud platform on which to deploy your ap
 
 {{% alert type="info" %}}
 Only users with the **App Settings** permission can change cloud platforms. For default roles, only the **Scrum Master** has this permission. For more details, see the [App Team Roles](../company-app-roles/index#app-team-roles) section of *Company & App Roles*.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/cloudsettings.png)
 
@@ -60,7 +60,7 @@ Click **Manage App Users** to manage and invite App Users, who are end-users who
 
 {{% alert type="info" %}}
 You can also manage app users from Studio, by clicking **Manage Users** on the **Settings > Roles and Permissions** page within Studio.
-{{% /alert %}}
+{% endhint %}
 
 After clicking **Manage App Users**, you will see a list of environments for your app on the **App User Management** page. You will only be able to see environments that satisfy these requirements:
 
@@ -86,7 +86,7 @@ To edit an App User's roles, click **Edit** by their name. Permissions for these
 
 {{% alert type="info" %}}
 If an App User has been granted access to an app environment through a security group, only a Company Admin using the [Security Groups](../company-app-roles/users#security-groups) page can remove them from that environment (by removing them from that security group) or edit the roles granted by that security group policy.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Invite Users
 
@@ -118,7 +118,7 @@ After they provide authorization, they will be brought to your deployed app.
 
 {{% alert type="info" %}}
 Only users with the **App Settings** permission can edit the application information.
-{{% /alert %}}
+{% endhint %}
 
 Click **Edit App Info** to edit the following details:
 
@@ -135,7 +135,7 @@ Click **Manage Webhooks** to manage your app's webhooks. A webhook enables the D
 
 {{% alert type="info" %}}
 Only [Company Admins](../company-app-roles/companyadmin-settings) or users with the **App Settings** permission can manage webhooks.
-{{% /alert %}}
+{% endhint %}
 
 On the **Webhooks settings** page, you can add a new webhook and edit or delete existing webhooks:
 

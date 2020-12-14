@@ -45,7 +45,7 @@ Here you can select a microflow that is automatically executed immediately after
 There is a timeout of *11 minutes* on the after startup microflow. If your after startup microflow takes longer than 11 minutes your whole app will fail to start.
 
 After startup is designed to initialize the app and therefore runs *before* the app is able to respond to incoming service requests (for example, published REST services).
-{{% /alert %}}
+{% endhint %}
 
 ### 3.4 Before Shutdown
 
@@ -63,7 +63,7 @@ This microflow gets called every 10 seconds to check if the app is still healthy
 
 The health check microflow is specific to the [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy). For other clouds, the admin port can be called, or the health check microflow can be exposed through a REST API.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.6 First Day of the Week {#first-day-of-the-week}
 
@@ -132,7 +132,7 @@ The difference is noticeable when the operation takes less time. So if you expec
 
 {{% alert type="info" %}}
 It is important to remember when changing hashing algorithms is that any hashed attribute (like the System$User password attribute) has its algorithm set on hashing. In other words, for the hashing type to take effect, any existing hashed attribute will have to be reset using the new hashing type.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.10 Rounding Mode{#rounding}
 
@@ -163,7 +163,7 @@ If this option is enabled, users can sign in multiple times through different cl
 
 In production, this only works with licenses based on concurrent users.
 
-{{% /alert %}}
+{% endhint %}
 
 Default: *Yes*
 
@@ -230,17 +230,17 @@ Client certificates added here will be used whenever a server accepts a client c
 
 When running from Studio Pro or from Eclipse, the certificates will be used automatically to connect over *HTTPS*. When running on a server, the location of the certificate files has to be specified in the configuration file.
 
-{{% /alert %}}
+{% endhint %}
 {{% alert type="warning" %}}
 
 Be aware that during local deployment, the certificate files will be located in the **deployment** folder, under **model/certificates**. Therefore, do not use production certificates during development.
 
-{{% /alert %}}
+{% endhint %}
 {{% alert type="info" %}}
 
 Certificates can be installed in the Windows Certificate Store using the **Install Certificate** wizard in the **View details** form. This can be useful when trying to access a WSDL-file using an *HTTPS* connection which requires a client certificate.
 
-{{% /alert %}}
+{% endhint %}
 {{% alert type="info" %}}
 
 When an SSLException occurs at runtime with the message `HelloRequest followed by an unexpected handshake message` or when a web service does not respond (Java 6 update 21 and above) when using the imported certificates, this is caused by either the client or server not being [RFC-5746](http://www.ietf.org/rfc/rfc5746.txt)-compatible.
@@ -255,7 +255,7 @@ When client and server are RFC-5746 compatible at a future point in time, this J
 
 For background information, see [Transport Layer Security (TLS) Renegotiation Issue Readme](http://www.oracle.com/technetwork/java/javase/documentation/tlsreadme2-176330.html).
 
-{{% /alert %}}
+{% endhint %}
 
 ## 6 Theme Tab
 

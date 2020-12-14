@@ -6,7 +6,7 @@ tags: ["studio pro"]
 
 {% hint style="info" %}
 App services are deprecated and marked for removal. Use a [published web service](published-web-services) or a [published REST service](published-rest-services) instead.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 General Tab
 
@@ -26,7 +26,7 @@ Once the status is set to 'Consumable', you cannot edit the app service anymore.
 
 {{% alert type="info" %}}
 Always remember to set at least one app service version to Consumable before going to production. Only Consumable app service versions will be available in production.
-{{% /alert %}}
+{% endhint %}
 
 ### 1.3 Icon
 

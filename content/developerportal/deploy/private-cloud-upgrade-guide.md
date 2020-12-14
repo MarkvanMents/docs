@@ -42,7 +42,7 @@ This procedure is only required when upgrading from Mendix Operator v1.0.* to th
 
 To upgrade from Mendix Operator v1.1.* to the latest version, follow the [simplified upgrade guide](#from-operator-1.1.x).
 
-{{% /alert %}}
+{% endhint %}
 
 This process will take about 15 to 30 minutes.
 During the upgrade process, the Mendix Operator will have to be stopped and will not process any changes.
@@ -131,7 +131,7 @@ These deployments will be created in addition to StatefulSets created by the pre
 
 The StatefulSets should be cleaned up manually as documented in the [Cleanup phase](#cleanup-phase) section.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 2.2.6 Cleanup Phase{#cleanup-phase}
 
@@ -151,7 +151,7 @@ This procedure can only be used to upgrade from Mendix Operator v1.1.* to the la
 
 To upgrade from Mendix Operator v1.0.* to the latest version, follow the [upgrade guide](#from-operator-1.0.x) above.
 
-{{% /alert %}}
+{% endhint %}
 
 This process will take a few minutes.
 During the upgrade process, the Mendix Operator will be restarted.

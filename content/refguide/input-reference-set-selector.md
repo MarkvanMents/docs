@@ -87,7 +87,7 @@ See the [Show a Page](on-click-event#show-page) section of *On Click Event & Eve
 
 {{% alert type="info" %}}
 You can generate a new page to show by right-clicking the widget and selecting **Generate select page…**.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.7 Label Section {#label}
 

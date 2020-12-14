@@ -52,7 +52,7 @@ Upload your CA from a file in *.pem* format by clicking the **Upload Certificate
 
 {% hint style="info" %}
 Your CA must contain a single root certificate and can have multiple intermediate certificates.
-{{% /alert %}}
+{% endhint %}
 
 Once the CA is uploaded, you will see a tree containing the root certificate and any intermediate certificates included in the CA. When you upload a CA, the last certificate in the CA will be selected by default.
 
@@ -62,7 +62,7 @@ Select the check box next to each certificate you want to use.
 
 {{% alert type="warning" %}}
 If you do not select any certificates then all the certificates will be valid.
-{{% /alert %}}
+{% endhint %}
 
 Click **Save** to save the current certificate profile.
 
@@ -90,7 +90,7 @@ You can specify a number of different IP ranges. Click **New** to add a new one,
 
 {{% alert type="warning" %}}
 The IP range filter option is not available in Mendix Cloud v3 environments hosted outside the Netherlands
-{{% /alert %}}
+{% endhint %}
 
 For each IP range, you can specify a **Name** for the range, and a range of addresses. Mendix Cloud v3 supports both IPv4 or IPv6 format addresses.
 
@@ -104,7 +104,7 @@ For Mendix Cloud v3, you can only specify one CA for your access restriction pro
 The client certificate CA in all *active* profiles must be identical (in other words, it is only possible to use a single CA for the entire application environment).
 
 Only Root CA verification is supported. Any client certificate with a valid path to the Root CA will be allowed access. Certificate mapping is not supported.
-{{% /alert %}}
+{% endhint %}
 
 Click **Upload** to upload a new client CA , or click **Edit** or **Delete** to modify the existing one.
 
@@ -128,7 +128,7 @@ To apply a restriction to a specific application environment, follow these steps
 * The settings for specific paths override the implicitly inherited profile for the top level
 * Besides being able to apply a customized access restriction profile, there are also presets available for simply allowing or denying all access
 
-{{% /alert %}}
+{% endhint %}
 
 ### 3.1 Default Settings
 
@@ -170,7 +170,7 @@ To restrict access to the app to an IP range, follow these steps:
 
 8. **Edit** the top level path `/`.
 
-    {{% alert type="info" %}}Any path below this path which does not have an explicit restriction will inherit this access restriction profile.{{% /alert %}}
+    {{% alert type="info" %}}Any path below this path which does not have an explicit restriction will inherit this access restriction profile.{% endhint %}
 
 9. Select *Custom Profile for Client Certificates and/or IP ranges* as the **New Restriction Type**.
 

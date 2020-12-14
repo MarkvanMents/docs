@@ -96,7 +96,7 @@ It is now possible to specify that certain members of a project in the Developer
 
 Scrum Masters in the Developer Portal always keep the administrator role in ATS.
 
-{{% /alert %}}  
+{% endhint %}  
 
 #### Default App Role
 

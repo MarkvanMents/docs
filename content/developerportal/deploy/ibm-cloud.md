@@ -30,7 +30,7 @@ In this scenario, you have an existing app which is running in another environme
 
 {% hint style="warning" %}
 If you have an app running on SAP Cloud Platform, deploying it to IBM Cloud will not be successful because of the customization done within SAP Mendix apps.
-{{% /alert %}}
+{% endhint %}
 
 ![](attachments/ibm-cloud/cloud-setting.png)
 
@@ -127,7 +127,7 @@ This is done from the **Environments** page of the Developer Portal:
 
 9. Set a **Subscription Secret** (required). This secret is associated with your Mendix production license. By entering the subscription secret, your application will run in this environment as production. If the subscription secret is invalid, your app will still run, but will restart every 1-2 hours and have a limitation of six named users.
 
-    {{% alert type="info" %}}If you do not have a subscription secret, create a support ticket with Mendix Support and they will send you one.{{% /alert %}}
+    {{% alert type="info" %}}If you do not have a subscription secret, create a support ticket with Mendix Support and they will send you one.{% endhint %}
 
 10. Click **Next** to create the environment and finish the setup.
 
@@ -149,11 +149,11 @@ If you click **Run** in Studio Pro, this will automatically do the following:
 1. Commit the project.
 2. Generate a deployment package.
 3. Deploy the deployment package to the first available environment (this will replace any app which is currently running in this environment).
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 You will still have to deploy your app in the Developer Portal the very first time to ensure that all the services are bound correctly.
-{{% /alert %}}
+{% endhint %}
 
 1. Go to the **Environments** page of the Developer Portal.
 
@@ -211,7 +211,7 @@ When the package is ready to be deployed, a green tick will be shown next to the
 
     
 
-    {{% alert type="warning" %}}In your initial deployment, do not remove any of the services with the status **Services To Be Bound**. For a new app, these services are all required for the correct deployment of the app.{{% /alert %}}
+    {{% alert type="warning" %}}In your initial deployment, do not remove any of the services with the status **Services To Be Bound**. For a new app, these services are all required for the correct deployment of the app.{% endhint %}
 
 5. Click **Continue** to continue to the Start Application confirmation page.
 
@@ -219,7 +219,7 @@ When the package is ready to be deployed, a green tick will be shown next to the
 
     ![](attachments/ibm-cloud/start-application.png)
 
-    {{% alert type="info" %}}This will bind any services which are in the status **Services To Be Bound**.{{% /alert %}}
+    {{% alert type="info" %}}This will bind any services which are in the status **Services To Be Bound**.{% endhint %}
  
 7. When the application has been started you will receive a confirmation message. Click **OK** and you will be taken to the Environment Details page for the selected environment. See [Environment Details](#EnvironmentDetails), below.
 
@@ -247,7 +247,7 @@ The environment details page contains three tabs: General, Model Options and Ser
 
 {{% alert type="info" %}}If you make changes to your app which you want be applied next time the app is deployed you must make them here.
 
-Changes made to the app in IBM Cloud Portal are only temporary and can be overwritten by the values in the Mendix Developer Portal next time the app is deployed.{{% /alert %}}
+Changes made to the app in IBM Cloud Portal are only temporary and can be overwritten by the values in the Mendix Developer Portal next time the app is deployed.{% endhint %}
 
 ### 7.1 General Tab
 
@@ -265,7 +265,7 @@ The button will change to **Start Application** which you can click to (re)start
 
 {{% alert type="info" %}}
 You may need to use this option to stop and start your app after changing one of the settings on this page.
-{{% /alert %}}
+{% endhint %}
 
 If you receive an error trying to start the app, please refer to the [App Will Not Start](#willnotstart) section under *Issues*, below.
 
@@ -287,7 +287,7 @@ You will be asked to confirm that this environment should be removed. You will a
 
 {{% alert type="info" %}}
 If you do not select **Remove resources** in this dialog, the resources will be left in IBM Cloud. This could be useful if you want to remove the environment but, for some reason, a resource cannot be removed. In this case, the resources can only be removed individually from within IBM Cloud Portal.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.1.5 Change Development Mode
 
@@ -317,7 +317,7 @@ This tab displays the application constants and allows you to edit them. It also
 
 {{% alert type="info" %}}
 You need to restart your app if you change any of these options.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.2.1 Scheduled Events
 
@@ -343,13 +343,13 @@ This tab displays Cloud Foundry services which are bound to the app, waiting to 
 **If you unbind the database (compose-for-postgreSQL) service, your app will probably stop working**
 
 Other services should be selected, bound, and unbound through this **Services** page. Changes made in the IBM Cloud Portal will *not* be reflected in the Mendix Developer Portal.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Changes to bound services will not take place immediately. You will have to stop and start your application to activate the changes.
 
 Services which will be bound when the application is stopped and restarted are listed in the category **Services To Be Bound**. You will also see an information message in this case: the button **Review Services** will list the services which are not currently bound.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.3.1 Connecting Services
 
@@ -378,7 +378,7 @@ The service bindings will be created with the provided configurations when you r
 
 {{% alert type="info" %}}
 If you receive an error, and the service fails to bind please check all aspects of your IBM account. The error message may not provide full information about, for example, which plans you are allowed to choose for a particular service.
-{{% /alert %}}
+{% endhint %}
 
 If you receive an error trying to restart the app, please refer to the [App Will Not Start](#willnotstart) section under *Issues*, below.
 

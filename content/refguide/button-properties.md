@@ -144,7 +144,7 @@ Default: *true*
 
 The **Items** section is only shown for drop-down buttons. 
 
-{{% /alert %}}
+{% endhint %}
 
 When an end-user clicks a drop-down button, a pop-up window with a list of items opens. Each item performs an event when an end-user clicks this item. Different items can perform different events. For more information on events that can be assigned, see [On Click Event & Events Section](on-click-event).
 

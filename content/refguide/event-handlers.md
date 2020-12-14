@@ -16,7 +16,7 @@ Event handlers should be used moderately, as they will be triggered every time t
 Event handlers are not triggered in a particular order. So, make sure events do not depend on each other in any way (also with regard to events in generalizations and specializations).
 
 When events are triggered from microflows you can choose to bypass the event handlers in the microflow action.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If the specified event is applied to a list of objects (if, for example, you are committing a list of objects), the handler will be triggered for all the objects first, and then the event will be applied to the list. In the given example,  the handler will run on all the objects first and then all the objects in the list will be committed.

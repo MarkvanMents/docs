@@ -16,14 +16,14 @@ For information about new features in Mendix 8, see [Studio Pro 8 release notes]
 
 {% hint style="warning" %}
 Due to breaking changes in Mendix version 8, apps in Studio cannot be upgraded automatically using the regular Studio upgrade mechanism.
-{{% /alert %}}
+{% endhint %}
 
 This means the following:
 
 * Existing apps built in Studio will remain in their current Mendix version and can be upgraded in Studio to the latest release of Mendix version 7.23
 
     {{% alert type="info" %}}If your app was created in Studio Pro, using a Mendix 8 beta version, it will be upgraded to the release version of Mendix 8 automatically.
-    {{% /alert %}}
+    {% endhint %}
 
 *  Any apps you create in Studio from now on will have Mendix version 8 from the start
 
@@ -58,7 +58,7 @@ How to update to Atlas 1.2.4:
 3. Update Atlas by opening the App Store inside Studio Pro, search for *Atlas UI Resources*, click the **All Versions** pane, and download **Atlas UI Resources v1.2.4**.
 4. When prompted, choose to replace your existing Atlas module.
 
-{{% alert type="info" %}} You do not have to move any customized files from **theme_oldest** to **theme** yet, as after migrating to Mx8, you will update Atlas again which will create a new **theme folder**.{{% /alert %}}
+{{% alert type="info" %}} You do not have to move any customized files from **theme_oldest** to **theme** yet, as after migrating to Mx8, you will update Atlas again which will create a new **theme folder**.{% endhint %}
 
 ## 4 Converting Your App Project{#converting}
 
@@ -72,7 +72,7 @@ Make sure that you have either committed your latest changes to Team Server, or 
 
 {{% alert type="warning" %}}
 It is technically required for you to upgrade your app project to the latest version of Mendix 7, which is [7.23](/releasenotes/studio-pro/7.23). You can only convert your app project to Mendix 8 from 7.23.x.
-{{% /alert %}}
+{% endhint %}
 
 To upgrade to Mendix 7, follow these steps:
 
@@ -122,7 +122,7 @@ Test the app for any unexpected results.
 
 {{% alert type="success" %}}
 Congratulations! Your app has been successfully upgraded to Mendix 8 and you can continue working as normal.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 Elements of Type Float & Currency {#float-currency}
 

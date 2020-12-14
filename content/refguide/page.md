@@ -12,7 +12,7 @@ tags: ["studio pro", "page", "properties"]
 
 This document describes basic functions you can perform in the page editor and its modes. For details on what pages are for and what kind of widgets can be placed on them, see [Pages](pages).
 
-{{% /alert %}}
+{% endhint %}
 
 Pages define the end-user interface of a Mendix application. Every page is based on a [layout](layout). A page fills the "gaps" defined by a layout with widgets such as the [data view](data-view) and [data grid](data-grid).
 

@@ -27,7 +27,7 @@ Default: *MxAdmin*
 
 {% hint style="info" %}
 Since this is general knowledge, it is safer to change this to a custom user name.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.2 Password {#password}
 
@@ -37,11 +37,11 @@ Default: *1*
 
 {{% alert type="info" %}}
 This password is only used when Mendix is running locally. You can change the password for your other [environments](/developerportal/deploy/environments-details) in the Developer Portal.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Since this is general knowledge, it is safer to change this to a custom password.
-{{% /alert %}}
+{% endhint %}
 
 ### 2.3 User Role {#user-role}
 

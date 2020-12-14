@@ -20,7 +20,7 @@ Row and column properties described below are available if your project has [Men
 
 For more information on row and column properties, see the [Rows and Their Properties](#rows) and [Columns and Their Properties](#columns) sections. 
 
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Layout Grid Properties
 
@@ -59,7 +59,7 @@ The **General** section contains the **Width** property, which determines the wi
 
 As the layout grid responds to the viewport width, and not to the width of its container, a fixed width layout grid should only be used on top-level.
 
-{{% /alert %}}
+{% endhint %}
 
 ### 2.4 Visibility Section {#visibility}
 

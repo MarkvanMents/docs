@@ -33,7 +33,7 @@ GROUP BY Sales.Address/City
 
 This query returns the count of all customers per city.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT SUM(Sales.Order/TotalPrice)
@@ -44,7 +44,7 @@ GROUP BY Sales.Address/City
 
 This query returns the sum of the total prices of all orders per city.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT SUM(Sales.Order/TotalPrice)

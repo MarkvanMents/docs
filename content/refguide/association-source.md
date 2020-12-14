@@ -13,7 +13,7 @@ The **Association** source is a data source available to nested [data grids](dat
 
 The **Association** source retrieves objects from memory, not from the database. 
 
-{{% /alert %}}
+{% endhint %}
 
 An **Association** data source fills the widget with objects linked to another object by an association. To provide the context, the data widget needs to be nested within another data widget.
 

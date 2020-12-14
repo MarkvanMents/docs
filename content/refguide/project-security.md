@@ -17,7 +17,7 @@ To configure the project security, open **Project Explorer** > **Project** > **S
 
 {% hint style="info" %}
 For more general information on security, see [Security](security).
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Security Level {#security-level}
 

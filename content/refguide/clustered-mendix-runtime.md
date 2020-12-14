@@ -80,7 +80,7 @@ Some apps require a guaranteed single execution of a certain activity at a given
 
 {% hint style="info" %}
 For the reason described above, the **Disallow concurrent execution** property of a microflow only applies to a single node.
-{{% /alert %}}
+{% endhint %}
 
 ## 9 Dirty State in a Cluster
 
@@ -98,7 +98,7 @@ Only the dirty state for requests that originate from the Mendix Client (both sy
 
 {{% alert type="info" %}}
 Whenever the Mendix Client is restarted, all the state is discarded, as it is only kept in the Mendix Client memory. The Mendix Client is restarted when reloading the browser tab (for example, when pressing <kbd>F5</kbd>), restarting a mobile hybrid app, or explicitly signing out.
-{{% /alert %}}
+{% endhint %}
 
 The more objects that are part of the dirty state, the more data has to be transferred in the requests and responses between the Mendix Runtime and the Mendix Client. As such, this has an impact on performance. In cluster environments, it is advised to minimize the amount of dirty state to minimize the impact of the synchronization on performance.
 
@@ -106,7 +106,7 @@ The Mendix Client attempts to optimize the amount of state sent to the Mendix Ru
 
 {{% alert type="warning" %}}
 It is important to realize that when calling external web services in Mendix to fetch external data, the responses of those actions are converted into Mendix entities. As long as they are not persisted in the Mendix database, they will be part of the dirty state and have a negative impact on the performance of the application. To reduce this impact, this behavior is likely to change in the future.
-{{% /alert %}}
+{% endhint %}
 
 To reduce the performance impact of large requests and responses, an app developer should be aware of the following scenarios that cause large requests and responses:
 
@@ -116,7 +116,7 @@ To reduce the performance impact of large requests and responses, an app develop
 
 {{% alert type="warning" %}}
 To make sure the dirty state does not become too big when the above scenarios apply to your app, it's recommended to explicitly delete objects when they are no longer necessary, so that they are not part of the state anymore. This frees up memory for the Mendix Runtime nodes to handle requests and improves performance.
-{{% /alert %}}
+{% endhint %}
 
 ## 10 Associating Entities with `System.Session` or `System.User`
 
@@ -134,7 +134,7 @@ The `Value` values can easily be obtained by performing a find on the `Key` valu
 
 {{% alert type="warning" %}}
 When data is associated to the current user or current session, it cannot be automatically garbage-collected. As such, this data will be sent with every request to the server and returned by the responses of those requests. Therefore, associating entity instances with the current user and current session should be done when no other solutions are possible to retain this temporary data.
-{{% /alert %}}
+{% endhint %}
 
 ## 11 Sessions Are Always Persistent
 

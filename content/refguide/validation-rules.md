@@ -22,7 +22,7 @@ For example, for entity 'Customer' the name and credit need to be filled in at a
 
 {% hint style="warning" %}
 You can only define validation rules for persistable entities as they are designed to ensure database integrity. Therefore, validation rules are disabled for non-persistable entities.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 Properties
 

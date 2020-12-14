@@ -46,7 +46,7 @@ It is not possible to use Mendix for Private Cloud in [OpenShift Online](https:/
 The cluster should be configured to be able to pull images from the registry.
 
 If the registry requires authentication, this can be done by creating a `docker-registry` type secret and attaching it to the `default` ServiceAccount, or configuring cluster-wide registry authentication.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.1 Local Registry
 
@@ -102,7 +102,7 @@ It doesn't require any external database or provider and is great for quick test
 An app using an ephemeral database will lose all data if its environment is stopped or restarted.
 
 An app with an ephemeral database cannot have more than one replica. Only the first (master) replica will be able to start.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.2 Standard PostgreSQL Database
 
@@ -129,7 +129,7 @@ Some managed PostgreSQL databases might have restrictions or require additional 
 To use a PostgreSQL database, the Mendix Operator requires a master account with permissions to create new users and databases.
 
 For every Mendix app environment, a new database schema and user (role) will be created so that the app can only access its own data.
-{{% /alert %}}
+{% endhint %}
 
 These features are currently not supported:
 
@@ -155,7 +155,7 @@ Some managed SQL Server databases might have restrictions or require additional 
 To use a SQL Server database, the Mendix Operator requires a master account with permissions to create new users and databases.
 
 For every Mendix app environment, a new database, user and login will be created so that the app can only access its own data.
-{{% /alert %}}
+{% endhint %}
 
 ### 4.4 Dedicated JDBC database
 
@@ -163,7 +163,7 @@ This allows you to use an existing database (schema) [database configuration par
 
 {{% alert type="info" %}}
 A dedicated JDBC database cannot be used by more than one Mendix app.
-{{% /alert %}}
+{% endhint %}
 
 ## 5 File storage
 
@@ -174,7 +174,7 @@ It doesn't require any external file storage provider and is great for quick tes
 
 {{% alert type="info" %}}
 An app using an ephemeral file storage will lose all files if its environment is stopped or restarted.
-{{% /alert %}}
+{% endhint %}
 
 ### 5.2 MinIO
 
@@ -184,11 +184,11 @@ The latest version of [MinIO](https://min.io/) is supported if it is running in 
 An admin account is required with permissions to create and delete users, policies and buckets.
 
 For every Mendix app environment, a new bucket and user will be created so that the app can only access its own data.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 MinIO Gateway is not supported since running MinIO in gateway mode disables the admin API and makes it impossible to create new users.
-{{% /alert %}}
+{% endhint %}
 
 ### 5.3 Amazon S3
 
@@ -198,7 +198,7 @@ MinIO Gateway is not supported since running MinIO in gateway mode disables the 
 
 {{% alert type="info" %}}
 For every Mendix app environment, a new bucket, IAM user and inline policy will be created so that the app can only access its own bucket.
-{{% /alert %}}
+{% endhint %}
 
 To use S3, the Mendix Operator will need an IAM account with the following policy so that it can create a new IAM user and bucket for each Mendix app environment:
 
@@ -246,14 +246,14 @@ Each environment will be writing into its own directory inside the bucket.
 
 To avoid compromising security, this type of plan should not be used by multiple environments.
 
-{{% /alert %}}
+{% endhint %}
 
 ## 6 Networking
 
 {{% alert type="info" %}}
 DNS, load balancing and the ingress controller should be configured first for the whole Kubernetes cluster.
 Mendix for Private Cloud will use the existing ingress controller.
-{{% /alert %}}
+{% endhint %}
 
 ### 6.1 OpenShift route
 

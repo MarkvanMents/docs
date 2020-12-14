@@ -97,7 +97,7 @@ The values in a column can be aggregated in several ways. The aggregate function
 
 Note that all objects will be taken into account, and not just the ones on the current page.
 
-{{% /alert %}}
+{% endhint %}
 
 #### 2.4.4 Aggregate Caption
 

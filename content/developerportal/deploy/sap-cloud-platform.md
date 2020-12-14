@@ -63,7 +63,7 @@ You may be asked to provide your credentials in one of two ways:
 
 {% hint style="info" %}
 If you have issues using SAP authentication, please refer to the reference [SAP Single Sign On](/partners/sap/sap-single-sign-on).
-{{% /alert %}}
+{% endhint %}
 
 You will now be asked to provide the final details for the SAP Cloud Platform development environment.
 
@@ -141,7 +141,7 @@ To create a new environment, perform the following steps:
 
 10. Set a **Subscription Secret** (required). This secret is associated with your Mendix production license. By entering the subscription secret, your application will run in this environment as production. If the subscription secret is invalid, your app will still run, but will restart every 1-2 hours and have a limitation of six named users.
 
-    {{% alert type="info" %}}If you do not have a subscription secret, create a support ticket with Mendix Support and they will send you one.{{% /alert %}}
+    {{% alert type="info" %}}If you do not have a subscription secret, create a support ticket with Mendix Support and they will send you one.{% endhint %}
 
 11. If you want the user to be redirected to a custom URL after they have logged in using XSUAA then, optionally, add **Redirect URLs**. 
 
@@ -165,11 +165,11 @@ If you click **Run** in Studio Pro, this will automatically do the following:
 1. Commit the project.
 2. Generate a deployment package.
 3. Deploy the deployment package to the first available environment (this will replace any app which is currently running in this environment).
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="warning" %}}
 You will still have to deploy your app in the Developer Portal the very first time to ensure that all the services are bound correctly.
-{{% /alert %}}
+{% endhint %}
 
 1. Go to the **Environments** page of the Developer Portal.
 
@@ -227,7 +227,7 @@ When the package is ready to be deployed, a green tick will be shown next to the
 
     
 
-    {{% alert type="warning" %}}In your initial deployment, do not remove any of the services with the status **Services To Be Bound**. For a new app, these services are all required for the correct deployment of the app.{{% /alert %}}
+    {{% alert type="warning" %}}In your initial deployment, do not remove any of the services with the status **Services To Be Bound**. For a new app, these services are all required for the correct deployment of the app.{% endhint %}
 
 5. Click **Continue** to continue to the Start Application confirmation page.
 
@@ -235,7 +235,7 @@ When the package is ready to be deployed, a green tick will be shown next to the
 
     ![](attachments/sap-cloud-platform/start-application.png)
 
-    {{% alert type="info" %}}This will bind any services which are in the status **Services To Be Bound**.{{% /alert %}}
+    {{% alert type="info" %}}This will bind any services which are in the status **Services To Be Bound**.{% endhint %}
  
 7. When the application has been started you will receive a confirmation message. Click **OK** and you will be taken to the Environment Details page for the selected environment. See [Environment Details](#EnvironmentDetails), below.
 
@@ -263,7 +263,7 @@ The environment details page contains three tabs: General, Model Options, and Se
 
 {{% alert type="info" %}}If you make changes to your app which you want be applied next time the app is deployed you must make them here.
 
-Changes made to the app in the SAP Cloud Platform cockpit are only temporary and can be overwritten by the values in the Mendix Developer Portal next time the app is deployed.{{% /alert %}}
+Changes made to the app in the SAP Cloud Platform cockpit are only temporary and can be overwritten by the values in the Mendix Developer Portal next time the app is deployed.{% endhint %}
 
 ### 7.1 General Tab
 
@@ -281,7 +281,7 @@ The button will change to **Start Application** which you can click to (re)start
 
 {{% alert type="info" %}}
 You may need to use this option to stop and start your app after changing one of the settings on this page.
-{{% /alert %}}
+{% endhint %}
 
 If you receive an error trying to start the app, please refer to the [App Will Not Start](#willnotstart) section under *Issues*, below.
 
@@ -303,7 +303,7 @@ You will be asked to confirm that this environment should be removed. You will a
 
 {{% alert type="info" %}}
 If you do not select **Remove resources** in this dialog, the resources will be left in SAP Cloud Platform. This could be useful if you want to remove the environment but, for some reason, a resource cannot be removed. In this case, the resources can only be removed individually from within the SAP Cloud Platform cockpit.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.1.5 Change Development Mode
 
@@ -323,7 +323,7 @@ Click **Reset** to return the values to what they were before the sliders were m
 
 {{% alert type="info" %}}
 You can also make use of the **Application Autoscaler** service on SAP Cloud Platform. Mendix provides assistance in setting up the parameters needed to configure application autoscaler. For more information see [Application Autoscaler for SAP Cloud Platform](/partners/sap/sap-autoscaler).
-{{% /alert %}}
+{% endhint %}
 
 #### 7.1.7 Change License Subscription ID
 
@@ -337,7 +337,7 @@ This tab displays the application constants and allows you to edit them. It also
 
 {{% alert type="info" %}}
 You need to restart your app if you change any of these options.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.2.1 Scheduled Events
 
@@ -368,13 +368,13 @@ There are a number of services which your Mendix app requires. **If you unbind a
 * connectivity
 
 Services should be selected, bound, and unbound through this **Services** page. Changes made in the SAP Cloud Platform Cockpit will *not* be reflected in the Mendix Developer Portal.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 Changes to bound services will not take place immediately. You will have to stop and start your application to activate the changes.
 
 Services which will be bound when the application is stopped and restarted are listed in the category **Services To Be Bound**. You will also see an information message in this case: the button **Review Services** will list the services which are not currently bound.
-{{% /alert %}}
+{% endhint %}
 
 #### 7.3.1 Connecting Services
 
@@ -391,11 +391,11 @@ To connect a service in the section **Available Services**
 
 {{% alert type="info" %}}
 If you use the **Application Autoscaler** service on SAP Cloud Platform, Mendix can create a JSON file for you. See [Application Autoscaler for SAP Cloud Platform](/partners/sap/sap-autoscaler) for more information.
-{{% /alert %}}
+{% endhint %}
 
 {{% alert type="info" %}}
 If you use the **PostgreSQL on Amazon (AWS)** service on SAP Cloud Platform, Mendix can create a JSON file for you. See [PostgreSQL on Amazon (AWS) for SAP Cloud Platform](/partners/sap/sap-postgresql-on-aws) for more information.
-{{% /alert %}}
+{% endhint %}
 
 To upload the JSON **File** for service binding, follow these steps:
 
@@ -409,7 +409,7 @@ The service bindings will be created with the provided configurations when you r
 
 {{% alert type="info" %}}
 If you receive an error, and the service fails to bind please check all aspects of your SAP account. The error message may not provide full information about, for example, which plans you are allowed to choose for a particular service.
-{{% /alert %}}
+{% endhint %}
 
 If you receive an error trying to restart the app, please refer to the [App Will Not Start](#willnotstart) section under *Issues*, below.
 
@@ -454,7 +454,7 @@ Mendix needs access to a relational database backend and can run using different
 
 {{% alert type="warning" %}}
 SAP have deprecated the use of PostgreSQL databases bound via the marketplace. This means that SAP accounts created recently will not be able to directly bind PostgreSQL databases and you will have to use [SAP HANA](#sap-hana) or [AWS RDS PostgreSQL](#aws-rds) databases.
-{{% /alert %}}
+{% endhint %}
 
 When you create your environment on SAP Cloud Platform, you can select a PostgreSQL database. During the creation of the environment, a PostgreSQL service will be added to your space and, when you deploy your app, it will be bound to the PostgreSQL service.
 
@@ -466,7 +466,7 @@ This database service should not be unbound from your environment: see [Services
 You can only use SAP HANA as the Mendix database for Mendix version 7.23.3 and above.
 
 There are also some differences in the way that Mendix can be used with SAP HANA compared to PostgreSQL databases – see [SAP HANA – Known Issues](/refguide/saphana).
-{{% /alert %}}
+{% endhint %}
 
 #### 8.2.1 SAP HANA Configuration for Full Accounts
 
@@ -485,7 +485,7 @@ Please bear the following in mind when using SAP HANA as your Mendix database:
 
 * Do *not* unbind the SAP HANA schema service from your environment: see [Services Tab](#binding-services), above, for more information on required services.
 
-{{% /alert %}}
+{% endhint %}
 
 If you have issues with your app running on SAP HANA, you will need to use the SAP Cloud Platform cockpit to investigate. The Mendix Developer Portal does not have information on the status or configuration of the SAP HANA service.
 
@@ -495,7 +495,7 @@ If you have issues with your app running on SAP HANA, you will need to use the S
 If you are using a trial account created before November 2019, the SAP HANA Schema may not be available.
 
 If you do not have the three **SAP HANA Schemas & HDI Containers (Trial)** services in your subaccount entitlements, you can add the services in the SAP Cloud Platform cockpit. Select **Entitlements** > **Configure Entitlements** > **Add Service Plans**, and choose the three **SAP HANA Schemas & HDI Containers (Trial)** services.
-{{% /alert %}}
+{% endhint %}
 
 For trial accounts which have the **SAP HANA Schemas & HDI Containers (Trial)** services, you can bind your Mendix app to a trial SAP HANA database. Just choose **hanatrial-schema** from the drop-down of supported databases.
 

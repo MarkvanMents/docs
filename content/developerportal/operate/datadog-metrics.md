@@ -12,13 +12,13 @@ tags: ["Datadog", "Mendix Cloud", "v4", "monitoring", "analysis"]
 
 {% hint style="info" %}
 Datadog logging is supported in Mendix version 7.15 and above.
-{{% /alert %}}
+{% endhint %}
 
 This document explains what information can be provided to Datadog and how to configure your Mendix Cloud v4 app to send data to Datadog. If you want to know more about the capabilities of Datadog and, in particular, using Datadog with Mendix, have a look at the Mendix blog [Monitor Your Mendix Apps with Datadog](https://www.mendix.com/blog/monitor-your-mendix-apps-with-datadog/).
 
 {{% alert type="warning" %}}
 Datadog is not supported in Mendix Cloud v3, nor in default deployment buildpacks for other cloud platforms.
-{{% /alert %}}
+{% endhint %}
 
 ## 2 What Information Can Mendix Supply to Datadog?
 
@@ -158,7 +158,7 @@ Setting these values for your app means that all metrics from this environment o
 
 {{% alert type="info" %}}
 You can add more tags if you want, but note that Datadog's charges include an element for [custom metrics](https://docs.datadoghq.com/developers/metrics/custom_metrics/) as described on the Datadog site.
-{{% /alert %}}
+{% endhint %}
 
 ### 3.3 Customizing the Metrics Agent{#customizing}
 

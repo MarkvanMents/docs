@@ -13,7 +13,7 @@ Integration between Mendix applications is done best with REST services (for det
 
 {% hint style="info" %}
 For a [call REST service](call-rest-action) activity and JSON support in [mapping documents](mapping-documents), see [Consumed REST Services](consumed-rest-services).
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 For a [call web service](call-web-service-action) activity and support for SOAP web services/XML, see [Consumed Web Services](consumed-web-services).
 {% endhint %}
 

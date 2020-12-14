@@ -7,7 +7,7 @@ tags: ["studio pro", "Aggregate", "Sum", "Average", "Count", "Minimum", "Maximum
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.
-{{% /alert %}}
+{% endhint %}
 
 ## 1 Introduction
 

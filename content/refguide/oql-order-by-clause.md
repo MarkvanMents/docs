@@ -35,7 +35,7 @@ ORDER BY LastName
 
 This query retrieves all customers and returns the first names sorted on the last name, ascending.
 
-{{% /alert %}}{{% alert type="info" %}}
+{% endhint %}{{% alert type="info" %}}
 
 ```
 SELECT FirstName + ' ' + LastName FROM Sales.Customer
