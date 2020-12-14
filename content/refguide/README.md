@@ -1,4 +1,4 @@
-# Studio Pro 8 Guide"
+# Studio Pro 8 Guide
 
 ## 1 Introduction
 

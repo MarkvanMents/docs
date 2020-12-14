@@ -1,4 +1,4 @@
-* Studio 8 How-to's
+# Studio 8 How-to's
 
 {% hint style="warning" %}
 

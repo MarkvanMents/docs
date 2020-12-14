@@ -1,4 +1,4 @@
-# Developer Portal Guide"
+# Developer Portal Guide
 
 ## 1 What Is the Developer Portal?
 
