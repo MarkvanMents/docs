@@ -1,2 +1,0 @@
-# Mendix Documentation
-
