@@ -1,8 +1,4 @@
----
-title: "4"
-parent: "model-sdk"
-#When updating, remember to update the Latest Mendix Releases file
----
+# 4
 
 ## 4.35.0 {#435}
 

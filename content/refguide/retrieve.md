@@ -1,10 +1,4 @@
----
-title: "Retrieve"
-parent: "object-activities"
-menu_order: 60
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Retrieve
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

@@ -1,8 +1,4 @@
----
-title: "OQL Where Clause"
-parent: "oql"
-tags: ["studio pro", "queries", "where"]
----
+# OQL Where Clause
 
 
 The WHERE clause specifies how the data being retrieved must be constrained.

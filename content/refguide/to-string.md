@@ -1,8 +1,4 @@
----
-title: "To String"
-parent: "expressions"
-tags: ["studio pro"]
----
+# To String
 
 Basic functions to convert values of various data types to string.
 

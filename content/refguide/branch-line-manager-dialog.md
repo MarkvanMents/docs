@@ -1,9 +1,4 @@
----
-title: "Branch Line Manager"
-parent: "version-control-menu"
-menu_order: 80
-tags: ["studio pro", "manage branch lines", "branch line manager"]
----
+# Branch Line Manager
 
 ## 1 Introduction
 

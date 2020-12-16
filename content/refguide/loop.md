@@ -1,9 +1,4 @@
----
-title: "Loop"
-parent: "application-logic"
-menu_order: 80
-tags: ["studio pro", "loop", "iterate over"]
----
+# Loop
 
 ## 1 Introduction
 

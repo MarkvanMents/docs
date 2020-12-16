@@ -1,10 +1,4 @@
----
-title: "Call Web Service"
-parent: "integration-activities"
-tags: ["studio pro", "integration activity", "call we service"]
-menu_order: 20
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Call Web Service
 
 {% hint style="warning" %}
  This activity can only be used in **Microflows**.

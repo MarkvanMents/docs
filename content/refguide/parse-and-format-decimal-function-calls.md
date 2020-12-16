@@ -1,8 +1,4 @@
----
-title: "Parsing & Formatting Decimal Function Calls"
-parent: "expressions"
-tags: ["studio pro"]
----
+# Parsing & Formatting Decimal Function Calls
 
 ## 1 Introduction
 

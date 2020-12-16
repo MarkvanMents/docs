@@ -1,10 +1,4 @@
----
-title: "Custom Authentication Microflow Parameters"
-parent: "published-rest-technical-details"
-menu_order: 40
-description: "The parameters which are passed to the custom authentication microflow for a published REST service"
-tags: ["published REST", "custom authentication", "microflow", "parameters", "arguments", "query", "header"]
----
+# Custom Authentication Microflow Parameters
 
 ## 1 Introduction
 

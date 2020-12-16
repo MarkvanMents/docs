@@ -1,10 +1,4 @@
----
-title: "Mendix Cloud v4"
-parent: "mendix-cloud-deploy"
-menu_order: 50
-description: "Frequently asked questions about Mendix Cloud v4"
-tags: ["Cloud", "Mendix Cloud", "v4", "Version 4", "FAQ", "v3", "AWS", "Amazon Web Services"]
----
+# Mendix Cloud v4
 
 ## 1 What Is Mendix Cloud v4?
 

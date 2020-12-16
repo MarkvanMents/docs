@@ -1,10 +1,4 @@
----
-title: "Upgrading Private Cloud to the latest version"
-parent: "private-cloud"
-description: "Describes how to manually upgrade to the latest version of the Mendix Operator"
-menu_order: 90
-tags: ["Upgrade", "Private Cloud", "Cluster", "Operator", "Deploy"]
----
+# Upgrading Private Cloud to the latest version
 
 ## 1 Introduction
 

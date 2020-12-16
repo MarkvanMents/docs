@@ -1,8 +1,4 @@
----
-title: "OQL DATEDIFF"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL DATEDIFF
 
 
 The DATEDIFF function returns the difference between two given date/time values. The difference is given in the specified unit.

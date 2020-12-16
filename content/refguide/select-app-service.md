@@ -1,8 +1,4 @@
----
-title: "Select App Service"
-parent: "consumed-app-services"
-tags: ["studio pro"]
----
+# Select App Service
 
 {% hint style="info" %}
 App services are deprecated and marked for removal. Use a [consumed web service](consumed-web-services) to consume existing app services.

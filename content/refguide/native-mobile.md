@@ -1,9 +1,4 @@
----
-title: "Native Mobile"
-category: "Mobile"
-menu_order: 1
-tags: ["mobile", "native", "studio pro"]
----
+# Native Mobile
 
 ## 1 Introduction
 

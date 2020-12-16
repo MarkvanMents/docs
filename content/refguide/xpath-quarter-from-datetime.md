@@ -1,8 +1,4 @@
----
-title: "XPath Quarter-from-DateTime"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Quarter-from-DateTime
 
 ## 1 Overview
 

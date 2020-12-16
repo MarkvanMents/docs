@@ -1,8 +1,4 @@
----
-title: "Security"
-description: "A landing page for Studio how-to's on security."
-tags: ["studio", "security", "how-to"]
----
+# Security
 
 ## 1 Introduction 
 

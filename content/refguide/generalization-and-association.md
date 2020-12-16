@@ -1,9 +1,4 @@
----
-title: "Generalization vs One-to-One Associations"
-parent: "domain-model"
-menu_order: 50
-tags: ["domain model", "association", "inheritance", "one-to-one", "generalization"]
----
+# Generalization vs One-to-One Associations
 
 ## 1 Introduction
 

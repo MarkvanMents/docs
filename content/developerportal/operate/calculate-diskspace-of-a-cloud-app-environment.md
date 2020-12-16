@@ -1,10 +1,4 @@
----
-title: "Calculate the Total Amount of Disk Space of a v3 Cloud App Environment"
-parent: "metrics"
-menu_order: 25
-description: "Describes calculating disk space on a Mendix Cloud Version 3 environment."
-tags: ["Mendix Cloud", "cloud", "v3", "Disk Space"]
----
+# Calculate the Total Amount of Disk Space of a v3 Cloud App Environment
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Aggregate List"
-parent: "list-activities"
-menu_order: 1
-tags: ["studio pro", "Aggregate", "Sum", "Average", "Count", "Minimum", "Maximum"]
----
+# Aggregate List
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

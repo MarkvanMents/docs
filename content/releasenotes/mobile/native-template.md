@@ -1,10 +1,4 @@
----
-title: "Native Template"
-category: "Mobile"
-menu_order: 12
-toc-level: 1
-description: "Native Template release notes."
----
+# Native Template
 
 For more information on native mobile app development, see the [native-template repository](https://github.com/mendix/native-template/) and [How to Deploy Your First Mendix Native Mobile App](/howto/mobile/deploying-native-app) .
 

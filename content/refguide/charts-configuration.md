@@ -1,9 +1,4 @@
----
-title: "Chart Configuration"
-parent: "chart-widgets"
-menu_order: 10
-tags: ["Charts", "Widgets", "Studio Pro", "Chart Configuration", "Configuration"]
----
+# Chart Configuration
 
 ## 1 Introduction
 

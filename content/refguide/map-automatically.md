@@ -1,8 +1,4 @@
----
-title: "Map Automatically"
-parent: "mapping-documents"
-tags: ["studio pro"]
----
+# Map Automatically
 
 
 ## Create entities, attributes and associations from import- or export mappings

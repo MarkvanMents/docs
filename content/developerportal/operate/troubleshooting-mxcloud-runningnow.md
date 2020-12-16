@@ -1,10 +1,4 @@
----
-title: "Running Now Metrics"
-parent: "metrics"
-menu_order: 30
-description: "How to troubleshoot the running now in your node."
-tags: ["App","Troubleshoot","Developer Portal","Running now","Mendix Cloud"]
----
+# Running Now Metrics
 
 ## 1 Introduction
 

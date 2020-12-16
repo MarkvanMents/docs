@@ -1,9 +1,4 @@
----
-title: "Tricky Custom Settings in Mendix Runtime"
-parent: "custom-settings"
-description: " Describes custom settings that are a little more difficult to configure than normal."
-tags: ["Support", "custom settings"]
----
+# Tricky Custom Settings in Mendix Runtime
 
 ## 1 Introduction
 

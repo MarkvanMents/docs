@@ -1,8 +1,4 @@
----
-title: "Model SDK"
-category: "SDKs"
-menu_order: 1
----
+# Model SDK
 
 These are the release notes for the [Mendix Model SDK](/apidocs-mxsdk/mxsdk/sdk-intro):
 

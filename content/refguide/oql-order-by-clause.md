@@ -1,8 +1,4 @@
----
-title: "OQL Order by Clause"
-parent: "oql"
-tags: ["studio pro"]
----
+# OQL Order by Clause
 
 
 The ORDER BY clause specifies the sort order used on columns returned in a SELECT statement. Multiple columns can be specified. Columns are ordered in the sequence of the items in the ORDER BY clause.

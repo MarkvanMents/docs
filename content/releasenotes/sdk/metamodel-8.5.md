@@ -1,8 +1,4 @@
----
-title: "8.5"
-parent: "metamodel-8"
-#When updating, remember to update the Latest Mendix Releases file
----
+# 8.5
 
 ## 8.5.0
 

@@ -1,8 +1,4 @@
----
-title: "XPath Contains"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Contains
 
 ## 1 Overview
 

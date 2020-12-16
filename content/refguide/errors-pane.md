@@ -1,10 +1,4 @@
----
-title: "Errors Pane"
-parent: view-menu
-menu_order: 40
-description: "Describes the Errors pane in Mendix Studio Pro."
-tags: ["Studio Pro", "errors", "error list", "errors pane"]
----
+# Errors Pane
 
 ## 1 Introduction 
 

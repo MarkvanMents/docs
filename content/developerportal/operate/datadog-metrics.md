@@ -1,10 +1,4 @@
----
-title: "Datadog for v4 Mendix Cloud"
-parent: "metrics"
-menu_order: 50
-description: "How to configure Mendix Cloud v4 to enable monitoring and analysis with Datadog."
-tags: ["Datadog", "Mendix Cloud", "v4", "monitoring", "analysis"]
----
+# Datadog for v4 Mendix Cloud
 
 ## 1 Introduction
 

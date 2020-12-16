@@ -1,9 +1,4 @@
----
-title: "Oracle"
-parent: "data-storage"
-menu_order: 60
-tags: ["studio pro"]
----
+# Oracle
 
 ## 1 Introduction
 

@@ -1,8 +1,4 @@
----
-title: "Style"
-parent: "document-templates"
-tags: ["studio pro"]
----
+# Style
 
 ## 1 Introduction
 

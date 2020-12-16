@@ -1,9 +1,4 @@
----
-title: "Listen to Widget Source"
-parent: "data-sources"
-tags: ["studio pro", "listen to widget", "data source"]
-menu_order: 70
----
+# Listen to Widget Source
 
 ## 1 Introduction
 

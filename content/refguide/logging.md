@@ -1,8 +1,4 @@
----
-title: "Logging"
-category: "Mendix Runtime"
-tags: ["studio pro"]
----
+# Logging
 
 ## 1 Introduction
 

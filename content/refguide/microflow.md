@@ -1,8 +1,4 @@
----
-title: "Microflow Properties"
-parent: "microflows"
-tags: ["microflow", "entity access"]
----
+# Microflow Properties
 
 ## 1 Introduction
 

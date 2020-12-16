@@ -1,11 +1,4 @@
----
-title: "New Project"
-parent: "file-menu"
-menu_order: 10
-description: "This document describes the New Project (New App) flow and the App Settings dialog box."
-tags: ["studio pro", "create app", "new app", "new project", "creating new app"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# New Project
 
 ## 1 Introduction
 

@@ -1,10 +1,4 @@
----
-title: "Studio Deployment Settings"
-parent: "mendix-cloud-deploy"
-menu_order: 10
-description: "Describes how to set deployment for Mendix Studio."
-tags: ["node","developer portal","deploy", "Studio", "settings"]
----
+# Studio Deployment Settings
 
 ## 1 Introduction
 

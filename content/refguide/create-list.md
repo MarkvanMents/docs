@@ -1,9 +1,4 @@
----
-title: "Create List"
-parent: "list-activities"
-menu_order: 3
-tags: ["studio pro"]
----
+# Create List
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

@@ -1,8 +1,4 @@
----
-title: "XPath Sum"
-parent: "xpath-query-functions"
-tags: ["studio pro"]
----
+# XPath Sum
 
 ## 1 Overview
 

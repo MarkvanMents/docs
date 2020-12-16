@@ -1,9 +1,4 @@
----
-title: "Create Object"
-parent: "object-activities"
-menu_order: 40
-tags: ["studio pro"]
----
+# Create Object
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

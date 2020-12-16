@@ -1,8 +1,4 @@
----
-title: "OQL Operators"
-parent: "oql-expressions"
-tags: ["studio pro"]
----
+# OQL Operators
 
 
 The following operators can be used in OQL expressions:

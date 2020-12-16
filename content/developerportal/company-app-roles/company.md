@@ -1,10 +1,4 @@
----
-title: "Company"
-parent: "companyadmin-settings"
-menu_order: 10
-description: "Describes the page that enables managing a company's details."
-tags: ["company","admin","Developer Portal", "Company Admin", "expiration settings"]
----
+# Company
 ## 1 Introduction
 
 {% hint style="info" %}

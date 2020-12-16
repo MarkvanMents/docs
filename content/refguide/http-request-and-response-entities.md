@@ -1,8 +1,4 @@
----
-title: "HttpRequest & HttpResponse System Entities"
-parent: "integration"
-tags: ["studio pro"]
----
+# HttpRequest & HttpResponse System Entities
 
 ## 1 Introduction
 

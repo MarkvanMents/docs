@@ -1,7 +1,4 @@
----
-title: "3"
-parent: "model-sdk"
----
+# 3
 
 ## 3.3.0
 

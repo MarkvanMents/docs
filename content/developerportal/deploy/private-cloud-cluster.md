@@ -1,10 +1,4 @@
----
-title: "Creating a Private Cloud Cluster"
-parent: "private-cloud"
-description: "Describes the processes for creating a Private Cloud cluster in the Mendix Developer Portal"
-menu_order: 10
-tags: ["Create", "Private Cloud", "Cluster", "Namespace"]
----
+# Creating a Private Cloud Cluster
 
 ## 1 Introduction
 

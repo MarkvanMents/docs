@@ -1,10 +1,4 @@
----
-title: "Configure Merge & Change Object Activities"
-category: "Microflows"
-menu_order: 70
-description: "This how to describes the process of configuring a merge and a change object activity in Mendix Studio."
-tags: ["studio", "microflows", "merge", "expression", "change object"]
----
+# Configure Merge & Change Object Activities
 
 ## 1 Introduction 
 

@@ -1,10 +1,4 @@
----
-title: "Native Mobile Styling"
-parent: "native-mobile"
-menu_order: 20
-description: "This reference guide will contextualize the style elements Mendix uses in native mobile apps, as well as explain the classes and style properties of Mendix’s widgets."
-tags: ["Native", "Class", "Design", "Property", "Style", "Widget", "studio pro"]
----
+# Native Mobile Styling
 
 ## 1 Introduction
 

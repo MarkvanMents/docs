@@ -1,8 +1,4 @@
----
-title: "New Database Set Up on SQL Server"
-parent: "mendix-on-windows-microsoft-sql-server"
-menu_order: 10
----
+# New Database Set Up on SQL Server
 
 ## 1 Introduction
 

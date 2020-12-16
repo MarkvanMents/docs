@@ -1,8 +1,4 @@
----
-title: "OQL DATEPART"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL DATEPART
 
 
 The DATEPART function retrieves a specified element from a date/time values. This element is of type integer.

@@ -1,9 +1,4 @@
----
-title: "Offline-First"
-category: "Mobile"
-menu_order: 30
-tags: ["offline", "native", "mobile", "studio pro"]
----
+# Offline-First
 
 ## 1 Introduction
 

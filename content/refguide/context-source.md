@@ -1,9 +1,4 @@
----
-title: "Context Source"
-parent: "data-sources"
-tags: ["studio pro", "context", "data source"]
-menu_order: 30
----
+# Context Source
 
 ## 1 Introduction
 

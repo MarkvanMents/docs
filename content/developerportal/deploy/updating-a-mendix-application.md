@@ -1,9 +1,4 @@
----
-title: "MS Windows: Update a Mendix App"
-parent: "deploy-mendix-on-microsoft-windows"
-menu_order: 20
-tags: []
----
+# MS Windows: Update a Mendix App
 A Mendix application on a Windows server can be updated using the Mendix Service Console. Before starting with the server update, you need to make sure that you have a versioned deployment archive (*.mda file) accessible on your server and that the same version of the server distribution is either installed or also available as an installation package on the server.
 
 The service console creates a backup of the project files, this allows you to restore a previous deployment. But before every update it is recommended to create a backup of your data and uploaded files. The Mendix Service Console does not do this for you. 

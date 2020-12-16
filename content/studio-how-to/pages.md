@@ -1,9 +1,4 @@
----
-title: "Pages"
-description: "A landing page for Studio how-to's on pages."
-menu_order: 10
-tags: ["studio", "pages", "how-to"]
----
+# Pages
 
 ## 1 Introduction 
 

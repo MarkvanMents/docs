@@ -1,12 +1,4 @@
----
-title: "Manage General App Settings"
-category: "App Settings"
-menu_order: 10
-description: "Describes general settings of your app."
-tags: ["Settings", "App", "Developer Portal"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
-#The anchor #managing-app-users below is mapped from App > General > Settings > Manage App Users and the Mendix SSO module, so it should not be removed or changed.
----
+# Manage General App Settings
 
 ## 1 Introduction
 

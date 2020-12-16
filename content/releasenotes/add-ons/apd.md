@@ -1,8 +1,4 @@
----
-title: "APD"
-category: "Quality Add-ons"
-menu_order: 20 
----
+# APD
 
 These are the [Mendix Application Performance Diagnistics (APD)](/addons/apd-addon/) major version release notes:
 

@@ -1,10 +1,4 @@
----
-title: "Object Type Decision"
-parent: "decisions"
-menu_order: 2
-tags: ["studio pro", "object type decision", "decisions"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Object Type Decision
 
 {% hint style="info" %}
 This activity can only be used in microflows, not in nanoflows.

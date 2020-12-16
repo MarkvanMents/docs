@@ -1,8 +1,4 @@
----
-title: "Microflows"
-description: "A landing page for Studio how-to's on microflows."
-tags: ["studio", "microflow", "how-to"]
----
+# Microflows
 
 ## 1 Introduction 
 

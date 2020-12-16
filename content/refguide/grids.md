@@ -1,9 +1,4 @@
----
-title: "Grids"
-parent: "data-widgets"
-menu_order: 20
-tags: ["studio pro", "grid", "data grid", "template grid"]
----
+# Grids
 
 ## 1 Introduction
 

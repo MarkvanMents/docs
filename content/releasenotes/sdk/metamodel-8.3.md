@@ -1,7 +1,4 @@
----
-title: "8.3"
-parent: "metamodel-8"
----
+# 8.3
 
 ## 8.3.0
 

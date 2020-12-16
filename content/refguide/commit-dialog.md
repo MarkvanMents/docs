@@ -1,9 +1,4 @@
----
-title: "Commit"
-parent: "version-control-menu"
-menu_order: 20
-tags: ["studio pro"]
----
+# Commit
 
 ## 1 Introduction
 

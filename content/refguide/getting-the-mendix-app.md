@@ -1,9 +1,4 @@
----
-title: "Getting the Mendix Mobile App"
-parent: "developing-hybrid-mobile-apps"
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Getting the Mendix Mobile App
 
 The **Mendix** mobile app is a free app that allows you to collaborate with your App Team and test the hybrid apps you develop with Mendix on your device.
 

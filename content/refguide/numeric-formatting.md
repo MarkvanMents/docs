@@ -1,8 +1,4 @@
----
-title: "Numeric Formatting"
-parent: "consumed-web-services"
-tags: ["studio pro"]
----
+# Numeric Formatting
 
 ## 1 Behavior in Your Mendix Application
 

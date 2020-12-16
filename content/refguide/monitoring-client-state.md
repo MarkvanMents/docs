@@ -1,8 +1,4 @@
----
-title: "Monitoring Client State"
-category: "Mendix Runtime"
-tags: ["studio pro"]
----
+# Monitoring Client State
 
 ## 1 Introduction
 

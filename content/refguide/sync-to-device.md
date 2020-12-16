@@ -1,10 +1,4 @@
----
-title: "Sync to Device"
-parent: "client-activities"
-tags: ["studio pro", "sync to device", "client activities"]
-menu_order: 60
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Sync to Device
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.

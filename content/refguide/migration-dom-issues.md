@@ -1,10 +1,4 @@
----
-title: "Troubleshooting DOM Changes"
-parent: "moving-from-7-to-8"
-menu_order: 10
-description: "This document explains the updated DOM structure for Mendix 8, and what that means for app projects' CSS."
-tags: ["DOM", "Widgets", "Themes", "Classes"]
----
+# Troubleshooting DOM Changes
 
 ## 1 Introduction
 

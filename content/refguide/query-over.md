@@ -1,9 +1,4 @@
----
-title: "Querying Over Self-References"
-parent: "associations"
-menu_order: 20
-tags: ["query", "self-reference", "association", "domain model"]
----
+# Querying Over Self-References
 
 ## 1 Introduction
 

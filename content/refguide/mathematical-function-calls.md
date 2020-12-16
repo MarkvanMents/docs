@@ -1,8 +1,4 @@
----
-title: "Mathematical Function Calls"
-parent: "expressions"
-tags: ["studio pro", "mathematical function call", "mathematical function", "expressions"]
----
+# Mathematical Function Calls
 
 ## 1 Introduction
 

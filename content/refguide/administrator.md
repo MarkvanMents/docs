@@ -1,9 +1,4 @@
----
-title: "Administrator"
-parent: "project-security"
-menu_order: 20
-tags: ["studio pro", "administrator", "project security", "security"]
----
+# Administrator
 
 ## 1 Introduction
 

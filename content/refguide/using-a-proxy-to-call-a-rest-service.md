@@ -1,8 +1,4 @@
----
-title: "Using a Proxy to Call a REST Service"
-parent: "consumed-rest-services"
-tags: ["studio pro"]
----
+# Using a Proxy to Call a REST Service
 
 ## 1 Introduction
 

@@ -1,10 +1,4 @@
----
-title: "Object Activities"
-parent: "activities"
-menu_order: 10
-tags: ["studio pro", "microflow", "object"]
-#To update screenshots of these microflows in Studio Pro, use the Microflow Screenshots app project.
----
+# Object Activities
 
 ## 1 Introduction
 

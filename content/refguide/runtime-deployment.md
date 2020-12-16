@@ -1,10 +1,4 @@
----
-title: "Runtime Deployment"
-category: "Mendix Runtime"
-description: "A description of how the Mendix Runtime is deployed"
-menu_order: 30
-tags: ["runtime", "deploy", "mxbuild", "runtime server", "m2ee"]
----
+# Runtime Deployment
 
 ## 1 Introduction
 

@@ -1,8 +1,4 @@
----
-title: "OQL ROUND"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL ROUND
 
 
 The ROUND function rounds a given numeric expression.

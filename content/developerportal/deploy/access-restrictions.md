@@ -1,10 +1,4 @@
----
-title: "Restrict Access for Incoming Requests"
-parent: "mendix-cloud-deploy"
-menu_order: 36
-description: "How to limit access to your app using IP addresses and certificates"
-tags: ["incoming requests", "IP Range", "security", "paths", "URL", "certificate"]
----
+# Restrict Access for Incoming Requests
 
 ## 1 Introduction
 

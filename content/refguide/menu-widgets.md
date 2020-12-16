@@ -1,10 +1,4 @@
----
-title: "Menu Widgets"
-parent: "pages"
-menu_order: 45
-tags: ["studio pro", "menu widgets", "navigation", "widget"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Menu Widgets
 
 ## 1 Introduction
 

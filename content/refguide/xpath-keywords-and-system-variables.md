@@ -1,8 +1,4 @@
----
-title: "XPath Keywords & System Variables"
-parent: "xpath-constraints"
-tags: ["studio pro"]
----
+# XPath Keywords & System Variables
 
 ## 1 Overview
 

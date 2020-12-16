@@ -1,9 +1,4 @@
----
-title: "Creating Your Own Documents"
-parent: "document-templates"
-description: "This documentation will give you insight into creating documents with Mendix."
-tags: ["Document", "Generate", "Word", "PDF", "studio pro"]
----
+# Creating Your Own Documents
 
 ## 1 Introduction
 

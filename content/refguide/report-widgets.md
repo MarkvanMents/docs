@@ -1,10 +1,4 @@
----
-title: "Report Widgets"
-parent: "pages"
-menu_order: 50
-tags: ["studio pro", "report widgets", "report", "widgets", "data set"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Report Widgets
 
 {% hint style="warning" %}Report widgets are not supported on native mobile pages.{% endhint %}
 

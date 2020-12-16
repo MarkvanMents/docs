@@ -1,10 +1,4 @@
----
-title: "Run Menu"
-parent: "menus"
-description: "Describes the Run menu in Mendix Studio Pro."
-menu_order: 35
-tags: ["Studio Pro", "run", "run menu"]
----
+# Run Menu
 
 ## 1 Introduction
 

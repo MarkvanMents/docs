@@ -1,8 +1,4 @@
----
-title: "OQL Limit Clause"
-parent: "oql"
-tags: ["studio pro"]
----
+# OQL Limit Clause
 
 
 With the limit clause a portion of the result of a query can be returned.

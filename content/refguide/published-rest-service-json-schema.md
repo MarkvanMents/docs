@@ -1,10 +1,4 @@
----
-title: "JSON Schema for Published REST Operation"
-parent: "published-rest-technical-details"
-menu_order: 20
-description: "Describes the JSON schemas for operation request bodies and operation results"
-tags: ["published REST", "JSON", "Schema", "operation", "request body", "result", "message definition"]
----
+# JSON Schema for Published REST Operation
 
 ## 1 Introduction
 

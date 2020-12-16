@@ -1,10 +1,4 @@
----
-title: "Text Box"
-parent: "input-widgets"
-menu_order: 10
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Text Box
 
 ## 1 Introduction
 

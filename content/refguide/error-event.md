@@ -1,9 +1,4 @@
----
-title: "Error Event"
-parent: "events"
-menu_order: 3
-tags: ["studio pro", "error event", "event"]
----
+# Error Event
 
 {% hint style="info" %}
 This event can only be used in **Microflows**.

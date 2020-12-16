@@ -1,9 +1,4 @@
----
-title: "Page Editor Consistency Errors"
-parent: "consistency-errors"
-description: "Describes consistency errors in Mendix Studio Pro and the way to fix them."
-tags: ["Studio Pro", "consistency errors", "checks", "errors", "pages"]
----
+# Page Editor Consistency Errors
 
 ## 1 Introduction 
 

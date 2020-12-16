@@ -1,9 +1,4 @@
----
-title: "Association Source"
-parent: "data-sources"
-tags: ["studio pro", "association", "data source"]
-menu_order: 60
----
+# Association Source
 
 ## 1 Introduction
 

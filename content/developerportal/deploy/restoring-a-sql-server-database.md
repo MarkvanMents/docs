@@ -1,8 +1,4 @@
----
-title: "Restore Database on SQL Server"
-parent: "mendix-on-windows-microsoft-sql-server"
-menu_order: 70
----
+# Restore Database on SQL Server
 ## 1 Introduction
 
 In certain situations (for example, unwanted database updates or data corruption), it might be necessary to restore the Mendix database from a backup. This document describes the actions needed to perform a complete database restore and defines the prerequisites for restoring backups.

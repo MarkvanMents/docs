@@ -1,9 +1,4 @@
----
-title: "Sequence Flow"
-parent: "application-logic"
-menu_order: 30
-tags: ["studio pro", "sequence flow", "microflow"]
----
+# Sequence Flow
 
 ## 1 Introduction
 

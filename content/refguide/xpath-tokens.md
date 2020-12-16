@@ -1,8 +1,4 @@
----
-title: "XPath Tokens"
-parent: "xpath"
-tags: ["studio pro"]
----
+# XPath Tokens
 
 
 The following tokens are used in XPath queries:

@@ -1,9 +1,4 @@
----
-title: "Change Object"
-parent: "object-activities"
-menu_order: 20
-tags: ["studio pro"]
----
+# Change Object
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

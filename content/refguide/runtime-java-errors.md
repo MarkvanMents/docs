@@ -1,9 +1,4 @@
----
-title: "Common Runtime & Java Errors"
-parent: "runtime-java"
-menu_order: 3
-tags: ["runtime", "java"]
----
+# Common Runtime & Java Errors
 
 ## 1 Introduction
 

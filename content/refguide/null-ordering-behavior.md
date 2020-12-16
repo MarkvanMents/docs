@@ -1,9 +1,4 @@
----
-title: "NULL Order Behavior"
-parent: "data-storage"
-tags: ["studio pro"]
-menu_order: 20
----
+# NULL Order Behavior
 
 ## 1 Introduction
 

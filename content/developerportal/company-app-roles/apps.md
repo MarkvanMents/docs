@@ -1,10 +1,4 @@
----
-title: "Apps"
-parent: "companyadmin-settings"
-menu_order: 30
-description: "Describes the app settings available to company administrators in a Mendix app."
-tags: ["Company","Admin","Developer Portal"]
----
+# Apps
 
 ## 1 Introduction
 

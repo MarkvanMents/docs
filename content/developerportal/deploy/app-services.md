@@ -1,10 +1,4 @@
----
-title: "App Services"
-category: "Deployment"
-menu_order: 100
-description: "Describes the App Services page in the Developer Portal."
-tags: ["Developer Portal", "App Services", "Deploy"]
----
+# App Services
 
 ## 1 Introduction
 

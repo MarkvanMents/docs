@@ -1,8 +1,4 @@
----
-title: "Operations"
-parent: "published-web-services"
-tags: ["studio pro"]
----
+# Operations
 
 
 Provides the actual methods of which the webservice is composed.

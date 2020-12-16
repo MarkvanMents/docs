@@ -1,9 +1,4 @@
----
-title: "Continue Event"
-parent: "events"
-menu_order: 4
-tags: ["studio pro", "continue event", "event", "loop"]
----
+# Continue Event
 
 ## 1 Introduction
 

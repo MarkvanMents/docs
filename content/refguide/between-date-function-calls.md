@@ -1,8 +1,4 @@
----
-title: "Between Date Function Calls"
-parent: "expressions"
-tags: ["studio pro"]
----
+# Between Date Function Calls
 
 ## 1 Introduction
 

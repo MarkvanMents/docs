@@ -1,8 +1,4 @@
----
-title: "OQL Aggregation"
-parent: "oql-expressions"
-tags: ["studio pro"]
----
+# OQL Aggregation
 
 
 Aggregations perform specific calculations on the values of the retrieved column(s). The following aggregate functions are possible:

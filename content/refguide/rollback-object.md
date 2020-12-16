@@ -1,9 +1,4 @@
----
-title: "Rollback Object"
-parent: "object-activities"
-menu_order: 70
-tags: ["studio pro"]
----
+# Rollback Object
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

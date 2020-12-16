@@ -1,8 +1,4 @@
----
-title: "OQL From Clause"
-parent: "oql"
-tags: ["studio pro"]
----
+# OQL From Clause
 
 ## 1 Introduction
 

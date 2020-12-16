@@ -1,8 +1,4 @@
----
-title: "Customizing Hybrid Mobile Apps"
-parent: "hybrid-mobile"
-tags: ["studio pro"]
----
+# Customizing Hybrid Mobile Apps
 
 ## 1 Introduction
 

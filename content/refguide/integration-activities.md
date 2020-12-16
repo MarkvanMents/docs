@@ -1,9 +1,4 @@
----
-title: "Integration Activities"
-parent: "activities"
-menu_order: 60
-tags: ["studio pro"]
----
+# Integration Activities
 {% hint style="warning" %}
 These activities can only be used in **Microflows**.
 {% endhint %}

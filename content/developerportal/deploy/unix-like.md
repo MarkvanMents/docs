@@ -1,10 +1,4 @@
----
-title: "Unix Deployment"
-parent: "on-premises-design"
-description: "How to install and configure Mendix on a Unix-like system"
-menu_order: 99
-tags: ["Red Hat", "CentOS", "install", "deploy", "m2ee", "Debian", "GNU", "Linux", "Unix-like", "Unix", "U*ix", "*nix", "on-premises"]
----
+# Unix Deployment
 
 ## 1 Introduction
 

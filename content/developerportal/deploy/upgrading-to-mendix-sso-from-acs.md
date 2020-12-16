@@ -1,11 +1,4 @@
----
-title: "Upgrading to Mendix SSO from AppCloudServices"
-parent: "mendix-sso"
-menu_order: 20
-description: "How to upgrade existing apps using AppCloudServices to use Mendix SSO"
-tags: ["SSO", "Single Sign On", "Upgrade", "AppCloudServices", "Mendix SSO"]
-#Ownership claimed by Identity Services Team.
----
+# Upgrading to Mendix SSO from AppCloudServices
 
 ## 1 Introduction
 

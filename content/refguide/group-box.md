@@ -1,10 +1,4 @@
----
-title: "Group Box"
-parent: "container-widgets"
-menu_order: 30
-tags: ["studio pro", "group box", "container widget", "widget"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Group Box
 
 {% hint style="warning" %}The group box widget is not supported on native mobile pages.{% endhint %}
 

@@ -1,9 +1,4 @@
----
-title: "Select Elements"
-parent: "mapping-documents"
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Select Elements
 
 
 For both [import](import-mappings)and [export mappings](export-mappings) you need to specify the elements structure you want to map. You do this in the **Select schema elements** window. An example of this screen is shown below.

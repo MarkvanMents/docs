@@ -1,8 +1,4 @@
----
-title: "XPath Starts-With"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Starts-With
 
 ## 1 Overview
 

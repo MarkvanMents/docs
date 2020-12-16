@@ -1,8 +1,4 @@
----
-title: "XPath ID"
-parent: "xpath-query-functions"
-tags: ["studio pro"]
----
+# XPath ID
 
 ## 1 Overview
 

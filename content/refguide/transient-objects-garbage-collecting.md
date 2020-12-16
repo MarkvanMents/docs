@@ -1,10 +1,4 @@
----
-title: "Non-Persistable Objects & Garbage Collecting"
-parent: "runtime-java"
-menu_order: 1
-description: "This page will explain the life cycle of both persistable and non-persistable objects, and how they flow through the platform memory."
-tags: ["persistable", "non-persistable", "objects", "garbage", "collecing"]
----
+# Non-Persistable Objects & Garbage Collecting
 
 ## 1 Introduction
 

@@ -1,12 +1,4 @@
----
-title: "Studio Pro Overview"
-category: "App Modeling"
-description: "Describes Studio Pro in general: tabs, menus, shortcut keys."
-menu_order: 10
-tags: ["Studio Pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
-#This document is mapped to the landing page, update the link there if renaming or moving the doc file.
----
+# Studio Pro Overview
 
 ## 1 Introduction
 

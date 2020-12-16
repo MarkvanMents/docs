@@ -1,7 +1,4 @@
----
-title: "App Settings"
-description: "Describes where you can configure various settings for your Mendix app project."
----
+# App Settings
 
 ## 1 Introduction
 

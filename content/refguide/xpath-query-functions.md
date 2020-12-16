@@ -1,8 +1,4 @@
----
-title: "XPath Query Functions"
-parent: "xpath"
-tags: ["studio pro"]
----
+# XPath Query Functions
 
 The following XPath query aggregate functions are available:
 

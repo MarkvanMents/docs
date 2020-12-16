@@ -1,11 +1,4 @@
----
-title: "Metrics"
-category: "Operations"
-menu_order: 10
-description: "This page describes the Metrics page of the Developer Portal."
-tags: ["Operate","App","Trends","Running now","Cache","Metrics","Developer Portal"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Metrics
 
 ## 1 Introduction
 

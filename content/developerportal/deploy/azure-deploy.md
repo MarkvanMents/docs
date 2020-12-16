@@ -1,11 +1,4 @@
----
-title: "Azure"
-category: "Deployment"
-description: "Describes how to deploy a Mendix app to the IBM Cloud"
-menu_order: 70
-tags: ["Deployment", "Azure", "Microsoft", "Environment"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Azure
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Language Settings"
-parent: "translatable-texts"
-menu_order: 10
-tags: ["studio pro", "translation", "languages", "translatable text", "add language", "date format", "completeness"]
----
+# Language Settings
 
 ## 1 Introduction
 

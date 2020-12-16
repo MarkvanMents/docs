@@ -1,11 +1,4 @@
----
-title: "Environment Details"
-parent: "mendix-cloud-deploy"
-menu_order: 7
-description: "Describes the environmental details of your app and how to manage the environment."
-tags: ["Deploy","App","Environment","Developer Portal"]
-#The anchor #connection-whitelist below is mapped from the Developer Portal (Mendix Cloud Environment Details), so it should not be removed or changed.
----
+# Environment Details
 
 ## 1 Introduction
 

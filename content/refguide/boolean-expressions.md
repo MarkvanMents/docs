@@ -1,8 +1,4 @@
----
-title: "Boolean Expressions"
-parent: "expressions"
-tags: ["studio pro", "expression", "expressions", "Boolean"]
----
+# Boolean Expressions
 
 ## 1 Introduction
 

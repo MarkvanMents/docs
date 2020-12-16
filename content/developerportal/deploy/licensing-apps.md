@@ -1,12 +1,4 @@
----
-title: "Licensing Mendix Cloud Apps"
-#New document which replaces four others
-parent: "mendix-cloud-deploy"
-menu_order: 15
-description: "Licensing apps for production by linking them to a licensed cloud node."
-tags: ["App", "Node", "Developer Portal", "Deploy", "Link", "Unlink", "Licensed", "Free App", "Upgrade", "Mendix Cloud", "v3", "v4"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Licensing Mendix Cloud Apps
 
 ## 1 Introduction
 

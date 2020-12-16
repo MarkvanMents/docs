@@ -1,8 +1,4 @@
----
-title: "XPath Week-from-DateTime"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Week-from-DateTime
 
 ## 1 Overview
 

@@ -1,10 +1,4 @@
----
-title: "Set Up Your Partner Profile"
-category: "Community Tools"
-menu_order: 60
-description: "Describes how to configure the various parts of your Mendix Partner Profile, such as projects."
-tags: ["authorized", "expert", "professional", "4 p's"]
----
+# Set Up Your Partner Profile
 
 ## 1 Introduction
 

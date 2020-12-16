@@ -1,9 +1,4 @@
----
-title: "App Store"
-description: "Release notes for updates to the Mendix App Store"
-tags: ["app store", "connector", "module", "add on", "widget"]
-#This document is mapped to the landing page, update the link there if renaming or moving the doc file.
----
+# App Store
 
 These release notes cover changes made to the [Mendix App Store](/appstore/index).
 

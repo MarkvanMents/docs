@@ -1,8 +1,4 @@
----
-title: "XPath Not"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Not
 
 ## 1 Overview
 

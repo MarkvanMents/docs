@@ -1,10 +1,4 @@
----
-title: "Scaling Your Environment in Mendix Cloud v4"
-parent: "mxcloudv4"
-menu_order: 20
-description: "Describes how to scale your environments in Mendix Cloud v4."
-tags: ["Scale","Environments","Mendix Cloud","Developer Portal"]
----
+# Scaling Your Environment in Mendix Cloud v4
 
 ## 1 Introduction
 

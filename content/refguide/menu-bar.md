@@ -1,10 +1,4 @@
----
-title: "Menu Bar"
-parent: "menu-widgets"
-menu_order: 1
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Menu Bar
 
 {% hint style="warning" %}The menu bar widget is not supported on native mobile pages.{% endhint %}
 

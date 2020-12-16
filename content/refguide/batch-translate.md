@@ -1,9 +1,4 @@
----
-title: "Batch Translate"
-parent: "translatable-texts"
-menu_order: 30
-tags: ["studio pro", "translation", "languages", "translatable text"]
----
+# Batch Translate
 
 ## 1 Introduction
 

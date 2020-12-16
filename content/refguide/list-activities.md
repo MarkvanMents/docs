@@ -1,9 +1,4 @@
----
-title: "List Activities"
-parent: "activities"
-menu_order: 20
-tags: ["studio pro", "microflow", "list"]
----
+# List Activities
 
 ## 1 Introduction
 

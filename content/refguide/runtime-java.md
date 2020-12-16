@@ -1,8 +1,4 @@
----
-title: "Mendix Runtime & Java"
-category: "Mendix Runtime"
-tags: ["runtime", "java"]
----
+# Mendix Runtime & Java
 
 ## 1 Introduction
 When you're developing or running Mendix you will sooner or later come in contact with Java. In this document we'll explain some of the basic concepts of Java in Mendix.

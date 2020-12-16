@@ -1,8 +1,4 @@
----
-title: "Settings"
-parent: "consumed-app-services"
-tags: ["studio pro"]
----
+# Settings
 
 {% hint style="info" %}
 App services are deprecated and marked for removal. Use a [consumed web service](consumed-web-services) to consume existing app services.

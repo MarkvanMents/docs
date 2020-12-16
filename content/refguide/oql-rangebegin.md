@@ -1,8 +1,4 @@
----
-title: "OQL RANGEBEGIN"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL RANGEBEGIN
 
 
 The RANGEBEGIN function extracts the initial value of a range parameter.

@@ -1,9 +1,4 @@
----
-title: "Chart Advanced Cheat Sheet"
-parent: "chart-widgets"
-menu_order: 20
-tags: ["Charts", "Advanced", "Studio Pro", "Layout Controls", "Data Properties", "Series Properties", "studio pro"]
----
+# Chart Advanced Cheat Sheet
 
 ## 1 Introduction
 

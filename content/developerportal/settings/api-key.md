@@ -1,9 +1,4 @@
----
-title: "Manage App API Keys"
-category: "App Settings"
-description: "Describes creating API keys for your app."
-tags: ["Settings", "App", "API", "Key", "API key", "Developer Portal"]
----
+# Manage App API Keys
 
 ## 1 Introduction
 

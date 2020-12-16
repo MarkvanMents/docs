@@ -1,10 +1,4 @@
----
-title: "Input Widgets"
-parent: "pages"
-menu_order: 30
-description: "Widgets which can be added to pages to view and edit attributes of objects."
-tags: ["studio pro", "input widgets", "widget", "reference selector", "reference set", "association", "edit", "data input"]
----
+# Input Widgets
 
 ## 1 Introduction
 

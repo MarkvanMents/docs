@@ -1,11 +1,4 @@
----
-title: "Mendix MVP Program"
-category: "Community Tools"
-menu_order: 50
-description: "Describes how the Mendix Community MVP program works."
-tags: ["community", "mvp"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Mendix MVP Program
 
 ## 1 Introduction
 

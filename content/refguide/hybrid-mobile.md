@@ -1,9 +1,4 @@
----
-title: "Hybrid Mobile"
-category: "Mobile"
-menu_order: 2
-tags: ["mobile", "hybrid", "studio pro"]
----
+# Hybrid Mobile
 
 ## 1 Introduction
 

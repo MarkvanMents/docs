@@ -1,10 +1,4 @@
----
-title: "Environment Planning for Private Cloud Clusters"
-parent: "private-cloud"
-description: "Best Practices for Private Cloud Environments"
-menu_order: 40
-tags: ["Environments", "Private Cloud", "Cluster", "Best Practices"]
----
+# Environment Planning for Private Cloud Clusters
 
 ## 1 Introduction
 

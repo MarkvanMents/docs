@@ -1,9 +1,4 @@
----
-title: "DateTime Handling FAQ"
-parent: "date-and-time-handling"
-notoc: true
-tags: ["studio pro"]
----
+# DateTime Handling FAQ
 
 ## 1 Introduction
 

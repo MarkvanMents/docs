@@ -1,10 +1,4 @@
----
-title: "Report Grid"
-parent: "report-widgets"
-menu_order: 10
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Report Grid
 
 {% hint style="warning" %}The report grid widget is not supported on native mobile pages.{% endhint %}
 

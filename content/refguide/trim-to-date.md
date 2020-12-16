@@ -1,8 +1,4 @@
----
-title: "Trim to Date"
-parent: "expressions"
-tags: ["studio pro"]
----
+# Trim to Date
 
 ## 1 Introduction
 

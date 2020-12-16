@@ -1,10 +1,4 @@
----
-title: "Monitoring with New Relic"
-parent: "on-premises-design"
-description: "How to install Mendix behind a load balancer for high availability"
-menu_order: 30
-tags: ["new relic", "on-premises", "monitoring", "setup"]
----
+# Monitoring with New Relic
 
 ## 1 Introduction
 

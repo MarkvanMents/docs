@@ -1,11 +1,4 @@
----
-title: "Using Version Control in Studio Pro"
-category: "Version Control"
-menu_order: 10
-description: "How to work with version control and how to resolve some issues which may arise"
-tags: ["Version Control", "Conflicts", "Resolve", "Merge", "Patch", "Branch", "Development"]
-# Renamed from version-control-scenarios
----
+# Using Version Control in Studio Pro
 
 ## 1 Introduction
 

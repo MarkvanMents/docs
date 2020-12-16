@@ -1,10 +1,4 @@
----
-title: "File Menu"
-parent: "menus"
-description: "Describes the File Menu in Studio Pro."
-menu_order: 5
-tags: ["Studio Pro", "file menu", "file"]
----
+# File Menu
 
 ## 1 Introduction
 

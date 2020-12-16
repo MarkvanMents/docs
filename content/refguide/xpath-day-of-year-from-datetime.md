@@ -1,8 +1,4 @@
----
-title: "XPath Day-of-Year-from-DateTime"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Day-of-Year-from-DateTime
 
 ## 1 Overview
 

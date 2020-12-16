@@ -1,8 +1,4 @@
----
-title: "Deploy to the Cloud"
-parent: "project-menu"
-tags: ["studio pro"]
----
+# Deploy to the Cloud
 
 ## 1 Introduction
 

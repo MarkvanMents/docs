@@ -1,10 +1,4 @@
----
-title: "Configure a List and View List Item Details"
-category: "Pages"
-description: "Describes how to configure a list of items in Mendix Studio."
-menu_order: 40
-tags: ["studio", "pages", "list", "how to"]
----
+# Configure a List and View List Item Details
 
 ## 1 Introduction 
 

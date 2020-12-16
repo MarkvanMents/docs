@@ -1,8 +1,4 @@
----
-title: "OQL COALESCE"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL COALESCE
 
 
 The COALESCE function returns the first of its arguments that is not null.

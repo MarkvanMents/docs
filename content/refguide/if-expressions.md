@@ -1,8 +1,4 @@
----
-title: "If Expressions"
-parent: "expressions"
-tags: ["studio pro", "if expression", "expression", "if statement", "expressions"]
----
+# If Expressions
 
 ## 1 Introduction
 

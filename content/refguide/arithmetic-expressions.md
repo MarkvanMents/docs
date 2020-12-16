@@ -1,8 +1,4 @@
----
-title: "Arithmetic Expressions"
-parent: "expressions"
-tags: ["studio pro", "expressions", "arithmetic expressions"]
----
+# Arithmetic Expressions
 
 ## 1 Introduction
 

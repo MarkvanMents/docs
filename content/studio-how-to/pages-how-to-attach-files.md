@@ -1,10 +1,4 @@
----
-title: "Configure File Upload and Download"
-category: "Pages"
-description: "Describes how to configure file manager in Mendix Studio."
-menu_order: 70
-tags: ["studio", "pages", "file", "upload files", "attachment", "file manager"]
----
+# Configure File Upload and Download
 
 ## 1 Introduction 
 

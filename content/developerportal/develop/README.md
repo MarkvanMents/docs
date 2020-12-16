@@ -1,8 +1,4 @@
----
-title: "Development"
-description: "Introduces the documents that describe developing in Mendix via the Developer Portal."
-tags: ["Edit", "Studio Pro", "Studio", "Studio Pro", "Team Server", "Developer Portal", "commit"]
----
+# Development
 
 ## 1 Introduction
 

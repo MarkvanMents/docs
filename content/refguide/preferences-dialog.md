@@ -1,8 +1,4 @@
----
-title: "Preferences"
-parent: "edit-menu"
-tags: ["studio pro"]
----
+# Preferences
 
 ## 1 Introduction
 

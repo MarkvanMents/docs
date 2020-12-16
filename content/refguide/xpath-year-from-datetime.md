@@ -1,8 +1,4 @@
----
-title: "XPath Year-from-DateTime"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Year-from-DateTime
 
 ## 1 Overview
 

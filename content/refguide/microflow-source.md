@@ -1,9 +1,4 @@
----
-title: "Microflow Source"
-parent: "data-sources"
-tags: ["studio pro", "microflow source", "data source"]
-menu_order: 40
----
+# Microflow Source
 
 ## 1 Introduction
 

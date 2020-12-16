@@ -1,10 +1,4 @@
----
-title: "Project Menu"
-parent: "menus"
-description: "Describes the Project Menu in Studio Pro."
-menu_order: 30
-tags: ["Studio Pro", "project menu", "top bar"]
----
+# Project Menu
 
 ## 1 Introduction
 

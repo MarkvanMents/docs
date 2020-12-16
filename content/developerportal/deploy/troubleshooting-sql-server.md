@@ -1,8 +1,4 @@
----
-title: "Troubleshooting SQL Server"
-parent: "mendix-on-windows-microsoft-sql-server"
-menu_order: 80
----
+# Troubleshooting SQL Server
 
 ```
 Error while executing queries

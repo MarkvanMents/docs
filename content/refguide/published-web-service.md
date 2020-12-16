@@ -1,8 +1,4 @@
----
-title: "Published Web Service"
-parent: "published-web-services"
-tags: ["studio pro"]
----
+# Published Web Service
 
 ## 1 Introduction
 

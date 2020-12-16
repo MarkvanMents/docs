@@ -1,10 +1,4 @@
----
-title: "Mobile App"
-category: "Deployment"
-menu_order: 90
-description: "Describes the Mobile App page in the Mendix Developer Portal."
-tags: ["Developer Portal", "Mobile", "Mobile App", "Deploy"]
----
+# Mobile App
 
 ## 1 Introduction
 

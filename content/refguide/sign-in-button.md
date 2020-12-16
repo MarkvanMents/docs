@@ -1,9 +1,4 @@
----
-title: "Sign-In Button"
-parent: "authentication-widgets"
-tags: ["studio pro", "sign-in button", "sign in", "authentication widget", "authentication" ]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Sign-In Button
 
 {% hint style="warning" %}The **Sign-in button** is not supported on native mobile pages.{% endhint %}
 

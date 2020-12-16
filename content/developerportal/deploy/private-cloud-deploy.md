@@ -1,10 +1,4 @@
----
-title: "Deploying a Mendix App to a Private Cloud Cluster"
-parent: "private-cloud"
-description: "Describes the processes for deploying a Mendix app in the Private Cloud"
-menu_order: 20
-tags: ["Deploy", "Private Cloud", "Environment"]
----
+# Deploying a Mendix App to a Private Cloud Cluster
 
 ## 1 Introduction
 

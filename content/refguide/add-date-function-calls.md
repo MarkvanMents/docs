@@ -1,8 +1,4 @@
----
-title: "Add Date Function Calls"
-parent: "expressions"
-tags: ["studio pro", "expressions", "add date function"]
----
+# Add Date Function Calls
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Client Activities"
-parent: "activities"
-menu_order: 50
-tags: ["studio pro", "client activities", "activities"]
----
+# Client Activities
 
 ## 1 Introduction
 

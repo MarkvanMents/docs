@@ -1,8 +1,4 @@
----
-title: "Document Template"
-parent: "document-templates"
-tags: ["studio pro"]
----
+# Document Template
 
 ## 1 Introduction
 

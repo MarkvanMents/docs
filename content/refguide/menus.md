@@ -1,10 +1,4 @@
----
-title: "Menus"
-category: "App Modeling"
-description: "Describes Studio Pro menus."
-menu_order: 12
-tags: ["Studio Pro", "menu", "top bar"]
----
+# Menus
 
 ## 1 Introduction
 

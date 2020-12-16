@@ -1,9 +1,4 @@
----
-title: "Container Widgets"
-parent: "pages"
-menu_order: 25
-tags: ["studio pro", "container widget", "widget"]
----
+# Container Widgets
 
 ## 1 Introduction
 

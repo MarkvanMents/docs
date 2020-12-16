@@ -1,9 +1,4 @@
----
-title: "Page Properties"
-parent: "page"
-menu_order: 10
-tags: ["studio pro", "page", "properties"]
----
+# Page Properties
 
 ## 1 Introduction
 

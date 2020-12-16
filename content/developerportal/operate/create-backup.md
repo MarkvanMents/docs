@@ -1,10 +1,4 @@
----
-title: "Create a Backup"
-parent: "backups"
-menu_order: 10
-description: "This page describes how to create a backup."
-tags: ["Backup","Mendix Cloud","Developer Portal"]
----
+# Create a Backup
 
 ## 1 Introduction
 

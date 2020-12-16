@@ -1,9 +1,4 @@
----
-title: "Platform SDK"
-category: "SDKs"
-menu_order: 2
-#This document is mapped to the landing page, update the link there if renaming or moving the doc file.
----
+# Platform SDK
 
 These are the [Mendix Platform SDK](/apidocs-mxsdk/mxsdk/) release notes, including all minor versions and patches.
 

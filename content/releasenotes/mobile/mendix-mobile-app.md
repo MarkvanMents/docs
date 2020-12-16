@@ -1,10 +1,4 @@
----
-title: "Mendix Mobile App"
-category: "Mobile"
-menu_order: 20
-description: "These are the release notes for the Mendix Mobile app."
-toc-level: 1
----
+# Mendix Mobile App
 
 For more information on the Mendix mobile app, see [Getting the Mendix Mobile App](/refguide/getting-the-mendix-app).
 

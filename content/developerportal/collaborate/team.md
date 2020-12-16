@@ -1,10 +1,4 @@
----
-title: "App Team"
-category: "Collaboration Tools"
-menu_order: 20
-description: "Describes the Team page of the Developer Portal."
-tags: ["Team", "Developer Portal"]
----
+# App Team
 
 ## 1 Introduction
 

@@ -1,11 +1,4 @@
----
-title: "GitHub-Flavored Markdown"
-parent: "published-rest-service"
-menu_order: 70
-description: "Link to GitHub Guide to Mastering Markdown"
-tags: ["published REST", "GitHub", "Markdown", "studio pro"]
-# If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# GitHub-Flavored Markdown
 
 Several places in published REST services indicate that you can use [GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) for rich text.
 

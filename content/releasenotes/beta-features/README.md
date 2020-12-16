@@ -1,10 +1,4 @@
----
-title: "Mendix Beta Features"
-tags: ["Beta", "Studio Pro", "Features", "Feature Flags", "products", "features and products"]
-#notoc: true
-#layout: wide
-#toc-level: "3"
----
+# Mendix Beta Features
 
 ## 1 Introduction
 

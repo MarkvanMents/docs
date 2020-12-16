@@ -1,8 +1,4 @@
----
-title: "XPath True"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath True
 
 ## 1 Overview
 

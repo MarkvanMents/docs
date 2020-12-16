@@ -1,10 +1,4 @@
----
-title: "Show Fields Only When Certain Conditions Are Met"
-category: "Pages"
-description: "Describes how to set conditional visibility in Mendix Studio."
-menu_order: 30
-tags: ["studio", "pages", "how to", "visibility", "visible"]
----
+# Show Fields Only When Certain Conditions Are Met
 
 ## 1 Introduction 
 

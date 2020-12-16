@@ -1,10 +1,4 @@
----
-title: "Restore a Backup"
-parent: "backups"
-menu_order: 30
-description: "How to restore a backup."
-tags: ["Backup", "Restore", "Mendix Cloud", "Developer Portal", "backup file format"]
----
+# Restore a Backup
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Case-Sensitive Database Behavior"
-parent: "data-storage"
-tags: ["studio pro", "strings", "sort", "case", "query", "constraint"]
-menu_order: 20
----
+# Case-Sensitive Database Behavior
 
 ## 1 Introduction
 

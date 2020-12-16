@@ -1,8 +1,4 @@
----
-title: "Date Creation"
-parent: "expressions"
-tags: ["studio pro", "expression", "date creation", "expressions"]
----
+# Date Creation
 
 ## 1 Introduction
 

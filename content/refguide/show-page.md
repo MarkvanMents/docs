@@ -1,10 +1,4 @@
----
-title: "Show Page"
-parent: "client-activities"
-menu_order: 50
-tags: ["studio pro", "show page", "client activity"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Show Page
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

@@ -1,10 +1,4 @@
----
-title: "Indexes"
-parent: "entities"
-menu_order: 60
-tags: ["domain model", "entity", "attribute", "index", "studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Indexes
 
 ## 1 Introduction
 

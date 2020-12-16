@@ -1,9 +1,4 @@
----
-title: "Cast Object"
-parent: "object-activities"
-menu_order: 10
-tags: ["studio pro"]
----
+# Cast Object
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.

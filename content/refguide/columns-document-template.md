@@ -1,9 +1,4 @@
----
-title: "Columns (Document Template)"
-parent: "data-grid-document-template"
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Columns (Document Template)
 
 ## 1 Appearance Properties
 

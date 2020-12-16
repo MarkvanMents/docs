@@ -1,10 +1,4 @@
----
-title: "Supported Providers"
-parent: "private-cloud"
-description: "Describes which providers are supported by Mendix for Private Cloud"
-menu_order: 50
-tags: ["Private Cloud", "Cluster", "Operator", "Deploy", "Provider", "Registry", "Database"]
----
+# Supported Providers
 
 ## 1 Introduction
 

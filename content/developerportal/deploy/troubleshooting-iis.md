@@ -1,10 +1,4 @@
----
-title: "Troubleshooting IIS (Internet Information Services) "
-parent: "deploy-mendix-on-microsoft-windows"
-description: "Help on fixing issues with Microsoft IIS, including the use of application logs and other troubleshooting features"
-menu_order: 40
-tags: ["IIS", "Windows", "Internet Information Services", "Mendix Service Console", "errors"]
----
+# Troubleshooting IIS (Internet Information Services) 
 
 ## 1 Introduction
 

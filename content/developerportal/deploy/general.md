@@ -1,10 +1,4 @@
----
-title: "General"
-category: "Deployment"
-menu_order: 10
-description: "An overview of the DEPLOY section of the Developer Portal"
-tags: ["Deploy", "App", "Developer Portal", "Mendix Cloud", "Cloud Foundry", "Azure", "Docker", "IBM", "SAP", "On-premises", "Kubernetes"]
----
+# General
 
 ## 1 Introduction
 

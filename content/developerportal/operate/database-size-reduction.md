@@ -1,10 +1,4 @@
----
-title: "Database Size Reduction"
-parent: "backups"
-menu_order: 50
-description: "Describes how to restore physical disk space by creating and restoring a database backup."
-tags: ["Mendix Cloud", "disk space", "disk size", "size reduction", "backup"]
----
+# Database Size Reduction
 
 ## 1 Introduction
 

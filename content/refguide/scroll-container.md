@@ -1,10 +1,4 @@
----
-title: "Scroll Container"
-parent: "container-widgets"
-menu_order: 50
-tags: ["studio pro", "scroll container", "container widget", "widget"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Scroll Container
 
 ## 1 Introduction
 

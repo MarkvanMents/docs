@@ -1,8 +1,4 @@
----
-title: "Communication Patterns in the Mendix Runtime"
-category: "Mendix Runtime"
-tags: ["studio pro", "Mendix Runtime", "Communications", "Runtime Server", "Mendix Client"]
----
+# Communication Patterns in the Mendix Runtime
 
 ## 1 Introduction
 

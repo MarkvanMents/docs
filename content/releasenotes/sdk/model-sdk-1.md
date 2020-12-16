@@ -1,7 +1,4 @@
----
-title: "1"
-parent: "model-sdk"
----
+# 1
 
 ## 1.2.0
 

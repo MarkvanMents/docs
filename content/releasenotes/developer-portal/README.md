@@ -1,9 +1,4 @@
----
-title: "Developer Portal"
-description: "Release notes for all project management parts of the Mendix Developer Portal"
-tags: ["developer portal", "buzz", "mendix profile"]
-#This document is mapped to the landing page, update the link there if renaming or moving the doc file.
----
+# Developer Portal
 
 These release notes cover changes to the app project management functionality and other features of the [Mendix Developer Portal](/developerportal/index).
 

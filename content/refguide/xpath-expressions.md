@@ -1,8 +1,4 @@
----
-title: "XPath Expressions"
-parent: "xpath-constraints"
-tags: ["studio pro"]
----
+# XPath Expressions
 
 ## 1 Overview
 

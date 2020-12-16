@@ -1,7 +1,4 @@
----
-title: "Mobile"
-frontpage_featured: true
----
+# Mobile
 
 This category includes the following release notes: 
 

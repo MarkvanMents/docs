@@ -1,9 +1,4 @@
----
-title: "Page Resources"
-parent: "pages"
-menu_order: 12
-tags: ["studio pro", "page resources"]
----
+# Page Resources
 
 ## 1 Introduction
 

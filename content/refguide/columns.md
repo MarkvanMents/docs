@@ -1,9 +1,4 @@
----
-title: "Grid Columns"
-parent: "data-grid"
-tags: ["studio pro", "column", "grid column", "data grid"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Grid Columns
 ## 1 Introduction
 
 Grid columns allow you to set properties for a [data grid](data-grid) or [reference set selector](reference-set-selector) column. 

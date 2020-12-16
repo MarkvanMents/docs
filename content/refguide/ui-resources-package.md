@@ -1,8 +1,4 @@
----
-title: "UI Resources Package"
-parent: "modules"
-tags: ["studio pro", "ui resources"]
----
+# UI Resources Package
 
 ## 1 Introduction
 

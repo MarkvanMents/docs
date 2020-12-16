@@ -1,11 +1,4 @@
----
-title: "Download a Backup"
-parent: "backups"
-menu_order: 20
-description: "This page describes how to download a backup."
-tags: ["Backup","Download","Mendix Cloud","Developer Portal"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Download a Backup
 
 ## 1 Introduction
 

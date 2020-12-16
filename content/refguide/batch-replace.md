@@ -1,9 +1,4 @@
----
-title: "Batch Replace"
-parent: "translatable-texts"
-menu_order: 20
-tags: ["studio pro", "translation", "languages", "translatable text"]
----
+# Batch Replace
 
 ## 1 Introduction
 

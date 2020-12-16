@@ -1,8 +1,4 @@
----
-title: "Maintenance Plans for SQL Server"
-parent: "mendix-on-windows-microsoft-sql-server"
-menu_order: 50
----
+# Maintenance Plans for SQL Server
 
 ## 1 Introduction
 

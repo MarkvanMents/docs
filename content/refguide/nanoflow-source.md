@@ -1,9 +1,4 @@
----
-title: "Nanoflow Source"
-parent: "data-sources"
-tags: ["studio pro", "nanoflow source", "data source"]
-menu_order: 50
----
+# Nanoflow Source
 
 ## 1 Introduction
 

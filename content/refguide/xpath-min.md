@@ -1,8 +1,4 @@
----
-title: "XPath Min"
-parent: "xpath-query-functions"
-tags: ["studio pro"]
----
+# XPath Min
 
 ## 1 Overview
 

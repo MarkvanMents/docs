@@ -1,9 +1,4 @@
----
-title: "Events"
-parent: "application-logic"
-menu_order: 90
-tags: ["studio pro", "event", "events"]
----
+# Events
 
 ## 1 Introduction
 

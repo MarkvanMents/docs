@@ -1,10 +1,4 @@
----
-title: "On Click Event & Events Section"
-parent: "pages"
-menu_order: 130
-tags: ["studio pro", "events section", "properties", "widget", "on click", "action", "on click event"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# On Click Event & Events Section
 
 ## 1 Introduction
 

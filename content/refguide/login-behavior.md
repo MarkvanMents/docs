@@ -1,9 +1,4 @@
----
-title: "Login Behavior"
-category: "Mendix Runtime"
-description: "Describes default and customized login behavior in Runtime."
-tags: ["Runtime", "login", "studio pro"]
----
+# Login Behavior
 
 ## 1 Default Login Behavior
 

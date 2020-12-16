@@ -1,10 +1,4 @@
----
-title: "Security for Your On-Premises Installation"
-parent: "on-premises-design"
-description: "A checklist for implementing security when deploying Mendix on premises"
-menu_order: 10
-tags: ["security", "on-premises", "user account", "reverse proxy", "firewall", "file access", "admin port"]
----
+# Security for Your On-Premises Installation
 
 ## 1 Introduction
 

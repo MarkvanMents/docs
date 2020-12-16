@@ -1,9 +1,4 @@
----
-title: "Chart Widgets"
-parent: "pages"
-menu_order: 70
-tags: ["Charts", "Any Chart", "Studio Pro", "Pages"]
----
+# Chart Widgets
 
 ## 1 Introduction
 

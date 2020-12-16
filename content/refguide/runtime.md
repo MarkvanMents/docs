@@ -1,7 +1,4 @@
----
-title: "Mendix Runtime"
-tags: ["runtime", "runtime server", "mendix client", "cluster leader"]
----
+# Mendix Runtime
 
 ## 1 Introduction
 

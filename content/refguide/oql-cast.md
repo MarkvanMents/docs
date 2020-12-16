@@ -1,8 +1,4 @@
----
-title: "OQL CAST"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL CAST
 
 ## 1 Introduction
 

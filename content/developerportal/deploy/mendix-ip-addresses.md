@@ -1,10 +1,4 @@
----
-title: "Mendix IP Addresses"
-parent: "mendix-cloud-deploy"
-menu_order: 38
-description: "A list of static IP addresses used by the Mendix cloud"
-tags: ["Mendix cloud", "IP address", "Cloud Portal"]
----
+# Mendix IP Addresses
 
 ## 1 Introduction
 

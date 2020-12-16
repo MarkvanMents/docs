@@ -1,8 +1,4 @@
----
-title: "Nanoflow Properties"
-parent: "nanoflows"
-tags: ["studio pro"]
----
+# Nanoflow Properties
 
 ## 1 Introduction
 

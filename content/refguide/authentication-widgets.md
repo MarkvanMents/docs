@@ -1,9 +1,4 @@
----
-title: "Authentication Widgets"
-parent: "pages"
-menu_order: 55
-tags: ["authentication", "widgets", "studio pro", "login", "password"]
----
+# Authentication Widgets
 
 ## 1 Introduction
 

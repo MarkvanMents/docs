@@ -1,10 +1,4 @@
----
-title: "Input Reference Set Selector"
-parent: "input-widgets"
-menu_order: 90
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Input Reference Set Selector
 
 {% hint style="warning" %}}The **input reference set selector** widget is not supported on native mobile pages.{{% /alert %}
 

@@ -1,8 +1,4 @@
----
-title: "Published OData Resource"
-parent: "published-odata-services"
-tags: ["studio pro"]
----
+# Published OData Resource
 
 {% hint style="warning" %}
 

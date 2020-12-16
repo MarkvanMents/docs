@@ -1,9 +1,4 @@
----
-title: "File Widgets"
-parent: "pages"
-menu_order: 35
-tags: ["studio pro", "file widgets", "widget"]
----
+# File Widgets
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "History"
-parent: "version-control-menu"
-menu_order: 50
-tags: ["studio pro"]
----
+# History
 ## 1 Introduction
 
 Use the **History** dialog box to look at all the changes that have been committed to a development line of an app project. This dialog box is also used when selecting a revision to merge from, create a branch line off of, or create a deployment archive of.

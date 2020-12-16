@@ -1,10 +1,4 @@
----
-title: "List Operation"
-parent: "list-activities"
-menu_order: 4
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# List Operation
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

@@ -1,10 +1,4 @@
----
-title: "Working with Vector Graphics"
-parent: "native-mobile"
-menu_order: 80
-description: "Learn how to integrate SVGs into your native mobile apps."
-tags: ["native", "svg", "images", "mobile", "vector", "vector graphics"]
----
+# Working with Vector Graphics
 
 ## 1 Introduction
 

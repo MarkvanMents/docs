@@ -1,8 +1,4 @@
----
-title: "XPath Constraints"
-parent: "xpath"
-tags: ["studio pro"]
----
+# XPath Constraints
 
 ## 1 Overview
 

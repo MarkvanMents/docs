@@ -1,7 +1,4 @@
----
-title: "Using a Proxy to Call a Web Service"
-parent: "consumed-web-services"
----
+# Using a Proxy to Call a Web Service
 
 In some cases, you're stuck behind a firewall, and thus unable to call a webservice directly. This document shows you how to configure the JVM to use a proxy to call such services.
 

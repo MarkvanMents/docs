@@ -1,11 +1,4 @@
----
-title: "Make It Native App"
-category: "Mobile"
-menu_order: 10
-description: "These release notes showcase each release of the iOS and Android Make It Native app versions."
-tags: ["Native", "Android", "iOS", "Apple", "Android"]
-#This document is mapped to the landing page, update the link there if renaming or moving the doc file.
----
+# Make It Native App
 
 For more information on the Make It Native app, see [Getting the Make It Native App](/refguide/getting-the-make-it-native-app).
 

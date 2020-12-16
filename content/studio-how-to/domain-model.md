@@ -1,8 +1,4 @@
----
-title: "Domain Model"
-description: "A landing page for Studio how-to's on the domain model."
-tags: ["studio", "domain model", "how-to"]
----
+# Domain Model
 
 ## 1 Introduction 
 

@@ -1,8 +1,4 @@
----
-title: "Parse Integer"
-parent: "expressions"
-tags: ["studio pro"]
----
+# Parse Integer
 
 
 Try to convert a string to an integer.

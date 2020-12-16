@@ -1,10 +1,4 @@
----
-title: "Version Control Menu"
-parent: "menus"
-description: "Describes the Project Menu in Studio Pro."
-menu_order: 40
-tags: ["Studio Pro", "project menu", "top bar"]
----
+# Version Control Menu
 
 ## 1 Introduction
 

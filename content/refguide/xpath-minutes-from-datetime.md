@@ -1,8 +1,4 @@
----
-title: "XPath Minutes-from-DateTime"
-parent: "xpath-constraint-functions"
-tags: ["studio pro"]
----
+# XPath Minutes-from-DateTime
 
 ## 1 Overview
 

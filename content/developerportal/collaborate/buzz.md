@@ -1,10 +1,4 @@
----
-title: "Buzz"
-category: "Collaboration Tools"
-menu_order: 10
-description: "Describes the Mendix Buzz, which is the landing page for a Mendix app project."
-tags: ["Buzz","Developer Portal"]
----
+# Buzz
 
 ## 1 Buzz Locations
 

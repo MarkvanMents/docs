@@ -1,11 +1,4 @@
----
-title: "Mendix Jobs Board"
-category: "Community Tools"
-menu_order: 40
-description: "Describes the board where the Mendix community can post and find job opportunities."
-tags: ["job", "job board", "job dashboard"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Mendix Jobs Board
 
 ## 1 Introduction
 

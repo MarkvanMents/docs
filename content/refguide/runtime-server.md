@@ -1,10 +1,4 @@
----
-title: "Runtime Server"
-category: "Mendix Runtime"
-description: "A description of the Runtime Server and how it functions"
-menu_order: 10
-tags: ["runtime", "runtime server", "stateless", "database", "java", "microflows"]
----
+# Runtime Server
 
 ## 1 Introduction
 

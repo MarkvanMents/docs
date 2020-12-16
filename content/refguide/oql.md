@@ -1,8 +1,4 @@
----
-title: "OQL"
-parent: "data-sets"
-tags: ["studio pro"]
----
+# OQL
 
 ## 1 Introduction
 

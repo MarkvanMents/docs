@@ -1,9 +1,4 @@
----
-title: "Data Widgets"
-parent: "pages"
-menu_order: 15
-tags: ["studio pro", "data widgets", "data containers", "data view", "list view", "data grid"]
----
+# Data Widgets
 
 ## 1 Introduction
 

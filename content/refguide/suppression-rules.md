@@ -1,10 +1,4 @@
----
-title: "Suppression Rules"
-parent: "errors-pane"
-menu_order: 10
-description: "Describes suppression rules for warnings in Studio Pro."
-tags: ["Studio Pro", "consistency errors", "checks", "warnings"]
----
+# Suppression Rules
 
 ## 1 Introduction  {#intro}
 

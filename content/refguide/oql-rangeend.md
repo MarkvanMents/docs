@@ -1,8 +1,4 @@
----
-title: "OQL RANGEEND"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL RANGEEND
 
 
 The RANGEEND function extracts the end value of a range parameter.

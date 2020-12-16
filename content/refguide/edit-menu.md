@@ -1,10 +1,4 @@
----
-title: "Edit Menu"
-parent: "menus"
-description: "Describes the Edit Menu in Studio Pro."
-menu_order: 10
-tags: ["Studio Pro", "view menu", "top bar"]
----
+# Edit Menu
 
 ## 1 Introduction
 

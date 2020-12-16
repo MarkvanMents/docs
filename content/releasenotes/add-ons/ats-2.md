@@ -1,8 +1,4 @@
----
-title: "2"
-parent: "ats"
-menu_order: 10
----
+# 2
 
 These are the release notes for Mendix Application Test Suite version 2:
 

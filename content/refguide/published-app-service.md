@@ -1,8 +1,4 @@
----
-title: "Published App Service"
-parent: "published-app-services"
-tags: ["studio pro"]
----
+# Published App Service
 
 {% hint style="info" %}
 App services are deprecated and marked for removal. Use a [published web service](published-web-services) or a [published REST service](published-rest-services) instead.

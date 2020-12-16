@@ -1,8 +1,4 @@
----
-title: "XPath Avg"
-parent: "xpath-query-functions"
-tags: ["studio pro"]
----
+# XPath Avg
 
 ## 1 Overview
 

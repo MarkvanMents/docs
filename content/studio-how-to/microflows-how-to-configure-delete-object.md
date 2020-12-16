@@ -1,10 +1,4 @@
----
-title: "Configure a Delete Object Action"
-category: "Microflows"
-menu_order: 80
-description: "This how to describes the process of configuring a delete object action in a data view and a list view in Mendix Studio."
-tags: ["studio", "page editor", "delete object", "list view", "data view", "how to"]
----
+# Configure a Delete Object Action
 
 ## 1 Introduction 
 

@@ -1,8 +1,4 @@
----
-title: "Developing Hybrid Mobile Apps"
-parent: "hybrid-mobile"
-tags: ["studio pro"]
----
+# Developing Hybrid Mobile Apps
 
 ## 1 Introduction
 

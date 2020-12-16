@@ -1,8 +1,4 @@
----
-title: "XPath Count"
-parent: "xpath-query-functions"
-tags: ["studio pro"]
----
+# XPath Count
 
 ## 1 Overview
 

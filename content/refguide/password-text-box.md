@@ -1,9 +1,4 @@
----
-title: "Password Text Box"
-parent: "authentication-widgets"
-tags: ["studio pro", "password text box", "authentication widget", "authentication"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Password Text Box
 
 {% hint style="warning" %}The **Password text box** widget is not supported on native mobile pages.{% endhint %}
 

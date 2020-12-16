@@ -1,9 +1,4 @@
----
-title: "Break Event"
-parent: "events"
-menu_order: 5
-tags: ["studio pro", "break event", "event", "loop"]
----
+# Break Event
 
 ## 1 Introduction
 

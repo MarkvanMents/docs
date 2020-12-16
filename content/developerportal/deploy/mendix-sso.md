@@ -1,13 +1,4 @@
----
-title: "Mendix Single Sign-On"
-parent: "mendix-cloud-deploy"
-menu_order: 70
-description: "Use the Mendix SSO module to add Single Sign-on to your app using the user's Mendix credentials"
-tags: ["SSO", "Single Sign-on", "Mendix credentials", "Mendix SSO"]
-#draft: true
-#Ownership claimed by Identity Services Team.
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Mendix Single Sign-On
 
 ## 1 Introduction
 

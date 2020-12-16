@@ -1,11 +1,4 @@
----
-title: "Prepare Your App Project for Support"
-category: "Mendix Support"
-menu_order: 1
-description: "Describes what you need to do with an on-premises app project to prepare it for Mendix Support."
-tags: ["on-premises", "support"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Prepare Your App Project for Support
 
 ## 1 Introduction
 

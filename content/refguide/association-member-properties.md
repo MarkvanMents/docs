@@ -1,9 +1,4 @@
----
-title: "Association Tab Properties"
-parent: "associations"
-menu_order: 15
-tags: ["domain model", "association", "studio pro"]
----
+# Association Tab Properties
 
 ## 1 Introduction
 

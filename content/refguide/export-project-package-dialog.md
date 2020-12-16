@@ -1,10 +1,4 @@
----
-title: "Export Project Package"
-parent: "file-menu"
-menu_order: 30
-tags: ["studio pro", "export an app project", "export project package"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Export Project Package
 
 ## 1 Introduction
 You can export a project package (*.mpk*) from Mendix Studio Pro for backup purposes or to share it with other Mendix developers. This is useful if you want to give someone the entire app, or if you need to provide a test app when submitting a ticket.

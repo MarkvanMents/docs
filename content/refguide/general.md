@@ -1,7 +1,4 @@
----
-title: "General Info"
-tags: ["studio pro"]
----
+# General Info
 
 ## 1 Introduction
 

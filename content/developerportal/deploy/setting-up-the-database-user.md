@@ -1,8 +1,4 @@
----
-title: "Database User Set Up on SQL Server"
-parent: "mendix-on-windows-microsoft-sql-server"
-menu_order: 30
----
+# Database User Set Up on SQL Server
 
 ## 1 General
 

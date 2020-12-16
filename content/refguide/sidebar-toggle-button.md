@@ -1,10 +1,4 @@
----
-title: "Sidebar Toggle"
-parent: "layout"
-menu_order: 30
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Sidebar Toggle
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Deactivate & Activate an App"
-parent: "apps"
-description: "Describes how to deactivate and activate an app in the Developer Portal as a Company Admin."
-tags: ["app", "deactivate", "activate", "Developer Portal", "Company Admin"]
----
+# Deactivate & Activate an App
 
 ## 1 Introduction
 

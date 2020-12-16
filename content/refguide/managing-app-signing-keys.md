@@ -1,10 +1,4 @@
----
-title: "Managing App Signing Keys"
-category: "Mobile"
-menu_order: 21
-tags: ["studio pro"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Managing App Signing Keys
 
 ## 1 Introduction
 

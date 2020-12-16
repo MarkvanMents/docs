@@ -1,11 +1,4 @@
----
-title: "Licensing Apps"
-parent: "general"
-menu_order: 5
-description: "How to apply licenses to apps which are outside Mendix Cloud"
-tags: ["App", "Developer Portal", "License", "Subscription Secret", "Upgrade", "SAP", "IBM", "Siemens MindSphere"]
-# NB have left out AWS and Azure Marketplace offerings for now, pending further research.
----
+# Licensing Apps
 
 ## 1 Introduction
 

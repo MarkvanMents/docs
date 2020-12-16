@@ -1,8 +1,4 @@
----
-title: "ATS"
-category: "Quality Add-ons"
-menu_order: 10
----
+# ATS
 
 These are the release notes for the the [Mendix Application Test Suite (ATS)](/addons/ats-addon/):
 

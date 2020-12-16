@@ -1,9 +1,4 @@
----
-title: "Run Mendix on Kubernetes"
-parent: "docker-deploy"
-menu_order: 20
-tags: ["kubernetes", "cloud", "deployment"]
----
+# Run Mendix on Kubernetes
 
 ## 1 Introduction
 

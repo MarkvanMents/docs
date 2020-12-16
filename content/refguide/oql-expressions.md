@@ -1,8 +1,4 @@
----
-title: "OQL Expressions"
-parent: "oql"
-tags: ["studio pro"]
----
+# OQL Expressions
 
 An expression is a either constant, a function or any combination of attribute names, constants, and functions connected by operator(s) or a subquery.
 

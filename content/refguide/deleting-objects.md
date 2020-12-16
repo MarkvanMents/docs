@@ -1,9 +1,4 @@
----
-title: "Delete Object(s)"
-parent: "object-activities"
-menu_order: 50
-tags: ["studio pro"]
----
+# Delete Object(s)
 
 {% hint style="warning" %}
 This activity can only be used in **Microflows**.

@@ -1,8 +1,4 @@
----
-title: "Create Deployment Package"
-parent: "project-menu"
-tags: ["studio pro", "project menu", "deployment package"]
----
+# Create Deployment Package
 
 ## 1 Introduction
 

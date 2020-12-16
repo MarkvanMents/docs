@@ -1,10 +1,4 @@
----
-title: "Receive Environment Status Alerts"
-parent: "monitoring-application-health"
-#menu_order: 180
-description: "Describes how to receive environment status alerts."
-tags: ["Technical Contact","Settings","Alerts","Developer Portal"]
----
+# Receive Environment Status Alerts
 
 ## 1 Introduction
 

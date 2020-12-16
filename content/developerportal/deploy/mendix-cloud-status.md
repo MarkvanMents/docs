@@ -1,10 +1,4 @@
----
-title: "Cloud Status: Mendix Cloud"
-parent: "mendix-cloud-deploy"
-menu_order: 21
-description: "Describes where to find the current status of the Mendix Cloud."
-tags: ["Status","Mendix Cloud","Developer Portal", "Issue", "Maintenance", "Subscribe"]
----
+# Cloud Status: Mendix Cloud
 
 ## 1 Introduction
 

@@ -1,9 +1,4 @@
----
-title: "Commit Object(s)"
-parent: "object-activities"
-menu_order: 30
-tags: ["studio pro"]
----
+# Commit Object(s)
 
 {% hint style="warning" %}
 This activity can be used in both **Microflows** and **Nanoflows**.

@@ -1,10 +1,4 @@
----
-title: "Search Bar"
-parent: "grids"
-menu_order: 40
-tags: ["studio pro", "search bar", "comparison search field", "drop down search field", "range search field", "grid"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Search Bar
 
 ## 1 Introduction
 

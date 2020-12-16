@@ -1,11 +1,4 @@
----
-title: "Certificates"
-parent: "mendix-cloud-deploy"
-menu_order: 30
-#description: "Set a description with a maximum of 140 characters; this should describe what the goal of the document is, and it can be different from the document introduction; this is optional, and it can be removed"
-tags: ["client certificate", "certification authority", "PKCS12", "connections"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Certificates
 
 ## 1 Introduction
 

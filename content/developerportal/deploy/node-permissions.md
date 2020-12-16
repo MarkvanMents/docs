@@ -1,10 +1,4 @@
----
-title: "Node Permissions"
-parent: "mendix-cloud-deploy"
-menu_order: 18
-description: "The permission settings for your node."
-tags: ["Node","Permission","Developer Portal"]
----
+# Node Permissions
 
 ## 1 Introduction
 

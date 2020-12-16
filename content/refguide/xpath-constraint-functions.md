@@ -1,8 +1,4 @@
----
-title: "XPath Constraint Functions"
-parent: "xpath-constraints"
-tags: ["studio pro"]
----
+# XPath Constraint Functions
 
 The following pages describe the functions that can be executed within constraints:
 

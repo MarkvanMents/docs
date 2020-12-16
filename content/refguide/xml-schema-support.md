@@ -1,8 +1,4 @@
----
-title: "XML Schema Support"
-parent: "xml-schemas"
-tags: ["studio pro"]
----
+# XML Schema Support
 
 ## 1 Introduction
 

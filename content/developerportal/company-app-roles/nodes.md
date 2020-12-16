@@ -1,10 +1,4 @@
----
-title: "Nodes"
-parent: "companyadmin-settings"
-menu_order: 40
-description: "Developer Portal Cloud Noces"
-tags: ["company","admin", "Company Admin", "Developer Portal", "cloud", "node"]
----
+# Nodes
 
 ## 1 Introduction
 

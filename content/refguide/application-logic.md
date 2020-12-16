@@ -1,10 +1,4 @@
----
-title: "Application Logic"
-category: "App Modeling"
-menu_order: 40
-description: "Presents an overview of documentation on microflows and nanoflows."
-tags: ["studio pro", "logic", "microflow", "nanoflow"]
----
+# Application Logic
 
 ## 1 Introduction
 

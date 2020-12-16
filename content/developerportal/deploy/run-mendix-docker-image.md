@@ -1,10 +1,4 @@
----
-title: "Run a Mendix Docker Image"
-parent: "docker-deploy"
-menu_order: 10
-description: "Describes running a Mendix Docker image."
-tags: ["Docker", "Cloud", "container", "CI/CD"]
----
+# Run a Mendix Docker Image
 
 ## 1 Introduction
 

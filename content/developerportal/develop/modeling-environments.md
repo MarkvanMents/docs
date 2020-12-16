@@ -1,10 +1,4 @@
----
-title: "App Modeling Environments"
-category: "Development"
-menu_order: 10
-description: "Describes the options available for editing your app"
-tags: ["Edit", "Studio Pro", "Studio", "Developer Portal", "Studio", "Studio Pro"]
----
+# App Modeling Environments
 
 ## 1 Introduction
 

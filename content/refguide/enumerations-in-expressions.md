@@ -1,8 +1,4 @@
----
-title: "Enumerations in Expressions"
-parent: "expressions"
-tags: ["studio pro", "expression", "enumeration", "expressions"]
----
+# Enumerations in Expressions
 
 ## 1 Introduction
 

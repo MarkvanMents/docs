@@ -1,8 +1,4 @@
----
-title: "Security"
-parent: "project-explorer"
-tags: ["studio pro", "security"]
----
+# Security
 
 ## 1 Introduction
 

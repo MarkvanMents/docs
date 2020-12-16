@@ -1,8 +1,4 @@
----
-title: "Data Storage"
-category: "Mendix Runtime"
-tags: ["studio pro"]
----
+# Data Storage
 
 ## 1 Introduction
 

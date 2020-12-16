@@ -1,9 +1,4 @@
----
-title: "MySQL/MariaDB"
-parent: "data-storage"
-menu_order: 50
-tags: ["studio pro"]
----
+# MySQL/MariaDB
 
 ## 1 Introduction
 

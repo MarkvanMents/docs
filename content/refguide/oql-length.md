@@ -1,8 +1,4 @@
----
-title: "OQL LENGTH"
-parent: "oql-functions"
-tags: ["studio pro"]
----
+# OQL LENGTH
 
 
 The LENGTH function returns the length of a String value.

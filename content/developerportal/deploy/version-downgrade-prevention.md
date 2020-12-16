@@ -1,10 +1,4 @@
----
-title: "Version Downgrade Prevented"
-parent: "general"
-menu_order: 30
-description: "What to do if you cannot migrate a Mendix database to an earlier version"
-tags: ["downgrade", "migration", "pre-analysis", "version", "database"]
----
+# Version Downgrade Prevented
 
 ## 1 Scenario
 

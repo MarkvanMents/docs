@@ -1,10 +1,4 @@
----
-title: "Step 1: Build the Domain Model & Configure a Microflow"
-parent: "microflows-how-to-configure-decision"
-description: "This how-to describes the process of configuring a decision in Mendix Studio."
-menu_order: 10
-tags: ["studio", "microflows", "decision", "domain model"]
----
+# Step 1: Build the Domain Model & Configure a Microflow
 
 ## 1 Introduction
 

@@ -1,10 +1,4 @@
----
-title: "Data Grid"
-parent: "grids"
-menu_order: 10
-tags: ["studio pro", "data grid", "grid", "data widget"]
-#If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
----
+# Data Grid
 
 {% hint style="warning" %}}The data grid widget is not supported on native mobile pages.{{% /alert %}
 

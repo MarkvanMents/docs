@@ -1,9 +1,4 @@
----
-title: "Mendix Assist"
-parent: "microflows"
-description: "Describes Mendix Assist in Mendix Studio Pro."
-tags: ["studio pro", "mendix assist", "AI", "assistant"]
----
+# Mendix Assist
 
 ## 1 Introduction 
 

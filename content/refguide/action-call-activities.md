@@ -1,9 +1,4 @@
----
-title: "Action Call Activities"
-parent: "activities"
-menu_order: 30
-tags: ["studio pro", "action call", "action call activities"]
----
+# Action Call Activities
 
 ## 1 Introduction
 

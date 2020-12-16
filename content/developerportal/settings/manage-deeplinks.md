@@ -1,9 +1,4 @@
----
-title: "Manage Deep Links"
-parent: "general-settings"
-description: "Describes how to implement deep links to Developer Portal pages."
-tags: ["Developer Portal", "deep link"]
----
+# Manage Deep Links
 
 ## 1 Introduction
 
