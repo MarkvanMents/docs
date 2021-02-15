@@ -26,7 +26,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 To sign in to the Partner Profile, edit it, and make it public, follow these steps:
 
-1. Sign in to your own Mendix Community Profile [here](https://developer.mendixcloud.com/openid/login?immediate=true&continuation=link/ownprofile/). Now Mendix knows who you are and which company is attached to your account.
+1. Sign in to your own Mendix Profile [here](https://developer.mendixcloud.com/openid/login?immediate=true&continuation=link/ownprofile/). Now Mendix knows who you are and which company is attached to your account.
 2. At the top of your Community Profile, you will see your role and company (for example, "Senior Developer at **Finaps**"). When your company is a partner, the company name is clickable. Click your company name to go to its Partner Profile. 
 3.  If you are authorized as a Partner Profile Editor, click **Edit Partner Profile** to edit the profile:
 
@@ -179,9 +179,7 @@ To add developers to the Partner Profile, follow these steps:
     Only the certifications and points of the added developers will be counted in the Partner Profile. The highest rank of certification will be added to the overview.
 
 {{% alert type="info" %}}
-
-Make sure you offboard the developers who no longer work at your company through the company administration in the Mendix Platform. These former employees will still be visible in the overview. It is important that you deactivate these developers in the Developers Portal so that they don’t have access to projects.
-
+Make sure you offboard and deactivate the developers who no longer work at your company through [Control Center](/developerportal/control-center/index).
 {{% /alert %}}
 
 ## 8 Editing Testimonials

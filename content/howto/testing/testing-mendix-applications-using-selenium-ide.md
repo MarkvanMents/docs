@@ -33,7 +33,7 @@ All images, names, and steps in this how-to are based on these versions. When us
 {{% /alert %}}
 
 {{% alert type="warning" %}}
-This how-to uses the Company Expenses app template for an example scenario. However, this app templateis no longer platform-supported by Mendix. Therefore, sections using this app template can only be used as reference and not as sections that can be completed step-by-step.
+This how-to uses the Company Expenses app template for an example scenario. However, this app template is no longer platform-supported by Mendix. Therefore, sections using this app template can only be used as reference and not as sections that can be completed step-by-step.
 {{% /alert %}}
 
 ## 3 Installing & Running the Company Expenses App
@@ -41,7 +41,7 @@ This how-to uses the Company Expenses app template for an example scenario. Howe
 Follow these steps to install and run the Company Expenses app:
 
 1. Open Mendix Studio Pro.
-2.  Click the App Store icon in the top toolbar:
+2.  Click the Marketplace icon in the top toolbar:
 
 	![](attachments/selenium/app-store.png)
 

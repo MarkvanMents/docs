@@ -48,8 +48,6 @@ For details, see [Feedback API](feedback-api).
 
 With this API, you can retrieve the [user roles](/refguide/user-roles) of your application users so you can grant them specific access levels to the application.
 
-This is part of the [AppCloudServices](https://appstore.home.mendix.com/link/app/934/) module.
-
 For details, see [Permissions API](permissions-api).
 
 ## 9 Pluggable Widgets API
@@ -84,7 +82,7 @@ For details, see [Team Server API](team-server-api).
 
 ## 14 User Management API
 
-Use this API to integrate your company's user management systems with the Mendix Platform. You can then create and manage user accounts and security groups as well as define group policies for your applications.
+Use this API to integrate your company's user management systems with the Mendix Platform. You can then create and manage user accounts and groups as well as define group policies for your applications.
 
 For details, see [User Management API](user-management-api).
 

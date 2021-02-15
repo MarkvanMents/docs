@@ -1,8 +1,8 @@
 ---
 title: "Mobile Features"
 category: "Widgets"
-description: "Describes the configuration and usage of the Mobile Features widget, which is available in the Mendix App Store."
-tags: ["app store", "app store component", "widget", "mobile feature", "spinner", "transitions", "status bar", "platform support"]
+description: "Describes the configuration and usage of the Mobile Features widget, which is available in the Mendix Marketplace."
+tags: ["marketplace", "app store", "marketplace component", "app store component", "widget", "mobile feature", "spinner", "transitions", "status bar", "platform support"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
@@ -29,7 +29,7 @@ This widget includes the following features that can be used in a Mendix hybrid 
 
 ### 1.3 Dependencies
 
-Be sure that the Cordova plugins below are included in your PhoneGap *config.xml* file, because without them, some features will not work.
+Be sure that the Cordova plugins below are included in your *config.xml* file, because without them, some features will not work.
 
 #### 1.3.1 Spinner
 

@@ -8,7 +8,9 @@ tags: ["gulp", "sass", "ux", "front end"]
 
 ## 1  Introduction
 
+{{% alert type="info" %}}
 Styling in a Mendix app project is easy to do once you get the hang of it. For the majority of styling needs, you can use Mendix's styling tool: Calypso. For more information, see [How to Use Calypso](/howto/front-end/calypso).
+{{% /alert %}}
 
 However, using Gulp and Sass can be better for certain users. If you already use a Gulp service worker in your development workflow, you may wish to style you Mendix app using Gulp and Sass instead of Calypso.
 
@@ -41,7 +43,7 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 To prepare your app project, follow these steps:
 
-1. Open the [app project directory](../general/show-project-directory) (via **Project** > **Show Project Directory in Explorer** in Studio Pro).
+1. Open the app project directory (via **Project** > **Show Project Directory in Explorer** in Studio Pro).
 2.  Unpack the *Gulp.zip* file into your main app project folder. You will then see a *Gulpfile* and *package* file that look like this:
 
 	![](attachments/set-up-sass/unpack.png)
@@ -51,7 +53,7 @@ To prepare your app project, follow these steps:
 
 	![](attachments/set-up-sass/powershell.png)
 
-4.  Copy the address as text from your main project folder and paste it into Powershell (your project folder cannot contain spaces):
+4.  Copy the address as text from your main project folder and paste it into Powershell (your project folder cannot contain spaces and should not be too long):
 
 	![](attachments/set-up-sass/copy.png)
 
@@ -204,9 +206,9 @@ You may encounter certain issues when styling your app using Gulp and Sass. Here
 
 ### 7.1 Theme Folder Issues
 
-When using UX-theming in Mendix 8, some issues might occur with an infinite loop or folders not being recognized.
+When using UX-theming in Mendix 9, some issues might occur with an infinite loop or folders not being recognized.
 
-This is probably because your theme folder has changes. The Mendix 8 theme structure uses distinct folders for **web** and **native** styling files. Make sure you set the following folders correctly in your Gulpfile:
+This is probably because your theme folder has changes. The Mendix 9 theme structure uses distinct folders for **web** and **native** styling files. Make sure you set the following folders correctly in your Gulpfile:
 
 ```js
 // What is the name of the style folder in this theme folder?

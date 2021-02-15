@@ -17,9 +17,9 @@ This how-to will walk you through the steps needed to implement push notificatio
 * Obtain FCM/APNs access/credentials and configure them with your application
 * Build the hybrid mobile package
 
-## 2 Importing the PushNotifications Module from the App Store
+## 2 Importing the PushNotifications Module from the Marketplace
 
-The [Push Notifications Connector](/appstore/modules/push-notifications) module is published in the Mendix App Store. To import it into your project, click **App Store** in the top right of Mendix Studio Pro, which will open the App Store in a new tab. Search for "Push Notifications Connector" and click the title of the result:
+The [Push Notifications Connector](/appstore/modules/push-notifications) module is published in the Mendix Marketplace. To import it into your project, click **Marketplace** in the top right of Mendix Studio Pro, which will open the Marketplace in a new tab. Search for "Push Notifications Connector" and click the title of the result:
 
 ![](attachments/19955732/20218020.png)
 
@@ -33,14 +33,14 @@ The Push Notifications Connector assumes that the mobile app and the "back-end" 
 
 ## 3 Installing Module Dependencies
 
-The PushNotifications module has two dependencies:
+The PushNotifications module has the following dependencies:
 
  * [Encryption](/appstore/modules/encryption)
  * [Community Commons Function Library](/appstore/modules/community-commons-function-library)
  * [Nanoflow Commons](https://appstore.home.mendix.com/link/app/109515/)
- * [Native Mobile Resources](https://appstore.home.mendix.com/link/app/109513/)
+ * [Native Mobile Resources](/appstore/modules/native-mobile-resources)
 
-To include these dependencies, download them from the App Store in a way similar to how you installed the PushNotifications module. While importing, you may get a pop-up window with information about overwriting project files, which you can confirm by clicking **OK**.
+To include these dependencies, download them from the Marketplace in a way similar to how you installed the PushNotifications module. While importing, you may get a pop-up window with information about overwriting project files, which you can confirm by clicking **OK**.
 
 {{% alert type="info" %}}
 
@@ -132,10 +132,6 @@ For more details, see [How to Set Up the Apple Push Notification Server](setting
 ## 10 Building the Hybrid Mobile Application
 
 You now need to build the hybrid mobile application. For an explanation on how to do this, see [How to Publish a Mendix Hybrid Mobile App](publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores).
-
-For more information about the PhoneGap Build, refer to the [Adobe PhoneGap Build documentation](http://docs.phonegap.com/).
-
-Please note that a free PhoneGap Build account is limited to a single application, whereas paid plans support multiple applications. As a consequence, you may need to delete an existing app from your PhoneGap Build environment in order to create a new one.
 
 ## 11 Read More
 

@@ -14,11 +14,7 @@ Your organization may have a requirement to use a private cloud, perhaps as part
 
 You can use Mendix for Private Cloud with the *connected* option to keep the simplicity of one-click deployments from the Developer Portal, or utilize the *standalone* Mendix Operator to deploy Mendix apps through your own DevOps process, which is particularly useful for private clouds with an *air-gap* isolating them from the internet. See [Connected and Standalone Clusters](#connected-standalone), below, for more information.
 
-The following platforms are officially supported by Mendix for Private Cloud:
-
-* Red Hat OpenShift
-* Amazon Web Services Elastic Kubernetes Service (AWS-EKS)
-* Azure Kubernetes Service (AKS)
+Please see [Supported Providers](private-cloud-supported-environments) for a list of platforms supported by Mendix for Private Cloud.
 
 There are two steps required to achieve this, listed below.
 
@@ -69,7 +65,7 @@ The table below shows the differences between the capabilities for apps deployed
 
 | Capability | Mendix Cloud | Mx4PC Connected | Mx4PC Standalone |
 | --- | --- | --- | --- |
-| Environment provisioning | Fully automated | Provisioned with an existing PostgreSQL server and S3 bucket | Provisioned with an existing PostgreSQL server and S3 bucket |
+| Environment provisioning | Fully automated | Provisioned with database and blob storage provided by the customer | Provisioned with database and blob storage provided by the customer|
 | Environment configuration<br/>*For example, constants and scheduled event* | Mendix Developer Portal | Mendix Developer Portal | Custom Resources via Mendix Operator |
 | Mendix app/deployment package deployment | Mendix Developer Portal, Studio Pro, & Studio | Mendix Developer Portal & Studio Pro | Custom Resources via Mendix Operator<br/>*normally combined in a CI/CD pipeline* |
 | Backup and restore | Mendix Developer Portal | Services supplied by the database server and file storage used | Services supplied by the database server and file storage used |

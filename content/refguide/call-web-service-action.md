@@ -1,7 +1,7 @@
 ---
 title: "Call Web Service"
 parent: "integration-activities"
-tags: ["studio pro", "integration activity", "call we service"]
+tags: ["studio pro", "integration activity", "call web service"]
 menu_order: 20
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
@@ -103,10 +103,6 @@ Default: *No*
 
 ### 4.7 Proxy Configuration
 
-{{% alert type="info" %}}
-This feature is only available when you have configured web service calls to use the (optimized) implementation in the [project's runtime settings](project-settings).
-{{% /alert %}}
-
 In almost all cases, you can ignore this setting. **Use project settings** is a good default value.
 
 If desired, you can configure whether to use a proxy for the request. These are the choices:
@@ -116,6 +112,23 @@ If desired, you can configure whether to use a proxy for the request. These are 
 * **No proxy** – do not use a proxy for this action, even if there is a proxy configured at the project level
 
 When you select **Override**, you can configure dynamically whether to use a proxy. You then supply the host, port, username, and password settings for the proxy.
+
+### 4.8 Client certificate
+
+In almost all cases, you can ignore this setting. **Use project settings** is a good default value.
+
+However, you can specify a client certificate to use for the request by clicking **override**.
+Select from one of the following:
+
+* **Use project settings**(default) – use the settings that are defined at the project level 
+* **Override** – override the project-level settings for this action
+
+When you select **Override**, you can configure the client certificate that will be used. Click **Edit** to specify the **Client certificate identifier**. This identifier can be set in different places, depending on where you deploy the app:
+
+* When you deploy the app to the Mendix cloud, the identifier is set when [pinning a client certificate](https://docs.mendix.com/developerportal/deploy/certificates#3-outgoing-client-certificates)
+* When you deploy the app elsewhere, the identifier is set in the custom setting [ClientCertificateUsages](custom-settings#ca-certificates)
+
+When this identifier is not set (either not pinned or not present in _ClientCertificateUsages_), the default settings will be used (as if **Use project settings** were selected).
 
 ## 5 HTTP Headers Tab{#http-headers}
 

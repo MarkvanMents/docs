@@ -22,7 +22,7 @@ For most apps, development teams should include the following roles in their ove
 * **Front-end development** – Implementing the styling or the theme of the app as created in the designs.
 * **UI design** – Designing the user interface, for example how the screens and components look, and determining the theme colors, typography, spacing, and borders.
 * **UX design** – Designing the user experience (such as the flow of the app), determining which use cases to support, and deciding how certain functions should work.
-* **Widget development (optional)** – Building new widgets to provide new interaction patterns or UI components that are not offered out of the box by Mendix or available though the Mendix App Store.
+* **Widget development (optional)** – Building new widgets to provide new interaction patterns or UI components that are not offered out of the box by Mendix or available though the Mendix Marketplace.
 
 As mentioned above, not all projects require five different persons each handling one of these roles. Different team configurations are common.
 
@@ -134,5 +134,5 @@ It is a common pitfall to keep adding classes to a single file. However, this wi
 
 ## 5 Read More
 
-* [Native Styling Reference Guide](/refguide/native-styling-refguide)
+* [Native Mobile Styling Reference Guide](/refguide/native-styling-refguide)
 * [How to Style Your Mendix Native Mobile App](/howto/mobile/how-to-use-native-styling)

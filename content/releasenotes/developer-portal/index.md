@@ -11,7 +11,151 @@ These release notes cover changes to the app project management functionality an
 For release notes on Mendix Cloud and deployment options, see [Deployment](deployment).
 {{% /alert %}}
 
+## 2021
+
+### February 9th, 2021
+
+#### Improvements
+
+* We improved the speed of the **App Templates** page. After you click **Create App**, the templates appear instantly now.
+
+### February 5th, 2021
+
+#### Improvements
+
+* It is now possible to add or remove labels in the [Story Details](/developerportal/collaborate/stories#story-details) page.
+* We added a link to your app project’s [environments](/developerportal/deploy/environments) in the app tile on [My Apps](/developerportal/apps-list/#my-apps)
+
+#### Fixes
+
+* We fixed an issue where new Mendix Admins did not get access to environment nodes. (Ticket 114913)
+
+### February 4th, 2021
+
+#### New Features
+
+* We released the Mendix [Control Center](/developerportal/control-center/index), which provides governance and control features for Mendix Admins (formerly known as Company Admins).
+
+#### Improvements
+
+* We moved the existing Company Admin features in the Developer Portal to Control Center.
+
+### January 24th, 2021
+
+#### Improvements
+
+* We removed support for the **Country** and **Skype** attributes in your [Mendix Profile](/developerportal/mendix-profile/).
+* You can no longer create new polls on the company or app project [Buzz](/developerportal/collaborate/buzz) page. Existing polls can still be answered.
+
+#### Fixes
+
+* We fixed several minor issues with the [My Apps](/developerportal/apps-list/#my-apps) page.
+
+### January 15th, 2021
+
+#### Improvements
+
+* We redesigned the [My Apps](/developerportal/apps-list/#my-apps) page.
+* You will now see labels when you are editing a [story](/developerportal/collaborate/stories#story-actions) using the new **Stories** UI. We will enable the editing of story labels and label colors in a future release.
+
+#### Fixes
+
+* We fixed an issue where newly-added Company Admins did not get access to edit [user groups](/appstore/general/app-store-overview#user-groups) in the App Store.
+
 ## 2020
+
+### December 23rd, 2020
+
+#### Improvements
+
+* We tweaked the styling of the **Stories** > [Project History](/developerportal/collaborate/stories#history) page.
+* We made [moving a story](/developerportal/collaborate/stories#move-stories) to another app project more intuitive.
+* We removed the Model page, which contained tips on how to get started creating your apps.
+
+#### Fixes
+
+* We fixed an issue where replies to Buzz notifications were not properly processed into comments on your [app Buzz](/developerportal/collaborate/buzz#app-buzz) page. (Ticket 111076)
+
+### December 2nd, 2020
+
+#### Improvements
+
+* We changed the home page of the Developer Portal to [My Apps](/developerportal/apps-list/#my-apps)
+
+### November 4th, 2020
+
+#### Fixes
+
+* We fixed a bug where a change of company name was not properly distributed along the platform.
+* We fixed a bug where drop-down menus were cut off on the [story details](/developerportal/collaborate/stories#story-details) page.
+
+### October 9th, 2020
+
+#### Fixes
+
+* We fixed an issue where team members were not displayed in the [App Team](/developerportal/collaborate/team) overview.
+
+### October 4th, 2020
+
+#### Improvements
+
+* We redesigned the [story details](/developerportal/collaborate/stories#story-details) page and made it available for Public Beta usage. You can use the new design when the new story UI is enabled. Please note that it is currently not possible to add or manage [labels](/developerportal/collaborate/stories#label) with the new UI; this functionality will be released in the future.
+* When you add a [task](/developerportal/collaborate/stories#adding-task) to a commit of your app model, we now show the revision in the revision overview of the story details. Clicking the task will bring you to the story details page to which the task belongs.
+* We simplified the **Company Settings** tab of the **Company** page by removing some barely used attributes.
+
+#### Fixes
+
+* We fixed an issue where the default avatar of an App Team member who committed a revision was not properly displayed in the revision overview of the story details.
+* We fixed an issue where a Company Admin was no longer able to open the [General](/developerportal/settings/general-settings) settings of an app project they for an App Team in which they were not a member.
+* We repaired a dead link to the documentation on the [App User Management](/developerportal/settings/general-settings#managing-app-users) page.
+
+### August 25th, 2020
+
+#### Improvements
+
+* We reintroduced the read-only authorization for the [user story](/developerportal/collaborate/stories) overview.
+
+#### Fixes
+
+* We fixed an issue where, under certain circumstances, email notifications were not sent on [story comment](/developerportal/collaborate/stories#story-details) updates.
+
+### August 11th, 2020
+
+#### Improvements
+
+* We made some small performance improvements.
+
+#### Fixes
+
+* We placed a deprecation warning in a file hosted by the Developer Portal that is used in old versions of the [Mendix Feedback](/appstore/widgets/mendix-feedback) widget. As of October 1st, 2020, we will end support for Mendix Feedback widget version 5 or below. Please always keep your Feedback widget up-to-date to ensure the best experience for your users.
+* We fixed an issue where you could move a user story to a different Sprint without specifying the target Sprint.
+
+### July 28th, 2020
+
+#### Fixes
+
+* We fixed an issue where email notifications on [feedback](/developerportal/collaborate/feedback) items were not sent under certain circumstances.
+
+### July 13th, 2020
+
+#### Improvements
+
+* We increased the performance on opening the buzz page.
+* We changed the default avatar of a user profile from the Mendix logo to an industry standard user-icon.
+
+#### Fixes
+
+* We fixed a bug where, under certain circumstances, the "View App" was disabled even though it should have been enabled.
+
+### June 28th, 2020
+
+#### Improvements
+
+* We implemented the second increment in renaming the default **End-user** App Team role to [Guest](/developerportal/collaborate/app-roles#app-team-roles).
+
+#### Fixes
+
+* We fixed an issue where it was possible to change the end date of a closed Sprint.
 
 ### June 15th, 2020
 
@@ -19,7 +163,7 @@ For release notes on Mendix Cloud and deployment options, see [Deployment](deplo
 
 * The [new Stories UI](/developerportal/collaborate/stories) has been improved with various sections. The [old Stories UI](/developerportal/collaborate/stories#old) will be made unavailable soon. We encourage you to turn your tasks that are still available in the old Stories UI into new stories before the old UI is inaccessible.
 * We improved performance on story-related actions such as drag-and-drop and status changes on large app projects with many deleted items.
-* We renamed the default **End-User** App Team role to [Guest](/developerportal/company-app-roles/index#app-team-roles) to better distinguish App Team roles from app user roles.
+* We renamed the default **End-User** App Team role to [Guest](/developerportal/collaborate/app-roles#app-team-roles) to better distinguish App Team roles from app user roles.
 * We removed the list appearance of the [My Company's Apps](/developerportal/apps-list/#my-company-apps) page.
 
 #### Fixes 
@@ -216,7 +360,7 @@ For release notes on Mendix Cloud and deployment options, see [Deployment](deplo
 
 #### Fixes
 
-* We fixed an issue that sometimes caused the team member with the [Technical Contact](/developerportal/company-app-roles/technical-contact) role to be hidden on the **Node Permissions** tab of the **Security** pages. (Tickets 69085, 69150, 69419, 69440, 69458, 69585, 69592, 69783, 69884,70131,70228, 70285, 76152)
+* We fixed an issue that sometimes caused the team member with the Technical Contact role to be hidden on the **Node Permissions** tab of the **Security** pages. (Tickets 69085, 69150, 69419, 69440, 69458, 69585, 69592, 69783, 69884,70131,70228, 70285, 76152)
 
 ### November 14th, 2018
 

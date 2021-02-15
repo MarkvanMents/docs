@@ -8,12 +8,6 @@ env:
     - GET_ENV_VAR=./_scripts/get_env.sh
     - GOPATH="${HOME}/.go_workspace"
     - HUGO_ENV=$($GET_ENV_VAR)
-    - CF_APP=docs
-    - CF_API=https://api.run.pivotal.io
-    - CF_USERNAME=robert.rumyantsev@mendix.com
-    - CF_ORGANIZATION=mxrobert-org
-    - CF_SPACE=docs
-    - CF_CLI_VERSION=6.22.2
     - HUGO_VERSION=0.31.1
       before_install:
   - export PATH=$HOME:$PATH
@@ -26,13 +20,11 @@ install:
   - yarn install
 before_deploy:
   - export PATH=$HOME:$PATH
-  - travis_retry curl -L -o $HOME/cf.tgz "https://cli.run.pivotal.io/stable?release=linux64-binary&version=$CF_CLI_VERSION"
-  - tar xzvf $HOME/cf.tgz -C $HOME
-  - chmod +x $HOME/cf
-  - mv $HOME/cf $HOME/bin/cf
-  - cp ./_scripts/autopilot-linux $HOME/
-  - chmod a+x $HOME/autopilot-linux
-  - ./_scripts/before_deploy.sh
+  - travis_retry curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  - unzip -q awscliv2.zip
+  - sudo ./aws/install
+  - ./_scripts/algolia.sh
+# Algolia must be before deploy as AWS is renaming all the .html files which the script expects#
 script:
   - ./node_modules/.bin/gulp build
 cache:
@@ -52,5 +44,5 @@ deploy:
       branch:
         - master
         - development
-#after_deploy:
- # - ./_scripts/algolia.sh
+after_deploy:
+# Algolia was here before we deployed to AWS

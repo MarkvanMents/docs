@@ -89,11 +89,11 @@ To commit your changes, click the **Commit** button in the **Changes** dock, or 
 
 ![Commit Button](attachments/using-version-control-in-studio-pro/commit-button.png)
 
-In general, it is a good idea to commit after implementing one feature or fixing one bug. By committing often, your work is integrated with the work of others regularly. The benefits of committing often include:
+In general, it is a good idea to commit after implementing one feature or fixing one bug. By committing often, your work is integrated with the work of others regularly. The benefits of committing include the following:
 
-* if any conflicts arise the changes are still fresh in your mind
-* revisions are easier to understand
-* if you ever need to revert something, you can revert a small chunk of work
+* If any conflicts arise, the changes are still fresh in your mind
+* Revisions are easier to understand
+* If you ever need to revert something, you can revert a small chunk of work
 
 Committing results in a new revision in the repository. You can add the following information in Studio Pro when you perform a commit, and this will be attached to the newly created revision:
 
@@ -104,10 +104,10 @@ Committing results in a new revision in the repository. You can add the followin
 
 Studio Pro also attaches some information automatically:
 
-*   The person who committed (the *author*)
-*   The date and time of the commit
-*   The list of changed documents, folders, and modules along with the type of the change (for example *modify* or *add*)
-*   The version of Studio Pro that was used to commit
+* The person who committed (the *author*)
+* The date and time of the commit
+* The list of changed documents, folders, and modules along with the type of the change (for example *modify* or *add*)
+* The version of Studio Pro that was used to commit
 
 If you also changed Java source code, added widgets or made other changes that affect files other than the project file you will see a **Changes on disk** tab page that shows you what disk changes you are about to commit.
 
@@ -308,7 +308,7 @@ While developing you can deploy and run your app on your local machine by using 
 
 ### 8.2 Deploying Your Working Copy
 
-When you deploy to the cloud, you can choose to use the version of the app stored on your local machine, the *working copy* and deploy that to the default environment. If you are using the [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy), or other partner cloud (SAP Cloud Platform, for example), choose the menu item **Run > Run** to commit the version of the app stored on your local machine and deploy that to the default environment.
+When you deploy to the cloud, you can choose to use the version of the app stored on your local machine, the *working copy* and deploy that to the default environment. If you are using the [Mendix Cloud](/developerportal/deploy/mendix-cloud-deploy), or other partner cloud (SAP BTP, for example), choose the menu item **Run > Run** to commit the version of the app stored on your local machine and deploy that to the default environment.
 
 ### 8.3 Choosing a Specific Development Line and Revision
 
@@ -369,6 +369,23 @@ If you want to delete a whole directory, you will have to use the delete command
 If you perform branching outside of Studio Pro, you will not be able to immediately deploy to Mendix Cloud. That is because Studio Pro adds metadata about the Mendix version of your app project to each revision when you commit or create a branch, which is needed by the Mendix Cloud deployment. Branching outside of Studio Pro means that metadata is missing from your branch, thus your app cannot successfully be deployed.
 
 To fix this, make a small commit on your branch in Studio Pro (for example, changing a documentation field). Studio Pro will then add the metadata that Mendix Cloud deployment requires, and you will be able to deploy your app.
+
+### 9.5 Reverting Accidental Studio Pro App Model Upgrade
+
+When working in different app projects with different Studio Pro versions, you may one day find yourself with an app model upgraded and committed to a newer Studio Pro version, while the the rest of your App Team is not yet ready to upgrade. 
+
+To revert this version upgrade of the app model, follow these steps:
+
+1. Inform your App Team of the situation and prevent them from making further commits.
+2. Close Studio Pro. 
+3. In Windows Explorer, go to your main app project directory.
+4. Right-click the directory and select **TortoiseSVN** > **Show log**. 
+5. In SVN, find the latest revision that was in the desired Studio Pro version.
+6. Right-click that revision, select **Revert to this version**, confirm, and click **OK**.
+7. Back in Windows Explorer, right-click the folder again, select **TortoiseSVN** > **Commit**, enter your commit message, and click **OK**.
+8. Start the desired Studio Pro version and download the app project from Team Server.
+9. Check that everything is okay in your app project.
+10. Inform your App Team that they need to do a fresh checkout of the app project or run **TortoiseSVN** > **Update** on their project folder before opening the project in the desired Studio Pro version again.
 
 ## 10 Read More
 

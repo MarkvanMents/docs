@@ -24,6 +24,12 @@ We currently support deploying to the following Kubernetes cluster types:
 * [k3s](https://k3s.io/)
 * [minikube](https://minikube.sigs.k8s.io/docs/)
 
+{{% alert type="warning" %}}
+Only Kubernetes versions 1.13 through 1.19 are officially supported.
+
+Mendix for Private Cloud has not been evaluated against Kubernetes 1.20 and later versions.
+{{% /alert %}}
+
 ### 2.2 Cluster Requirements
 
 To install the Mendix Operator, the cluster administrator will need permissions to do the following:
@@ -38,15 +44,15 @@ In OpenShift, the cluster administrator must have a `system:admin` role.
 
 ### 2.3 Unsupported Cluster Types
 
-It is not possible to use Mendix for Private Cloud in [OpenShift Online](https://www.openshift.com/products/online/) because OpenShift Online doesn't allow the installation of Custom Resource Definitions.
+It is not possible to use Mendix for Private Cloud in [OpenShift Online](https://www.openshift.com/products/online/) or *OpenShift Pro* because they don't allow the installation of Custom Resource Definitions.
 
 ## 3 Container Registries
 
-{{% alert type="info" %}}
-The cluster should be configured to be able to pull images from the registry.
+Mendix for Private Cloud builds container images for every app and pushes them to the registry. It needs credentials to access the registry and permissions to push images into the registry.
 
-If the registry requires authentication, this can be done by creating a `docker-registry` type secret and attaching it to the `default` ServiceAccount, or configuring cluster-wide registry authentication.
-{{% /alert %}}
+Images are pulled from the registry by Kubernetes, not by Mendix for Private Cloud.
+The configuration script for Mendix for Private Cloud can configure Kubernetes image pull secrets and use the same credentials it uses for pushing images (for all registries except EKS).
+For large-scale or enterprise deployments, it may be better to configure image pulls on a cluster-wide level, or to configure separate, read-only image pull credentials.
 
 ### 3.1 Local Registry
 
@@ -83,7 +89,7 @@ The push URL should be set to `<registry ip>:5000` where `<registry ip>` can be 
 
 The OpenShift registry must be installed and enabled for use.
 
-### 3.4 Amazon Elastic Container Registry(ECR)
+### 3.4 Amazon Elastic Container Registry (ECR)
 
 [Amazon ECR](https://aws.amazon.com/ecr/) can only be used together with EKS clusters. 
 
@@ -121,7 +127,7 @@ The following managed PostgreSQL databases are supported:
 
 Amazon PostgreSQL instances require additional firewall configuration to allow connections from the Kubernetes cluster.
 
-Azure PostgreSQL databases require additional firewall configuration and SSL to be disabled to allow connections from the Kubernetes cluster.
+Azure PostgreSQL databases require additional firewall configuration to allow connections from the Kubernetes cluster.
 
 Some managed PostgreSQL databases might have restrictions or require additional configuration.
 
@@ -131,10 +137,20 @@ To use a PostgreSQL database, the Mendix Operator requires a master account with
 For every Mendix app environment, a new database schema and user (role) will be created so that the app can only access its own data.
 {{% /alert %}}
 
-These features are currently not supported:
+{{% alert type="info" %}}
+By default, Mendix for Private Cloud will first try to connect with TLS enabled; if the server doesn't support TLS, the Mendix Operator will reconnect without TLS.
+To ensure compatibility with all PostgreSQL databases (including ones with self-signed certificates), all TLS CAs are trusted by default.
 
-* SSL/TLS
-* Custom CAs for SSL/TLS
+If Strict TLS is enabled, Mendix for Private Cloud will connect with TLS and validate the PostgreSQL server's TLS certificate. In this case, the connection will fail if: 
+
+* the PostgreSQL server has an invalid certificate
+* or its certificate is signed by an unknown Certificate Authority
+* or the PostgreSQL server doesn't support TLS connections.
+
+The Mendix Operator allows you to specify custom Certificate Authorities to trust. This allows you to enable Strict TLS even for databases with self-signed certificates.
+
+Strict TLS mode should only be used with apps created in Mendix 8.15.2 (or later versions), earlier Mendix versions will fail to start when validating the TLS certificate.
+{{% /alert %}}
 
 ### 4.3 Microsoft SQL Server
 
@@ -155,6 +171,21 @@ Some managed SQL Server databases might have restrictions or require additional 
 To use a SQL Server database, the Mendix Operator requires a master account with permissions to create new users and databases.
 
 For every Mendix app environment, a new database, user and login will be created so that the app can only access its own data.
+
+{{% /alert %}}
+
+{{% alert type="info" %}}
+By default, Mendix for Private Cloud will not enforce encryption. Encryption can be enforced in SQL Server if required.
+
+If Strict TLS is enabled, Mendix for Private Cloud will connect with TLS and validate the SQL Server's TLS certificate. In this case, the connection will fail if 
+
+* SQL Server doesn't support encryption
+* the SQL Server server has an invalid certificate
+* or its certificate is signed by an unknown Certificate Authority
+
+The Mendix Operator allows you to specify custom Certificate Authorities to trust. This allows you to enable Strict TLS even for databases with self-signed certificates.
+
+Strict TLS mode should only be used with apps created in Mendix 8.15.2 (or later versions), earlier Mendix versions will fail to start when validating the TLS certificate.
 {{% /alert %}}
 
 ### 4.4 Dedicated JDBC database
@@ -187,7 +218,9 @@ For every Mendix app environment, a new bucket and user will be created so that 
 {{% /alert %}}
 
 {{% alert type="warning" %}}
-MinIO Gateway is not supported since running MinIO in gateway mode disables the admin API and makes it impossible to create new users.
+If MinIO is installed in [Gateway](https://github.com/minio/minio/tree/master/docs/gateway) mode, it needs to be configured to use etcd.
+MinIO uses etcd to store its configuration.
+Without etcd, MinIO will disable its admin API - which is required by the Mendix Operator to create new users for each environment.
 {{% /alert %}}
 
 ### 5.3 Amazon S3
@@ -255,6 +288,15 @@ DNS, load balancing and the ingress controller should be configured first for th
 Mendix for Private Cloud will use the existing ingress controller.
 {{% /alert %}}
 
+{{% alert type="warning" %}}
+We strongly recommend using the [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/), even if other Ingress controllers or OpenShift Routes are available.
+
+NGINX Ingress can be used to deny access to sensitive URLs, add HTTP headers, enable compression, and cache static content.
+NGINX Ingress is fully compatible with [cert-manager](https://cert-manager.io/), removing the need to manually manage TLS certificates.
+
+These features will likely be required once your application is ready for production.
+{{% /alert %}}
+
 ### 6.1 OpenShift route
 
 OpenShift routes are supported only in OpenShift.
@@ -262,9 +304,18 @@ OpenShift routes are supported only in OpenShift.
 The only configuration option currently supported is turning TLS on or off.
 When TLS is turned on, `Edge` termination will be used, with automatic redirection from HTTP to HTTPS.
 
-{{% alert type="info" %}}
-Custom TLS certificates are not supported - the default router certificate will be used.
-{{% /alert %}}
+The following configuration options are available in OpenShift:
+
+* Turn TLS on and off
+* Add route annotations
+* Provide the name of an existing TLS certificate secret to use instead of the default router certificate
+* Provide a custom domain name (e.g. mendix.example.com) to use instead of the default OpenShift route domain
+
+It is also possible to provide a custom TLS configuration for individual environments, overriding the default configuration (only available in **Standalone** Mendix Operator installations):
+
+* Turn TLS on and off
+* Specify the name of an existing TLS certificate secret to use
+* Provide the TLS Certificate and Private Key values directly in the environment specification
 
 ### 6.2 Ingress
 
@@ -274,13 +325,25 @@ We currently support the following ingress controllers:
 * [Traefik 1.7](https://containo.us/traefik/)
 
 For ingress, it is possible to do the following:
+
 * Turn TLS on and off
-* Provide a domain name (e.g. mendix.example.com)
 * Add ingress annotations
+* Provide the name of an existing TLS secret to use
+* Provide a domain name (e.g. mendix.example.com)
 
 For each environment, the URL will be automatically generated based on the domain name.
 For example, if the domain name is set to mendix.example.com, then apps will have URLs such as myapp1-dev.mendix.example.com, myapp1-prod.mendix.example.com and so on.
 
 The DNS server should be configured to route all subdomains (the `*` subdomain, e.g. *.mendix.example.com) to the ingress/load balancer.
 
-For TLS, the ingress should have a default certificate with a wildcard domain (e.g. *.mendix.example.com).
+It is also possible to provide a custom TLS configuration for individual environments, overriding the default configuration (only available in **Standalone** Mendix Operator installations):
+
+* Turn TLS on and off
+* Specify the name of an existing TLS certificate secret to use
+* Provide the TLS Certificate and Private Key values directly in the environment specification
+
+There are multiple ways of managing TLS certificates:
+
+* The Ingress controller can have a default certificate with a wildcard domain (e.g. *.mendix.example.com*). For Ingress controllers which support for [Let's Encrypt](https://letsencrypt.org/), the Ingress controller can also request and manage TLS certificates automatically.
+* Providing a TLS certificate secret for each environment.
+* Using [cert-manager](https://cert-manager.io/) or a similar solution by using Ingress annotations. This service can be used to automatically request TLS certificates and create secrets for the Ingress controller.

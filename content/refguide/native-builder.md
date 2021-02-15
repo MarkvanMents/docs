@@ -5,6 +5,10 @@ menu_order: 70
 tags: ["native", "mobile", "deploy", "native-builder", "builder", "appcenter"]
 ---
 
+{{% alert type="warning" %}}
+Please update to Native Builder v3.2.1 or higher. Native Builder v3.2.1 includes the fixes required to addresses GitHub's transition from using **master** to using **main** as its default repository branch name. 
+{{% /alert %}}
+
 ## 1 Introduction
 
 The Native Builder takes your Mendix project containing a native profile and packages a native mobile app for iOS and Android. To learn more about using the Native Builder, see [How to Deploy your First Mendix Native Mobile App](/howto/mobile/deploying-native-app).
@@ -344,7 +348,7 @@ The Native Template is being continuously developed. This means new versions are
 
 You should update your project's template in the following scenarios:
 
-* You app crashes unexpectively even though all Studio Pro modules and resources are fully updated using the Mendix App Store
+* You app crashes unexpectively even though all Studio Pro modules and resources are fully updated using the Mendix Marketplace
 * You updated your Studio Pro version
 
 The Native Template is tightly tied to the version of Studio Pro you are running. Therefore, every time your project is updated, consider running `regenerate` using the Native Builder to update your template.

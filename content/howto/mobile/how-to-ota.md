@@ -15,6 +15,10 @@ Native apps are separated into two parts: a wrapper that is basically a native i
 
 OTA updates are bound to a specific app version and build number. Therefore, you can target specific updates to specific versions of your app. For example, you can push an update for version 1.0.0 as a legacy version that supports older devices, and also push an update for the 2.0.0 version of your app which includes more features.
 
+{{% alert type="info" %}} 
+Currently OTA  does not update your app while the app is open or minimized.
+{{% /alert %}}
+	
 **This how-to will teach you how to do the following:**
 
 * Push an OTA update for a released app
@@ -26,7 +30,7 @@ OTA updates are bound to a specific app version and build number. Therefore, you
 Before starting this how-to, make sure you have completed the following prerequisites:
 
 * Install Native Builder 3.0.0 or higher
-* Install Mendix Studio Pro 8.4 or higher
+* Install the latest version of Mendix Studio Pro
 * Complete [How to Deploy your First Mendix Native Mobile App](/howto/mobile/deploying-native-app)
 * Complete at least one successful build using Native Builder v3.0.0 and Native Template v2.0.0
 * Install your app on a test device or emulator
@@ -52,7 +56,8 @@ It is good practice to *always* redeploy your Mendix App before pushing a new ov
 If you have made any changes directly to your iOS or Android project, you will have to fully redeploy you app to the app stores for the changes to take effect. OTA updates do not suffice, and a full release is required, in the following cases: 
 
 * The initial release of your app
-* You fundamentally changed your app's functionality (this is a App Store limitation, and will require a re-release and re-review of your app by Apple—your app might be removed if you do not comply)
+* A Mendix Studio Pro version upgrade that requires a new Native Template version
+* You fundamentally changed your app's functionality (this is an Apple App Store limitation, and will require a re-release and re-review of your app by Apple — your app might be removed if you do not comply)
 * A new native module has been added
 * The app has been renamed
 * The app's launcher icons have been changed
@@ -146,7 +151,7 @@ To roll out your app to only *some* of your users, run this command:
 `native-builder.exe release push-update --project-name "CoolApp" --target-version "1.0.0" --build-number 1 --rollout-percentage 50 --mandatory`
 ```
 
-Instead of passing a rollout percentage of 100%, you are passing 50%. This means the update will be distributed to 50% of the app's user base. This number can be an any integer from 1 to 100, representing the percentage of your user base which will recieve the update.
+Instead of passing a rollout percentage of 100%, you are passing 50%. This means the update will be distributed to 50% of the app's user base. This number can be an any integer from 1 to 100, representing the percentage of your user base which will receive the update.
 
 To fully roll out the update, run this command: 
 

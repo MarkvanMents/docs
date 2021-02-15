@@ -27,7 +27,7 @@ The models which are supported by the Connector for SAP Leonardo Machine Learnin
 
 To use the Connector for SAP Leonardo Machine Learning Foundation, you need the following prerequisites:
 
-* The Connector for SAP Leonardo Machine Learning Foundation downloaded into your app from the Mendix App Store; it can be found here: https://appstore.home.mendix.com/link/app/107221/Mendix/SAP-Leonardo-Machine-Learning-Foundation-Connector
+* The [SAP Leonardo Machine Learning Foundation](https://appstore.home.mendix.com/link/app/107221/) connector downloaded into your app project from the Mendix Marketplace
 * An API key obtained from the SAP API Business Hub
 
     1. Go to the SAP Leonardo Machine Learning Foundation - Functional Services page here: https://api.sap.com/package/SAPLeonardoMLFunctionalServices.
@@ -46,7 +46,7 @@ To use the Connector for SAP Leonardo Machine Learning Foundation, you need the 
 
 ## 3 Setting up the API Key {#api-key}
 
-The Connector for SAP Leonardo Machine Learning Foundation actions are available in your microflows, once you have imported the Connector for SAP Leonardo Machine Learning Foundation module from the Mendix App Store.
+The Connector for SAP Leonardo Machine Learning Foundation actions are available in your microflows, once you have imported the Connector for SAP Leonardo Machine Learning Foundation module from the Mendix Marketplace.
 
 Every call to SAP Leonardo Machine Learning Foundation needs to be authenticated by a valid **API key**. Instructions for obtaining this are in the [Prerequisites](#prerequisites) section above.
 
@@ -390,7 +390,7 @@ The **Translate** action returns an object of entity type *LeonardoMachineLearni
 
 ## 5 Binding SAP Leonardo Machine Learning Foundation Services to Your App
 
-You can use the SAP Leonardo Machine Learning (ML) Foundation Connector to access the services on *SAP API Business Hub*. Here, you can explore the services in an *"as-simple-as-possible deployment"*. However, to use the full abilities of the services, you need to bind a ML Foundation Service to your app running in SAP Cloud Platform. More information on the distinction is available in the SAP blog post [Production-ready integration of SAP Leonardo Machine Learning Foundation services with an SAP S/4HANA side-by-side extension built with the SAP S/4HANA Cloud SDK](https://blogs.sap.com/2018/07/29/production-ready-integration-of-sap-leonardo-machine-learning-foundation-services-with-an-sap-s4hana-side-by-side-extension-built-with-the-sap-s4hana-cloud-sdk/).
+You can use the SAP Leonardo Machine Learning (ML) Foundation Connector to access the services on *SAP API Business Hub*. Here, you can explore the services in an *"as-simple-as-possible deployment"*. However, to use the full abilities of the services, you need to bind a ML Foundation Service to your app running in SAP Business technology Platform (SAP BTP). More information on the distinction is available in the SAP blog post [Production-ready integration of SAP Leonardo Machine Learning Foundation services with an SAP S/4HANA side-by-side extension built with the SAP S/4HANA Cloud SDK](https://blogs.sap.com/2018/07/29/production-ready-integration-of-sap-leonardo-machine-learning-foundation-services-with-an-sap-s4hana-side-by-side-extension-built-with-the-sap-s4hana-cloud-sdk/).
 
 The following sections describe how to bind a ML Foundation Service to your app.
 
@@ -398,7 +398,7 @@ The following sections describe how to bind a ML Foundation Service to your app.
 
 The ML Foundation Trial is not added automatically to your quota. Therefore, you need to add it manually.
 
-1. Go to the SAP Cloud Platform cockpit for your account.
+1. Go to the SAP BTP cockpit for your account.
 
 2. Choose the **Entitlements** and choose the *ML Foundation Trial* entitlement.
 
@@ -410,7 +410,7 @@ The ML Foundation Trial is not added automatically to your quota. Therefore, you
 
 ### 5.2 Binding an Instance of a ML Foundation Service to Your App
 
-1. Go to the **Space** where your app is deployed on SAP Cloud Platform.
+1. Go to the **Space** where your app is deployed on SAP BTP.
 
 2. Select **ml-foundation-trial-beta** from the **Service Marketplace**
 

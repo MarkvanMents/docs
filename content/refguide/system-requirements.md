@@ -13,17 +13,21 @@ This document presents the system requirements for the various parts of the Mend
 
 ## 2 Mendix Studio Pro {#sp}
 
-Mendix [Studio Pro](modeling) supports 64-bit versions of Windows 7, 8, and 10. Windows 7 must be at least Service Pack 1.
+Mendix [Studio Pro](modeling) version 9 is supported on 64-bit versions of Windows 10 release 1803 and above.
 
 The following frameworks are automatically installed (if necessary):
 
-* Microsoft .NET Framework 4.7.2
+* Microsoft .NET Framework 4.7.2 and all applicable Windows security patches
 * Microsoft Visual C++ 2010 SP1 Redistributable Package
 * Microsoft Visual C++ 2015 Redistributable Package
 * AdoptOpenJDK 11 or Oracle JDK 11 (the former is installed automatically as of [Mendix 8.0.0](/releasenotes/studio-pro/8.0#800) if you do not have any JDK 11 installed) 
 
 {{% alert type="info" %}}
 You can choose which JDK is used for building and running locally via the **Edit** > **Preferences** menu item in Studio Pro.
+{{% /alert %}}
+
+{{% alert type="warning" %}}
+Please note the limitation that the database viewer built into Studio Pro (as described in [How to Share the Development Database](/howto/collaboration-requirements-management/sharing-the-development-database)) does not work with JDK 11.06 or 11.07.
 {{% /alert %}}
 
 ### 2.1 Firewall Settings
@@ -102,11 +106,11 @@ Mendix tries to support the most recent and patched database server versions fro
 Current support:
 
 * [IBM DB2](db2) 11.1 for Linux, Unix, and Windows
-* [MariaDB](mysql) 5.5, 10.1, 10.2, 10.3
+* [MariaDB](mysql) 10.2, 10.3
 * [Microsoft SQL Server](/developerportal/deploy/mendix-on-windows-microsoft-sql-server) 2016, 2017, 2019
 * [Azure SQL](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level?view=sql-server-2017) v12 compatibility mode 130 or higher
-* [MySQL](mysql) 5.7, 8.0
-* [Oracle Database](oracle) 12c Release 2, 18, 19
+* [MySQL](mysql) 8.0
+* [Oracle Database](oracle) 18, 19
 * PostgreSQL 9.5, 9.6, 10, 11, 12
 * [SAP HANA](saphana) 2.00.040.00.1545918182
 
@@ -128,7 +132,7 @@ For container-based deployments using Docker, Kubernetes, or Cloud Foundry, the 
 
 For container-mounted storage in Kubernetes, provided by an external storage class, see also [Run Mendix on Kubernetes](/developerportal/deploy/run-mendix-on-kubernetes).
 
-###  9.2 Storage types for Servers
+###  9.2 Storage Types for Servers
 
 For server-based installations, the following storage types mounted by the OS are supported:
 
@@ -139,29 +143,23 @@ For server-based installations, the following storage types mounted by the OS ar
 
 ## 10 Browsers {#browsers}
 
-### 10.1 Desktop Browsers
-
-* Google Chrome
-* Mozilla Firefox 
-* Apple Safari
-* Microsoft Edge
-* Microsoft Internet Explorer 11
-
-### 10.2 Mobile Browsers
-
-* iOS 12 and above (Safari)
-* Android 5.0 and above
-
-### 10.3 Hybrid Preview
-
-Using a hybrid preview is not the same as using an emulator. A hybrid preview only shows a resized view of an app to give an impression of what that app might look like on a mobile device. Some hybrid app functionality will not be supported in this browser view. Full tests always need to be done on a device or emulator. Offline apps can only be previewed in Google Chrome.
+* Google Chrome (latest stable desktop and Android versions)
+* Mozilla Firefox (latest stable desktop version)
+* Apple Safari (latest stable desktop version and latest version for each [supported iOS](#mobileos) version)
+* Microsoft Edge (latest stable desktop version)
 
 ## 11 Mobile Operating Systems {#mobileos}
 
-For Mendix apps and the [Mendix Mobile app](getting-the-mendix-app):
+For Mendix native apps, hybrid apps, and the [Mendix Mobile app](getting-the-mendix-app) the following operating systems are supported:
 
-* iOS 12 and above
+* Latest two major versions of iOS
 * Android 5.0 and above
+
+### 11.1 Hybrid Apps Preview
+
+Using a hybrid preview feature is not the same as testing an app on a phone or simulator. A hybrid preview only shows a resized view of an app to give an impression of what that app might look like on a mobile device. Some hybrid app functionality will not be supported in this browser view. Full tests always need to be done on a device or emulator. Offline apps can only be previewed in Google Chrome.
+
+Hybrid apps cannot be tested in Android Emulator, only on a real device.
 
 ## 12 MxBuild {#mxbuild}
 

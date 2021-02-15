@@ -1,7 +1,7 @@
 ---
 title: "Build a Mendix Native Mobile App Locally"
-parent: "native-mobile"
-menu_order: 70
+parent: "build-native-apps"
+menu_order: 30
 description: Describes how to build your first Mendix native mobile app locally.
 tags: ["native", "mobile", "build", "local", "xcode", "android studio"]
 ---
@@ -28,14 +28,12 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 * Install [Node and NPM](https://nodejs.org/en/download/)
 * Download the Native Builder [executable](https://www.dropbox.com/sh/hpw7sshut9bco68/AABackrr75rPSgW7u5LBMkMra?dl=0) to a folder of your preference and extract all contents
-   * Use v1.0.0 with Mendix 8.0
-   * Use v2.0.0 with Mendix 8.1.0 and above
-   * Use v3.0.0 with Mendix 8.3.0 and above
+   * Use v3.0.0 with Mendix 9.0 and above
 
 For iOS builds:
 
 * Have a Mac OS X machine 
-* Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) 
+* Install [XCode 11.7](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) 
 
 For Android Builds:
 
@@ -59,7 +57,7 @@ The keys of the dictionary represent the Mendix Studio Pro version. The `min` an
 
 {{% image_container width="200" %}}![iOS output](attachments/native-build-locally/mendix-version.png){{% /image_container %}}
 
-In the case of Mendix Studio Pro 8.9.x, you could choose any Native Template version from 4.0.0 to the latest. Ideally you should choose the most recent supported version
+So like in the example picture shown above, in the case of Mendix Studio Pro 8.9.x, you could choose any Native Template version from 4.0.0 to the latest. Ideally you should choose the most recent supported version.
 
 There is no best way of getting a copy of the Native Template. In the following sections we provide two ways to get the version you need.
 
@@ -69,7 +67,16 @@ This method is useful if you have Git installed. To get the Native Template, do 
 
 1. Use `git@github.com:mendix/native-template.git` or `https://github.com/mendix/native-template.git` to clone the project locally. 
 1. Run the following command: `git clone --single-branch --branch release/<major-version-number> <repo-url>`.
-1. Run `npm i && cd ios && pod install` to install the required dependencies.
+
+The final step differs based on your machine:
+
+For a Windows machine building an Android app, do the following: 
+
+1. Run `npm i`  to install the required dependencies.
+
+For a Mac OS X machine building an iOS app, do the following:
+
+1. Run `cd ios && pod install` to install the required dependencies.
 
 #### 3.1.2 Getting the Native Template by Downloading the Source Code from GitHub
 

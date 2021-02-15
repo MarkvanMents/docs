@@ -4,7 +4,11 @@ category: "Deployment"
 menu_order: 20
 description: "Describes how to deploy to the Mendix Cloud."
 tags: ["Deploy","Mendix Cloud","Developer Portal", "Free App", "licensed", "limitations"]
+aliases:
+    - /developerportal/howto/deploying-to-the-cloud.html
+    - /mendixcloud/deploying-to-the-cloud.html
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
+#The anchor #plans, below, is mapped from the Control Center within the Developer Portal.
 ---
 
 ## 1 Introduction
@@ -17,26 +21,27 @@ If you are new to the Mendix community and would like to deploy and share your o
 
 A Free App has a number of limitations compared to a licensed app. The main limitations are summarized in the table below:
 
-| Feature                                     | Free App                                                     | Licensed App                                                 |
-| ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Number of Users**                         | Unlimited users.                                             | Depends on your pricing plan.                                |
-| **Sleep Mode**                              | Goes into Sleep Mode after an hour or so of inactivity and automatically resumes when a user accesses it. All your data is retained while the app is in Sleep Mode. | Does not have a Sleep Mode.                                  |
-| **Disk Storage**                            | 0.5Gb Database and 1Gb Files.               | Depends on your pricing plan.                                |
-| **Scheduled Events**                        | Are not run.                                                 | Are run and can be configured from the Developer Portal.     |
-| **Environments**                            | Single environment in the Mendix Cloud.                      | A node in the cloud which has one or more environments, for example, production, acceptance, and test. |
-| **Deployment**                              | Can only be deployed to the cloud from Mendix Studio or Studio Pro. | Can be deployed from the Studios, or from the Developer Portal. |
-| **Custom Domains**                          | Not available.                                               | Can be configured from the Developer Portal.                 |
-| **Access Restriction Profiles**             | Not available.                                               | Can be configured from the Developer Portal.                 |
-| **Client Certificates**                     | Not available.                                               | Can be configured from the Developer Portal.                 |
-| **Starting and stopping your app manually** | Not available.                                               | Available in the Developer Portal.                           |
-| **Constants**          | Defined in Studio Pro                                        | Configurable through environment variables in the Developer Portal. |
-| **Runtime Settings**          | Not available                                        | Configurable through runtime and settings in the Developer Portal. |
-| **Scalability**                             | Only one instance and a fixed amount (1Gb) of memory.              | Configurable in the Developer Portal.                        |
-| **Metrics, Alerts, and Log Levels**         | Not available.                                               | Available.                                                   |
-| **Historic Archived Logs**                  | Not available, only live logs are available.                 | Available.                                                   |
-| **Backups**                                 | Performed daily, cannot be triggered manually. Stored up to two weeks. |Performed daily, can also be created manually. Kept for up to one year, depending on your plan. |
+| Feature | Free App | Licensed App |
+| --- | --- | --- |
+| **Number of Users** | Unlimited users. | Depends on your pricing plan.¹ |
+| **Sleep Mode** | Goes into Sleep Mode after an hour or so of inactivity and automatically resumes when a user accesses it. All your data is retained while the app is in Sleep Mode. | Does not have a Sleep Mode. |
+| **Disk Storage** | 0.5Gb Database and 1Gb Files. | Depends on your pricing plan.¹ |
+| **App CPU** | 0.5 Cores. | Depends on your pricing plan.¹ |
+| **Scheduled Events** | Are not run. | Are run and can be configured from the Developer Portal. |
+| **Environments** | Single environment in the Mendix Cloud. | A node in the cloud which has one or more environments, for example, production, acceptance, and test. |
+| **Deployment** | Can only be deployed to the cloud from Mendix Studio or Studio Pro. | Can be deployed from the Studios, or from the Developer Portal. |
+| **Custom Domains** | Not available. | Can be configured from the Developer Portal. |
+| **Access Restriction Profiles** | Not available. | Can be configured from the Developer Portal. |
+| **Client Certificates** | Not available. | Can be configured from the Developer Portal. |
+| **Starting and stopping your app manually** | Not available. | Available in the Developer Portal. |
+| **Constants** | Defined in Studio Pro | Configurable through environment variables in the Developer Portal. |
+| **Runtime Settings** | Not available | Configurable through runtime and settings in the Developer Portal. |
+| **Scalability** | Only one instance and a fixed amount (1Gb) of memory. | Configurable in the Developer Portal. |
+| **Metrics, Alerts, and Log Levels** | Not available. | Available. |
+| **Historic Archived Logs** | Not available, only live logs are available. | Available. |
+| **Backups** | Performed daily, cannot be triggered manually. Stored up to two weeks. |Performed daily, can also be created manually. Kept for up to one year, depending on your plan. |
 
-<small>More information on the capabilities of different license options is available on [Mendix Platform Pricing](http://www.mendix.com/pricing)</small>
+¹The Mendix pricing plans are listed in [Mendix Pricing Plans](#plans), below. More information on the capabilities of different license options is available on [Mendix Platform Pricing](http://www.mendix.com/pricing).
 
 {{% alert type="info" %}}
 Free Apps are part of our Free Edition.
@@ -164,9 +169,60 @@ Click the **Publish** button in Studio. For more information see the [Publishing
 
 The Mendix status page ([https://status.mendix.com/](https://status.mendix.com/)) shows the current status of Mendix services. If you have issues with deployment, you can check the Mendix status page to see if deployment is operational (under **Mendix Services**) or if there are other Mendix issues which may be affecting your deployment.
 
-## 7 Read More
+## 7 Mendix Pricing Plans{#plans}
+
+Mendix licenses are sold as part of plans. These consist of a subscription to a plan, a standard **Cloud Resource Pack** which specifies the resources available to your app environment, plus additional resources such as fallback environments.
+
+### 7.1 Plans
+
+There are four plans available for Mendix:
+
+* Free Edition
+* Single App
+* Professional
+* Enterprise
+
+More information on these plans is available on the [Pricing](https://www.mendix.com/pricing/) page of the Mendix website.
+
+### 7.2 Cloud Resource Packs{#resource-pack}
+
+Mendix environments are sized according to a number of standard cloud resource packs. The table below shows the current cloud resource packs and those cloud resource packs which are still being used but are not available to new customers (labeled *legacy*).
+
+| Pack | App RAM | App CPU | DB RAM | DB CPU | DB Storage | File Storage |
+| --- | --- | --- | --- | --- | --- | --- |
+| S20 | 2GB | 0.5-1 core | 2GB | 1 core | 10GB | 20GB |
+| M20 | 4GB | 1-2 cores | 4GB | 1 core | 20GB | 40GB |
+| L20 | 8GB | 2-4 cores | 8GB | 1 core | 40GB | 80GB |
+| XL20 | 16GB | 4-8 cores | 16GB | 2 cores | 80GB | 160GB |
+||||||||
+| Strato *(legacy)* | 2GB | 0.5-1 core | 1GB | 0.5 core | 5GB | 20GB |
+| Meso *(legacy)* | 2GB | 0.5-1 core | 8GB | 2 cores | 20GB | 20GB |
+| Iono *(legacy)* | 8GB | 2-4 cores | 8GB | 2 cores | 20GB | 80GB |
+| Magneto *(legacy)* | 16GB | 4-8 cores | 16GB | 4 cores | 80GB | 320GB |
+| S *(legacy)* | 1GB | 0.5 core | 1GB | 0.5 core | 5GB | 5GB |
+| M *(legacy)* | 2GB | 0.5-1 core | 2GB | 1 core | 10GB | 10GB |
+| L *(legacy)* | 4GB | 1-2 cores | 4GB | 2 cores | 20GB | 20GB |
+| XL *(legacy)* | 8GB | 2-4 cores | 8GB | 2 cores | 40GB | 40GB |
+| XXL *(legacy)* | 16GB | 4-8 cores | 16 GB | 4 cores | 80GB | 80GB |
+
+### 7.3 Additional Resources
+
+For **Enterprise** customers, there are additional features available for apps deployed to the Mendix Cloud, and additional ways to deploy your Mendix App.
+
+#### 7.3.1 High Availability
+
+The High Availability option ensures that if there is a problem with the current availability zone, new copies of your app will be started in the new availability zone (AZ). All FileDocuments will be replicated in this new zone, but data will still reside in a single database. This means that you may need to restore a backup of your database if it is no longer available to your app.
+
+#### 7.3.2 Fallback{#fallback}
+
+The Fallback option ensures that the data in your database is automatically copied to a database in a second AZ. This, together with the high availability option, ensures that all your data is still available to your app if there is an issue with current availability zone and app instances have to be started in the second AZ.
+
+#### 7.3.3 On-premises and Private Cloud
+
+If you want to deploy your Mendix apps to other environments, you can add these to your Mendix plan. For example, you can choose to deploy to [SAP Cloud Platform](sap-cloud-platform), or to your own cloud using [Mendix for Private Cloud](private-cloud).
+
+## 8 Read More
 
 * [Custom Domains](custom-domains)
 * [Licensing Mendix Cloud Apps](licensing-apps)
-* [How to Manage Company & App Roles](/developerportal/company-app-roles/manage-roles)
-* [Company & App Roles](/developerportal/company-app-roles/index)
+* [App Roles](/developerportal/collaborate/app-roles)

@@ -14,7 +14,15 @@ Mendix strives to make building and running native mobile apps as simple as poss
 
 To troubleshoot issues related to the [Make it Native](/refguide/getting-the-make-it-native-app) app, see the sections below.
 
-### 2.1 Error: Unable to Load Script
+### 2.1 Port Issues
+
+We recommend keeping the **Runtime port** in **Project Settings** > **Edit** on **8080**. If you change it, do not change it to **8083**, because that is designated for app packaging.
+
+### 2.2 Wifi Network Settings
+
+If you are using Windows, make sure your WiFi network is set to **Private**. Windows often sets WiFi to **Public** by default, which blocks incoming connections.
+
+### 2.3 Error: Unable to Load Script {#unable-load-script}
 
 Depending on your device settings and network characteristics, the Make it Native app can fail to connect to the runtime. If so, the Make it Native app can show the following error messages:
 
@@ -26,7 +34,9 @@ Depending on your device settings and network characteristics, the Make it Nativ
 
 	{{% image_container width="250" %}}![cannot detect runtime](attachments/common-issues/min-error-firewall.png){{% /image_container %}}
 
-These failures are often caused by the Windows Defender firewall. In such cases, attempts to open the runtime URL from the mobile browser will also fail. To mitigate these issues, please do the following:
+These failures are often caused by a firewall blocking your device from accessing your laptop. In such cases, attempts to open the runtime URL from a mobile browser will also fail. To mitigate these issues, please make sure your firewall allows incoming traffic to your laptop on the runtime and native packing ports (8080 and 8083 by default). Instructions on how to do this differ per firewall. We recommend you consult your firewall administrator.
+
+For the Windows Defender firewall, the most common firewall, do the following:
 
 1. Make sure that your computer and the mobile device are connected to the same network.
 1. Make sure that incoming connections are allowed by doing the following:<br />
@@ -39,6 +49,10 @@ These failures are often caused by the Windows Defender firewall. In such cases,
     {{% image_container width="350" %}}![inbound rules](attachments/common-issues/inboundrules.png){{% /image_container %}}
 
 1. Windows distinguishes between two types of networks: private and public. Windows Defender Firewall applies stricter regulations for public networks. If, and only if, you are connected to a trusted network, configure the network as **Private** on your computer.
+
+## 4 Configure Parallels
+
+To use Studio Pro on a Mac device, you will first need to install and configure Parallels. For more information, see [How to Configure Parallels](using-mendix-studio-pro-on-a-mac).
 
 ## 3 Read More
 

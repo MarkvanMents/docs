@@ -20,10 +20,12 @@ Guidelines for usage.
 
 This was used to described a large part of the functionality of the Developer Portal. The original idea of AppCloud can be found in this [press release](https://www.mendix.com/press/new-mendix-appcloud/). It is no longer used in describing the product.
 
-There are still some references to the (deprecated) [AppCloudServices](https://appstore.home.mendix.com/link/app/934/) module (which is named after the AppCloud concept). This is now replaced by the [Mendix SSO](/appstore/modules/mendix-sso) module.
+This is now replaced by the [Mendix SSO](/appstore/modules/mendix-sso) module.
+
+## App Store
 
 {{% alert type="info" %}}
-Do not use. Use **Developer Portal** for AppCloud. Use specific SSO-related terminology if you are referring to the SSO capabilities.
+Replaced by [Mendix Marketplace](main-product-names#marketplace).
 {{% /alert %}}
 
 ## Cloud Portal {#cloud-portal}
@@ -38,6 +40,12 @@ The Mendix Community Edition was introduced with Mendix 5.18, which included the
 
 {{% alert type="info" %}}
 Replaced by [Free Edition](other-terms#free-edition).
+{{% /alert %}}
+
+## Company Admin
+
+{{% alert type="info" %}}
+Replaced by [Mendix Admin](other-terms#mendix-admin).
 {{% /alert %}}
 
 ## delighter

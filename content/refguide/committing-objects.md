@@ -11,7 +11,11 @@ This activity can be used in both **Microflows** and **Nanoflows**.
 
 ## 1 Introduction
 
-The **Commit** activity can commit one or more objects. For persistable entities this means that the object will be stored in the database. Committing non-persistable entities stores the current attribute values and association values in memory, this allows a rollback to revert to those values. See also [Persistability](persistability).
+The **Commit** activity works on one or more objects. For persistable entities, committing an object stores it in the database. Committing non-persistable entities stores the current attribute values and association values in memory, this allows a rollback to revert to those values. See also [Persistability](persistability).
+
+{{% alert type="info" %}}
+A Mendix commit does not always behave like a database commit. See [How Commits Work](#how-commits-work), below, for more information.
+{{% /alert %}}
 
 ## 2 Properties
 
@@ -62,19 +66,23 @@ This setting defines how changes are reflected in the pages presented to the end
 
 Default: *No*
 
-#### 3.3.1 Microflow is Called from the Client in an Online App
-
-If **Refresh in client** is set to *No*, the change is not reflected in the client.
-
-If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](data-sources).
-
 {{% alert type="info" %}}
-Changed attribute values are *always* reflected in the client. The object is refreshed from the Mendix Runtime, which includes updating virtual attributes.
+To make pages of a Mendix app efficient, many widgets display values from an attribute of an object which is cached on the page. Attributes in widgets which use cached data are *always* reflected in the client when they are updated or deleted irrespective of the value of **Refresh in client**.
+
+If a widget is only updated when a [data source](data-sources) is loaded, then changes will only be seen when **Refresh in client** is set to *Yes*.
+
+When testing your app, ensure that the desired data is being displayed by the widgets you have chosen.
 {{% /alert %}}
 
 {{% alert type="warning" %}}
 When committing a large number of objects, we recommend that you do not enable 'Refresh in client' because it can slow things down.
 {{% /alert %}}
+
+#### 3.3.1 Microflow is Called from the Client in an Online App
+
+If **Refresh in client** is set to *No*, the change is not reflected in the client.
+
+If set to *Yes*, the object is refreshed across the client, which includes reloading the relevant [data sources](data-sources).
 
 #### 3.3.2 Microflow is Called in an Offline, Native, or Hybrid App
 
@@ -92,6 +100,16 @@ When inside a [nanoflow](nanoflows), the object is refreshed across the client a
 
 ## 5 How Commits Work{#how-commits-work}
 
+### 5.1 Committing Objects
+
+When you commit an object, the current value is saved. This means that you cannot rollback to the previous values of the object using the **Rollback** action of a microflow.
+
+However, a Mendix **Commit** is not the same as a database **Commit**. For an object of a persistable entity, the saved value is not committed to the database until the microflow and any microflows from which it is called, completes. This means that errors in a microflow *can* initiate a rollback. If a microflow action errors and has **Error handling** set to *Rollback* or *Custom with rollback*, the value of the object *will* be rolled back to the value it had at the start of the microflow. See [Error Event](error-event#errors-in-microflows) for more information.
+
+Mendix mimics this behavior for *non-persistable* entities. Committing a non persistable entity means you cannot use a **Rollback** action to go back to the previous values, although rollback error handling in a microflow *will* roll back to the original values.
+
+### 5.2 Autocommit and Associated Objects
+
 When an object is committed through a default Save button, a commit activity, or web services, it will always trigger the commit events. The platform will also evaluate all associated objects. To guarantee data consistency, the platform may also autocommit associated objects.
 
 An autocommit is an automatic commit from the platform, which is done to keep the domain model in sync. If your application ends up having autocommitted objects, then you will have a modeling error. Since an association is also a member of an object, the association will be stored in the database as well. This means that if you create an order line inside an order and the order line is the parent of the association, when you commit the order line, the order will be autocommitted.
@@ -104,12 +122,13 @@ If a rollback is triggered for any reason (for example, if the user session is t
 
 If you end up with autocommitted objects, it is always because of a modeling error. At some point in time, an association was set to a new object, the associated object was committed, and all of its associations were committed as well to keep all the data consistent.
 
-For both explicitly committed and autocommitted objects, the following will occur:
+During commit the the following will occur:
 
-* Events: all before and after events are executed, and if any before-rollback event returns false, an exception can be thrown
+* Events: For *explicitly committed* objects all before and after events are executed, and if any before-rollback event returns false, an exception can be thrown
 	* If an exception occurs during an event, all the applied changes are reverted with the default error handling behavior
 	* Changes made prior to the commit will be kept
-* Database: there is an insert or update query executed
+		{{% alert type="warning" %}}Before and after events are not executed for autocommitted objects.{{% /alert %}}
+* Database: there is an insert or update query executed both for explicitly committed objects and auto committed objects
 	* Depending on the object state, the platform will do an insert for objects with the state **Instantiated** and an update for all other states
 * Result: an object with the state Instantiated will be inserted into the database, and an object with any other state will be updated
 

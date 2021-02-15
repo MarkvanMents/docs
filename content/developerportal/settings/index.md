@@ -11,7 +11,7 @@ This category will cover the settings below.
 
 ## 2 General
 
-The **General** tab displays an overview of the app's information: the name and description of the app, the **App Contact** and **Technical Contact**, whether Mendix **Studio** is enabled for the app, and the **App ID**.
+The **General** tab displays an overview of the app's information: the name and description of the app, the **App Contact** and **Technical Contact**, whether [Mendix Studio](/studio/index) is enabled for the app, and the **App ID**.
 
 It is also possible to leave and delete an app here as well as manage deep links.
 
@@ -36,7 +36,7 @@ The **App Team** tab lets you view and delete the team members that are currentl
 * Product Owner
 * Scrum Master
 
-For more information, see [Company & App Roles](../company-app-roles/index) as well as [How to Manage Company & App Roles](../company-app-roles/manage-roles).
+For more information, see [App Roles](../collaborate/app-roles).
 
 ### 3.2 Node Permissions
 

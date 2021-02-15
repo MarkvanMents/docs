@@ -10,9 +10,9 @@ tags: ["studio pro", "studio", "collaborative development", "sync"]
 
 Collaborative development is the process of sharing app model changes when a team of more than one person is working on the app. Collaborative development allows the team members to work together on one project in Mendix Studio Pro and Mendix Studio, and easily synchronize changes using [version control](version-control). Studio Pro can be used to work on different branches of an app, while Studio can be enabled for one of these branches. 
 
-{{% alert type="warning" %}}
+{{% alert type="info" %}}
 
-Collaborative development is enabled by default for new apps created via the Developer Portal. If you are upgrading your project from Mendix 7 to 8, make sure you have followed the steps in [Moving from Desktop Modeler Version 7 to Studio Pro 8](moving-from-7-to-8). 
+If you get a **No Development Line Selected** message when opening your app in Studio, make sure you enable a development line for it. For more information, see [Enabling Studio for a Development Line](#active-branch).
 
 {{% /alert %}}
 
@@ -48,7 +48,7 @@ When the Studio Pro user wants to deploy the app to the cloud, they click the **
 
 ## 3 Studio Perspective
 
-For information on collaborative development from the Studio perspective, see [Collaborative Development in Studio](/studio/general-collaborative-development). 
+For information on collaborative development from the Studio perspective, see [Collaborative Development in Studio](/studio/collaborative-development). 
 
 ## 4 Studio Pro Perspective
 
@@ -76,7 +76,7 @@ We recommend you update your project and commit changes often to avoid multiple 
 
 If your project has conflicts, Studio will be unlocked without receiving your changes. You need to resolve the conflicts in Studio Pro first to be able to complete the merge and commit again. 
 
-Your changes will be sent to Studio automatically if there are no conflicts. For more information on the collaborative development process in Studio, see [Collaborative Development in Studio](/studio/general-collaborative-development).
+Your changes will be sent to Studio automatically if there are no conflicts. For more information on the collaborative development process in Studio, see [Collaborative Development in Studio](/studio/collaborative-development).
 
 ### 4.3 Viewing History of Commits
 
@@ -181,5 +181,5 @@ You cannot delete a Studio enabled branch. If you need to delete this branch, en
 
 * [Version Control](version-control)
 * [Troubleshooting Collaborative Development](collaborative-development-troubleshooting)
-* [Collaborative Development in Studio](/studio/general-collaborative-development)
+* [Collaborative Development in Studio](/studio/collaborative-development)
 

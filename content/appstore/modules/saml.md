@@ -1,8 +1,8 @@
 ---
 title: "SAML"
 category: "Modules"
-description: "Describes the configuration and usage of the SAML module, which is available in the Mendix App Store."
-tags: ["app store", "app store component", "saml", "idp", "identity provider", "platform support"]
+description: "Describes the configuration and usage of the SAML module, which is available in the Mendix Marketplace."
+tags: ["marketplace", "app store", "marketplace component", "app store component", "saml", "idp", "identity provider", "platform support"]
 #If moving or renaming this doc file, implement a temporary redirect and let the respective team know they should update the URL in the product. See Mapping to Products for more details.
 ---
 
@@ -31,9 +31,9 @@ With this module, you can authenticate against your Microsoft Active Directory s
 
 ## 2 Installation
 
-1. Configure the **Startup** microflow to run as the startup microflow. This microflow will initialize the custom request handler `/SSO/`, validate all IdP configurations, and prepare any the configuration entities required during the configuration.
+1. Configure the **Startup** microflow to run as the startup microflow. This microflow will initialize the custom request handler `/SSO/` (please note the importance of using the final `/` for all instances of `/SSO/`), validate all IdP configurations, and prepare the configuration entities required during the configuration.
 2. Add the **OpenConfiguration** microflow to the navigation, and then allow the administrator to access this page.
-3. Review and configure all the constants:
+3.  Review and configure all the constants:
 	* **DefaultLoginPage** – You can specify another login page here (for example, configuring the *index.html* page to redirect to `/SSO/`). This constant is only used when the login process fails. When the end-user cannot be authenticated in Mendix, they are presented with a page. If this constant is specified, a button will appear, and by clicking this button, you will be redirected to the default login page (for example, *index.html* or *login.html*).
 	* **DefaultLogoutPage** – Removing the sign-out button is recommended, but if you choose to keep it, the end-user will be redirected to a page. You can choose where the end-user is redirected to (for example, back to `/SSO/` or your *login.html* page). Every user signed in via SAML is redirected to this location when they are logged out.
 	* **SSOLandingPage** – You can specify a different landing page here (for example, redirecting each user accessing the application URL to the SAML login). This requires you to change the *index.html* page by adding `<meta http-equiv="refresh" content="0;URL=/SSO/" />` (so the end-user does not end up on *index.html* again after a login attempt).  By changing this constant to `/index3.html`, the end-user will land on *index3.html* instead of *index.html*.  In this case, you will of course need to add an *index3.html* page to your theme (and you can copy the original *index.html* into *index3.html*).
@@ -53,6 +53,10 @@ You can choose what you want to enter for the entity ID, organization, and conta
 Accessing the metadata can be done by downloading the XML file or by opening `http://www.app.com/SSO/metadata`.
 
 ### 3.1 Creating a New IdP Configuration
+
+{{% alert type="warning" %}}
+If you have multiple IdPs, please make sure each IdP has a unique **Entity descriptor**. If you add multiple IdPs with the same entity descriptor, you might experience unexepected behavior where a different SSO configuration is selected than the alias provided.
+{{% /alert %}}
 
 When creating a new IdP configuration, you are guided through a workflow to help you configure everything required for the IdP configuration. Each option in the workflow is explained below.
 
@@ -152,7 +156,7 @@ The resources folder contains the *SAMLConfig.properties* file, and through this
 
 ## 9 Read More
 
-*  [SSO Using SAML](https://gettingstarted.mendixcloud.com/link/module/115/lecture/938)
+*  [SSO Using SAML](https://academy.mendix.com/link/module/115/lecture/938)
 
 	{{% alert type="info" %}}You must be signed in to the Mendix Platform to see the above lecture.
 	{{% /alert %}}
